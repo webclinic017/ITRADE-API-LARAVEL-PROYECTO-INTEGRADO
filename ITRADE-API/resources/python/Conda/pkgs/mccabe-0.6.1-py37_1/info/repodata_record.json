@@ -1,0 +1,21 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "mccabe-0.6.1-py37_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "d09148d583175973ca13fa8352c1758d",
+  "name": "mccabe",
+  "size": 13853,
+  "subdir": "win-64",
+  "timestamp": 1533164454253,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/mccabe-0.6.1-py37_1.tar.bz2",
+  "version": "0.6.1"
+}

@@ -1,0 +1,21 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "entrypoints-0.3-py37_0.tar.bz2",
+  "license": "MIT License",
+  "license_family": "MIT",
+  "md5": "d241512c739460a48c83562e0a814808",
+  "name": "entrypoints",
+  "size": 11992,
+  "subdir": "win-64",
+  "timestamp": 1547904864297,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/entrypoints-0.3-py37_0.tar.bz2",
+  "version": "0.3"
+}

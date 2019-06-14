@@ -1,0 +1,22 @@
+{
+  "build": "he774522_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "ca-certificates",
+    "vc >=14.1,<15.0a0"
+  ],
+  "features": "",
+  "fn": "openssl-1.1.1b-he774522_1.tar.bz2",
+  "license": "OpenSSL",
+  "license_family": "Apache",
+  "md5": "de52a7d28c27da8e682a1810d4616c52",
+  "name": "openssl",
+  "size": 5991444,
+  "subdir": "win-64",
+  "timestamp": 1551974582793,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/openssl-1.1.1b-he774522_1.tar.bz2",
+  "version": "1.1.1b"
+}

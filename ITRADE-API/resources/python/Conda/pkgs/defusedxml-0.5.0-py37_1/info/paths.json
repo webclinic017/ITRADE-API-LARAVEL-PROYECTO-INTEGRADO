@@ -1,0 +1,167 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/defusedxml-0.5.0-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "61ae9c800c80cc0b9fe7bd88b300373858905cc60694c4d967fb7839276e9094",
+      "size_in_bytes": 37265
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml-0.5.0-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "b092db0ffbd8078cad8d3a5b81acd4ec793425ca8789f7d417b69aa2755dc5c2",
+      "size_in_bytes": 914
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml-0.5.0-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml-0.5.0-py3.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "98ce400fd333ecf607f92878eb4b3f59d26c6e4b0778456a1ae327c4627858f1",
+      "size_in_bytes": 916
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml-0.5.0-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "4061daf74179d2954a856485944448d23b522ada83886c9f7995fb750359000c",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/ElementTree.py",
+      "path_type": "hardlink",
+      "sha256": "d94e5923ff87c9ac5ae84c4d4a8b3b3e65d658f2860f2c0ce137dd5df629e0e7",
+      "size_in_bytes": 3766
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "0b5ebb24a1c77b341971c2d2690581bd62dd2d22f383218660fea093ee82ea92",
+      "size_in_bytes": 1317
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/__pycache__/ElementTree.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3b6a7fc9eefa6398b86b7b9c3e784513ce01549a5505c016d8ce277a85c848cf",
+      "size_in_bytes": 3020
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "0b285bbebca2d4437826d903542fc275f082acd4a32e90d6e5da2bbb29029e5d",
+      "size_in_bytes": 1183
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/__pycache__/cElementTree.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "5bd50800f2c4462ce3a76268f8c29480f28e0ecc85d810728c16470721ec6915",
+      "size_in_bytes": 741
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/__pycache__/common.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "853246c62c02faeec3981b04192f23d8145b378581baec851ff6cf26c440052b",
+      "size_in_bytes": 4311
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/__pycache__/expatbuilder.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "08385bbec690abc526fc14bea10bd989f9b7d654a3af205d894049e15ad5c56a",
+      "size_in_bytes": 3612
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/__pycache__/expatreader.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "2cd9cf57a70bb33d3ccfa003b89e8c79ec001ba86d156d6483b1f5d0d186473b",
+      "size_in_bytes": 2338
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/__pycache__/lxml.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f33241ac97490cd27ac6fe6d0ba5587e64b25b4101cf8aadc186e69f809941b6",
+      "size_in_bytes": 4851
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/__pycache__/minidom.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "6456e7753bfc0917823ca2f8ded5dbf98a433a496e8461b68bd90d1295616c14",
+      "size_in_bytes": 1091
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/__pycache__/pulldom.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3246fa60c66e51833fed7e25be46c986e305ee80c0743cf184e7a3f8a2e200de",
+      "size_in_bytes": 868
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/__pycache__/sax.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "0bf7da377f2d067287e5f34b37777022ac48d4980799865fb70788747e2ce9c4",
+      "size_in_bytes": 1230
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/__pycache__/xmlrpc.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "97b42e719407fb51e26015321bd47536fdf1637bb5fc8c22488ab0e3b12e13e8",
+      "size_in_bytes": 4567
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/cElementTree.py",
+      "path_type": "hardlink",
+      "sha256": "517ff344e8c71db2bfa74ce0aab558acc289692f92dc9755e526fd7e5b2386b3",
+      "size_in_bytes": 1039
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/common.py",
+      "path_type": "hardlink",
+      "sha256": "b4355e51a3cf5f0cf5b862ba2b2c095db155207393c1246de057fcc429b32a88",
+      "size_in_bytes": 4016
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/expatbuilder.py",
+      "path_type": "hardlink",
+      "sha256": "52e4ef6ef890d95e01ae3ccad01ec854eff77c5973c8cd6f38247c176459f9e6",
+      "size_in_bytes": 3990
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/expatreader.py",
+      "path_type": "hardlink",
+      "sha256": "33629d08a42e83a8bad2a0abe37ddea50a346efa8a1e23bb9790ad37ba4eef83",
+      "size_in_bytes": 2307
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/lxml.py",
+      "path_type": "hardlink",
+      "sha256": "3fccb168034ae56eefb6aadb41353a0a4178036f8b93c1dbb86f618db5fada64",
+      "size_in_bytes": 4976
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/minidom.py",
+      "path_type": "hardlink",
+      "sha256": "5b6ba9762b5ccecf3b5bb30b4de5b9938ad398f1204d58a92f13afaa91c2a4a8",
+      "size_in_bytes": 1865
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/pulldom.py",
+      "path_type": "hardlink",
+      "sha256": "2f67bbc1729ea3d404268da74554fa0f2359ce1197e9be3d847dd9dcf7ee41bc",
+      "size_in_bytes": 1162
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/sax.py",
+      "path_type": "hardlink",
+      "sha256": "c44ba6b1d812e5365ba58cf8a85b92d94dba311f722fa5bb9cab17e84cab9821",
+      "size_in_bytes": 1464
+    },
+    {
+      "_path": "Lib/site-packages/defusedxml/xmlrpc.py",
+      "path_type": "hardlink",
+      "sha256": "ebc848227dde75539d6283bb51169bf0deff1dacc5bb53adfff3facc28363042",
+      "size_in_bytes": 5417
+    }
+  ],
+  "paths_version": 1
+}

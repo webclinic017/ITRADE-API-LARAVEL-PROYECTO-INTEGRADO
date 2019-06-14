@@ -1,0 +1,30 @@
+From dbf7a32d6ec560f6513afca84da5885ac9872afa Mon Sep 17 00:00:00 2001
+From: Jonathan Helmus <jjhelmus@gmail.com>
+Date: Fri, 26 Jan 2018 17:53:54 -0500
+Subject: [PATCH 4/7] limit precision of complex256 in test_signaltools
+
+On ppc64le finfo indicates more precision than is provided
+---
+ scipy/signal/tests/test_signaltools.py | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/scipy/signal/tests/test_signaltools.py b/scipy/signal/tests/test_signaltools.py
+index ffb5c5b..0a1c593 100644
+--- a/scipy/signal/tests/test_signaltools.py
++++ b/scipy/signal/tests/test_signaltools.py
+@@ -1464,7 +1464,11 @@ class TestCorrelateComplex(object):
+         y_r += 1j * (-correlate(a.real, b.imag) + correlate(a.imag, b.real))
+ 
+         y = correlate(a, b, 'full')
+-        assert_array_almost_equal(y, y_r, decimal=self.decimal(dt) - 1)
++        if dt == np.complex256:
++            # only 13 decimals of precision not 19
++            assert_array_almost_equal(y, y_r, decimal=13)
++        else:
++            assert_array_almost_equal(y, y_r, decimal=self.decimal(dt) - 1)
+         assert_equal(y.dtype, dt)
+ 
+     def test_rank0(self, dt):
+-- 
+1.8.3.1
+

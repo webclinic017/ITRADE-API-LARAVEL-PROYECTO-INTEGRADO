@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "pyparsing",
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "license": "Apache 2.0 or BSD 2-Clause",
+  "name": "packaging",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1549321882625,
+  "version": "19.0"
+}

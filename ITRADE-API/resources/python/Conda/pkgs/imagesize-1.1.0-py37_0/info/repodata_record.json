@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "imagesize-1.1.0-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "9d9b57b95dcfd7c5848fc40275a5ee35",
+  "name": "imagesize",
+  "size": 10712,
+  "subdir": "win-64",
+  "timestamp": 1536074622119,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/imagesize-1.1.0-py37_0.tar.bz2",
+  "version": "1.1.0"
+}

@@ -1,0 +1,24 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "setuptools",
+    "six",
+    "webencodings"
+  ],
+  "features": "",
+  "fn": "bleach-3.1.0-py37_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "aeb2ffbf7d850ae5908a6c65d4ee1d7b",
+  "name": "bleach",
+  "size": 227162,
+  "subdir": "win-64",
+  "timestamp": 1547750711635,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/bleach-3.1.0-py37_0.tar.bz2",
+  "version": "3.1.0"
+}

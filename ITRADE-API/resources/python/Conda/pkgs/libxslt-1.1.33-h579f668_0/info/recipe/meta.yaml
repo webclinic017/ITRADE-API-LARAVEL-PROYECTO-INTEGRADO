@@ -1,0 +1,56 @@
+# This file created by conda-build 3.17.7
+# meta.yaml template originally from:
+# C:\ci\containers\00001iiost5\tmp\build\80754af9\rsync-recipes\libxslt-1.1.33-c_compiler_vs2017-on-winbuilder, last modified Sat Jan 19 12:32:17 2019
+# ------------------------------------------------
+
+package:
+    name: libxslt
+    version: 1.1.33
+source:
+    fn: libxslt-1.1.33.tar.gz
+    sha256: 8e36605144409df979cab43d835002f63988f3dc94d5d3537c12796db90e38c8
+    url: http://xmlsoft.org/sources/libxslt-1.1.33.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - libxslt >=1.1.33,<2.0a0
+    string: h579f668_0
+requirements:
+    build:
+        - vs2017_win-64 19.15.26726 h3c6f0ee_0
+    host:
+        - libiconv 1.15 h1df5818_7
+        - libxml2 2.9.8 hadb2253_1
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - zlib 1.2.11 h62dcd97_3
+    run:
+        - libxml2 >=2.9.8,<2.10.0a0
+        - vc >=14.1,<15.0a0
+test:
+    commands:
+        - xsltproc --version
+about:
+    description: '"Libxslt is the XSLT C library developed for the GNOME project.
+
+        XSLT itself is a an XML language to define transformation for XML.
+
+        Libxslt is based on libxml2 the XML C library developed for the GNOME project.
+
+        It also implements most of the EXSLT set of processor-portable extensions
+        functions
+
+        and some of Saxon''s evaluate and expressions extensions."
+
+        '
+    doc_source_url: https://github.com/GNOME/libxslt/tree/master/doc
+    doc_url: http://xmlsoft.org/XSLT/
+    home: http://xmlsoft.org/XSLT/
+    license: MIT
+    license_file: COPYING
+    summary: The XSLT C library developed for the GNOME project
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf

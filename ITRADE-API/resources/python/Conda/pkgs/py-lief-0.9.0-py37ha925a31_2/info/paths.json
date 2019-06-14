@@ -1,0 +1,23 @@
+{
+  "paths": [
+    {
+      "_path": "lib/site-packages/_pylief.pyd",
+      "path_type": "hardlink",
+      "sha256": "410805b1345004a865895bb77ff6d079fbcd9d725fab1855690d642f1ce0b04e",
+      "size_in_bytes": 9432064
+    },
+    {
+      "_path": "lib/site-packages/lief/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "dc81094082acd5e4d31f14e59826f4606110b7a1ce58f10c89e23d5cfdf38dbb",
+      "size_in_bytes": 749
+    },
+    {
+      "_path": "lib/site-packages/lief/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "b8f6b66f145130b7fcaa8dc7cf8f7a3a7144c6244117d3afe91df593f6366177",
+      "size_in_bytes": 574
+    }
+  ],
+  "paths_version": 1
+}

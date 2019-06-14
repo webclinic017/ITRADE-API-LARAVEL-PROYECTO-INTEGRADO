@@ -1,0 +1,29 @@
+{
+  "build": "203",
+  "build_number": 203,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "files": [
+    "Library/bin/libiomp5md.dll",
+    "Library/bin/libiomp5md.pdb",
+    "Library/bin/libiompstubs5md.dll"
+  ],
+  "fn": "intel-openmp-2019.3-203.tar.bz2",
+  "installed_by": "Anaconda3-2019.03-Windows-x86_64.exe",
+  "license": "proprietary - Intel",
+  "license_family": "Proprietary",
+  "link": {
+    "source": "C:\\Users\\MTXDevp\\Desktop\\PROYECTO-INTEGRADO\\ITRADE-API-LARAVEL-PROYECTO-INTEGRADO\\ITRADE-API\\resources\\python\\Conda\\pkgs\\intel-openmp-2019.3-203",
+    "type": "hard-link"
+  },
+  "md5": "521484064fa841f1fe0e3ce009b12281",
+  "name": "intel-openmp",
+  "size": 1801569,
+  "subdir": "win-64",
+  "timestamp": 1552594270775,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/intel-openmp-2019.3-203.tar.bz2",
+  "version": "2019.3"
+}

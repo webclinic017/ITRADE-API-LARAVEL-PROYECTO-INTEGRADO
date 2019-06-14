@@ -1,0 +1,113 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/pluggy-0.9.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "Lib/site-packages/pluggy-0.9.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606",
+      "size_in_bytes": 1110
+    },
+    {
+      "_path": "Lib/site-packages/pluggy-0.9.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "2163a265a75f7f2871ff2618cf1beb48e1327be8348c73f35f93560062f5886b",
+      "size_in_bytes": 14020
+    },
+    {
+      "_path": "Lib/site-packages/pluggy-0.9.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "19b78fee21849feaa327036a7252e8031f180a8f330529173c2799e6901ddea8",
+      "size_in_bytes": 1196
+    },
+    {
+      "_path": "Lib/site-packages/pluggy-0.9.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "68489635341c1ba02218601843da874e27f22919e6149bc379323484fe5aa216",
+      "size_in_bytes": 116
+    },
+    {
+      "_path": "Lib/site-packages/pluggy-0.9.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "c4a4824616a2faff4c724bccb96a8dcf5e9cd6d6ec98e820a0c4b04e07296071",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "Lib/site-packages/pluggy/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "1654364fb7b0b59bba7ae674a46ff5600359fe55f357d2c374b4a02aeb509848",
+      "size_in_bytes": 486
+    },
+    {
+      "_path": "Lib/site-packages/pluggy/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "ca3ed154b4e3ff8ed967d2b0e1a75025cc437c6a49236879dcdef00a83a42d10",
+      "size_in_bytes": 483
+    },
+    {
+      "_path": "Lib/site-packages/pluggy/__pycache__/_tracing.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "51a2c304f683c60df1e64ed2a316ceab6a5cc243474f3ce048881c9ebc5b3594",
+      "size_in_bytes": 3438
+    },
+    {
+      "_path": "Lib/site-packages/pluggy/__pycache__/_version.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "8bd1bf7093e949da09de5fa1c6ab16c04755f657f51161ca7c84d03e83d2ae0d",
+      "size_in_bytes": 140
+    },
+    {
+      "_path": "Lib/site-packages/pluggy/__pycache__/callers.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "366a98801f583d8d24471814538992287f4d0fb6f44e8bfc3a1f03096c799417",
+      "size_in_bytes": 5865
+    },
+    {
+      "_path": "Lib/site-packages/pluggy/__pycache__/hooks.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "56cb058f5928b929deb767f6b16f9b28d1830a2914555f7f58fbbe0d1f000a13",
+      "size_in_bytes": 11564
+    },
+    {
+      "_path": "Lib/site-packages/pluggy/__pycache__/manager.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "e9287f0cec9f7ff548f5dbe7891e8ac22c0e5f88b3d3b64db77b722cf8dc97fc",
+      "size_in_bytes": 12783
+    },
+    {
+      "_path": "Lib/site-packages/pluggy/_tracing.py",
+      "path_type": "hardlink",
+      "sha256": "c9b21233ff51f2c5775baddb1f4b945089e45a6ade1d6b83532d537014b1cea6",
+      "size_in_bytes": 2371
+    },
+    {
+      "_path": "Lib/site-packages/pluggy/_version.py",
+      "path_type": "hardlink",
+      "sha256": "07dcf2f5eaffa1da1e75110bc94fc547fd2d9e6d9b5d33e25cabfe3a38d49a66",
+      "size_in_bytes": 120
+    },
+    {
+      "_path": "Lib/site-packages/pluggy/callers.py",
+      "path_type": "hardlink",
+      "sha256": "7ed72f1fa017ee9f5c2b9f3dd7a2b1c4bb6c14484eaf6391ebd2cc015ab1ac59",
+      "size_in_bytes": 6820
+    },
+    {
+      "_path": "Lib/site-packages/pluggy/hooks.py",
+      "path_type": "hardlink",
+      "sha256": "33e7dec759ce9e5190db4bf489dddd91aeedb33103b70fed5f76904077581512",
+      "size_in_bytes": 12161
+    },
+    {
+      "_path": "Lib/site-packages/pluggy/manager.py",
+      "path_type": "hardlink",
+      "sha256": "a2938ad589cc4a6e069a52e0ee3a1415b655c9a37aaee6f917733a415b0b8e9f",
+      "size_in_bytes": 14517
+    }
+  ],
+  "paths_version": 1
+}

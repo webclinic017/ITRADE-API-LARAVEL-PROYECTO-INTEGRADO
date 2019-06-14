@@ -1,0 +1,76 @@
+{% set version = "0.14.2" %}
+
+package:
+  name: scikit-image
+  version: {{ version }}
+
+source:
+  git_url: https://github.com/scikit-image/scikit-image
+  git_tag: v{{ version }}
+
+build:
+  number: 0
+  script:
+    - rm -rf skimage/viewer/tests  # we don't depend on Qt
+    - python setup.py install --single-version-externally-managed --record=record.txt
+  entry_points:
+    - skivi = skimage.scripts.skivi:main
+
+requirements:
+  build:
+    - {{ compiler("c") }}
+    - {{ compiler("cxx") }}
+  host:
+    - python
+    - pip
+    - cython >=0.23
+    - six >=1.7.3
+    - numpy 1.11.3
+    - scipy >=0.17
+    - msinttypes  # [win and py<35]
+  run:
+    - python
+    - six >=1.7.3
+    - {{ pin_compatible('numpy') }}
+    - scipy >=0.17
+    - matplotlib >=2.0.0
+    - networkx >=1.8
+    - pillow >=4.3.0
+    - toolz >=0.7.4
+    - pywavelets >=0.4.0
+    - dask-core >=0.9.0
+    - cloudpickle >=0.2.1
+    - imageio >=2.1.0
+    # scikit-image depends on dask-array
+    # which requires numpy, dask-core and toolz (cytoolz for speed)
+    - cytoolz >=0.7.3
+
+test:
+  requires:
+    - pytest
+    - pytest-cov
+    - numpy 1.11
+  imports:
+    - skimage
+  commands:
+    - setx MPLBACKEND "Agg"  # [win]
+    - export MPLBACKEND=Agg  # [unix]
+    - pytest --pyargs skimage
+
+about:
+  home: http://scikit-image.org/
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
+  summary: 'Image processing routines for SciPy.'
+
+extra:
+  recipe-maintainers:
+    - ivoflipse
+    - jakirkham
+    - jni
+    - Korijn
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+    - soupault

@@ -1,0 +1,27 @@
+{
+  "build": "py37h19fb1c0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "icc_rt >=2019.0.0",
+    "mkl >=2019.1,<2020.0a0",
+    "mkl_fft >=1.0.6,<2.0a0",
+    "mkl_random >=1.0.2,<2.0a0",
+    "numpy-base 1.16.2 py37hc3f5095_0",
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.1,<15.0a0"
+  ],
+  "features": "",
+  "fn": "numpy-1.16.2-py37h19fb1c0_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "64118f6bf157d1039396e60aac8f214f",
+  "name": "numpy",
+  "size": 50483,
+  "subdir": "win-64",
+  "timestamp": 1551471889102,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/numpy-1.16.2-py37h19fb1c0_0.tar.bz2",
+  "version": "1.16.2"
+}

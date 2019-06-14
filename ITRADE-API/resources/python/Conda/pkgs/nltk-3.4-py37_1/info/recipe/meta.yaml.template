@@ -1,0 +1,74 @@
+{% set name = "nltk" %}
+{% set version = "3.4" %}
+{% set bundle = "zip" %}
+{% set hash_type = "sha256" %}
+{% set hash = "286f6797204ffdb52525a1d21ec0a221ec68b8e3fa4f2d25f412ac8e63c70e8d" %}
+{% set build = 1 %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  {{ hash_type }}: {{ hash }}
+
+build:
+  number: {{ build }}
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - six
+
+test:
+  imports:
+    - nltk
+    - nltk.app
+    - nltk.ccg
+    - nltk.chat
+    - nltk.chunk
+    - nltk.classify
+    - nltk.cluster
+    - nltk.corpus
+    - nltk.corpus.reader
+    - nltk.draw
+    - nltk.inference
+    - nltk.metrics
+    - nltk.misc
+    - nltk.parse
+    - nltk.sem
+    - nltk.sentiment
+    - nltk.stem
+    - nltk.tag
+    - nltk.tbl
+    - nltk.test
+    - nltk.test.unit
+    - nltk.test.unit.translate
+    - nltk.tokenize
+    - nltk.translate
+    - nltk.twitter
+
+about:
+  home: http://nltk.org/
+  license_file: LICENSE.txt
+  license: Apache 2.0
+  license_family: Apache
+  summary: Build Python programs to work with human language data
+  description: |
+    NLTK has been called a wonderful tool for teaching and working in
+    computational linguistics using Python and an amazing library to play with
+    natural language.
+  doc_url: https://nltk.readthedocs.io/en/latest/
+  doc_source_url: https://github.com/nltk/nltk/blob/develop/web/index.rst
+  dev_url: https://github.com/nltk/nltk
+
+extra:
+  recipe-maintainers:
+    - pmlandwehr

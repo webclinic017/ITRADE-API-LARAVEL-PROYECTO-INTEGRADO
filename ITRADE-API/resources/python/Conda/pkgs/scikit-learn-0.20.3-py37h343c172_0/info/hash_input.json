@@ -1,0 +1,8 @@
+{
+  "vc": "14",
+  "blas_impl": "mkl",
+  "c_compiler": "vs2017",
+  "mkl": "2019",
+  "cxx_compiler": "vs2017",
+  "numpy": "1.11"
+}

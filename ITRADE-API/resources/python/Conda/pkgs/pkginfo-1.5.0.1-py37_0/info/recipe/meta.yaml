@@ -1,0 +1,60 @@
+# This file created by conda-build 3.17.7
+# meta.yaml template originally from:
+# C:\ci\containers\000037f87jk\tmp\build\80754af9\rsync-recipes\pkginfo-1.5.0.1-python_3.7-on-winbuilder, last modified Sat Jan 19 08:16:11 2019
+# ------------------------------------------------
+
+package:
+    name: pkginfo
+    version: 1.5.0.1
+source:
+    fn: pkginfo-1.5.0.1.tar.gz
+    sha256: 7424f2c8511c186cd5424bbf31045b77435b37a8d604990b79d4e70d741148bb
+    url: https://pypi.io/packages/source/p/pkginfo/pkginfo-1.5.0.1.tar.gz
+build:
+    entry_points:
+        - pkginfo = pkginfo.commandline:main
+    number: '0'
+    script: python setup.py install  --single-version-externally-managed --record=record.txt
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - python 3.7.2 h8c8aaf0_0
+        - setuptools 40.6.3 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - pkginfo --help
+    imports:
+        - pkginfo
+        - pkginfo.tests
+about:
+    description: 'This package provides an API for querying the distutils metadata
+        written in
+
+        the ``PKG-INFO`` file inside a source distriubtion (an ``sdist``) or
+
+        a binary distribution (e.g., created by running ``bdist_egg``)
+
+        '
+    dev_url: https://code.launchpad.net/~tseaver/pkginfo/trunk
+    doc_url: http://pythonhosted.org/pkginfo/
+    home: https://code.launchpad.net/~tseaver/pkginfo/trunk
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.txt
+    summary: Query metadatdata from sdists / bdists / installed packages.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jankatins
+        - mingwandroid

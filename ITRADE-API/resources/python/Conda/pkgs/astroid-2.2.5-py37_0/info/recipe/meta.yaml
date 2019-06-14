@@ -1,0 +1,71 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\000029cv55r\tmp\build\80754af9\rsync-recipes\astroid-2.2.5-python_3.7-on-winbuilder, last modified Mon Mar 11 10:30:50 2019
+# ------------------------------------------------
+
+package:
+    name: astroid
+    version: 2.2.5
+source:
+    sha256: 6560e1e1749f68c64a4b5dee4e091fce798d2f0d84ebe638cf0e0585a343acf4
+    url: https://pypi.io/packages/source/a/astroid/astroid-2.2.5.tar.gz
+build:
+    number: '0'
+    script: C:\ci\astroid_1552327971332\_h_env\python.exe -m pip install . --no-deps
+        -vv
+    string: py37_0
+requirements:
+    host:
+        - atomicwrites 1.3.0 py_0
+        - attrs 19.1.0 py_0
+        - ca-certificates 2019.1.23 0
+        - certifi 2019.3.9 py37_0
+        - colorama 0.4.1 py37_0
+        - more-itertools 5.0.0 py37_0
+        - openssl 1.1.1b he774522_1
+        - pip 19.0.3 py37_0
+        - pluggy 0.9.0 py37_0
+        - py 1.8.0 py37_0
+        - pytest 4.3.0 py37_0
+        - pytest-runner 4.2 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - six 1.12.0 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.33.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - lazy-object-proxy
+        - python >=3.7,<3.8.0a0
+        - setuptools
+        - six
+        - wrapt
+test:
+    imports:
+        - astroid
+        - astroid.modutils
+about:
+    description: 'Astroid provide a common base representation of python source code
+        for
+
+        projects such as pychecker, pyreverse, pylint.
+
+        '
+    dev_url: https://github.com/PyCQA/astroid
+    doc_source_url: https://github.com/PyCQA/astroid/blob/master/doc/index.rst
+    doc_url: http://astroid.readthedocs.io/en/latest/?badge=latest
+    home: https://www.astroid.org/
+    license: LGPL 2.1
+    license_family: LGPL
+    license_file: COPYING.LESSER
+    summary: A abstract syntax tree for Python with inference support.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ericdill
+        - jakirkham
+        - jjhelmus
+        - ocefpaf

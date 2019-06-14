@@ -1,0 +1,4 @@
+build:
+    noarch: False
+    number: 1
+

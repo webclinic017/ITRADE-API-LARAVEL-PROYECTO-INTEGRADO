@@ -1,0 +1,65 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\flask-feedstock\recipe, last modified Tue Jul  3 15:47:27 2018
+# ------------------------------------------------
+
+package:
+    name: flask
+    version: 1.0.2
+source:
+    fn: Flask-1.0.2.tar.gz
+    sha256: 2271c0070dbcb5275fad4a82e29f23ab92682dc45f9dfbc22c02ba9b9322ce48
+    url: https://pypi.io/packages/source/F/Flask/Flask-1.0.2.tar.gz
+build:
+    entry_points:
+        - flask = flask.cli:main
+    number: '1'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_1
+requirements:
+    host:
+        - certifi 2018.4.16 py37_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hea74fb7_0
+        - setuptools 39.2.0 py37_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+        - wheel 0.31.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - click >=5.1
+        - itsdangerous >=0.24
+        - jinja2 >=2.10
+        - python >=3.7,<3.8.0a0
+        - werkzeug >=0.14
+test:
+    commands:
+        - flask --help
+    imports:
+        - flask
+        - flask.json
+about:
+    description: 'Flask is a microframework for Python based on Werkzeug and Jinja2.
+        It''s
+
+        intended for getting started very quickly and was developed with best
+
+        intentions in mind.
+
+        '
+    dev_url: https://github.com/pallets/flask
+    doc_source_url: https://github.com/pallets/flask/blob/master/docs/index.rst
+    doc_url: http://flask.pocoo.org/docs/1.0/
+    home: http://flask.pocoo.org
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A microframework based on Werkzeug, Jinja2 and good intentions.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - goanpeca
+        - marcelotrevisani
+        - nehaljwani
+        - ukaratay

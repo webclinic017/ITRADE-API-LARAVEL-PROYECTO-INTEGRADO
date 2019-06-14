@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "pep8-1.7.1-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "6a62532d438643adc77081e125d80d18",
+  "name": "pep8",
+  "size": 70751,
+  "subdir": "win-64",
+  "timestamp": 1533293411191,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pep8-1.7.1-py37_0.tar.bz2",
+  "version": "1.7.1"
+}

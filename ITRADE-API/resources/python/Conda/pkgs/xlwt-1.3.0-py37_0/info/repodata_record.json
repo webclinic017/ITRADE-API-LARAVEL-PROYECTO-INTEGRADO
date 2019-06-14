@@ -1,0 +1,21 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "xlwt-1.3.0-py37_0.tar.bz2",
+  "license": "BSD",
+  "license_family": "BSD",
+  "md5": "6bbc3c341f052b279981adeea955c162",
+  "name": "xlwt",
+  "size": 165790,
+  "subdir": "win-64",
+  "timestamp": 1533422483837,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/xlwt-1.3.0-py37_0.tar.bz2",
+  "version": "1.3.0"
+}

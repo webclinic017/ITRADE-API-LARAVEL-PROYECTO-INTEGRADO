@@ -1,0 +1,54 @@
+# This file created by conda-build 3.16.3
+# meta.yaml template originally from:
+# C:\ci\containers\00000nsu9ko\tmp\build\80754af9\rsync-recipes\pathlib2-2.3.3-python_3.7-on-winbuilder, last modified Mon Dec 17 13:43:48 2018
+# ------------------------------------------------
+
+package:
+    name: pathlib2
+    version: 2.3.3
+source:
+    fn: pathlib2-2.3.3.tar.gz
+    sha256: 25199318e8cc3c25dcb45cbe084cc061051336d5a9ea2a12448d3d8cb748f742
+    url: https://pypi.io/packages/source/p/pathlib2/pathlib2-2.3.3.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - python 3.7.1 h8c8aaf0_6
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+        - six
+test:
+    imports:
+        - pathlib2
+about:
+    description: 'The goal of pathlib2 is to provide a backport of standard pathlib
+        module which
+
+        tracks the standard library module, so all the newest features of the standard
+
+        pathlib can be used also on older Python versions.
+
+        '
+    doc_source_url: https://github.com/mcmtroffaes/pathlib2/blob/develop/README.rst
+    doc_url: https://pypi.python.org/pypi/pathlib2/
+    home: https://github.com/mcmtroffaes/pathlib2
+    license: MIT
+    license_file: LICENSE.rst
+    summary: Fork of pathlib aiming to support the full stdlib Python API.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - pelson
+        - takluyver

@@ -1,0 +1,50 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# C:\ci\containers\0000271cl75\tmp\build\80754af9\rsync-recipes\backports.os-0.1.1-python_3.7-on-winbuilder, last modified Tue Oct 16 10:18:03 2018
+# ------------------------------------------------
+
+package:
+    name: backports.os
+    version: 0.1.1
+source:
+    fn: backports.os-0.1.1.tar.gz
+    sha256: b472c4933094306ca08ec90b2a8cbb50c34f1fb2767775169a1c1650b7b74630
+    url: https://pypi.io/packages/source/b/backports.os/backports.os-0.1.1.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_0
+requirements:
+    host:
+        - backports 1.0 py37_1
+        - certifi 2018.10.15 py37_0
+        - python 3.7.0 hea74fb7_0
+        - setuptools 40.4.3 py37_0
+        - setuptools_scm 3.1.0 py37h28b3542_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wincertstore 0.2 py37_0
+    run:
+        - backports
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - backports
+        - backports.os
+    requires:
+        - hypothesis
+    source_files:
+        - tests
+about:
+    dev_url: https://github.com/pjdelport/backports.os
+    doc_url: https://docs.python.org/3.5/library/os.html
+    home: https://github.com/pjdelport/backports.os
+    license: Python Software Foundation
+    license_family: PSF
+    license_file: LICENSE
+    summary: Backport of new features in Python's os module
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - nehaljwani

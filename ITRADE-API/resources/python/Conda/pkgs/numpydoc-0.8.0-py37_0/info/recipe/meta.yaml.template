@@ -1,0 +1,45 @@
+{% set version = "0.8.0" %}
+
+package:
+  name: numpydoc
+  version: {{ version }}
+
+source:
+  fn: numpydoc-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/n/numpydoc/numpydoc-{{ version }}.tar.gz
+  sha256: 61f4bf030937b60daa3262e421775838c945dcdd671f37b69e8e4854c7eb5ffd
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - sphinx
+
+test:
+  imports:
+    - numpydoc
+
+about:
+  home: https://github.com/numpy/numpydoc
+  license: BSD 3-Clause
+  license_file: LICENSE.txt
+  summary: Sphinx extension to support docstrings in Numpy format
+  description: |
+    Numpy's documentation uses several custom extensions to Sphinx. These are
+    shipped in this numpydoc package, in case you want to make use of them
+    in third-party projects.
+  doc_url: https://pypi.python.org/pypi/numpydoc
+  doc_source_url: https://github.com/numpy/numpydoc/blob/master/README.rst
+  dev_url: https://github.com/numpy/numpydoc
+
+extra:
+  recipe-maintainers:
+    - jschueller
+    - scopatz

@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "py37_2",
+  "build_number": 2,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "license": "Zope Public",
+  "name": "simplegeneric",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1531563335812,
+  "version": "0.8.1"
+}

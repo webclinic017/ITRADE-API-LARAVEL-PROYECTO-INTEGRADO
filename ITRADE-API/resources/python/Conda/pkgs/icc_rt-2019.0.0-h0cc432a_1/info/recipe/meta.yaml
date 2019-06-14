@@ -1,0 +1,18 @@
+# This file created by conda-build 3.17.5
+# ------------------------------------------------
+
+package:
+    name: icc_rt
+    version: 2019.0.0
+build:
+    noarch: false
+    number: '1'
+    script: install_runtime.bat
+    string: h0cc432a_1
+about:
+    license: Intel proprietary
+    license_file: LICENSE.txt
+    summary: Intel runtime libraries for C, C++ and Fortran compilers
+extra:
+    copy_test_source_files: true
+    final: true

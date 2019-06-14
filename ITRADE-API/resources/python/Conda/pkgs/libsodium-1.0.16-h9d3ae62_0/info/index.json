@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h9d3ae62_0",
+  "build_number": 0,
+  "depends": [
+    "vc 14.*"
+  ],
+  "license": "ISC",
+  "name": "libsodium",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1522217561275,
+  "version": "1.0.16"
+}

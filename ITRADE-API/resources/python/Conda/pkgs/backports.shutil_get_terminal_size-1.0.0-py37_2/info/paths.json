@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "e9ae63494e3ebf487ec77bd01a3734f0f911e80e5774e82f0b8fab7161948509",
+      "size_in_bytes": 1175
+    },
+    {
+      "_path": "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "a64ceb227ffae71a28c227479ffd9e8ebd20c87b5e8c9dfe58d4f12edfea4c30",
+      "size_in_bytes": 1025
+    },
+    {
+      "_path": "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "086e75e8c7b54c4c90aa440ca90a670da76b5a2eee8cf93cf29a1202edce9624",
+      "size_in_bytes": 116
+    },
+    {
+      "_path": "Lib/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "7068da2cc3a8051d452b4029a23b73595995893b49ec91882bf1f05e212cbed5",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "Lib/site-packages/backports/shutil_get_terminal_size/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "b0f51db8598586bbbfab580b72fe6030ddc8ded51249253d625bee55d8508dda",
+      "size_in_bytes": 338
+    },
+    {
+      "_path": "Lib/site-packages/backports/shutil_get_terminal_size/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "94b00a7ad3d0ca23798ac8777e450804c596f98dec0a3b111598738893e183b4",
+      "size_in_bytes": 497
+    },
+    {
+      "_path": "Lib/site-packages/backports/shutil_get_terminal_size/__pycache__/get_terminal_size.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "d131c17e4b42039d6c92188ad164490e9f2d957a9b81565e96e01857db762b39",
+      "size_in_bytes": 2767
+    },
+    {
+      "_path": "Lib/site-packages/backports/shutil_get_terminal_size/get_terminal_size.py",
+      "path_type": "hardlink",
+      "sha256": "9da9f2f3e7200709aa2deee08882747bb7363d5edd4e9f3d43b7c6b3152b3502",
+      "size_in_bytes": 2913
+    }
+  ],
+  "paths_version": 1
+}

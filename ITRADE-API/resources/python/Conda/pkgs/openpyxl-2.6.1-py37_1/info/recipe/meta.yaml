@@ -1,0 +1,74 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00003isk51b\tmp\build\80754af9\rsync-recipes\openpyxl-2.6.1-python_3.7-on-winbuilder, last modified Fri Mar 22 13:41:45 2019
+# ------------------------------------------------
+
+package:
+    name: openpyxl
+    version: 2.6.1
+source:
+    fn: openpyxl-2.6.1.tar.gz
+    sha256: 9e4db4ee7aadd0ff7a814f7483b2d94e6b8d4f14dff780b023c5bdc94af54dd5
+    url: https://pypi.io/packages/source/o/openpyxl/openpyxl-2.6.1.tar.gz
+build:
+    noarch: false
+    number: '1'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_1
+requirements:
+    host:
+        - ca-certificates 2019.1.23 0
+        - certifi 2019.3.9 py37_0
+        - openssl 1.1.1b he774522_1
+        - pip 19.0.3 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.27.2 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.33.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - et_xmlfile
+        - jdcal
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - openpyxl
+        - openpyxl.cell
+        - openpyxl.chart
+        - openpyxl.chartsheet
+        - openpyxl.comments
+        - openpyxl.compat
+        - openpyxl.descriptors
+        - openpyxl.drawing
+        - openpyxl.formatting
+        - openpyxl.formula
+        - openpyxl.packaging
+        - openpyxl.reader
+        - openpyxl.styles
+        - openpyxl.utils
+        - openpyxl.workbook
+        - openpyxl.workbook.external_link
+        - openpyxl.worksheet
+        - openpyxl.writer
+        - openpyxl.xml
+about:
+    description: 'openpyxl is a Python library to read/write Excel 2010
+
+        xlsx/xlsm/xltx/xltm files.
+
+        '
+    dev_url: https://bitbucket.org/openpyxl/openpyxl/
+    doc_source_url: https://bitbucket.org/openpyxl/openpyxl/src/default/doc/index.rst
+    doc_url: https://openpyxl.readthedocs.io/
+    home: https://openpyxl.readthedocs.io
+    license: MIT
+    license_family: MIT
+    license_file: LICENCE.rst
+    summary: A Python library to read/write Excel 2010 xlsx/xlsm files
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - curtisalexander

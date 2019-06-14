@@ -1,0 +1,4 @@
+{
+  "openssl": "1.1.1",
+  "c_compiler": "vs2017"
+}

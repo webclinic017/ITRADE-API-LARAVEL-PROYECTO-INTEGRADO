@@ -1,0 +1,45 @@
+# This file created by conda-build 3.14.4
+# meta.yaml template originally from:
+# C:\ci\containers\00001766rns\tmp\build\80754af9\rsync-recipes\defusedxml-0.5.0-python_3.7-on-winbuilder, last modified Wed Sep 12 14:58:24 2018
+# ------------------------------------------------
+
+package:
+    name: defusedxml
+    version: 0.5.0
+source:
+    fn: defusedxml-0.5.0.tar.gz
+    sha256: 24d7f2f94f7f3cb6061acb215685e5125fbcdc40a857eff9de22518820b0a4f4
+    url: https://pypi.io/packages/source/d/defusedxml/defusedxml-0.5.0.tar.gz
+build:
+    number: '1'
+    script: C:\ci\defusedxml_1536782553837\_h_env\python.exe -m pip install . --no-deps
+        --ignore-installed --no-cache-dir -vvv
+    string: py37_1
+requirements:
+    host:
+        - certifi 2018.8.24 py37_1
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hea74fb7_0
+        - setuptools 40.2.0 py37_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+        - wheel 0.31.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - defusedxml
+about:
+    dev_url: https://bitbucket.org/tiran/defusedxml
+    doc_url: https://bitbucket.org/tiran/defusedxml
+    home: https://bitbucket.org/tiran/defusedxml
+    license: PSF 2.0
+    license_family: PSF
+    license_file: LICENSE
+    summary: XML bomb protection for Python stdlib modules
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - pmlandwehr

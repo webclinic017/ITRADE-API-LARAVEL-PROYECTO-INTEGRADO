@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/jupyter-1.0.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "Lib/site-packages/jupyter-1.0.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "216cc47049035ff360e39fa8cb75c47f9da327411358e97b9c1f2d474561d5d0",
+      "size_in_bytes": 995
+    },
+    {
+      "_path": "Lib/site-packages/jupyter-1.0.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "b4caa55a35b945111793c5b1f6907ed14c391b55ea160745bcba557d51ddd179",
+      "size_in_bytes": 494
+    },
+    {
+      "_path": "Lib/site-packages/jupyter-1.0.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "086e75e8c7b54c4c90aa440ca90a670da76b5a2eee8cf93cf29a1202edce9624",
+      "size_in_bytes": 116
+    },
+    {
+      "_path": "Lib/site-packages/jupyter-1.0.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "ce72f0b7a376799ffbbb57931dceab5c9e1cea2254ce6855d4d37bdc7ba54e44",
+      "size_in_bytes": 8
+    }
+  ],
+  "paths_version": 1
+}

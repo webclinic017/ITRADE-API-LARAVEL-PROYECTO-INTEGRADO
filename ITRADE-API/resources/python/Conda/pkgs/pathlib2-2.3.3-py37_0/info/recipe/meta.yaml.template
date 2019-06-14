@@ -1,0 +1,44 @@
+{% set version = "2.3.3" %}
+
+package:
+  name: pathlib2
+  version: {{ version }}
+
+source:
+  fn: pathlib2-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/p/pathlib2/pathlib2-{{ version }}.tar.gz
+  sha256: 25199318e8cc3c25dcb45cbe084cc061051336d5a9ea2a12448d3d8cb748f742
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    - python
+    - six
+    - scandir  # [py27]
+
+test:
+  imports:
+    - pathlib2
+
+about:
+  home: https://github.com/mcmtroffaes/pathlib2
+  license: MIT
+  license_file: LICENSE.rst
+  summary: "Fork of pathlib aiming to support the full stdlib Python API."
+  description: |
+    The goal of pathlib2 is to provide a backport of standard pathlib module which
+    tracks the standard library module, so all the newest features of the standard
+    pathlib can be used also on older Python versions.
+  doc_url: https://pypi.python.org/pypi/pathlib2/
+  doc_source_url: https://github.com/mcmtroffaes/pathlib2/blob/develop/README.rst
+
+extra:
+  recipe-maintainers:
+    - pelson
+    - takluyver

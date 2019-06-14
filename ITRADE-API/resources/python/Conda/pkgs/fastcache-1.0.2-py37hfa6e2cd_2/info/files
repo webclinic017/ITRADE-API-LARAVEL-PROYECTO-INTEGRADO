@@ -1,0 +1,17 @@
+Lib/site-packages/fastcache-1.0.2-py3.7.egg-info/PKG-INFO
+Lib/site-packages/fastcache-1.0.2-py3.7.egg-info/SOURCES.txt
+Lib/site-packages/fastcache-1.0.2-py3.7.egg-info/dependency_links.txt
+Lib/site-packages/fastcache-1.0.2-py3.7.egg-info/top_level.txt
+Lib/site-packages/fastcache/__init__.py
+Lib/site-packages/fastcache/__pycache__/__init__.cpython-37.pyc
+Lib/site-packages/fastcache/__pycache__/benchmark.cpython-37.pyc
+Lib/site-packages/fastcache/_lrucache.cp37-win_amd64.pyd
+Lib/site-packages/fastcache/benchmark.py
+Lib/site-packages/fastcache/tests/__init__.py
+Lib/site-packages/fastcache/tests/__pycache__/__init__.cpython-37.pyc
+Lib/site-packages/fastcache/tests/__pycache__/test_clrucache.cpython-37.pyc
+Lib/site-packages/fastcache/tests/__pycache__/test_functools.cpython-37.pyc
+Lib/site-packages/fastcache/tests/__pycache__/test_thread.cpython-37.pyc
+Lib/site-packages/fastcache/tests/test_clrucache.py
+Lib/site-packages/fastcache/tests/test_functools.py
+Lib/site-packages/fastcache/tests/test_thread.py

@@ -1,0 +1,161 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/itsdangerous-1.1.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous-1.1.0.dist-info/LICENSE.rst",
+      "path_type": "hardlink",
+      "sha256": "feb28bfa348d816b0e7dbaeddf18499ee7e8007c67813db8d6ab37c65e046cd4",
+      "size_in_bytes": 2120
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous-1.1.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "cb22a32f658e83f5b26c7d98b7eecd22f1a957707ddc8b0c7361db4e859ced29",
+      "size_in_bytes": 3062
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous-1.1.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "31987d2c0e6f1cc0f4e8b67277c598fcb1ad85c97d0350023ac1a103ef586fe5",
+      "size_in_bytes": 1818
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous-1.1.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "18ff40089900243c9935ff983d70c027c31db5148d9381f624aeef47ec74e421",
+      "size_in_bytes": 116
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous-1.1.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "80a37538a2e4f358bb7db5968a574903cf0443d3619c6312bd9aa17f3f480a39",
+      "size_in_bytes": 13
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "0ebf9291f15d3b2891fd68e2a885e7945a5844c5b45ef3c1355e66bb313937f0",
+      "size_in_bytes": 708
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "71c7a9613a43ec49199fd414878c473f7e4ab3764ef925d6116dd00026ec4f30",
+      "size_in_bytes": 957
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/__pycache__/_compat.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "c0a403864adcb2012112ba270990aa89399bb5bb5d33832c87b73e74b1bf7d9a",
+      "size_in_bytes": 1119
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/__pycache__/_json.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "baa4d5b6c18f0864cfb61fd3ceadc4c8bdcacfcbf48f7ef868082f62f2ecc7b1",
+      "size_in_bytes": 802
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/__pycache__/encoding.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "073a7b7a52e0f33f4127928d33c4447df0db63e70369e71042f4bb4ea2cc051b",
+      "size_in_bytes": 1584
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/__pycache__/exc.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "5dc26818e4daabee7b37dd531568a9941410eb36482d58d1a1e765615c37dd21",
+      "size_in_bytes": 3173
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/__pycache__/jws.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "9bab465d80fda7e6bc824744be47d8a70c32bd1bb9a3dbe000cffc631d1972e0",
+      "size_in_bytes": 6632
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/__pycache__/serializer.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "7933ce20a6bcf9655391777c2c971c61bf9596d7959eb1b5b23c0501366629d6",
+      "size_in_bytes": 7988
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/__pycache__/signer.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "0d82f2cfcb2aa339cacb92fad1f993459c4fd51cbe50be4bc0a2a1f76a2af3d7",
+      "size_in_bytes": 5748
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/__pycache__/timed.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "58373415b95586a0c7c3f3a11e6b70dbc0d7f2fa582dde97dcff30232377cadd",
+      "size_in_bytes": 4514
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/__pycache__/url_safe.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "743d84780422d64ef823bd9bfaad2bfd929b55f5d94e0a9b5ac3b8a01aced026",
+      "size_in_bytes": 2503
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/_compat.py",
+      "path_type": "hardlink",
+      "sha256": "a0000c710023c105d0a486ee1d3de8f9a2f9eb3b66ffb15efb8943ec8b5e17a0",
+      "size_in_bytes": 1133
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/_json.py",
+      "path_type": "hardlink",
+      "sha256": "5bb04b2f844f9d23a335da3681f293dc178044c0888a463a3bbe6bc165745e81",
+      "size_in_bytes": 431
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/encoding.py",
+      "path_type": "hardlink",
+      "sha256": "2a163ce4fb07ddb1877b924034de0b319ff76f42305164519e7c35c2f2e56888",
+      "size_in_bytes": 1224
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/exc.py",
+      "path_type": "hardlink",
+      "sha256": "285c60ecad9732588c400c4be2391136013c7bbdf3da371168baf3c2a54e6e72",
+      "size_in_bytes": 2959
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/jws.py",
+      "path_type": "hardlink",
+      "sha256": "e8b87d5be2eef03f6cedb45acecd196f7e5ec80666de9ccb799a8799110b7882",
+      "size_in_bytes": 7470
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/serializer.py",
+      "path_type": "hardlink",
+      "sha256": "6d3f9d7e329e73dcdc29af10a3c9fb9875bff0cf970933cc385ab54d023f16fe",
+      "size_in_bytes": 8653
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/signer.py",
+      "path_type": "hardlink",
+      "sha256": "38e65b2bc5e89818d07ce144ba5f28b1eb27edf73cd0c5c1d0bd6bec4f3afc64",
+      "size_in_bytes": 6345
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/timed.py",
+      "path_type": "hardlink",
+      "sha256": "a27e50e655fb2d3fcb6844ce873175666ad16e26bc3fdf36eb747c16247233a6",
+      "size_in_bytes": 5635
+    },
+    {
+      "_path": "Lib/site-packages/itsdangerous/url_safe.py",
+      "path_type": "hardlink",
+      "sha256": "c671536ae9083e65ba4309fab8d40b83375abbc46e00a9e9e4deee92e5f2923d",
+      "size_in_bytes": 2275
+    }
+  ],
+  "paths_version": 1
+}

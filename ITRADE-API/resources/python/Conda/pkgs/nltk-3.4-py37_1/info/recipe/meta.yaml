@@ -1,0 +1,78 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# C:\ci\containers\00002s03q8u\tmp\build\80754af9\rsync-recipes\nltk-3.4-python_3.7-on-winbuilder, last modified Wed Dec 19 19:59:04 2018
+# ------------------------------------------------
+
+package:
+    name: nltk
+    version: '3.4'
+source:
+    fn: nltk-3.4.zip
+    sha256: 286f6797204ffdb52525a1d21ec0a221ec68b8e3fa4f2d25f412ac8e63c70e8d
+    url: https://pypi.io/packages/source/n/nltk/nltk-3.4.zip
+build:
+    number: '1'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_1
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - python 3.7.1 h8c8aaf0_6
+        - setuptools 40.6.3 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+        - six
+test:
+    imports:
+        - nltk
+        - nltk.app
+        - nltk.ccg
+        - nltk.chat
+        - nltk.chunk
+        - nltk.classify
+        - nltk.cluster
+        - nltk.corpus
+        - nltk.corpus.reader
+        - nltk.draw
+        - nltk.inference
+        - nltk.metrics
+        - nltk.misc
+        - nltk.parse
+        - nltk.sem
+        - nltk.sentiment
+        - nltk.stem
+        - nltk.tag
+        - nltk.tbl
+        - nltk.test
+        - nltk.test.unit
+        - nltk.test.unit.translate
+        - nltk.tokenize
+        - nltk.translate
+        - nltk.twitter
+about:
+    description: 'NLTK has been called a wonderful tool for teaching and working in
+
+        computational linguistics using Python and an amazing library to play with
+
+        natural language.
+
+        '
+    dev_url: https://github.com/nltk/nltk
+    doc_source_url: https://github.com/nltk/nltk/blob/develop/web/index.rst
+    doc_url: https://nltk.readthedocs.io/en/latest/
+    home: http://nltk.org/
+    license: Apache 2.0
+    license_family: Apache
+    license_file: LICENSE.txt
+    summary: Build Python programs to work with human language data
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - pmlandwehr

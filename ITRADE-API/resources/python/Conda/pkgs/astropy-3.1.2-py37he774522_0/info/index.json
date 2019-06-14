@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py37he774522_0",
+  "build_number": 0,
+  "depends": [
+    "numpy >=1.14.6,<2.0a0",
+    "pytest-astropy",
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.1,<15.0a0"
+  ],
+  "license": "BSD",
+  "name": "astropy",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1551195955276,
+  "version": "3.1.2"
+}

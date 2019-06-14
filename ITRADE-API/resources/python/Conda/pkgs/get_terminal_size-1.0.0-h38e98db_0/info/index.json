@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h38e98db_0",
+  "build_number": 0,
+  "depends": [
+    "backports.shutil_get_terminal_size"
+  ],
+  "license": "MIT",
+  "name": "get_terminal_size",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1506008939087,
+  "version": "1.0.0"
+}

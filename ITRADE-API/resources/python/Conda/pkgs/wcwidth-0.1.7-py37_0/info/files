@@ -1,0 +1,17 @@
+Lib/site-packages/wcwidth-0.1.7-py3.7.egg-info/PKG-INFO
+Lib/site-packages/wcwidth-0.1.7-py3.7.egg-info/SOURCES.txt
+Lib/site-packages/wcwidth-0.1.7-py3.7.egg-info/dependency_links.txt
+Lib/site-packages/wcwidth-0.1.7-py3.7.egg-info/top_level.txt
+Lib/site-packages/wcwidth-0.1.7-py3.7.egg-info/zip-safe
+Lib/site-packages/wcwidth/__init__.py
+Lib/site-packages/wcwidth/__pycache__/__init__.cpython-37.pyc
+Lib/site-packages/wcwidth/__pycache__/table_wide.cpython-37.pyc
+Lib/site-packages/wcwidth/__pycache__/table_zero.cpython-37.pyc
+Lib/site-packages/wcwidth/__pycache__/wcwidth.cpython-37.pyc
+Lib/site-packages/wcwidth/table_wide.py
+Lib/site-packages/wcwidth/table_zero.py
+Lib/site-packages/wcwidth/tests/__init__.py
+Lib/site-packages/wcwidth/tests/__pycache__/__init__.cpython-37.pyc
+Lib/site-packages/wcwidth/tests/__pycache__/test_core.cpython-37.pyc
+Lib/site-packages/wcwidth/tests/test_core.py
+Lib/site-packages/wcwidth/wcwidth.py

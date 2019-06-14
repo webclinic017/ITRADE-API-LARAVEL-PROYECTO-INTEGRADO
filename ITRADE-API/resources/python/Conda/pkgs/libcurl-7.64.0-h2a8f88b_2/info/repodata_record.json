@@ -1,0 +1,24 @@
+{
+  "build": "h2a8f88b_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "krb5 >=1.16.1,<1.17.0a0",
+    "libssh2 >=1.8.0,<2.0a0",
+    "vc >=14.1,<15.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "libcurl-7.64.0-h2a8f88b_2.tar.bz2",
+  "license": "MIT/X derivate (http://curl.haxx.se/docs/copyright.html)",
+  "license_family": "MIT",
+  "md5": "288fc03bf18358bf51584a54b73f6969",
+  "name": "libcurl",
+  "size": 289804,
+  "subdir": "win-64",
+  "timestamp": 1552413107253,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libcurl-7.64.0-h2a8f88b_2.tar.bz2",
+  "version": "7.64.0"
+}

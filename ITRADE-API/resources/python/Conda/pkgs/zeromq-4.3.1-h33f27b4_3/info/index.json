@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h33f27b4_3",
+  "build_number": 3,
+  "depends": [
+    "libsodium >=1.0.16,<1.0.17.0a0",
+    "vc >=14.1,<15.0a0"
+  ],
+  "license": "LGPL 3",
+  "name": "zeromq",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1549026318046,
+  "version": "4.3.1"
+}

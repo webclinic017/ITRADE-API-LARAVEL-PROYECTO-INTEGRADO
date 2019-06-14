@@ -1,0 +1,22 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "sphinxcontrib"
+  ],
+  "features": "",
+  "fn": "sphinxcontrib-websupport-1.1.0-py37_1.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "md5": "88baf0f12027ceff5aa58a43879e9251",
+  "name": "sphinxcontrib-websupport",
+  "size": 36667,
+  "subdir": "win-64",
+  "timestamp": 1531564415799,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/sphinxcontrib-websupport-1.1.0-py37_1.tar.bz2",
+  "version": "1.1.0"
+}

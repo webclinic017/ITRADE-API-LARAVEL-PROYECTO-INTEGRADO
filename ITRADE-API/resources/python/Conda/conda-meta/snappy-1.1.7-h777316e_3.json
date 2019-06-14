@@ -1,0 +1,39 @@
+{
+  "build": "h777316e_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc 14.*"
+  ],
+  "features": "",
+  "files": [
+    "Library/bin/snappy.dll",
+    "Library/include/snappy-c.h",
+    "Library/include/snappy-sinksource.h",
+    "Library/include/snappy-stubs-public.h",
+    "Library/include/snappy.h",
+    "Library/lib/cmake/Snappy/SnappyConfig.cmake",
+    "Library/lib/cmake/Snappy/SnappyConfigVersion.cmake",
+    "Library/lib/cmake/Snappy/SnappyTargets-release.cmake",
+    "Library/lib/cmake/Snappy/SnappyTargets.cmake",
+    "Library/lib/snappy.lib",
+    "Library/lib/snappy_static.lib"
+  ],
+  "fn": "snappy-1.1.7-h777316e_3.tar.bz2",
+  "installed_by": "Anaconda3-2019.03-Windows-x86_64.exe",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\MTXDevp\\Desktop\\PROYECTO-INTEGRADO\\ITRADE-API-LARAVEL-PROYECTO-INTEGRADO\\ITRADE-API\\resources\\python\\Conda\\pkgs\\snappy-1.1.7-h777316e_3",
+    "type": "hard-link"
+  },
+  "md5": "ea5b218d4285511d48a0515b88979123",
+  "name": "snappy",
+  "size": 83513,
+  "subdir": "win-64",
+  "timestamp": 1511805917504,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/snappy-1.1.7-h777316e_3.tar.bz2",
+  "version": "1.1.7"
+}

@@ -1,0 +1,101 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/more_itertools-6.0.0-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "5829c22eda423b02386b1ff8022662e22c68d5efa187314f10d1883861ea5c89",
+      "size_in_bytes": 39485
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools-6.0.0-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "09efcea1aa808bb9e11589428d68c1a02d588c34821d5b4fcc77966a0a047288",
+      "size_in_bytes": 543
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools-6.0.0-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools-6.0.0-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "7c0baa457bbd2cf871741f6e8c9a307053aed6b67cc334a9396f7f8e52a2b3a3",
+      "size_in_bytes": 15
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "4be9fa4bd37752996a537a7eec057ed599e5eb2270b97b09b6aae512af6d394c",
+      "size_in_bytes": 87
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "8fd56664bce61691c72fa984741c7ea95c2e22f1765d13db270d3c655195e9f7",
+      "size_in_bytes": 201
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools/__pycache__/more.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "d2a4280087fedc230115616da5e4a549f43a52f5c84011a57ff1ab22d030af16",
+      "size_in_bytes": 70538
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools/__pycache__/recipes.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "dabdfb2d2ca844963f32bca04471a2e19a4c55aef020e44bce85f976b50c2db7",
+      "size_in_bytes": 16143
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools/more.py",
+      "path_type": "hardlink",
+      "sha256": "9e2518b61e423e39d7a62b5b6e3911ddb3b6caf1b514e611146876ecb4a44499",
+      "size_in_bytes": 73383
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools/recipes.py",
+      "path_type": "hardlink",
+      "sha256": "e17f040592ce13228a56569c4a9da3020e7af86128d63842536787e1695b102e",
+      "size_in_bytes": 15235
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools/tests/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "84550fea68c631367e387b4ac4833bd7dc33b46a6fc0052a5f7f824604357609",
+      "size_in_bytes": 137
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools/tests/__pycache__/test_more.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "7cfeb7318486f93b516fc474e7b0bb2e9d9176d2ba3b42e41e52871eab9616a9",
+      "size_in_bytes": 106640
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools/tests/__pycache__/test_recipes.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "9c1c61d87b4ad4837df649bfef613aad2da2cd72c305b89ddf2d0732eda7d46d",
+      "size_in_bytes": 31332
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools/tests/test_more.py",
+      "path_type": "hardlink",
+      "sha256": "a9676f36924a25c292ec1e8003210df10e56b08dcb99acbdcd633beb5678e034",
+      "size_in_bytes": 79364
+    },
+    {
+      "_path": "Lib/site-packages/more_itertools/tests/test_recipes.py",
+      "path_type": "hardlink",
+      "sha256": "5310400f002ed54d0594d5ed53ac9b2a41e18752edda8a70b1314d9d26c9eee5",
+      "size_in_bytes": 19478
+    }
+  ],
+  "paths_version": 1
+}

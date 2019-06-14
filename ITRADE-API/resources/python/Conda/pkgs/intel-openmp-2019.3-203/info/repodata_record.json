@@ -1,0 +1,19 @@
+{
+  "build": "203",
+  "build_number": 203,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "intel-openmp-2019.3-203.tar.bz2",
+  "license": "proprietary - Intel",
+  "license_family": "Proprietary",
+  "md5": "521484064fa841f1fe0e3ce009b12281",
+  "name": "intel-openmp",
+  "size": 1801569,
+  "subdir": "win-64",
+  "timestamp": 1552594270775,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/intel-openmp-2019.3-203.tar.bz2",
+  "version": "2019.3"
+}

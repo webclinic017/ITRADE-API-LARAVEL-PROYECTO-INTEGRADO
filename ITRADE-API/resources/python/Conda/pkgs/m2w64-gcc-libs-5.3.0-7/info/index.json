@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "7",
+  "build_number": 7,
+  "depends": [
+    "m2w64-gcc-libgfortran",
+    "m2w64-gcc-libs-core",
+    "m2w64-gmp",
+    "m2w64-libwinpthread-git",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "license": "GPL3+, partial:GCCRLE, partial:LGPL2+",
+  "name": "m2w64-gcc-libs",
+  "platform": "win",
+  "subdir": "win-64",
+  "version": "5.3.0"
+}

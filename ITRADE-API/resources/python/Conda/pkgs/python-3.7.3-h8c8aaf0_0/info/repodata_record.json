@@ -1,0 +1,22 @@
+{
+  "build": "h8c8aaf0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "openssl >=1.1.1b,<1.1.2a",
+    "sqlite >=3.27.2,<4.0a0",
+    "vc >=14.1,<15.0a0"
+  ],
+  "features": "",
+  "fn": "python-3.7.3-h8c8aaf0_0.tar.bz2",
+  "license": "PSF",
+  "md5": "ac23bd1b28dea675e56ca62e5f76a68f",
+  "name": "python",
+  "size": 18649955,
+  "subdir": "win-64",
+  "timestamp": 1553724931282,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/python-3.7.3-h8c8aaf0_0.tar.bz2",
+  "version": "3.7.3"
+}

@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/libzstd.dll",
+      "path_type": "hardlink",
+      "sha256": "f98bc698073902b9a161e2af3376cd24328e8074a01c56e163f237572f592874",
+      "size_in_bytes": 380416
+    },
+    {
+      "_path": "Library/bin/zstd.exe",
+      "path_type": "hardlink",
+      "sha256": "1246f5c6db8d9c3e39d0650b99f653be47c76642190eb03411dd63f606499806",
+      "size_in_bytes": 435200
+    },
+    {
+      "_path": "Library/include/cover.h",
+      "path_type": "hardlink",
+      "sha256": "e175146e00ed06d3f2dfa6e18f86a19318f5005b20075eba72cf5d36fd68cd1d",
+      "size_in_bytes": 2333
+    },
+    {
+      "_path": "Library/include/zbuff.h",
+      "path_type": "hardlink",
+      "sha256": "e1aa0c84dd40cfcf5a23e8dea5c376f9da626eeed902667fe0f8cbceb673840f",
+      "size_in_bytes": 11474
+    },
+    {
+      "_path": "Library/include/zdict.h",
+      "path_type": "hardlink",
+      "sha256": "4d5b6b6f3ea51070e20732cb1dc9764e7722af89cd7ef68b067e4b6c809ab36d",
+      "size_in_bytes": 15671
+    },
+    {
+      "_path": "Library/include/zstd.h",
+      "path_type": "hardlink",
+      "sha256": "ec3c9e7e33afec8363c6c19c643b4c31f5c42d1d36b2f74347e3f28ecac5b8ae",
+      "size_in_bytes": 94270
+    },
+    {
+      "_path": "Library/include/zstd_errors.h",
+      "path_type": "hardlink",
+      "sha256": "3b60bd79d4f4abc1bf9648a4da8282f782dd5caf2789aea742f1f4d4ef250ff9",
+      "size_in_bytes": 3715
+    },
+    {
+      "_path": "Library/lib/libzstd_static.lib",
+      "path_type": "hardlink",
+      "sha256": "ae9e6bc3a87ef1e0a188212268bcf22d21a32f7ab5b283f43b40cb5efca83a66",
+      "size_in_bytes": 794914
+    },
+    {
+      "_path": "Library/lib/zstd.lib",
+      "path_type": "hardlink",
+      "sha256": "35fa7e4e8ca0079cae1abc59bdba08a08739f9bd65e69e28f207ca959d27a23a",
+      "size_in_bytes": 48788
+    }
+  ],
+  "paths_version": 1
+}

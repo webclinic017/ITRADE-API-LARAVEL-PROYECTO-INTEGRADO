@@ -1,0 +1,59 @@
+# This file created by conda-build 3.17.6
+# meta.yaml template originally from:
+# C:\ci\containers\000001skdk6\tmp\build\80754af9\rsync-recipes\gevent-1.4.0-c_compiler_vs2017-python_3.7-on-winbuilder, last modified Fri Jan 11 12:10:45 2019
+# ------------------------------------------------
+
+package:
+    name: gevent
+    version: 1.4.0
+source:
+    fn: gevent-1.4.0.tar.gz
+    patches:
+        - 0001-Allow-include-flags-to-be-present-in-CFLAGS.patch
+    sha256: 1eb7fa3b9bd9174dfe9c3b59b7a09b768ecd496debfc4976a9530a3e15c990d1
+    url: https://pypi.io/packages/source/g/gevent/gevent-1.4.0.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py37he774522_0
+requirements:
+    build:
+        - vs2017_win-64 19.15.26726 h3c6f0ee_0
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - cffi 1.11.5 py37h74b6da3_1
+        - openssl 1.1.1a he774522_0
+        - pycparser 2.19 py37_0
+        - python 3.7.2 h8c8aaf0_0
+        - setuptools 40.6.3 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wincertstore 0.2 py37_0
+    run:
+        - cffi >=1.11.5
+        - greenlet >=0.4.14
+        - python >=3.7,<3.8.0a0
+        - vc >=14.1,<15.0a0
+test:
+    imports:
+        - gevent
+        - gevent.libev
+about:
+    description: 'Gevent uses greenlet to provide a high-level synchronous API on
+        top of the libev event loop.
+
+        '
+    dev_url: https://github.com/gevent/gevent
+    doc_url: http://www.gevent.org/contents.html
+    home: http://www.gevent.org/
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Coroutine-based network library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - nehaljwani

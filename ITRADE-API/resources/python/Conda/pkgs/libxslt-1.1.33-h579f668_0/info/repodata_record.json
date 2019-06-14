@@ -1,0 +1,21 @@
+{
+  "build": "h579f668_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "libxml2 >=2.9.8,<2.10.0a0",
+    "vc >=14.1,<15.0a0"
+  ],
+  "features": "",
+  "fn": "libxslt-1.1.33-h579f668_0.tar.bz2",
+  "license": "MIT",
+  "md5": "4e42cbcd9fc9d8cda0a73bb21ffbf2c5",
+  "name": "libxslt",
+  "size": 511170,
+  "subdir": "win-64",
+  "timestamp": 1547922923664,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libxslt-1.1.33-h579f668_0.tar.bz2",
+  "version": "1.1.33"
+}

@@ -1,0 +1,27 @@
+{
+  "build": "py37hdc69c19_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "freetype >=2.9.1,<3.0a0",
+    "jpeg >=9b,<10a",
+    "libtiff >=4.0.9,<5.0a0",
+    "olefile",
+    "python >=3.7,<3.8.0a0",
+    "tk >=8.6.8,<8.7.0a0",
+    "vc >=14.1,<15.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "pillow-5.4.1-py37hdc69c19_0.tar.bz2",
+  "license": "PIL",
+  "md5": "7d1e3f42f9605c7d86c9f2ed3a7b9f13",
+  "name": "pillow",
+  "size": 702510,
+  "subdir": "win-64",
+  "timestamp": 1547245240796,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pillow-5.4.1-py37hdc69c19_0.tar.bz2",
+  "version": "5.4.1"
+}

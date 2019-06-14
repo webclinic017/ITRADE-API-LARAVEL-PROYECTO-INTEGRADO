@@ -1,0 +1,46 @@
+From a6f56740c57949bcb84ffc61206998e04fa130ad Mon Sep 17 00:00:00 2001
+From: Ray Donnelly <mingw.android@gmail.com>
+Date: Thu, 24 Aug 2017 17:25:18 +0100
+Subject: [PATCH] Remove write_conda_files()
+
+---
+ versioneer.py | 16 ----------------
+ 1 file changed, 16 deletions(-)
+
+diff --git a/versioneer.py b/versioneer.py
+index 7d56119..87a6b87 100644
+--- a/versioneer.py
++++ b/versioneer.py
+@@ -1481,8 +1481,6 @@ def get_cmdclass():
+                 version = versions['version']
+                 build = '0'
+ 
+-            write_conda_files(version, build)
+-
+     cmds["build_py"] = cmd_build_py
+ 
+     if "cx_Freeze" in sys.modules:  # cx_freeze enabled?
+@@ -1702,20 +1700,6 @@ def scan_setup_py():
+         errors += 1
+     return errors
+ 
+-def write_conda_files(version, build):
+-    SRC_DIR = os.environ.get('SRC_DIR', '.')
+-
+-    conda_version_path = os.path.join(SRC_DIR, '__conda_version__.txt')
+-    print("Writing %s" % conda_version_path)
+-    with open(conda_version_path, 'w') as conda_version:
+-        conda_version.write(version)
+-
+-    conda_buildnum_path = os.path.join(SRC_DIR, '__conda_buildnum__.txt')
+-    print("Writing %s" % conda_buildnum_path)
+-
+-    with open(conda_buildnum_path, 'w') as conda_buildnum:
+-        conda_buildnum.write(build)
+-
+ if __name__ == "__main__":
+     cmd = sys.argv[1]
+     if cmd == "setup":
+-- 
+2.13.2
+

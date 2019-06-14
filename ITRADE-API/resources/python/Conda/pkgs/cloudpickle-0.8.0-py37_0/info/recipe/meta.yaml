@@ -1,0 +1,60 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00003ngfimn\tmp\build\80754af9\rsync-recipes\cloudpickle-0.8.0-python_3.7-on-winbuilder, last modified Mon Feb 25 15:14:21 2019
+# ------------------------------------------------
+
+package:
+    name: cloudpickle
+    version: 0.8.0
+source:
+    fn: cloudpickle-0.8.0.tar.gz
+    sha256: 18d3a5dfc82f752b9f4c844cceb663213e26e130f4a2894a18ad1f11d57a30bc
+    url: https://pypi.io/packages/source/c/cloudpickle/cloudpickle-0.8.0.tar.gz
+build:
+    noarch: false
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2019.1.23 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - pip 19.0.1 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.32.3 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - cloudpickle
+about:
+    description: 'cloudpickle is extended pickling support for Python objects.
+
+        cloudpickle makes it possible to serialize Python constructs not
+
+        supported by the default pickle module from the Python standard library.
+
+        '
+    dev_url: https://github.com/cloudpipe/cloudpickle
+    doc_source_url: https://github.com/cloudpipe/cloudpickle/blob/master/README.md
+    doc_url: https://pypi.python.org/pypi/cloudpickle/0.8.0
+    home: https://github.com/cloudpipe/cloudpickle
+    license: BSD 3-Clause
+    license_file: LICENSE
+    license_url: https://github.com/cloudpipe/cloudpickle/blob/master/LICENSE
+    summary: Extended pickling support for Python objects
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mrocklin
+        - nehaljwani
+        - ogrisel
+        - rgbkrk

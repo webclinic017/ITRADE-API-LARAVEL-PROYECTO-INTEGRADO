@@ -1,0 +1,20 @@
+{
+  "build": "h38e98db_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "backports.shutil_get_terminal_size"
+  ],
+  "features": "",
+  "fn": "get_terminal_size-1.0.0-h38e98db_0.tar.bz2",
+  "license": "MIT",
+  "md5": "d97df1f48a67f30346b8df55f494e1ad",
+  "name": "get_terminal_size",
+  "size": 2954,
+  "subdir": "win-64",
+  "timestamp": 1506008939087,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/get_terminal_size-1.0.0-h38e98db_0.tar.bz2",
+  "version": "1.0.0"
+}

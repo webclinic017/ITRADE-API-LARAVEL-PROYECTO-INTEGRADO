@@ -1,0 +1,22 @@
+{
+  "build": "py37hfa6e2cd_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "toolz >=0.8.0",
+    "vc 14.*"
+  ],
+  "features": "",
+  "fn": "cytoolz-0.9.0.1-py37hfa6e2cd_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "ac1c1760065021318e56d56ef49394ed",
+  "name": "cytoolz",
+  "size": 333129,
+  "subdir": "win-64",
+  "timestamp": 1531681914252,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/cytoolz-0.9.0.1-py37hfa6e2cd_1.tar.bz2",
+  "version": "0.9.0.1"
+}

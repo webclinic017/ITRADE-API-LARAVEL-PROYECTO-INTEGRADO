@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py37hfa6e2cd_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "vc 14.*",
+    "yaml >=0.1.7,<0.2.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "ruamel_yaml",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1532969036543,
+  "version": "0.15.46"
+}

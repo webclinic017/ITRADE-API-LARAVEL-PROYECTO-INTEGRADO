@@ -1,0 +1,61 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00000v2k8mt\tmp\build\80754af9\rsync-recipes\pandas-0.24.2-python_3.7-c_compiler_vs2017-cxx_compiler_vs2017-on-winbuilder, last modified Thu Mar 14 08:32:51 2019
+# ------------------------------------------------
+
+package:
+    name: pandas
+    version: 0.24.2
+source:
+    sha256: 4f919f409c433577a501e023943e582c57355d50a724c589e78bc1d551a535a2
+    url: https://github.com/pandas-dev/pandas/releases/download/v0.24.2/pandas-0.24.2.tar.gz
+build:
+    number: '0'
+    string: py37ha925a31_0
+requirements:
+    build:
+        - vs2017_win-64 19.15.26726 h3c6f0ee_0
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2019.1.23 0
+        - certifi 2019.3.9 py37_0
+        - cython 0.29.6 py37ha925a31_0
+        - icc_rt 2019.0.0 h0cc432a_1
+        - intel-openmp 2019.1 144
+        - mkl 2018.0.3 1
+        - mkl_fft 1.0.6 py37hdbbee80_0
+        - mkl_random 1.0.1 py37h77b88f5_1
+        - numpy 1.14.6 py37hc27ee41_4
+        - numpy-base 1.14.6 py37h8128ebf_4
+        - openssl 1.1.1b he774522_1
+        - pip 19.0.3 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.27.2 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.33.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - numpy >=1.14.6,<2.0a0
+        - python >=3.7,<3.8.0a0
+        - python-dateutil >=2.5.*
+        - pytz
+        - vc >=14.1,<15.0a0
+test:
+    imports:
+        - pandas
+about:
+    home: http://pandas.pydata.org
+    license: BSD 3-clause
+    license_file: LICENSE
+    summary: High-performance, easy-to-use data structures and data analysis tools.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - TomAugspurger
+        - jorisvandenbossche
+        - jreback
+        - msarahan
+        - ocefpaf

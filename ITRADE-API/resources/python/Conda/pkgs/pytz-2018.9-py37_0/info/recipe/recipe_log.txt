@@ -1,0 +1,396 @@
+commit 80f11fa5d97c33e8b88833f3444da0a0eea4c3dc
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Feb 19 00:11:05 2018 -0600
+
+    Remove noarch for now
+
+commit de2be0cdf3e7769c57208b8c7645a7ebc1f161f9
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 16:03:27 2017 +0000
+
+    Add some tests
+
+commit 77ae39285a61475582f06a88437b05750a52b467
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 16:01:37 2017 +0000
+
+    Update about section
+
+commit 8268da12fe5bf86b9df10c8c7301558876ac7972
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jul 17 16:29:36 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit 6c153b63ee5643cac7c1349208a12e03b52dce90
+Merge: 1a71e35 d43676e
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jan 7 13:08:06 2019 -0200
+
+    Merge pull request #23 from regro-cf-autotick-bot/2018.9
+    
+    pytz v2018.9
+
+commit d43676e13d837a6eefdb60156c3b1123b3480300
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jan 7 08:21:37 2019 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2019.01.05
+
+commit ff5ccab5e7b49f4e712e84bd391959b788271645
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jan 7 08:21:33 2019 +0000
+
+    updated v2018.9
+
+commit 1a71e35b7543c13a2b362c153f56f86c3fa7f94f
+Merge: 8e65599 17a8331
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 29 08:05:17 2018 -0300
+
+    Merge pull request #22 from regro-cf-autotick-bot/2018.7
+    
+    pytz v2018.7
+
+commit 17a83318b8064da584b60ecb3ea0f697bfb41304
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Oct 29 10:15:29 2018 +0000
+
+    updated v2018.7
+
+commit 8e65599a4d9dcb5ada4ab31ebddfee295455fde2
+Merge: 9dba61f a7abc0a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Oct 24 08:34:40 2018 -0300
+
+    Merge pull request #21 from regro-cf-autotick-bot/2018.6
+    
+    pytz v2018.6
+
+commit a7abc0aa884e965831b8fae1d0cf1c97dd359e1d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 24 10:20:26 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit 744eca5120086565d548205ed080b46c8bd1dbee
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 24 10:20:22 2018 +0000
+
+    updated v2018.6
+
+commit 9dba61fb6cb955a221d4edc1f56bfba8650828fe
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:19:42 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit efa8caeae23150ea7bef1937aaff61f7419916a3
+Merge: a6d93f3 7103018
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Jul 1 07:55:55 2018 -0300
+
+    Merge pull request #20 from regro-cf-autotick-bot/2018.5
+    
+    pytz v2018.5
+
+commit 7103018b0e6572f2d4b1cecb75ec696f8394c11f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 1 09:46:49 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.29
+
+commit ea549ea11411d43f9d602e774efc448d1b92bebf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 1 09:46:44 2018 +0000
+
+    updated v2018.5
+
+commit a6d93f39a3b46d7251a7ad9f8c7289699234091e
+Merge: 28ef544 90647fe
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Apr 10 23:27:53 2018 -0500
+
+    Merge pull request #19 from regro-cf-autotick-bot/2018.4
+    
+    pytz v2018.4
+
+commit 90647fe5bbe4d694cbab3449437a6739df6745f1
+Author: Travis CI User <travis@example.org>
+Date:   Wed Apr 11 04:08:22 2018 +0000
+
+    updated v2018.4
+
+commit 28ef544e41e18a5354521f8b8934c9a64d7f411c
+Merge: 54d3df2 9b2720b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Feb 12 12:57:54 2018 -0800
+
+    Merge pull request #18 from ocefpaf/update_to_2018.3
+    
+    Update to 2018.3
+
+commit 9b2720bd4386e8ec34dfbcf1938bc105f7227f0f
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Feb 12 11:28:26 2018 -0800
+
+    update to 2018.3
+
+commit 20da8317d11e8f710cdbdfbe9052ddc7a9f8715f
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Feb 12 11:28:12 2018 -0800
+
+    rerender
+
+commit 54d3df2228effc8d2f0b57f1238cde958232a60c
+Merge: c7a33fe b457e5d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Feb 12 11:23:26 2018 -0800
+
+    Merge pull request #17 from jschueller/patch-1
+    
+    Rearch
+
+commit b457e5d594b14904b2b56c44537d8337f8a50a90
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Feb 11 18:28:05 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit afbbaab613d7c721e33d806d9f6b861f36080c3e
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Sun Feb 11 19:25:47 2018 +0100
+
+    Rearch
+    
+    I'm building an installer involving this dependency and I'm facing issues with noarch packages
+
+commit c7a33feeaf1cb6200e1894b050352b10f9f12473
+Merge: 2b41254 ab127f1
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Nov 9 17:08:09 2017 -0200
+
+    Merge pull request #16 from ocefpaf/use_pip
+    
+    Use pip
+
+commit ab127f1399ec38176de37c899724828dd805773e
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Thu Nov 9 14:54:44 2017 -0200
+
+    use pip
+
+commit 2b41254cc45d989ecc9f455c7b595d48d7b14b4d
+Merge: 7a414a1 21804de
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 30 20:59:10 2017 -0200
+
+    Merge pull request #13 from ocefpaf/noarch
+    
+    noarch
+
+commit 21804de42cd6a0bf73a0644d8c9763355872fcd9
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Oct 30 20:47:13 2017 -0200
+
+    noarch
+
+commit 7a414a18d775047fda66dd4d3a25fb38e2c0f607
+Merge: a482e2d 15885c2
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 30 20:38:27 2017 -0200
+
+    Merge pull request #12 from ocefpaf/2017.3
+    
+    2017.3
+
+commit 15885c2feae8f166ff79915318455886ea8cc037
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Oct 30 16:55:08 2017 -0200
+
+    update 2017.3
+
+commit 001d9009763e0c212d8c85720add3e2ef8cd02fe
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Oct 30 16:55:01 2017 -0200
+
+    rerender
+
+commit a482e2d01e1f27e18cff183665410afa13140028
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:38:05 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit cecf844f86455dd2e02859ff4aa17b1d256c9d50
+Merge: be263e2 265f5a9
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Apr 7 17:02:26 2017 -0300
+
+    Merge pull request #10 from ocefpaf/update_to_2017.2
+    
+    Update to 2017.2
+
+commit 265f5a98a93f1e23c1fb4933d2e1d0a9b668fc3f
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Fri Apr 7 12:19:51 2017 -0300
+
+    Update to 2017.2
+
+commit 385cdfc8b1543d23b31c7309874e3a6acaf25c74
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Fri Apr 7 12:19:46 2017 -0300
+
+    rerender with auto
+
+commit be263e21a44901512451cb3772c4ed5711ae36ef
+Merge: fc18db8 9727d08
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Feb 28 10:24:49 2017 -0500
+
+    Merge pull request #9 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 9727d08f60c752d98aaf0cbf00e6c39d828c2f65
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Feb 28 01:44:16 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.1.
+
+commit fc18db8482c5a6a69147d2a39b72b7dff53f66aa
+Merge: c2f8463 c47c03d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Feb 10 00:38:41 2017 -0500
+
+    Merge pull request #8 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit c47c03dda1ec3d91ac885672f64715dbeef15d2a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Jan 29 01:43:38 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.0.1.
+
+commit c2f84637f7194c4d1f4cebb3d2fd5d61b6e0920f
+Merge: e7038a7 ea927bc
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Jan 12 07:44:31 2017 -0300
+
+    Merge pull request #7 from ocefpaf/py36
+    
+    rerender with auto
+
+commit ea927bcaae99e559819394a4f1bd2f6d90a08fb1
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Jan 11 13:16:59 2017 -0300
+
+    rerender with auto
+
+commit e7038a7f63ff5a41268886628c2a26731e43a223
+Merge: 580ed41 b1b65bc
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Dec 14 19:24:23 2016 -0300
+
+    Merge pull request #6 from ocefpaf/bump
+    
+    Bump
+
+commit b1b65bcc2ed1d5cb4f5f25d28e8fff4bf568377f
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Dec 14 06:58:33 2016 -0300
+
+    Updated to 2016.10
+
+commit 826dd64d4f448197c3a34a260e132a48dfb64419
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Dec 14 06:58:16 2016 -0300
+
+    rerendered
+
+commit 580ed412f4148773a57de897dd1a33b7a649cb06
+Merge: 0eff59e 40ca036
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Oct 4 08:50:51 2016 -0300
+
+    Merge pull request #4 from ocefpaf/bump
+    
+    Bump
+
+commit 40ca0367db6235cc6a64a1eb697c80e04c4cd834
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Oct 4 08:22:43 2016 -0300
+
+    Updated to 2016.7
+
+commit 345bc71c8bde4120c6dc7be2b0b41440ef9825ee
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Oct 4 08:20:07 2016 -0300
+
+    rerender
+
+commit 0eff59e4b4b6a4eda1cbf732e0e837d7af8df2b3
+Merge: afaac0e 843926c
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Aug 2 21:13:08 2016 -0300
+
+    Merge pull request #3 from ocefpaf/bump
+    
+    Update to 2016.6.1
+
+commit 843926ce1218e3c25d92a19e038853882e52c584
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Aug 2 21:06:57 2016 -0300
+
+    Update to 2016.6.1
+
+commit afaac0ec814b94fd0cf4892b84c4201270147b97
+Merge: 3a43ecf ad7fa6d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jul 25 22:27:10 2016 -0300
+
+    Merge pull request #2 from jjhelmus/v_2016_4
+    
+    Update to version 2016.4
+
+commit ad7fa6dddae4db323c1bee1763746eda5773e780
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Jun 23 13:44:26 2016 -0500
+
+    Update recipe to version 2016.4
+
+commit c08bfa9f49f2ab5fa17d02846badf8edeeaf7b6e
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Jun 23 13:44:01 2016 -0500
+
+    Add setuptools to build requirements
+
+commit 3a43ecf59d1678c48b29f9f4181c1c0bcc9c8d2e
+Merge: 3b97540 f85895a
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Fri May 13 10:50:30 2016 -0500
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit f85895a52ea19539665a51b45bdf353276faa2b1
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri May 13 15:43:05 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 3b975403193c3e5b5179f38bfbe231decd2fa689
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue May 10 07:38:00 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 4f91fe7d53d0e8b4faa552251069acdcb9b5cab7
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue May 10 07:37:19 2016 +0000
+
+    Initial commit of the pytz feedstock.

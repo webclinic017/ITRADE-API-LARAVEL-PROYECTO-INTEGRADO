@@ -1,0 +1,831 @@
+commit 6c7e2dae00526895072eb05c7c79cd53a3b89d8f
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Feb 25 12:39:16 2019 -0800
+
+    bump tornado version to 5 (#77)
+
+commit f37d719f07444d55eb9d86e00f04eae41f40f1c6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 16:27:57 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit e29f0fdd65d2420948a062c8723dbbb52a49a398
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 16:27:46 2019 +0000
+
+    updated v1.26.0
+
+commit ba059cef3e1af383df0b28a77e6d679ebca3a909
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Feb 14 15:58:50 2019 -0500
+
+    Add @ogrisel, @tomaugspurger  [ci skip]
+
+commit a6bfbaf864dfe7ad930fc0d5a5b7e971b5549a0a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 31 21:15:11 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit 4079ebd4179d7fc2aa4df329fdb1d3b3aaf2f98e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 31 21:14:59 2019 +0000
+
+    updated v1.25.3
+
+commit 8c67d2ea7122551df0e2e816ff8669b4cc778eef
+Merge: 1ca4181 97b0821
+Author: Marcelo Duarte Trevisani <marcelotrevisani@users.noreply.github.com>
+Date:   Fri Jan 4 23:31:05 2019 -0200
+
+    Merge pull request #73 from regro-cf-autotick-bot/1.25.2
+    
+    distributed v1.25.2
+
+commit 97b08215fd1a60f5f3edcfddd63e0c29e463ccc4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 4 22:19:23 2019 +0000
+
+    updated v1.25.2
+
+commit 1ca41817be1953b6a6528e05188744c1d623ed7d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Dec 15 17:14:41 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.12
+
+commit b619fb70bc9e0f5b48c89b4a7750996e8d64231e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Dec 15 17:14:36 2018 +0000
+
+    updated v1.25.1
+
+commit 69c603a0df76ed0d2b6d57acf894a3fd9ae3b9bc
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Nov 28 16:14:46 2018 +0000
+
+    updated v1.25.0
+
+commit 40e47117b445179b1a3c903512d949868d9abec2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Nov 15 13:15:44 2018 +0000
+
+    updated v1.24.2
+
+commit 4edccf66f808b4794d9c62791f6a3b2b509a6957
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Nov 9 19:31:27 2018 -0500
+
+    Update version constraints for 1.24.1
+
+commit 6c8680e81831cf9c7a2fc6c96e8114700d9cc54f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Nov 9 19:31:11 2018 -0500
+
+    Add `sortedcontainers` version constraints
+
+commit e6eea183ed436b200d3f39f4d525d0e99bbbc022
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 9 19:14:54 2018 +0000
+
+    updated v1.24.1
+
+commit 7791a14e34691e6636844e2a94c51707c3f3b873
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 26 20:15:53 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit 312cf6019f5d27b129034f0afbd5bb410b49ed91
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 26 20:15:48 2018 +0000
+
+    updated v1.24.0
+
+commit 1edda9c1d050d416921a2d070165ff7451185c5c
+Merge: dfebe4e d2f481f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Oct 8 11:24:44 2018 -0300
+
+    Merge pull request #67 from marcelotrevisani/migration-rebuild
+    
+    Migration rebuild
+
+commit d2f481fb81f62088fe3be75835e181ff78cce29b
+Merge: 67f1311 dfebe4e
+Author: Marcelo Duarte Trevisani <marcelotrevisani@users.noreply.github.com>
+Date:   Mon Oct 8 09:21:40 2018 +0200
+
+    Merge branch 'master' into migration-rebuild
+
+commit 67f13118c88a1f23b518284c0d123a4e55c8cb81
+Author: Marcelo Duarte Trevisani <marceloduartetrevisani@gmail.com>
+Date:   Mon Oct 8 09:20:33 2018 +0200
+
+    Migration
+
+commit dfebe4e6a3c91cb4b311ad1a51cf963f6ad8e703
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 5 15:10:43 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.03
+
+commit 9d07a676a8d083c97e257ebab18ab3aaee4d1e30
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 5 15:10:30 2018 +0000
+
+    updated v1.23.3
+
+commit 58807c609d2eb4d298b30f8220950b5acd87a833
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 4 13:19:15 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit 968abc3194b3e75b19101c74ab312ea35636a257
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 4 13:19:08 2018 +0000
+
+    bump build number
+
+commit 93f6e75ba71e4d92b9e5f0e3cb5dc0d7320b7618
+Merge: b746317 028f9b7
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Oct 2 07:41:00 2018 -0300
+
+    Merge pull request #64 from ocefpaf/py37
+    
+    Py37
+
+commit 028f9b7dbcc3170448ae5956e4af6ef8dae3e0c1
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Oct 1 17:13:51 2018 -0300
+
+    use circleci for osx
+
+commit 80eb23f3a71a468557ac27dac669e3a625366ad3
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Oct 1 13:13:59 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.27
+
+commit 98a9c538e1d945e2edc5ce9b526b75cfd84f2b53
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Oct 1 13:13:52 2018 -0300
+
+    py37
+
+commit 5094f0dc8f73df999dec6031db5ccdaaffcdf6e2
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Oct 1 13:13:48 2018 -0300
+
+    bump
+
+commit b7463176d45ea3f4bc92c92cae31f68240b5b9a1
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 07:11:42 2017 +0000
+
+    Update about section
+
+commit 54cff3998d0fe0ee4ece78f03b3aca82922657ce
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Jul 18 19:42:48 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit 1948da8456bda868bcc469e9c4c0837c0496b723
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Sep 17 14:13:59 2018 +0000
+
+    updated v1.23.2
+
+commit ca9208c9f0a796e28d7281afad1c35de361d312e
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Sep 6 08:57:45 2018 -0400
+
+    bump version to 1.23.1
+
+commit a7805b6d29159f61484a4bc0bc47a0a672219e88
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 30 17:09:17 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.28
+
+commit 6e69442367a37c0ecbcc5500da57efb37aadd9c7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 30 17:09:11 2018 +0000
+
+    updated v1.23.0
+
+commit 3b8ad4db63144b7189c398a8cb0f138f8c37d899
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Aug 4 15:53:34 2018 -0400
+
+    bump version to 1.22.1
+
+commit 04f679241163f5a62b32aaa9485cb68ceea0a55c
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:12:11 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit e636fedef79aff36b44e5a596e00d593aaadb631
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Jun 15 08:36:07 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.5 and pinning 2018.05.22
+
+commit 84d7af9c1b14d787a6e541577d2275115e2a3716
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Jun 15 08:35:30 2018 -0400
+
+    bump version to 1.22.0
+
+commit 5257bc1b7f3add3192b8e8e9f857a4ac79e3dd97
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu May 3 17:54:41 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.28
+
+commit ea5f112d8ee4652cbc8ac457409c3755f0f85326
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu May 3 17:50:59 2018 -0400
+
+    bump version to 1.21.8
+
+commit 46d4e97ea2b66f7fd3659fc7b0751ab3cf3e9780
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed May 2 15:39:05 2018 -0400
+
+    bump version to 1.21.7 (#51)
+
+commit 4685266f498db3ffc44782080ded4ba80b5af7d8
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Apr 6 17:37:17 2018 -0400
+
+    bump version to 1.21.6 (#50)
+
+commit 9dc11af4f91325f04c16bc7cf671c0ceb66ee089
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Mar 31 11:06:21 2018 -0400
+
+    bump version to 1.21.5 (#49)
+
+commit e2ae20bc1e5bd2f3442bf3333ed1b1f54ebbcfb1
+Merge: c826cf2 6c5e8e5
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Mar 21 10:56:51 2018 -0400
+
+    Merge pull request #48 from mrocklin/v1.21.4
+    
+    bump version to 1.21.4
+
+commit 6c5e8e55082075b46fe542453c74fc6531366f88
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Mar 21 10:12:32 2018 -0400
+
+    bump version to 1.21.4
+
+commit c826cf20fcb2847763a4bc871d21867723633eae
+Merge: 8ae82d3 7f682c3
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Mar 8 16:56:01 2018 -0500
+
+    Merge pull request #46 from mrocklin/v1.21.3
+    
+    bump version to 1.21.3
+
+commit 7f682c3e561f8d5a0ec75fc79d405d4231b4c715
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Mar 8 16:10:58 2018 -0500
+
+    add jakirkham to maintainers
+
+commit 731f8acc7e2a9e2b71a9496d2e583fa9d74e724e
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Mar 8 16:03:50 2018 -0500
+
+    add singledispatch for Py2k
+
+commit 336f71b911c3ed8b4e04927bc885c91853dcd023
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Mar 8 15:56:40 2018 -0500
+
+    bump version to 1.21.3
+
+commit 8ae82d3a64978b8ed9e39f1be3761549c9d25812
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Mar 8 16:07:22 2018 -0500
+
+    Require cytoolz (#45)
+    
+    * Require cytoolz
+    
+    While cytoolz is an optional dependency of distributed and can be subbed
+    in for toolz, it is nice to include as it can provide some speedups over
+    toolz. As these are conda packages, it is pretty easy to pull in this
+    package as well.
+    
+    * Bump build number to 1
+    
+    As we now include cytoolz as a dependency, go ahead and bump the build
+    number to produce a new package with the cytoolz dependency.
+
+commit 755e6443a879c6f8ea43944d83359cfad6d6fad4
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Mar 5 18:31:37 2018 -0500
+
+    bump version to 1.21.2
+
+commit 63b010237921d8469a68fe3d8075ae957f412524
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Feb 22 16:34:46 2018 -0500
+
+    Use pip
+    
+    https://conda-forge.org/docs/meta.html#use-pip
+
+commit d80d91a63cdfb0e443a47df25a555a48700782f1
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Feb 22 16:22:55 2018 -0500
+
+    bump version to 1.21.1
+
+commit 5650d1ffcfe015c27d4c0669904f069d24437cbf
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Feb 10 00:04:30 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 4fa53331317f20c70f320e506b5e5a0de52d242a
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Feb 9 15:17:32 2018 -0500
+
+    bump version to 1.21.0
+    
+    Also remove koverholt from maintainers
+
+commit 49eec252ca5081e373c221d8b156eb9815c209b2
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Dec 7 16:52:10 2017 -0500
+
+    bump version to 1.20.2
+
+commit 42dc6930aaf2cb4d79466b95ed067e3532c87592
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sun Nov 26 11:29:05 2017 -0500
+
+    bump version to 1.20.1
+
+commit f505b3fa78db57d35109a448ed793970e95c1014
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Nov 17 17:21:15 2017 -0500
+
+    add pyyaml as a dependency
+    
+    Fixes #38
+
+commit 9de3d58b34b7c3ea00e442364ce03d448e4a908b
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Nov 17 16:16:23 2017 -0500
+
+    bump version to 1.20.0
+
+commit 58b5d2bb9e841577333a4179bb126e6592ba8de6
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Oct 16 18:17:26 2017 -0400
+
+    bump version to 1.19.3
+
+commit b173fa37eae04dd78036143775bb1693b330c51d
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Oct 16 18:17:24 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 7157a1d3969618871620eda0e4e88dda9e3bf184
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Oct 7 09:24:41 2017 -0400
+
+    bump version to 1.19.2 (#35)
+
+commit 26da22672f6e868382a10cf1e633682eaf3e7b16
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Sep 25 09:48:25 2017 -0400
+
+    bump version to 1.19.1 (#34)
+
+commit 123486988e9a6ccb25a3c20b0e7a6b5139ee469b
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sun Sep 24 12:54:42 2017 -0400
+
+    bump version to 1.19.0 (#33)
+
+commit 510d198a66c8c6b50c725a51ef25dd35ade73c48
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Sep 2 10:10:53 2017 -0400
+
+    bump version to 1.18.3 (#32)
+
+commit 3000aa3cc4e966ac90e8a0dc8d4ef8e3cf23bd16
+Merge: 77df4d6 1dca10c
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Aug 28 20:42:27 2017 -0400
+
+    Merge pull request #30 from mrocklin/v1.18.1
+    
+    bump version to 1.18.1
+
+commit 1dca10c97d915ba2fe75d24073cd51b0a3e51dc8
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Aug 28 11:46:21 2017 -0400
+
+    Add concurrent.futures as dependency in Python 2
+
+commit bd22a1c284c24547a0b092b985f834fa3428e41d
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Aug 28 11:34:27 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.3
+
+commit 4b72effd56a660da8eea62ab21e16b50e6f857d2
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Aug 28 09:31:37 2017 -0400
+
+    bump version to 1.18.1
+    
+    This we now depend on dask-core rather than dask
+
+commit 77df4d6a030f46d21d7dbde259e8746b4a024819
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 14:27:12 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit d5ba626cf6a2c22c3c8536d68d9803fa8bef8ec4
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Jul 8 19:43:52 2017 -0400
+
+    bump version to 1.18.0 (#29)
+
+commit 84c74491cb12551c6cefa69b4668475d5efdcb3f
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Jun 14 22:14:23 2017 -0400
+
+    bump version to 1.17.1 (#28)
+    
+    Also remove some optional dependencies
+
+commit 3861109ae9cbe8b13ccdbba0b088b00b532b498e
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sun Jun 11 19:13:33 2017 -0400
+
+    bump version to 1.17.0
+
+commit c8b86de4e42047fb8303f5ffe23691aa988d7050
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri May 5 09:04:16 2017 -0400
+
+    bump version to 1.16.3
+
+commit ee359206a2b25a2057d5aa082de84298e542a40e
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed May 3 18:18:29 2017 -0400
+
+    add license file to meta.yaml
+
+commit e2105fdb5ad74bea398a9d0289eea8d2c40c62ab
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed May 3 15:43:07 2017 -0400
+
+    bump version to 1.16.2
+
+commit e5c75f9cef36d4a363fb238f8fa812b167ee6e09
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed May 3 15:41:38 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.0
+
+commit 647978c392014d1a52c30ce3f24bdf745da6b12d
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Mar 23 07:30:39 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.2.1
+
+commit b96c9c5880afb4494b6cd98b06f54a777db9b73d
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Mar 22 11:22:12 2017 -0400
+
+    bump version to 1.16.1
+    
+    Also list jcrist and martindurant as maintainers
+
+commit e9213f4dbeb0d941849696757517b412fc337fd6
+Merge: 1baf80f b39eb50
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Feb 25 08:36:36 2017 -0500
+
+    Merge pull request #22 from mrocklin/v1.16.0
+    
+    V1.16.0
+
+commit b39eb50c8d8db496f275ed5ce581e26818630cd1
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Feb 24 09:56:17 2017 -0500
+
+    bump to version 1.16.0
+
+commit 1a0e033af57ad608af340933ecc66ce21ab8e65f
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Feb 24 09:55:41 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.1.0
+
+commit 1baf80f616bf750ea3e80159ecd875f7dee00aef
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Jan 27 12:32:58 2017 -0500
+
+    bump version to 1.15.2
+
+commit a24b3e15a36dd6250d40a9dc0856e4df4685754a
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Jan 27 12:32:21 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit 4d2c1cd43180d706a68f824467ef3e66c5752cc6
+Merge: e1aa455 f357eba
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Jan 12 08:04:22 2017 -0500
+
+    Merge pull request #20 from mrocklin/v1.15.1
+    
+    bump version to 1.15.1
+
+commit f357ebaeb0f1b35767a5369fed8047514a5e8642
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Jan 11 18:29:01 2017 -0500
+
+    bump version to 1.15.1
+
+commit e1aa45528a0a46359e47ab711a238d80ebcd3784
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Jan 2 13:38:06 2017 -0500
+
+    replace msgpack-python dependency with pandas
+
+commit b297f083a2a3f99b31b1af0cb488eaaae6c6f7a1
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Jan 2 13:23:52 2017 -0500
+
+    add sortedcontainers to runtime requirements
+
+commit 59c3670b365f0fcb54f9ec53f020c81790d012be
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Jan 2 11:44:54 2017 -0500
+
+    update requirements
+
+commit 7467bbdcc408854f279ab992a5865772e65a07ab
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Jan 2 11:43:02 2017 -0500
+
+    bump version to 1.15.0
+
+commit d263d5d217fe8f1a6ef29bcb2318ec1ef819212b
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Jan 2 11:42:30 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 1.7.0
+
+commit 3e92ae561d6e940d843b37b6c60bab1202f73e4f
+Merge: 3712ae9 2643939
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Nov 13 12:27:17 2016 -0500
+
+    Merge pull request #17 from mrocklin/version-1.14.2
+    
+    Bump version to 1.14.3
+
+commit 2643939a069bded5e78af5005cdd1c72d57b0367
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sun Nov 13 11:24:04 2016 -0500
+
+    bump version to 1.14.3
+
+commit 88456da8286311f9f4b20e2f1a4591118812389b
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Nov 11 11:05:51 2016 -0500
+
+    bump version to 1.14.2
+
+commit 3712ae9d08c0c84b45e4bc6f9d97615a02cb3428
+Merge: c48a9fb d7bff88
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sat Nov 5 09:53:57 2016 -0400
+
+    Merge pull request #16 from mrocklin/version-1.4.0
+    
+    Version 1.14.1
+
+commit d7bff88af9a62292ee85411d477536876c2788e2
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Nov 4 19:39:15 2016 -0400
+
+    bump to version 1.14.1
+
+commit 7280fdb2748400d43de5b7225868b30a504bdff4
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Nov 4 12:07:57 2016 -0400
+
+    bump version to 1.14.0
+
+commit 2423a6d8a1dcf39cadc0808428e8a883a6f76c64
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Nov 4 12:07:18 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.4.6
+
+commit c48a9fb9fa1965cd6bcc0284fa37c52ad8320677
+Merge: 38b1ce0 5ba9f2b
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Oct 17 21:54:53 2016 -0400
+
+    Merge pull request #15 from mrocklin/1.13.3
+    
+    bump to 1.13.3
+
+commit 5ba9f2b6fee352af1ecb62846a0630ccbf883f9c
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Oct 17 10:50:29 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.3.3
+
+commit 18a7ed4e3e35cfbe1e6f1a5afefb297f021217dc
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Oct 14 17:34:17 2016 -0400
+
+    bump to 1.13.3
+
+commit 38b1ce0af522533c4c73f2e2dae544a6e1035186
+Merge: b1b9d3f 7aeac32
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Oct 6 22:14:50 2016 -0400
+
+    Merge pull request #14 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 7aeac32db27247f4f233e03b4384ce3497433390
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Oct 6 12:42:06 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.2.
+
+commit b1b9d3f2a67a08df619424ea1670d03230629a94
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Tue Sep 13 08:32:27 2016 -0400
+
+    bump version to 1.13.2 (#13)
+
+commit 62b94151c5a3b49fd36e1bf4d9224e774bded16f
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Sep 12 08:56:34 2016 -0400
+
+    bump to version 1.13.1 (#12)
+
+commit d87d8dfa9b8a5782721eba5ff4652f0dc9bc333d
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sun Sep 11 08:58:10 2016 -0400
+
+    bump version to 1.13.0 (#11)
+
+commit f57cf968abb44ea06692ddfadec600e8d3d66ee6
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Sep 2 19:48:44 2016 -0400
+
+    bump version to 1.12.2 (#9)
+    
+    * bump version to 1.12.2
+    
+    * rerender feedstock
+    
+    * depend on bokeh 0.12.1
+
+commit 1eb36726d926b6a06207703ad73f0355abc69e2a
+Merge: 7245110 7e93020
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Aug 31 07:16:46 2016 -0400
+
+    Merge pull request #8 from mrocklin/master
+    
+    bump version to 1.12.1
+
+commit 7e9302094c641c105e749bb0f7d036bce384cf39
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Tue Aug 30 13:24:36 2016 -0400
+
+    bump version to 1.12.1
+
+commit 724511081d6b4f687b56f477f1ed4960567248ea
+Merge: cb5b784 2707bb4
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Aug 24 10:46:12 2016 -0400
+
+    Merge pull request #7 from mrocklin/master
+    
+    bump version to 1.12.0
+
+commit 2707bb4ade560f5906f4344bfca4833d9167a1a9
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Tue Aug 23 08:22:50 2016 -0400
+
+    bump version to 1.12.0
+
+commit cb5b7844c31d99a69c2e62eae150cedc28a1a82a
+Merge: 32571c4 5f5ff7f
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Tue Jul 26 23:39:59 2016 -0500
+
+    Merge pull request #6 from koverholt/update-1.11.3
+    
+    Update Distributed to 1.11.3
+
+commit 5f5ff7f5eed6f1c4f89bb86d8d7838c3e7a3c091
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Tue Jul 26 22:59:36 2016 -0500
+
+    Update Distributed to 1.11.3
+
+commit 32571c4e5297e2729fcaca061a1163f2f5d18a9a
+Merge: 894a66a b51f7fc
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Tue Jul 12 06:34:31 2016 -0500
+
+    Merge pull request #5 from mrocklin/bump-1.11.1
+    
+    bump version to 1.11.1
+
+commit b51f7fc9810c594cc28721f7a0c38faae041fd18
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Mon Jul 11 17:35:20 2016 -0500
+
+    bump version to 1.11.2
+
+commit 894a66a7aaa4f891ab8b0855e6ef76e84ba67c9d
+Merge: 1b876cf e518242
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Tue Jun 14 00:13:22 2016 +0000
+
+    Merge pull request #4 from koverholt/1.11.0-release
+    
+    Bump to version 1.11.0
+
+commit e518242ffcc40fd4012546d18313172afca69075
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Mon Jun 13 12:04:04 2016 -0500
+
+    Bump to version 1.11.0
+
+commit 1b876cfd8b2e0cdb28917617f63cfc67d64d88e3
+Merge: ec5ebd3 8e3f323
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Wed May 18 22:19:41 2016 -0500
+
+    Merge pull request #3 from koverholt/update-1.10.2
+    
+    Update to 1.10.2, other cleanup
+
+commit 8e3f323fb571bc8a15055d129686a5c8f16369b1
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Wed May 18 21:49:19 2016 -0500
+
+    Update to 1.10.2, other cleanup
+
+commit ec5ebd3d6c0fb305aabf2b5933d2e0e18b054d59
+Merge: d555e27 94680c0
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Tue May 17 22:17:26 2016 -0500
+
+    Merge pull request #1 from koverholt/update-recipe
+    
+    Add setuptools to build dependencies
+
+commit 94680c0bdea96475dfeeacdd57862503319d429e
+Author: Kristopher Overholt <koverholt@gmail.com>
+Date:   Tue May 17 15:32:05 2016 -0500
+
+    Add setuptools to build dependencies
+
+commit d555e278e70ef4c70eaa6db044c932ca5be5999c
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon May 16 21:01:46 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit e2decbec1fd8a6efd29ffb799cd5fb560b61c938
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon May 16 21:00:40 2016 +0000
+
+    Initial commit of the distributed feedstock.

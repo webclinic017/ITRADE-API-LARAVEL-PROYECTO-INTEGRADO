@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37_1",
+  "build_number": 1,
+  "depends": [
+    "locket",
+    "python >=3.7,<3.8.0a0",
+    "toolz"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "partd",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1553289849428,
+  "version": "0.3.10"
+}

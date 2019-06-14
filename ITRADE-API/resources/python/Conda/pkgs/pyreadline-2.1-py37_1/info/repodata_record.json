@@ -1,0 +1,21 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "pyreadline-2.1-py37_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "ad6e2a3e2e7eebb38cf66aeb27d73afd",
+  "name": "pyreadline",
+  "size": 144547,
+  "subdir": "win-64",
+  "timestamp": 1533216240077,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pyreadline-2.1-py37_1.tar.bz2",
+  "version": "2.1"
+}

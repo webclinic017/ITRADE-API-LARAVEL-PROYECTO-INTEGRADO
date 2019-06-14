@@ -1,0 +1,23 @@
+{
+  "build": "py37ha925a31_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.1,<15.0a0",
+    "zeromq >=4.3.1,<4.4.0a0"
+  ],
+  "features": "",
+  "fn": "pyzmq-18.0.0-py37ha925a31_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "md5": "149cd3887896fb08609ea872f58d0882",
+  "name": "pyzmq",
+  "size": 476779,
+  "subdir": "win-64",
+  "timestamp": 1551148552636,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pyzmq-18.0.0-py37ha925a31_0.tar.bz2",
+  "version": "18.0.0"
+}

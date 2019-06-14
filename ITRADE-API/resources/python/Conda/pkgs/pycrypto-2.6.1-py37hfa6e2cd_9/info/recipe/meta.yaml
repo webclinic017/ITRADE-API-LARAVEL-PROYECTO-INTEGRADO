@@ -1,0 +1,86 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\pycrypto-feedstock\recipe, last modified Tue Jul  3 15:52:49 2018
+# ------------------------------------------------
+
+package:
+    name: pycrypto
+    version: 2.6.1
+source:
+    fn: pycrypto-2.6.1.tar.gz
+    md5: 55a61a054aa66812daf5161a0d5d7eda
+    patches:
+        - 0001-dont-drop-g.patch
+        - 0002-fix-unresolved-reference-size.patch
+        - 0003-fix-epydoc-ignore.patch
+        - 0004-fix-cipher-iv-documentation.patch
+        - 0005-reenable-redefined-tests.patch
+        - 0006-fix-py3-errors.patch
+        - 0007-fix-except-shadows-builtin.patch
+        - 0008-multiprocessing-test.patch
+        - 0009-unittest-stream.patch
+        - 0010-deprecated-test-methods.patch
+        - 0011-asn1-decoding.patch
+        - 0012-CVE-2013-7459.patch
+        - 0013-Backport-of-fix-for-CVE-2018-6594-from-pycryptodome.patch
+        - pycrypto_PR_199.diff
+        - pycrypto_PR_200.diff
+        - pycrypto_PR_22.diff
+        - pycrypto_PR_46.diff
+    url: https://pypi.io/packages/source/p/pycrypto/pycrypto-2.6.1.tar.gz
+build:
+    number: '9'
+    script:
+        - set CL=/FI"%VCINSTALLDIR%\\INCLUDE\\stdint.h" %CL%
+        - python setup.py install test
+    string: py37hfa6e2cd_9
+requirements:
+    build:
+        - vs2015_win-64 14.0.25123 h17c34da_3
+    host:
+        - python 3.7.0 hea74fb7_0
+        - vc 14.1 h0510ff6_3
+        - vs2015_runtime 15.5.2 3
+    run:
+        - python >=3.7,<3.8.0a0
+        - vc 14.*
+test:
+    imports:
+        - Crypto
+        - Crypto.Cipher
+        - Crypto.Hash
+        - Crypto.Protocol
+        - Crypto.PublicKey
+        - Crypto.Random
+        - Crypto.Random.Fortuna
+        - Crypto.Random.OSRNG
+        - Crypto.SelfTest
+        - Crypto.SelfTest.Cipher
+        - Crypto.SelfTest.Hash
+        - Crypto.SelfTest.Protocol
+        - Crypto.SelfTest.PublicKey
+        - Crypto.SelfTest.Random
+        - Crypto.SelfTest.Random.Fortuna
+        - Crypto.SelfTest.Random.OSRNG
+        - Crypto.SelfTest.Signature
+        - Crypto.SelfTest.Util
+        - Crypto.Signature
+        - Crypto.Util
+about:
+    description: 'pycrpto, the Python Cryptography Toolkit, is a collection of cryptographic
+
+        modules implementing various algorithms and protocols.
+
+        '
+    dev_url: https://github.com/dlitz/pycrypto
+    doc_source_url: https://github.com/dlitz/pycrypto/tree/master/Doc
+    doc_url: https://www.dlitz.net/software/pycrypto/api/current/
+    home: http://www.pycrypto.org/
+    license: Public Domain
+    license_file: COPYRIGHT
+    summary: Cryptographic modules for Python.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham

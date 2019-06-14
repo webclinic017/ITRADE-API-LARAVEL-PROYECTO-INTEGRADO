@@ -1,0 +1,19 @@
+From be6981ec1a3ec089a934dbce3717d9ee6a01584e Mon Sep 17 00:00:00 2001
+From: Jeremy Hamilton <jeremy.hamilton@cashstar.com>
+Date: Wed, 9 May 2018 15:13:11 -0400
+Subject: [PATCH] Fixing re flags deprecation warning in python 3.6
+
+---
+ glob2/fnmatch.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/glob2/fnmatch.py b/glob2/fnmatch.py
+index b178bde..b94be65 100644
+--- a/glob2/fnmatch.py
++++ b/glob2/fnmatch.py
+@@ -138,4 +138,4 @@ def translate(pat):
+                 res = '%s([%s])' % (res, stuff)
+         else:
+             res = res + re.escape(c)
+-    return res + '\Z(?ms)'
++    return '(?ms)' + res + '\Z'

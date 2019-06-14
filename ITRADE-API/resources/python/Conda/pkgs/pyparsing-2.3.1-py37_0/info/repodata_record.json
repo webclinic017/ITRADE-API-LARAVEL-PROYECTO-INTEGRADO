@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "pyparsing-2.3.1-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "0511c37da6e2d2ec5d540b8c4f608bb9",
+  "name": "pyparsing",
+  "size": 107288,
+  "subdir": "win-64",
+  "timestamp": 1547905313681,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pyparsing-2.3.1-py37_0.tar.bz2",
+  "version": "2.3.1"
+}

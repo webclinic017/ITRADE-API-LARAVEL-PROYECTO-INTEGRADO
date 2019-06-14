@@ -1,0 +1,22 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "qtpy",
+    "six"
+  ],
+  "features": "",
+  "fn": "qtawesome-0.5.7-py37_1.tar.bz2",
+  "license": "MIT",
+  "md5": "a5be71a10baf74b4c6bbbddbd173580b",
+  "name": "qtawesome",
+  "size": 634114,
+  "subdir": "win-64",
+  "timestamp": 1553292102786,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/qtawesome-0.5.7-py37_1.tar.bz2",
+  "version": "0.5.7"
+}

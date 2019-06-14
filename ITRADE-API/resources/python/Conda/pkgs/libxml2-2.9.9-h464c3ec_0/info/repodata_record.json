@@ -1,0 +1,23 @@
+{
+  "build": "h464c3ec_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "libiconv >=1.15,<2.0a0",
+    "vc >=14.1,<15.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "libxml2-2.9.9-h464c3ec_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "6ed19ec01f8b50c99b09e9134742a478",
+  "name": "libxml2",
+  "size": 3645712,
+  "subdir": "win-64",
+  "timestamp": 1547910808052,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libxml2-2.9.9-h464c3ec_0.tar.bz2",
+  "version": "2.9.9"
+}

@@ -1,0 +1,53 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/__pycache__/pyparsing.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f7beeab4870965a90dcb28709703057437286b006733b96faab15b2e9f014958",
+      "size_in_bytes": 220510
+    },
+    {
+      "_path": "Lib/site-packages/pyparsing-2.3.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "Lib/site-packages/pyparsing-2.3.1.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "10d5120a16805804ffda8b688c220bfb4e8f39741b57320604d455a309e01972",
+      "size_in_bytes": 1023
+    },
+    {
+      "_path": "Lib/site-packages/pyparsing-2.3.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "c7aadafe7d7195bd706c0bd658078cd462c51cf9a28de35c4af9b491e612a169",
+      "size_in_bytes": 1091
+    },
+    {
+      "_path": "Lib/site-packages/pyparsing-2.3.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "cf1b8b75a9127eb14c7ce99f2a9dd64905c1a1a062409b7750f1f6745497ca4b",
+      "size_in_bytes": 604
+    },
+    {
+      "_path": "Lib/site-packages/pyparsing-2.3.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "68489635341c1ba02218601843da874e27f22919e6149bc379323484fe5aa216",
+      "size_in_bytes": 116
+    },
+    {
+      "_path": "Lib/site-packages/pyparsing-2.3.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "7943a31b3255865437592dab140cb698ddcb5ffec5293339192274e237e72e65",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "Lib/site-packages/pyparsing.py",
+      "path_type": "hardlink",
+      "sha256": "3481d00465eadca4975132d3a0ea9dd95740c8a40737119c42be02199c0b1cf0",
+      "size_in_bytes": 243663
+    }
+  ],
+  "paths_version": 1
+}

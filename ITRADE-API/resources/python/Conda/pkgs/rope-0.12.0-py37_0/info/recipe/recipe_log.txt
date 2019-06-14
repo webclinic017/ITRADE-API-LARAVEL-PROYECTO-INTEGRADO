@@ -1,0 +1,41 @@
+commit 0710c8ff8d8def7eef8c5f9463fecbbd8d04febd
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Aug 13 12:06:59 2018 -0500
+
+    add jjhelmus as maintainer
+
+commit c0958a96d4e9d35474aa9b46ff2b4d92c7885d5f
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Aug 13 12:02:13 2018 -0500
+
+    update to 0.11.0
+
+commit f800cd98f91e50e8ae35f6091c1dbd763d75ac59
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Nov 22 10:03:26 2017 -0600
+
+    update to version 0.10.7
+
+commit 1203a64596da5bb6d545d9af85d259a42c976775
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 16:10:13 2017 +0000
+
+    Update about section
+
+commit f71cc538279b4d30c2754a8fdacf4edbdc382c49
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Jul 21 06:33:05 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit 27b485b8e1ad8a5963366e61df96b7071f24bad2
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Apr 1 14:21:59 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 961777dfe57428e93dc1b5d46389364b1ab17bb6
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Apr 1 14:15:37 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.2.2.

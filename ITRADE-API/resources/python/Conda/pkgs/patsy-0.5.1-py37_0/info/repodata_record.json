@@ -1,0 +1,24 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.4.0",
+    "python >=3.7,<3.8.0a0",
+    "scipy",
+    "six"
+  ],
+  "features": "",
+  "fn": "patsy-0.5.1-py37_0.tar.bz2",
+  "license": "BSD-2-Clause, PSF2",
+  "license_family": "BSD",
+  "md5": "5187a6c6d89dcb73fbe4d0de70b8caa7",
+  "name": "patsy",
+  "size": 384275,
+  "subdir": "win-64",
+  "timestamp": 1540996603853,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/patsy-0.5.1-py37_0.tar.bz2",
+  "version": "0.5.1"
+}

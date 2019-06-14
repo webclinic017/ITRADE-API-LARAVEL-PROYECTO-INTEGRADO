@@ -1,0 +1,74 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# C:\ci\containers\00001etd3gr\tmp\build\80754af9\rsync-recipes\pyqt-5.9.2-c_compiler_vs2015-cxx_compiler_vs2015-python_3.7-on-winbuilder, last modified Wed Sep 19 13:58:19 2018
+# ------------------------------------------------
+
+package:
+    name: pyqt
+    version: 5.9.2
+source:
+    sha1: 058c5b37981b515cc4e16faa04a4a6d8892cdaa9
+    url: http://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.9.2/PyQt5_gpl-5.9.2.tar.gz
+build:
+    number: '2'
+    run_exports: pyqt >=5.9.2,<5.10.0a0
+    string: py37h6538335_2
+requirements:
+    build:
+        - jom 1.1.2 h3bd88b9_0
+        - vs2015_win-64 14.0.25123 h17c34da_3
+    host:
+        - ca-certificates 2018.03.07 0
+        - icu 58.2 ha66f8fd_1
+        - jpeg 9b hb83a4c4_2
+        - libpng 1.6.34 h79bbb47_0
+        - openssl 1.0.2p hfa6e2cd_0
+        - python 3.7.0 hea74fb7_0
+        - qt 5.9.6 vc14h62aca36_0
+        - sip 4.19.8 py37h6538335_0
+        - sqlite 3.24.0 h7602738_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+        - zlib 1.2.11 h8395fce_2
+    run:
+        - python >=3.7,<3.8.0a0
+        - qt 5.9.*
+        - qt >=5.9.6,<5.10.0a0
+        - sip >=4.19.4,<=4.19.8
+        - vc 14.*
+test:
+    files:
+        - pyqt_test.py
+    imports:
+        - PyQt5.QtCore
+        - PyQt5.QtGui
+        - PyQt5.QtWebEngineWidgets
+about:
+    description: '"PyQt is a set of Python v2 and v3 bindings for The Qt Company''s
+        Qt
+
+        application framework and runs on all platforms supported by Qt including
+
+        Windows, MacOS/X and Linux. PyQt5 supports Qt v5. PyQt4 supports Qt v4 and
+
+        will build against Qt v5. The bindings are implemented as a set of Python
+
+        modules and contain over 1,000 classes."
+
+        '
+    dev_url: https://github.com/pyqt
+    doc_url: https://www.riverbankcomputing.com/software/pyqt/
+    home: http://www.riverbankcomputing.co.uk/software/pyqt
+    license: Commercial, GPL-2.0, GPL-3.0
+    license_family: GPL
+    license_file: LICENSE
+    summary: Python binding of the cross-platform GUI toolkit Qt.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - gillins
+        - mingwandroid
+        - msarahan
+        - ocefpaf

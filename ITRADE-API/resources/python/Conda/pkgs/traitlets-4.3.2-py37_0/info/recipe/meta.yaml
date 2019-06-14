@@ -1,0 +1,59 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\traitlets-feedstock\recipe, last modified Tue Jul  3 15:56:03 2018
+# ------------------------------------------------
+
+package:
+    name: traitlets
+    version: 4.3.2
+source:
+    fn: traitlets-4.3.2.tar.gz
+    sha256: 9c4bd2d267b7153df9152698efb1050a5d84982d3384a37b2c1f7723ba3e7835
+    url: https://pypi.io/packages/source/t/traitlets/traitlets-4.3.2.tar.gz
+build:
+    number: '0'
+    script: pip install --no-deps .
+    string: py37_0
+requirements:
+    host:
+        - certifi 2018.4.16 py37_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hea74fb7_0
+        - setuptools 39.2.0 py37_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+        - wheel 0.31.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - decorator
+        - ipython_genutils
+        - python >=3.7,<3.8.0a0
+        - six
+test:
+    imports:
+        - traitlets
+        - traitlets.config
+about:
+    description: 'Traitlets is a framework that lets Python classes have attributes
+        with
+
+        type checking, dynamically calculated default values, and "on change"
+
+        callbacks.
+
+        '
+    dev_url: https://github.com/ipython/traitlets
+    doc_source_url: https://github.com/ipython/traitlets/blob/master/docs/source/index.rst
+    doc_url: http://traitlets.readthedocs.org/en/stable/
+    home: http://ipython.org/
+    license: BSD 3-clause
+    license_file: COPYING.md
+    summary: Configuration system for Python applications
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - jakirkham
+        - minrk
+        - pelson

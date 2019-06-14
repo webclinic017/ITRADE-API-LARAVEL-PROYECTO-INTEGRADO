@@ -1,0 +1,1741 @@
+commit 029696102fe49463391e09d9520c1a5560406045
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Mon Jan 28 12:39:12 2019 -0600
+
+    3.17.8
+
+commit 547bb525b607f81caf315235e3bafc814d3b4091
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Dec 14 11:08:55 2018 -0600
+
+    3.17.5
+
+commit 834ba7687f32ec929031855a7b99e7edb71f0d80
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Dec 11 14:15:24 2018 -0600
+
+    3.17.2
+
+commit bcfb97ce587cfacb4316c40c768baea35dd4a603
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Dec 5 20:00:28 2018 -0600
+
+    3.17.1
+    
+    - Restrict py-lief to *nix for now
+
+commit da12117764fb354c29e83417c004886d3b7b4d65
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Nov 30 19:51:54 2018 -0600
+
+    3.17.0 (new py-lief dep, new conda-debug entry point)
+
+commit 3e7f495e9eb9ec79dcb3c8aa9dda6c4121a72576
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Nov 21 18:19:32 2018 -0600
+
+    3.16.3
+
+commit 3779f0ff14097847ed5a45ae2f25d385a0757b83
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Oct 12 13:36:29 2018 -0500
+
+    3.16.1
+
+commit 0a153eef88a15386460f622936b618f087e6c80f
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Oct 5 12:38:03 2018 -0500
+
+    3.16.0 - add python-libarchive-c and libarchive deps
+
+commit b9827afe3bb52ae1d06dfd1b9d6a47cc421bf2af
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Sep 17 21:30:48 2018 -0500
+
+    3.15.0
+
+commit 728d144df3963883f8552fa49fb22fe817141aa6
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Aug 6 14:03:30 2018 -0500
+
+    restore glob2 on all platforms until cleanup is merged
+
+commit 4a8ec1f397df28603e7f4494bbc382700cc0fbfc
+Merge: 4618219 873d514
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Sat Jan 26 22:47:02 2019 -0600
+
+    Merge pull request #88 from msarahan/3.17.8
+    
+    conda-build v3.17.8
+
+commit 873d5149051f09e12935d966d7dc7292b54d1ff6
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Sat Jan 26 22:27:17 2019 -0600
+
+    fix sha; adjust url to be uploaded artifact (fixed sha)
+
+commit f25d7fd4caa6b38876f3e7e708b32c4997917b67
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Sat Jan 26 21:04:08 2019 -0600
+
+    MNT: Re-rendered with conda-build 3.17.7, conda-smithy 3.2.10, and conda-forge-pinning 2019.01.21
+
+commit 9b58026202c236115362cc47b52c221711bf8820
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Sat Jan 26 21:03:36 2019 -0600
+
+    updated v3.17.8
+
+commit 4618219e8a8cd776ce2c87f5726490bb5dfb3a50
+Merge: 59fdfbb 58f3d9a
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Mon Jan 21 11:30:52 2019 -0600
+
+    Merge pull request #87 from regro-cf-autotick-bot/3.17.7
+    
+    conda-build v3.17.7
+
+commit 58f3d9a576db40698cbecbc3a82e395b6be7c7f4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 17 00:17:47 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.5, conda-smithy 3.2.9, and conda-forge-pinning 2019.01.16
+
+commit 082e2bce97572cfe47ac0a035854394e521948fe
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 17 00:17:41 2019 +0000
+
+    updated v3.17.7
+
+commit 59fdfbb56db420f8b4683a3de8817328c44ca18f
+Merge: 1e15b17 e70c985
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Thu Dec 27 10:42:13 2018 -0500
+
+    Merge pull request #86 from regro-cf-autotick-bot/3.17.6
+    
+    conda-build v3.17.6
+
+commit e70c9855d3d5e7a322a6534cdc145759e4383f80
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Dec 20 01:14:17 2018 +0000
+
+    updated v3.17.6
+
+commit 1e15b171a2928b48e3182c8df8eea7b4cfdfaf1c
+Merge: 100ea60 ca1ab99
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Fri Dec 14 11:45:43 2018 -0600
+
+    Merge pull request #84 from regro-cf-autotick-bot/3.17.5
+    
+    conda-build v3.17.5
+
+commit ca1ab99d41f94b0f60c10555456f4aa9f535c5d0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 14 17:15:31 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.12
+
+commit 09cb1d488604e41321abc3b74fb5b104fee25bf2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 14 17:15:25 2018 +0000
+
+    updated v3.17.5
+
+commit 100ea60db8e02f1cafe8b2cd17f238ee81a32b71
+Merge: b3e39b8 f2a5ba6
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Wed Dec 12 23:13:08 2018 -0500
+
+    Merge pull request #83 from regro-cf-autotick-bot/3.17.4
+    
+    conda-build v3.17.4
+
+commit f2a5ba6cc68c5398bcdfd7248c7913c998942bf9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Dec 13 03:14:38 2018 +0000
+
+    updated v3.17.4
+
+commit b3e39b85832eddb92a3b40a10bac7995ffe3c6ef
+Merge: 0258644 3c8e9c2
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Tue Dec 11 19:02:28 2018 -0600
+
+    Merge pull request #82 from regro-cf-autotick-bot/3.17.3
+    
+    conda-build v3.17.3
+
+commit 3c8e9c225a4f58e26eae5884f4acce1ce2654554
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Dec 11 22:15:15 2018 +0000
+
+    updated v3.17.3
+
+commit 0258644c9e20d1bcceb685a2ea38e66c54134582
+Merge: 6b273d2 7146573
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Dec 4 15:38:25 2018 -0600
+
+    Merge pull request #80 from regro-cf-autotick-bot/3.17.1
+    
+    conda-build v3.17.1
+
+commit 7146573390de1364ae83261f2e770543346de087
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Dec 4 16:15:40 2018 +0000
+
+    updated v3.17.1
+
+commit 6b273d240e1939f259ae20068f010371220245bc
+Merge: 100233f c2fa39a
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon Dec 3 11:36:22 2018 -0500
+
+    Merge pull request #79 from minrk/3.17.0
+    
+    3.17.0
+
+commit c2fa39a93701a90f86146881bc40a7613a6cb22c
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Dec 3 13:55:34 2018 +0100
+
+    no py-lief on win+py2k
+    
+    there is no py-lief package on windows+py2
+
+commit 93797f4fbbe6292603bd2baba7e33dffb7f252b3
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Dec 3 13:48:13 2018 +0100
+
+    add py-lief, conda-debug
+    
+    sync with anaconda recipe
+
+commit d2d64827fb9cd6b0f8678c6451cf97d165cc30b5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Dec 1 02:13:39 2018 +0000
+
+    updated v3.17.0
+
+commit 100233fba43b2e890316821988301ea93050bc6f
+Merge: 30f5140 932f0e2
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Wed Nov 21 20:22:49 2018 -0600
+
+    Merge pull request #76 from regro-cf-autotick-bot/3.16.3
+    
+    conda-build v3.16.3
+
+commit 932f0e2637f1171d5a9b0326a5d3cad4f9d62d79
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Nov 22 01:14:50 2018 +0000
+
+    updated v3.16.3
+
+commit 30f51403f35dc07c0a59f6f2d349076ba4266f27
+Merge: 7acfc57 db08d9e
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Tue Oct 30 12:24:21 2018 -0400
+
+    Merge pull request #75 from regro-cf-autotick-bot/3.16.2
+    
+    conda-build v3.16.2
+
+commit db08d9e039b3a7244f33f3b9013186282723b7c0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Oct 29 23:14:31 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit 5a5bac77ee96b3fbc86caf05b15230f67f970de4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Oct 29 23:14:16 2018 +0000
+
+    updated v3.16.2
+
+commit 7acfc5703dca09610dc16b5d968675e2947146b8
+Merge: 3285072 8de9696
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Oct 13 12:33:37 2018 -0400
+
+    Merge pull request #74 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 8de96960d076c96a70c2fc3b0e9b0f1cc13735fc
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Oct 13 10:33:36 2018 -0400
+
+    Update meta.yaml
+
+commit 29b348fe7bd8a3ce4fbe48b4b8ffa307cc46963a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Oct 13 14:28:57 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.11
+
+commit cec4e010bd7d3f6eff2764476c93ca5a7b08b430
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Oct 13 14:28:53 2018 +0000
+
+    bump build number
+
+commit 3285072be9b212327a0c30e1d2f82b9dbaac4c7e
+Merge: 7e4d5e7 4b716df
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Fri Oct 5 16:45:01 2018 -0500
+
+    Merge pull request #72 from regro-cf-autotick-bot/3.16.0
+    
+    conda-build v3.16.0
+
+commit 4b716df59236569fe5f59ed56e42bd35d7399dc9
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Oct 5 15:17:20 2018 -0300
+
+    Update meta.yaml
+
+commit dc29d1dcdd995c7e58e0344971bd8f566abdd7a0
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Oct 5 14:19:21 2018 -0300
+
+    Update meta.yaml
+
+commit 199999898dadb89b18cbdd60c6b5d49fe1936531
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 5 17:11:08 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.03
+
+commit 7a740fb252696170d62d054641f9a89b62392454
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 5 17:10:56 2018 +0000
+
+    updated v3.16.0
+
+commit 7e4d5e74fb66d59ef4a0cc66d0d14b20a411be89
+Merge: 23eae58 16b4404
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Sep 18 15:06:36 2018 -0300
+
+    Merge pull request #71 from regro-cf-autotick-bot/3.15.1
+    
+    conda-build v3.15.1
+
+commit 16b4404ded455fa3b066df696a5bdde63a631d84
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 18 17:27:32 2018 +0000
+
+    updated v3.15.1
+
+commit 23eae589572a10cb76a232dcc949b48920b602b3
+Merge: 4c60de0 488a558
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Sep 18 14:24:46 2018 -0300
+
+    Merge pull request #70 from regro-cf-autotick-bot/3.15.0
+    
+    conda-build v3.15.0
+
+commit 488a5583e3bfdf6cc737e70a2e1051521249e298
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 18 03:09:35 2018 +0000
+
+    updated v3.15.0
+
+commit 4c60de05ee07c2db34fd8e8e17c711b33677ca0f
+Merge: f30d284 51766e3
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Tue Sep 11 21:29:44 2018 -0500
+
+    Merge pull request #69 from regro-cf-autotick-bot/3.14.4
+    
+    conda-build v3.14.4
+
+commit 51766e31194fb4417f17758faafe04c216d4c84c
+Author: christopher <cjwright4242@gmail.com>
+Date:   Tue Sep 11 21:41:49 2018 -0400
+
+    add tqdm
+
+commit 35afdb575a0b42ca6eff3778d725b61d8a586e4f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 12 00:11:17 2018 +0000
+
+    updated v3.14.4
+
+commit f30d284d4e4581c9ed60100d01d180177663583a
+Merge: 59c0e20 2a81338
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Fri Sep 7 18:33:24 2018 -0500
+
+    Merge pull request #68 from regro-cf-autotick-bot/3.14.2
+    
+    conda-build v3.14.2
+
+commit 2a81338b097849ae1854d9ffe835d3c5e3d85af8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Sep 7 23:09:47 2018 +0000
+
+    updated v3.14.2
+
+commit 59c0e2051a5b061be768a895684a7f1493671689
+Merge: a6a30e4 5171a54
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Thu Sep 6 15:11:38 2018 -0400
+
+    Merge pull request #67 from regro-cf-autotick-bot/3.14.1
+    
+    conda-build v3.14.1
+
+commit 5171a54b90f8f337ca6e14e4c22679b3894f1bb7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 6 18:26:49 2018 +0000
+
+    updated v3.14.1
+
+commit a6a30e403684d106e14168d8ccc0272968ca83d0
+Merge: cba0b9e 66fdf29
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Sep 5 08:57:16 2018 -0300
+
+    Merge pull request #66 from regro-cf-autotick-bot/3.14.0
+    
+    conda-build v3.14.0
+
+commit 66fdf29ecc671df96829bf120aab4a87c017e59c
+Author: christopher <cjwright4242@gmail.com>
+Date:   Tue Sep 4 22:11:48 2018 -0400
+
+    add pytz
+
+commit ab7629b42b3a39c7d981a35820bcebed10e1f8e2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 5 01:50:14 2018 +0000
+
+    updated v3.14.0
+
+commit cba0b9eb61f48bc3fa6d4e7f1795ffe9db6ca793
+Merge: 1ca9d1e 48709f0
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon Aug 20 23:30:17 2018 -0400
+
+    Merge pull request #65 from regro-cf-autotick-bot/3.13.0
+    
+    conda-build v3.13.0
+
+commit 48709f07e43f2674f943dffced1cc3d0d3e3004d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Aug 21 01:13:06 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.14
+
+commit e69d131493bc9970bbfdb6df8d29710aab197e88
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Aug 21 01:12:59 2018 +0000
+
+    updated v3.13.0
+
+commit 1ca9d1e4e10172bd6afe3e7eb4c66f11de1b762b
+Merge: 1ca995d 1df5b4a
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon Aug 6 16:30:36 2018 -0400
+
+    Merge pull request #64 from regro-cf-autotick-bot/3.12.1
+    
+    conda-build v3.12.1
+
+commit 1df5b4a96c56e431d95900e6b829cbfab66754ca
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Aug 6 19:17:36 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.08.05
+
+commit 6b0396d57b578dd792c427f053a5270e3b73e843
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Aug 6 19:17:15 2018 +0000
+
+    updated v3.12.1
+
+commit 1ca995d3f681b3fde54a5f603e0dd94f5ebeb160
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:32:32 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit f1187fa37090d8067a532bd9f988f159c285e81c
+Merge: 3120ea4 41ae27b
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Wed Jul 25 15:45:53 2018 -0400
+
+    Merge pull request #63 from msarahan/master
+    
+    revert from git_url to tarball; add CJ-Wright as maintainer
+
+commit 41ae27bdf00e6e4ec6b6fd9ce828d7fe3b1bedc4
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Jul 25 08:40:12 2018 -0500
+
+    revert from git_url to tarball; add CJ-Wright as maintainer
+
+commit 3120ea40da8cc6882c7491439956b3db20369923
+Merge: 1d83d11 7b65864
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Tue Jul 24 21:38:28 2018 -0500
+
+    Merge pull request #62 from AnacondaRecipes/master
+    
+    3.12.0; sync with defaults
+
+commit 7b65864a9da98278fd5565c56f96f168e105a8e5
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Jul 24 18:59:44 2018 -0500
+
+    3.12.0; conda-verify to run_constrained
+
+commit 2a1522cdf340bd090aec1c01546c03540d8fbbe5
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Jul 20 20:46:11 2018 -0500
+
+    3.11.0
+
+commit af48651d0e11fb017ad3fc81f6e986919101eea8
+Author: Marcel Bargull <marcel.bargull@udo.edu>
+Date:   Sun Jul 15 11:11:25 2018 -0500
+
+    require glob2 >=0.6
+
+commit e67b4b2626f24528baf8234d29e840565309dc02
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Jun 15 14:04:35 2018 -0500
+
+    3.10.9
+
+commit d748c30fd1d10f3c3cf056d03e170700f10d94c7
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Jun 12 09:06:27 2018 -0500
+
+    3.10.8
+
+commit 93057e44d7267e858bbbfd1587f6caec0641209c
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Jun 1 21:37:18 2018 -0500
+
+    3.10.7
+
+commit e6395b88a31ec41e87cfe097fe21d8a2352749ef
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu May 31 21:16:47 2018 -0500
+
+    3.10.6
+
+commit 857861c57c04825d5bef268fab95051b3193275c
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Sun May 20 09:43:28 2018 -0500
+
+    3.10.4
+
+commit f42bd89f49b1f93398687816b2f56820cdec6c74
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu May 17 15:06:18 2018 -0400
+
+    3.10.3
+
+commit 4211bf9808d0bf3226adc7c81469c21bae13da8e
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue May 8 17:11:56 2018 -0500
+
+    3.10.2
+
+commit 65412624953ce22067a7df6c5c021dc3bb47f8c5
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue May 1 16:09:55 2018 -0500
+
+    3.10.1
+
+commit 3c371ae1423e448f2f82d88b164de35d6d0c65c4
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Apr 27 15:46:19 2018 -0500
+
+    3.9.2
+
+commit be69119259ae08f8c47a1b16e7bba87a2e80d358
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Apr 24 20:49:57 2018 -0500
+
+    3.9.1
+
+commit 3a6b14568b1c8d417430558c45cd61ba752e8788
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Apr 24 13:33:23 2018 -0500
+
+    3.9.0
+
+commit be017658cc375f00feb04c55693f94293e9a7ef5
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Apr 16 10:02:39 2018 -0500
+
+    3.8.1
+
+commit 5c88e43e7243fcaff32810fc95638c748cae371f
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Mar 30 11:41:27 2018 -0500
+
+    3.8.0
+
+commit 254d30690cf531c163b2293a8a748a72c960f616
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Mar 22 15:03:29 2018 -0500
+
+    3.7.2
+
+commit 9e356d943317162c323de66f27af40114ce7f105
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Mar 14 14:58:57 2018 +0000
+
+    3.7.1
+
+commit 2b2c17202514c1173ca94ccca2458db3279e93d9
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Feb 27 13:42:32 2018 -0600
+
+    3.5.1
+
+commit 46adfd7b3bbd0b6f9fcd5bd9bf67fe3ad9d69d22
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Feb 20 15:03:26 2018 -0600
+
+    3.5.0; add scandir and psutil deps
+
+commit d3ee46d2ed4a2f0b52eb22e24d3067ff35cb1495
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Feb 8 13:32:11 2018 -0600
+
+    3.4.1
+
+commit ffbe94d10cfe436b2d327efa073df824209b64b5
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Jan 31 21:49:04 2018 -0600
+
+    3.4.0
+
+commit c5757186f1e58c9496f60ee9698908077aac66a4
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Jan 24 11:52:17 2018 -0600
+
+    3.3.0
+
+commit e2fc325f8dc6319046f4ed245750ff0ba6e23801
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Jan 20 16:31:11 2018 -0500
+
+    Replace 'which' with 'type -P'
+    
+    The 'which' command behaves differently on different systems and one can't rely
+    on a useful exit code. Till 2.21 it had problems with paths >256 bytes in length.
+    
+    http://lists.gnu.org/archive/html/which-bugs/2015-06/threads.html
+
+commit 74210fb75937f2eb820394ff65a975f2d7c5bb92
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Jan 15 21:40:58 2018 -0600
+
+    3.2.2
+
+commit 33391e61978198163cb04ecd0133504f86458c21
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Jan 2 21:06:05 2018 -0600
+
+    3.2.1
+
+commit f794aecd3182a64d2bb96f740497f7e4fc3be255
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Dec 21 09:11:58 2017 -0600
+
+    3.2.0
+
+commit f15222d88532b540aa19e38616dcba16b4dd5440
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Dec 15 16:56:12 2017 -0600
+
+    3.1.6
+
+commit 8b307c13aba4b262261ebb9309329c5ff6c7a1e3
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Dec 15 11:22:18 2017 -0600
+
+    3.1.5
+
+commit 28b2301b95750602c3cb9ba87cf238f49c2e7e9a
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Dec 14 20:59:20 2017 -0600
+
+    3.1.4
+
+commit 196efca43bf713a43a95ce921156ea684d41f099
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Dec 13 10:29:37 2017 -0600
+
+    3.1.3
+
+commit 760cb5c9c620a71adeb827d207be1d2a4daa1fad
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Dec 5 15:55:43 2017 -0600
+
+    3.1.0
+
+commit 61d5bcca29eca1bc0c02075c1f6fc62fbeaa75d6
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Nov 15 21:36:23 2017 -0600
+
+    3.0.30
+
+commit 88b1eb554795119f6d7fc5c8e3126d2e896c42b3
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Nov 10 16:15:45 2017 -0600
+
+    3.0.29
+
+commit 251c31f7446ce4d91730cb3e6cad97b112f5d680
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Nov 2 15:18:08 2017 -0500
+
+    update for 3.0.28
+
+commit 0b0256500009ad416e40ba43b042a0613c8e5e1b
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Oct 18 17:50:11 2017 -0500
+
+    3.0.27
+
+commit 378030bf54cb7c03066f8888e0cee57a689649b5
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Oct 16 11:05:20 2017 -0500
+
+    3.0.26
+
+commit 39c98791c09b8dc1dc048e9eebbf44ed8d99722c
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Oct 6 15:55:00 2017 -0500
+
+    3.0.25
+
+commit 1ee178530696ce1a45132d279c36af85b44e902c
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Oct 6 14:11:07 2017 -0500
+
+    3.0.24
+
+commit f7eb2a01419955bd7515226a19b5ba0b150bdb73
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Sat Sep 30 13:16:09 2017 -0500
+
+    3.0.23
+
+commit 259d5d01d44dea6aa0d4217579ff658b10a5894b
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Sep 20 11:29:44 2017 -0500
+
+    3.0.22
+
+commit a7528c3b72b46475150328a0d092edfcb794b198
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Sep 18 11:44:37 2017 -0500
+
+    3.0.21
+
+commit e2b245b79b216964f54bb46b9fe0b0f832a2cc14
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Sat Sep 16 21:36:50 2017 -0500
+
+    3.0.20
+
+commit 497e98a117e03aa3c0b49300660b743dc30558aa
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Sep 15 15:10:43 2017 -0500
+
+    3.0.19
+
+commit d310040b78a4b95f232f0c9457b0125adf80ca4e
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 14 16:04:21 2017 -0500
+
+    update to 3.0.18, switch to git_url with sha1
+
+commit 4bd92f21cec9e23ca7ac59e7c152320831767c1d
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Sep 12 14:29:58 2017 -0500
+
+    3.0.17
+
+commit 26d690e6a3344d35675756427d69550c05bd1a59
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Sep 12 09:44:41 2017 -0500
+
+    3.0.16
+
+commit 578f34bdbee0f2b5a04a83919624ae1fa3026fb9
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Sep 4 21:14:34 2017 -0500
+
+    3.0.15
+
+commit 04547bbedebcb50191793f438c1f2cb524cd65c7
+Author: Maggie-M <maggie.mari@continuum.io>
+Date:   Thu Aug 31 19:26:20 2017 -0500
+
+    Update meta.yaml
+
+commit 410bbbf94887dab0795404fca70324095ed14e66
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Aug 29 13:58:24 2017 -0500
+
+    3.0.14
+
+commit fdbb4c5a8208a3ff7b3aa2ec3d309fb52ff59dfa
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Sat Aug 26 20:40:32 2017 -0500
+
+    update 3.0.13
+
+commit 9ffec09aea17112b863ac9d86a5152ce668a1253
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Aug 25 12:41:21 2017 +0100
+
+    Fix checksum for 3.0.12
+
+commit e81a1321534d594c44022913870bee9c450ae233
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Aug 23 18:19:14 2017 -0500
+
+    3.0.12
+
+commit 0429397b2bf4c70e899ab66695d176e12c8fd70d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Aug 23 13:11:11 2017 +0100
+
+    Fix sha256
+
+commit 810c768c615e0a05e3b041873b6ecac0025f89f0
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Aug 17 13:44:19 2017 -0500
+
+    update to 3.0.11
+
+commit bcd002964c6420b46049e2b5b19cc46bbf91d5b8
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Aug 11 20:58:21 2017 -0500
+
+    update to 3.0.10
+
+commit 926233832037c67b5a95cc0923fbf122c3ee5317
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Jul 24 02:34:48 2017 +0100
+
+    Add cross-compilation support
+
+commit 1d83d11590067c96223772731121a12156e37972
+Merge: db0a337 28100be
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Sat Jul 21 16:18:35 2018 -0400
+
+    Merge pull request #59 from regro-cf-autotick-bot/3.11.0
+    
+    conda-build v3.11.0
+
+commit 28100bed68887457b42aff31dd1e34bc3f80f8a0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 21 04:08:57 2018 +0000
+
+    updated v3.11.0
+
+commit db0a3378fbef78547a120e0676c75b01004506f1
+Merge: 588072f 5e2d802
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Jun 15 17:46:14 2018 -0600
+
+    Merge pull request #58 from regro-cf-autotick-bot/3.10.9
+    
+    conda-build v3.10.9
+
+commit 5e2d80242201eb54bbb4f6a22760ea3eb25276fe
+Author: Travis CI User <travis@example.org>
+Date:   Fri Jun 15 23:25:18 2018 +0000
+
+    updated v3.10.9
+
+commit 588072fe76ee6781c1504518e4a3f7b8f6d77d7e
+Merge: f76bafe 3c6598c
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Jun 12 19:55:46 2018 -0400
+
+    Merge pull request #57 from regro-cf-autotick-bot/3.10.8
+    
+    conda-build v3.10.8
+
+commit 3c6598cb495e5b19446c48c92ca9d8875134eb78
+Author: Travis CI User <travis@example.org>
+Date:   Tue Jun 12 17:54:28 2018 +0000
+
+    updated v3.10.8
+
+commit f76bafe6bff08ac300a169d837fdc45981cd344e
+Merge: 0a6456b de69899
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Jun 2 13:07:27 2018 -0600
+
+    Merge pull request #56 from isuruf/glob2
+    
+    Add glob2 condition
+
+commit de69899273068a38cb8c075176d7875790f7cb28
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Jun 2 12:02:37 2018 -0600
+
+    Add glob2 condition
+
+commit 0a6456b293ecb63c74c47d286aa0c2fcbe5bfebf
+Merge: 504b3c6 7b0d218
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Sat Jun 2 07:44:21 2018 -0400
+
+    Merge pull request #55 from regro-cf-autotick-bot/3.10.7
+    
+    conda-build v3.10.7
+
+commit 7b0d218b773e8546de7adab6bdc4bd0a279f250c
+Author: Travis CI User <travis@example.org>
+Date:   Sat Jun 2 04:26:12 2018 +0000
+
+    updated v3.10.7
+
+commit 504b3c6fe9ea5fb95b2dbcfc067c9acd5f834928
+Merge: c3705d6 85ae814
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu May 31 23:07:58 2018 -0600
+
+    Merge pull request #54 from regro-cf-autotick-bot/3.10.6
+    
+    conda-build v3.10.6
+
+commit 85ae814a572ac831991d107ddb9096b7fbe0c188
+Author: Travis CI User <travis@example.org>
+Date:   Fri Jun 1 04:31:02 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.5 and pinning 2018.05.22
+
+commit d9e5ca9991ded4214a66678dbd869f6e4bb3db31
+Author: Travis CI User <travis@example.org>
+Date:   Fri Jun 1 04:29:59 2018 +0000
+
+    updated v3.10.6
+
+commit c3705d63083dfc402ea1f94a986bf067ab94b765
+Merge: db17b77 a577e59
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu May 24 08:02:51 2018 -0300
+
+    Merge pull request #53 from regro-cf-autotick-bot/3.10.5
+    
+    conda-build v3.10.5
+
+commit a577e5985d5a758abcd2385bba674b082f6047e8
+Author: Travis CI User <travis@example.org>
+Date:   Thu May 24 05:06:06 2018 +0000
+
+    updated v3.10.5
+
+commit db17b7763d074da471416cdaca8ccb121543f77a
+Merge: 892f623 b3af0cd
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Sun May 20 15:03:50 2018 -0400
+
+    Merge pull request #52 from regro-cf-autotick-bot/3.10.4
+    
+    conda-build v3.10.4
+
+commit b3af0cddcde89a74fbcaca476b037080449bd93b
+Author: Travis CI User <travis@example.org>
+Date:   Sun May 20 17:30:53 2018 +0000
+
+    updated v3.10.4
+
+commit 892f6236af980c91f0802dafef2add69a9856076
+Merge: f7bc211 5b673b8
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Thu May 17 19:37:51 2018 -0400
+
+    Merge pull request #50 from regro-cf-autotick-bot/3.10.3
+    
+    conda-build v3.10.3
+
+commit 5b673b8017f94bf116b03a7c17d4e61325c242d3
+Author: Travis CI User <travis@example.org>
+Date:   Thu May 17 23:11:50 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.4 and pinning 2018.05.07
+
+commit 9a5f88f4f9a6c22e96d414202b42ad9333f614fd
+Author: Travis CI User <travis@example.org>
+Date:   Thu May 17 23:10:25 2018 +0000
+
+    updated v3.10.3
+
+commit f7bc211e5ad45e66b0d9e5d144dff5b2c156f1bb
+Merge: 40e7e44 8274047
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Wed May 9 09:55:48 2018 -0400
+
+    Merge pull request #49 from regro-cf-autotick-bot/3.10.2
+    
+    conda-build v3.10.2
+
+commit 8274047552ad2da53dd3dad730a50c38ce51e638
+Author: Travis CI User <travis@example.org>
+Date:   Tue May 8 23:05:51 2018 +0000
+
+    updated v3.10.2
+
+commit 40e7e44dba0ca2aa7aea01a956b048bb8d802576
+Merge: 8556f9a 3889a0e
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Tue May 1 20:22:31 2018 -0500
+
+    Merge pull request #48 from regro-cf-autotick-bot/3.10.1
+    
+    conda-build v3.10.1
+
+commit 3889a0e022255769def091dfb9f80ae60a95170f
+Author: Travis CI User <travis@example.org>
+Date:   Tue May 1 22:57:40 2018 +0000
+
+    updated v3.10.1
+
+commit 8556f9abc6a2f0d8bb9b75fd4c8b38dff9be2f23
+Merge: 7e309f9 63a835d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Apr 30 23:03:00 2018 -0400
+
+    Merge pull request #46 from msarahan/3.9.2
+    
+    fix sha for 3.9.2
+
+commit 63a835d1909f6650be0d9b700de6892bfd9543b5
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Apr 30 21:54:59 2018 -0500
+
+    fix sha for 3.9.2
+
+commit 7e309f92e2726001142303c29221c142a939d228
+Merge: c1b9bba 63965b5
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Mon Apr 30 21:22:15 2018 -0500
+
+    Merge pull request #45 from regro-cf-autotick-bot/3.9.2
+    
+    conda-build v3.9.2
+
+commit 63965b59ecc866b81161c991c0b1eacec2cb4849
+Author: Travis CI User <travis@example.org>
+Date:   Fri Apr 27 22:54:20 2018 +0000
+
+    updated v3.9.2
+
+commit c1b9bbaa129b0995e774a5b2047f0cf472ad35a3
+Merge: d2c2fe3 c54b2de
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Apr 25 11:44:46 2018 -0400
+
+    Merge pull request #43 from msarahan/master
+    
+    fix sha for 3.9.1
+
+commit c54b2debd6c395265a878f098a512b5ce74d9bda
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Apr 25 09:29:35 2018 -0500
+
+    fix sha for 3.9.1
+
+commit d2c2fe3b03e4d390782c776670b301a67173e4de
+Merge: cf214a8 c28258b
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Wed Apr 25 09:18:29 2018 -0500
+
+    Merge pull request #41 from regro-cf-autotick-bot/3.9.1
+    
+    conda-build v3.9.1
+
+commit c28258bebf46a8dcd179ecd5aecc4253063a6811
+Author: Travis CI User <travis@example.org>
+Date:   Wed Apr 25 04:06:43 2018 +0000
+
+    updated v3.9.1
+
+commit cf214a8721f01a7c9659de310f02a24e4a8d820b
+Merge: 1ddf03f 2418c3d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Apr 16 15:30:07 2018 -0300
+
+    Merge pull request #38 from regro-cf-autotick-bot/3.8.1
+    
+    conda-build v3.8.1
+
+commit 2418c3dd1e085aa7ed9d8cb5b573df3920475d97
+Author: Travis CI User <travis@example.org>
+Date:   Mon Apr 16 17:13:00 2018 +0000
+
+    updated v3.8.1
+
+commit 1ddf03feab80be878436f6425ad3dca178512ea0
+Merge: 2202844 759121a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Apr 2 08:14:04 2018 -0300
+
+    Merge pull request #37 from regro-cf-autotick-bot/3.8.0
+    
+    conda-build v3.8.0
+
+commit 759121ae5117b7121adee5dab49e189f43efa8e8
+Author: Travis CI User <travis@example.org>
+Date:   Mon Apr 2 02:04:38 2018 +0000
+
+    updated v3.8.0
+
+commit 22028447b8be71acd82bcb5ed6a3827cc8fc117a
+Merge: b0edd17 6df075e
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Thu Mar 22 20:28:02 2018 -0500
+
+    Merge pull request #36 from regro-cf-autotick-bot/3.7.2
+    
+    conda-build v3.7.2
+
+commit 6df075effa46eec3e60d90ea3470fa86fdcd7e7b
+Author: Travis CI User <travis@example.org>
+Date:   Thu Mar 22 22:38:14 2018 +0000
+
+    updated v3.7.2
+
+commit b0edd170667d2d29ca5152006e853d809cd92f12
+Merge: 31b0923 a3c15b6
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Thu Mar 8 20:26:34 2018 -0600
+
+    Merge pull request #35 from regro-cf-autotick-bot/3.7.1
+    
+    conda-build v3.7.1
+
+commit a3c15b697438dae8c03d43360caff9578f26affb
+Author: Travis CI User <travis@example.org>
+Date:   Thu Mar 8 23:15:58 2018 +0000
+
+    updated v3.7.1
+
+commit 31b09230f7c86c0b2e94a973c0f0f679ec651ae3
+Merge: 0f0e851 3663f73
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Mar 6 06:57:03 2018 -0300
+
+    Merge pull request #34 from regro-cf-autotick-bot/3.7.0
+    
+    conda-build v3.7.0
+
+commit 3663f731e20392ec8317f79f920276ddaaf09860
+Author: Travis CI User <travis@example.org>
+Date:   Mon Mar 5 21:21:12 2018 +0000
+
+    updated v3.7.0
+
+commit 0f0e851780a2f199b541306e3ce5af8a99f0ef76
+Merge: 16eeef9 ae99182
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Mar 3 13:39:10 2018 -0300
+
+    Merge pull request #33 from regro-cf-autotick-bot/3.6.0
+    
+    conda-build v3.6.0
+
+commit ae99182a499c9ccbb0abac39d0308e3f0328ff6b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Mar 2 07:36:04 2018 -0300
+
+    update checksum
+
+commit be77bac7a54dcf40d70a7c5c6ba917ce3479abfe
+Merge: 60d651b 16eeef9
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Mar 2 07:15:30 2018 -0300
+
+    Merge branch 'master' into 3.6.0
+
+commit 16eeef912b9d77c7770b8efc39de6fc1df037d3c
+Merge: f73750b 42bf11f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Mar 2 07:13:45 2018 -0300
+
+    Merge pull request #32 from regro-cf-autotick-bot/3.5.1
+    
+    conda-build v3.5.1
+
+commit 60d651b2cc3ae90f689a908a1a3201dec5cdcb7d
+Author: Travis CI User <travis@example.org>
+Date:   Thu Mar 1 21:29:53 2018 +0000
+
+    updated v3.6.0
+
+commit 42bf11f1f787a355715ffca9652d0ef9a8a7352b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 1 14:24:09 2018 -0300
+
+    Update meta.yaml
+
+commit 61e3bb54feab6a2667f51d263dd87f3acd2bca70
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 1 14:03:39 2018 -0300
+
+    Update meta.yaml
+
+commit 64ce5c73e91f49a1bdf78f358e196beff3ee89a1
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 1 12:46:44 2018 -0300
+
+    Update meta.yaml
+
+commit 2dc442aceb269bc82db49fc725c88e8f8dedf7e3
+Author: Travis CI User <travis@example.org>
+Date:   Thu Mar 1 04:19:06 2018 +0000
+
+    updated v3.5.1
+
+commit f73750b12219633119bff74e0527281e74837740
+Merge: 6c99456 3f9b468
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Feb 15 23:41:04 2018 -0600
+
+    Merge pull request #31 from msarahan/master
+    
+    3.4.2
+
+commit 3f9b4686ccfb1325a91a7b28383b0ac18c6843b9
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Feb 15 13:51:18 2018 -0600
+
+    3.4.2
+
+commit 6c994561fc60f5eec97ac17ba8658f974f460b90
+Merge: 10e1816 c00f3cb
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Wed Feb 14 10:37:12 2018 -0600
+
+    Merge pull request #30 from isuruf/update
+    
+    Update to 3.4.1
+
+commit c00f3cbb26821b5d72deba433c327a0434936078
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Feb 13 21:45:10 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 8ca2ccebbaa05c4c4c5e00d33fcff42640253d7d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Feb 13 15:00:59 2018 -0600
+
+    Fix sha256
+
+commit 815e6f885201f80c1fb70c86e5ab10f58811b4be
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Feb 10 19:17:10 2018 -0600
+
+    Update to 3.4.1
+
+commit 10e1816c62f1d6beb82a5abf65a5e2fdf7bff2e9
+Merge: ec40926 0731f47
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Nov 28 21:54:05 2017 -0500
+
+    Merge pull request #29 from jakirkham-feedstocks/release_2.1.18
+    
+    Release 2.1.18
+
+commit 0731f47c48e3e14680b33b3805d03c15620e51ec
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Nov 28 11:51:21 2017 -0500
+
+    Release 2.1.18
+
+commit 33e3914be67b3c8fb84385256f434b10d3f7baf5
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Nov 28 11:48:31 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.4.3
+
+commit ec409262b5960c4f449a299642d88cb08df6c5c5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Aug 15 02:51:43 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 16efe76eed38df5ab03f8599143271e025d29f87
+Merge: 68aaebf 9ff13a5
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Fri Jun 30 14:53:34 2017 -0500
+
+    Merge pull request #28 from msarahan/2.1.17
+    
+    update to 2.1.17
+
+commit 9ff13a5446ab7fadd6d55969608c1c6e33a7d8ff
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Jun 30 12:05:43 2017 -0500
+
+    update to 2.1.17
+
+commit 68aaebf36332453101da92eaa4c118bd11be7af8
+Merge: 72d778f 7376f35
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Jun 26 23:38:52 2017 -0400
+
+    Merge pull request #27 from msarahan/2.1.16
+    
+    update to 2.1.16
+
+commit 7376f35fe4231590b8ff26a645eceb477272fc1d
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Jun 26 15:37:33 2017 -0500
+
+    update to 2.1.16
+
+commit 72d778f9e088ec2b954ea87a0f26a2d5a44a4e2e
+Merge: 6974b28 bb979c1
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jun 18 01:16:56 2017 -0400
+
+    Merge pull request #26 from jakirkham/rebuild_2.1.15
+    
+    Rebuild in presence of the new `conda` package
+
+commit bb979c14031b13b48ef89ef0c4e487783c0b7a93
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Jun 16 18:26:10 2017 -0400
+
+    Rebuild in presence of the new `conda` package
+    
+    Have noticed some logging messages coming through during various build
+    operations with `conda-build`. Suspect this was a consequence of the old
+    `conda` 4.3.21 build, which hadn't updated the build scripts. Now that
+    `conda` has been rebuilt correctly, it seems worthwhile to try just
+    rebuilding `conda-build` to see if this issue goes away.
+
+commit 6974b286f5316c07633b8716e39e74e79cf752b3
+Merge: a8717e0 9f0cfef
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Tue Jun 13 09:29:45 2017 -0500
+
+    Merge pull request #25 from jakirkham/release_2.1.15
+    
+    Release 2.1.15
+
+commit 9f0cfef55d9993dfa25be35d599e173daad4012b
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Jun 12 19:26:40 2017 -0400
+
+    Release 2.1.15
+
+commit a8717e013062a5e069d354713ff6032b5352d2b8
+Merge: 714b8c5 c4761e7
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Tue Apr 18 18:04:11 2017 -0500
+
+    Merge pull request #23 from jakirkham/release_2.1.10
+    
+    Release 2.1.10
+
+commit c4761e75b68f3ef902efc1de420c03483a67a7eb
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Apr 18 17:31:55 2017 -0400
+
+    Update checksum
+    
+    Appears it already changed. :'(
+
+commit ec4b8f64b3075cc60942f6503b77de3303f01193
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Apr 18 00:29:29 2017 -0400
+
+    Remove links to `conda` that are accidentally kept
+    
+    Appears that `conda-build` 2.1.9 is keeping links to `conda` in some
+    cases. To fix this, just delete the links manually after the build.
+
+commit a2160e4e45c48c7d85181f496713d8ab366c619d
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Apr 18 00:24:05 2017 -0400
+
+    Release 2.1.10
+
+commit 2fefe860af45fdb786f8230949f21bf081980159
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Apr 18 00:21:14 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.0
+
+commit 714b8c5cdfbce4237c2ca24a824270933da1490a
+Merge: d2531ea 901bede
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Apr 6 18:43:40 2017 -0400
+
+    Merge pull request #22 from jakirkham/release_2.1.9
+    
+    Release 2.1.9
+
+commit 901bede7ad09f29c3f9645ad39dca9ac90c1bf26
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Apr 6 11:05:16 2017 -0400
+
+    Release 2.1.9
+
+commit d2531ea4b2f81b2c62d073aeaf391672bc101438
+Merge: 5aa7ea9 634c42e
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Mar 28 07:17:38 2017 -0400
+
+    Merge pull request #21 from jakirkham/release_2.1.8
+    
+    Release 2.1.8
+
+commit 634c42ebcf509bdbcbd78662a2240349be4b11f2
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 24 17:01:04 2017 -0400
+
+    Release 2.1.8
+
+commit fe46a18792e78cf41e07c510f15da51e73091199
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 24 16:58:56 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.2.2
+
+commit 5aa7ea9f26d58587d2ce031312e8bc1089deae7c
+Merge: e053866 bfa02a3
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Fri Mar 17 07:08:32 2017 -0500
+
+    Merge pull request #20 from jakirkham/release_2.1.7
+    
+    Release 2.1.7
+
+commit bfa02a3198dc6efb724f73db24804d42fc964626
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Mar 16 01:18:52 2017 -0400
+
+    Release 2.1.7
+
+commit e053866d35eaee0a4b2917570c7580c56adcdb1c
+Merge: 3d67d22 7e20554
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Mar 14 08:51:58 2017 -0300
+
+    Merge pull request #19 from stuertz/2.1.6
+    
+    Update to 2.1.6
+
+commit 7e20554810940e7492ccc12b7060bf7b483df02f
+Author: stuertz <js@contact.de>
+Date:   Fri Mar 10 10:26:55 2017 +0100
+
+    reset build number to 0
+
+commit 61d96fd133dfe185b6d16ab81f1304ad496cad93
+Author: stuertz <js@contact.de>
+Date:   Fri Mar 10 10:20:57 2017 +0100
+
+    Update to 2.1.6
+
+commit 3d67d2251122c23968f2e8687c8a3b2115b89eb0
+Merge: 098cfb5 4781f2c
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Feb 25 10:44:25 2017 -0500
+
+    Merge pull request #17 from jakirkham/re-render_2.1.0
+    
+    Re-render 2.1.0 and add Python 3.6
+
+commit 4781f2cb60e394cf7a280b70e05e75dd7f9de5d1
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Feb 23 18:59:37 2017 -0500
+
+    Update checksum as it has changed.
+    
+    Given this is from a GitHub archive, this is not too surprising that it
+    has changed. However, just to be safe we have bumped the build number to
+    indicate their may have been a change.
+
+commit acf708835f6cf5b7095e4076ba0fb88c047ff8a1
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Feb 23 18:45:59 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.1.0
+
+commit 7c1c108e21bd0f2dabbb4fa1636f5b1932916eb3
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Feb 23 18:45:33 2017 -0500
+
+    Drop Python 3.6 skip.
+
+commit c6ded836be2446eb46b0cd5ab4bd15c63a6f6d12
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Feb 23 18:45:22 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.1.0
+
+commit 098cfb5d9c1cc16f9d87ff437339976f039db0b9
+Merge: b155176 2e7bbac
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Feb 11 02:43:48 2017 -0500
+
+    Merge pull request #16 from jakirkham/release_2.1.4
+    
+    Release 2.1.4
+
+commit 2e7bbac4ca61d3382a8edb19c07916f179f4e51a
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Feb 10 11:23:15 2017 -0500
+
+    Release 2.1.4
+
+commit b155176efc62d8ea1d76f1658cd3b3e1a65bb0b2
+Merge: 89dbf92 70d261a
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Fri Feb 10 09:16:05 2017 -0600
+
+    Merge pull request #15 from jakirkham/add_core
+    
+    Add core as maintainers [ci skip]
+
+commit 70d261ae3348b9463abe49ba35fb2ccc002df7e3
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Feb 10 09:37:30 2017 -0500
+
+    Add core as maintainers explicitly.
+    
+    [ci skip]
+
+commit 89dbf92d852f4782920cda73fea4ec94d642cd3f
+Merge: 65f71af 0700949
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Feb 10 09:33:49 2017 -0500
+
+    Merge pull request #14 from msarahan/2.1.3
+    
+    update to 2.1.3
+
+commit 0700949f8eb19d9452078fc18fc5210426e4c7a9
+Merge: ff00eb3 65f71af
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Feb 9 15:07:01 2017 -0500
+
+    Merge branch conda-forge/master into msarahan/2.1.3
+
+commit 65f71af3916cc1ea32bee94c403659fb11303c2e
+Merge: 6026978 d7b2722
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Feb 7 14:26:09 2017 -0500
+
+    Merge pull request #13 from jjhelmus/conda_43
+    
+    Relax conda requirement to allow for conda 4.3
+
+commit ff00eb376c8028d9736148c2097b6cd1e50cd076
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Jan 31 15:23:46 2017 -0600
+
+    update to 2.1.3
+
+commit d7b27228a1938e97d4628a2a650e6880e50686b9
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Jan 24 09:17:52 2017 -0800
+
+    Relax conda requirement to allow for conda 4.3
+
+commit 6026978e6fa7193f4d8c7938e79695db787db345
+Merge: 1d66a1e 12114ef
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Tue Jan 24 08:15:27 2017 -0600
+
+    Merge pull request #11 from nicoddemus/release-2.1.2
+    
+    Update conda-build to 2.1.2
+
+commit 12114ef39e7726574342f4f42ad9714352c87472
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Jan 24 08:07:20 2017 -0200
+
+    Update conda-build to 2.1.2
+
+commit 1d66a1e0fcf881dd074b2166dab16512e68fdaf7
+Merge: fc20323 7f88f81
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Wed Jan 18 13:29:22 2017 -0600
+
+    Merge pull request #10 from jakirkham/fix_bdist_conda
+    
+    Install and test for bdist_conda
+
+commit 7f88f818ebcd80246dfd1e5006396e8cc8b9a744
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Jan 17 14:09:43 2017 -0500
+
+    Include bdist_conda
+    
+    Previously we were not installing the `bdist_conda` command for
+    `distutils`. This fixes that by installing `bdist_conda.py` to the
+    proper location. The previously included test verifies that
+    `bdist_conda` is present and can be used.
+
+commit 9a264f70dda05ecec72a2d7c23264163ba8f2c16
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Jan 17 14:07:23 2017 -0500
+
+    Add a test for bdist_conda
+    
+    Provides a simple test to verify that `bdist_conda` is installed as a
+    `distutils` command and can be invoked when in the same environment with
+    the same Python used by `conda-build`. This test of course fails when
+    `bdist_conda` is not present.
+
+commit 3a79be334427e7757887cc7fb5e14c951619bdf7
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Jan 17 13:33:56 2017 -0500
+
+    Fix the checksum :/
+    
+    Appears the checksum for `conda-build`'s 2.1.1 release has changed. Not
+    entirely sure why this is, but it is possible GitHub has changed
+    something about how they generate archives behind the scenes. As a
+    result, we find ourselves having to correct the checksum.
+
+commit fc20323fa48bf467bfba60cf4118a1fe44a1f2bd
+Merge: a0f38d6 2d172c4
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Sat Jan 14 19:48:47 2017 -0600
+
+    Merge pull request #8 from jakirkham/bump_2.1.1
+    
+    Release 2.1.1
+
+commit 2d172c4dc44c61de8ead80d7ed286b10089a16a3
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Jan 13 12:17:27 2017 -0500
+
+    Release 2.1.1.
+
+commit a0f38d67f500adecbaeb0cab7ebfc7e6f0db6c5f
+Merge: 8604617 36abe49
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Fri Jan 13 09:59:21 2017 -0600
+
+    Merge pull request #7 from jakirkham/bump_2.0.12
+    
+    Bump 2.0.12
+
+commit 36abe49acc32c4828cb2983fa4eca50baa1aa368
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Jan 11 01:21:11 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 1.7.0
+    
+    Re-render to disable Python 3.6 for now.
+
+commit 477f46978898ee7d1624b8cd6fbba5cf09bc6400
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Jan 11 01:20:12 2017 -0500
+
+    Temporarily skip Python 3.6
+    
+    We are missing dependencies still. So we can't easily provide
+    `conda-build` for Python 3.6.
+
+commit cea23bab6fe128a9b7cf9018ba4e3a56aa64cbc0
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jan 8 17:05:12 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 1.7.0
+
+commit 8d844c181b6245ba72aec4b3a46ac127a8a54b4e
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jan 8 17:01:42 2017 -0500
+
+    Bump to 2.0.12.
+
+commit f20b7ada95e82f47778fa604cb02f15a50a464b3
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Nov 28 16:11:31 2016 -0600
+
+    Update run requirements
+
+commit f0c39186bfb4390e6f17344f87e166ef27db4a59
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Nov 28 16:11:10 2016 -0600
+
+    Update entry points
+
+commit e9d67cde79d2fab9611d637baa6efc67b8c60442
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Nov 28 15:13:39 2016 -0600
+
+    MNT: Re-rendered with conda-smithy 1.6.0
+
+commit 00d27f90b67f2f37df4dfe4f4becd3f1999fdf65
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Nov 28 15:12:13 2016 -0600
+
+    Update recipe to version 2.0.11
+
+commit c6a263c5c325b362e2d34fa89d57a7e33e74f935
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Sep 6 18:41:09 2016 -0500
+
+    update to 2.0.1
+
+commit 15bb1cea09686e47f5bd6f127349dac9aed96f3a
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Aug 29 09:53:45 2016 -0500
+
+    change executables to hopefully use the right entry point
+
+commit 51440a10d2f678a8613470e7c384be2df47ac9cf
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Aug 29 09:30:08 2016 -0500
+
+    update to 2.0.0
+
+commit 8604617b03bed590188b484f2ef780998530c246
+Merge: ddb2220 95ec890
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Mon Aug 1 15:05:29 2016 -0500
+
+    Merge pull request #1 from msarahan/update_1.21.9
+    
+    update to conda-build 1.21.9
+
+commit 95ec8906b9899fe0f8d513aa4d6e92950de644ba
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Aug 1 14:52:26 2016 -0500
+
+    update to conda-build 1.21.9
+
+commit ddb222039123c74b683bf729f4d6b320d81ce601
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Aug 1 03:23:23 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 631e6d775b51172d5b8119c314110fb0ac282118
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Aug 1 03:22:08 2016 +0000
+
+    Initial commit of the conda-build feedstock.

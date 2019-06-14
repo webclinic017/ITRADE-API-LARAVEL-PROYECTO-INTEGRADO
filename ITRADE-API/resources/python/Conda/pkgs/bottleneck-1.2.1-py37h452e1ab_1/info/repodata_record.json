@@ -1,0 +1,23 @@
+{
+  "build": "py37h452e1ab_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.11.3,<2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "vc 14.*"
+  ],
+  "features": "",
+  "fn": "bottleneck-1.2.1-py37h452e1ab_1.tar.bz2",
+  "license": "BSD 2-Clause",
+  "license_family": "BSD",
+  "md5": "52acb67a4e35e50de332caf2f0de38c8",
+  "name": "bottleneck",
+  "size": 115154,
+  "subdir": "win-64",
+  "timestamp": 1531769042767,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/bottleneck-1.2.1-py37h452e1ab_1.tar.bz2",
+  "version": "1.2.1"
+}

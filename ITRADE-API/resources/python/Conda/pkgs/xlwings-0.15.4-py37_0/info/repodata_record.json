@@ -1,0 +1,23 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "comtypes",
+    "python >=3.7,<3.8.0a0",
+    "pywin32"
+  ],
+  "features": "",
+  "fn": "xlwings-0.15.4-py37_0.tar.bz2",
+  "license": "3-clause BSD",
+  "license_family": "BSD",
+  "md5": "8259e82f9077514a17a3e4a8413e10d2",
+  "name": "xlwings",
+  "size": 817133,
+  "subdir": "win-64",
+  "timestamp": 1552927954610,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/xlwings-0.15.4-py37_0.tar.bz2",
+  "version": "0.15.4"
+}

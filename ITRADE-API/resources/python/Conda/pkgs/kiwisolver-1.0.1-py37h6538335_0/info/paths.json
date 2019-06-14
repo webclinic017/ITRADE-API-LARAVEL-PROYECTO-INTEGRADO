@@ -1,0 +1,41 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/kiwisolver-1.0.1-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "baf50a847dcba59acf7a2872938a19844c929d9e121bd8f5534860af5f5624ab",
+      "size_in_bytes": 1093
+    },
+    {
+      "_path": "Lib/site-packages/kiwisolver-1.0.1-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "d9b868a9c4712ea60edff137fe481509702be164fa4744ce409b16cc03f7abaf",
+      "size_in_bytes": 668
+    },
+    {
+      "_path": "Lib/site-packages/kiwisolver-1.0.1-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/kiwisolver-1.0.1-py3.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "4e34d3b17ef5dd1e34865d1d3245f1a40158ec9bc19ea6d3547423a3fb96e916",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "Lib/site-packages/kiwisolver-1.0.1-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "c6ac168fba121e5a488dcc3640c25bf29b9314f7630c13bbf00669f608d387d7",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "Lib/site-packages/kiwisolver.cp37-win_amd64.pyd",
+      "path_type": "hardlink",
+      "sha256": "0a768be227708839267bf7ab10609dd5d10319919421f94faff21d254c6b25c2",
+      "size_in_bytes": 144384
+    }
+  ],
+  "paths_version": 1
+}

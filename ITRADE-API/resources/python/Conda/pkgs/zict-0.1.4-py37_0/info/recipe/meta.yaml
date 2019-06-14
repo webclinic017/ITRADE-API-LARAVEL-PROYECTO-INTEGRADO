@@ -1,0 +1,50 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00000pdpal8\tmp\build\80754af9\rsync-recipes\zict-0.1.4-python_3.7-on-winbuilder, last modified Mon Mar 11 14:16:47 2019
+# ------------------------------------------------
+
+package:
+    name: zict
+    version: 0.1.4
+source:
+    fn: zict-0.1.4.tar.gz
+    sha256: a7838b2f21bc06b7e3db5c64ffa6642255a5f7c01841660b3388a9840e101f99
+    url: https://pypi.io/packages/source/z/zict/zict-0.1.4.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2019.1.23 0
+        - certifi 2019.3.9 py37_0
+        - openssl 1.1.1b he774522_1
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wincertstore 0.2 py37_0
+    run:
+        - heapdict
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - zict
+about:
+    description: 'Mutable Mapping interfaces.
+
+        '
+    dev_url: https://github.com/dask/zict
+    doc_source_url: https://github.com/dask/zict/tree/master/doc
+    doc_url: http://zict.readthedocs.io/en/latest/
+    home: http://github.com/mrocklin/zict
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: Composable Dictionary Classes
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mrocklin
+        - pitrou

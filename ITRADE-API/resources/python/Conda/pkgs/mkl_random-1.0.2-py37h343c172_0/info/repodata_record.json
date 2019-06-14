@@ -1,0 +1,24 @@
+{
+  "build": "py37h343c172_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "mkl >=2019.1,<2020.0a0",
+    "numpy-base >=1.0.2,<2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.1,<15.0a0"
+  ],
+  "features": "",
+  "fn": "mkl_random-1.0.2-py37h343c172_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "d45af154246685f482763506afd9cea0",
+  "name": "mkl_random",
+  "size": 336376,
+  "subdir": "win-64",
+  "timestamp": 1544742254418,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/mkl_random-1.0.2-py37h343c172_0.tar.bz2",
+  "version": "1.0.2"
+}

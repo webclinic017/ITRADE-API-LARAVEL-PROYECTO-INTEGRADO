@@ -1,0 +1,27 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "files": [
+    "Scripts/pandoc-citeproc.exe",
+    "Scripts/pandoc.exe"
+  ],
+  "fn": "pandoc-2.2.3.2-0.tar.bz2",
+  "installed_by": "Anaconda3-2019.03-Windows-x86_64.exe",
+  "license": "GPL-2.0",
+  "link": {
+    "source": "C:\\Users\\MTXDevp\\Desktop\\PROYECTO-INTEGRADO\\ITRADE-API-LARAVEL-PROYECTO-INTEGRADO\\ITRADE-API\\resources\\python\\Conda\\pkgs\\pandoc-2.2.3.2-0",
+    "type": "hard-link"
+  },
+  "md5": "d1b05fec62c52d7ba554dc0515898f92",
+  "name": "pandoc",
+  "size": 22069704,
+  "subdir": "win-64",
+  "timestamp": 1535413565109,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pandoc-2.2.3.2-0.tar.bz2",
+  "version": "2.2.3.2"
+}

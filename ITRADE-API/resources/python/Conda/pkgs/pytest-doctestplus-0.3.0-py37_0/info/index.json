@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "numpy >=1.10",
+    "pytest >=2.8",
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "license": "BSD",
+  "name": "pytest-doctestplus",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1552446895524,
+  "version": "0.3.0"
+}

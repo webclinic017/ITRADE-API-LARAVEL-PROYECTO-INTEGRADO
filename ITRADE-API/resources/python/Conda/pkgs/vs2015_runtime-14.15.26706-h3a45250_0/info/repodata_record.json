@@ -1,0 +1,17 @@
+{
+  "build": "h3a45250_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "vs2015_runtime-14.15.26706-h3a45250_0.tar.bz2",
+  "md5": "6a9e60c0d113a7d1e9f72c38e4f6c05d",
+  "name": "vs2015_runtime",
+  "size": 2354640,
+  "subdir": "win-64",
+  "timestamp": 1537475634037,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/vs2015_runtime-14.15.26706-h3a45250_0.tar.bz2",
+  "version": "14.15.26706"
+}

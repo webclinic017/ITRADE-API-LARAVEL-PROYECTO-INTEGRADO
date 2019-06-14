@@ -1,0 +1,34 @@
+{
+  "build": "h2fa13f4_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc 14.*"
+  ],
+  "features": "",
+  "files": [
+    "Library/bin/liblz4.dll",
+    "Library/bin/lz4.exe",
+    "Library/include/lz4.h",
+    "Library/include/lz4frame.h",
+    "Library/include/lz4hc.h",
+    "Library/lib/liblz4.lib",
+    "Library/lib/liblz4_static.lib"
+  ],
+  "fn": "lz4-c-1.8.1.2-h2fa13f4_0.tar.bz2",
+  "installed_by": "Anaconda3-2019.03-Windows-x86_64.exe",
+  "license": "BSD 2-clause",
+  "link": {
+    "source": "C:\\Users\\MTXDevp\\Desktop\\PROYECTO-INTEGRADO\\ITRADE-API-LARAVEL-PROYECTO-INTEGRADO\\ITRADE-API\\resources\\python\\Conda\\pkgs\\lz4-c-1.8.1.2-h2fa13f4_0",
+    "type": "hard-link"
+  },
+  "md5": "51ac6ef55a7c1515e812d0d4693efa17",
+  "name": "lz4-c",
+  "size": 221792,
+  "subdir": "win-64",
+  "timestamp": 1524592949942,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/lz4-c-1.8.1.2-h2fa13f4_0.tar.bz2",
+  "version": "1.8.1.2"
+}

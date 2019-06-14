@@ -1,0 +1,56 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# C:\ci\containers\00001srktib\tmp\build\80754af9\rsync-recipes\pycparser-2.19-python_3.7-on-winbuilder, last modified Sun Sep 30 10:21:43 2018
+# ------------------------------------------------
+
+package:
+    name: pycparser
+    version: '2.19'
+source:
+    fn: pycparser-2.19.tar.gz
+    sha256: a988718abfad80b6b157acce7bf130a30876d27603738ac39f140993246b25b3
+    url: https://pypi.io/packages/source/p/pycparser/pycparser-2.19.tar.gz
+build:
+    noarch: false
+    number: '0'
+    script: C:\ci\pycparser_1538321221035\_h_env\python.exe -m pip install . --no-deps
+        --ignore-installed --no-cache-dir -vvv
+    string: py37_0
+requirements:
+    host:
+        - certifi 2018.8.24 py37_1
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hea74fb7_0
+        - setuptools 40.2.0 py37_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.31.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - pycparser
+        - pycparser.ply
+about:
+    description: 'pycparser is a complete parser of the C language, written in pure
+        Python
+
+        using the PLY parsing library.  It parses C code into an AST and can serve
+
+        as a front-end for C compilers or analysis tools.
+
+        '
+    dev_url: https://github.com/eliben/pycparser
+    doc_source_url: https://github.com/eliben/pycparser
+    doc_url: https://pypi.python.org/pypi/pycparser
+    home: https://github.com/eliben/pycparser
+    license: BSD 3-clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: Complete C99 parser in pure Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - synapticarbors

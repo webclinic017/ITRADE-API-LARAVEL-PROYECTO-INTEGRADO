@@ -1,0 +1,6 @@
+CMakeLists.txt.patch
+bld.bat
+build.sh
+config.h.patch
+configure.cmake.patch
+glibc.patch

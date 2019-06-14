@@ -1,0 +1,71 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/pytest_arraydiff-0.3.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "Lib/site-packages/pytest_arraydiff-0.3.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "b31f717449dcf9019b75e4ff75e9cb004d6aa575d720ed2a3f64d11fee2c29ef",
+      "size_in_bytes": 1448
+    },
+    {
+      "_path": "Lib/site-packages/pytest_arraydiff-0.3.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "1933965e65a9fafa75f3c6e1e6451f41e929ceb9cf416e263fe3d1983ded84ad",
+      "size_in_bytes": 7928
+    },
+    {
+      "_path": "Lib/site-packages/pytest_arraydiff-0.3.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "da6cbfa8ccb3115e8be97b05c31be0332cda292e1910e8da4ddbaa158554bf75",
+      "size_in_bytes": 903
+    },
+    {
+      "_path": "Lib/site-packages/pytest_arraydiff-0.3.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "0282b6795dfc413cf0cb1c170a5a861ab65f849bca8b54ea97a1e1342c9cec7e",
+      "size_in_bytes": 98
+    },
+    {
+      "_path": "Lib/site-packages/pytest_arraydiff-0.3.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "f48502a5588c66d7eee892e374206d5063c68ab8a1daec0e7b0baaa97ceaa5e4",
+      "size_in_bytes": 55
+    },
+    {
+      "_path": "Lib/site-packages/pytest_arraydiff-0.3.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "edf54ea08c891d5b92424c5029591f89f1825db428caa3164a0ce6c0405e7a04",
+      "size_in_bytes": 17
+    },
+    {
+      "_path": "Lib/site-packages/pytest_arraydiff/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "992106b26de4ae968fdf67480baa348df4a954fcbe59cace7e86ad56f4419d5e",
+      "size_in_bytes": 20
+    },
+    {
+      "_path": "Lib/site-packages/pytest_arraydiff/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "09e6bd584421057f7488c4ad4df9c7dc5f63ce116c605c60a7337509c723672f",
+      "size_in_bytes": 152
+    },
+    {
+      "_path": "Lib/site-packages/pytest_arraydiff/__pycache__/plugin.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "76dd54229edc6bfa584f10facb4e19ef49a70dfa262e708de789517a0035c260",
+      "size_in_bytes": 8167
+    },
+    {
+      "_path": "Lib/site-packages/pytest_arraydiff/plugin.py",
+      "path_type": "hardlink",
+      "sha256": "8ca8f8d223a2634a6009c926d9b9956ca50ed6ead193146182076e2f0db5a519",
+      "size_in_bytes": 11768
+    }
+  ],
+  "paths_version": 1
+}

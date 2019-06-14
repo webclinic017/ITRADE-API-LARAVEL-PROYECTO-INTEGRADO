@@ -1,0 +1,11 @@
+prefix=C:/ci/libtiff_1548707345360/_h_env/Library
+exec_prefix=C:/ci/libtiff_1548707345360/_h_env/Library
+libdir=C:/ci/libtiff_1548707345360/_h_env/Library/lib
+includedir=C:/ci/libtiff_1548707345360/_h_env/Library/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.0.10
+Libs: -LC:/ci/libtiff_1548707345360/_h_env/Library/lib -ltiff
+Libs.private: 
+Cflags: -IC:/ci/libtiff_1548707345360/_h_env/Library/include

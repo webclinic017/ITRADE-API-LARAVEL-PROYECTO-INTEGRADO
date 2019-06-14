@@ -1,0 +1,47 @@
+{% set name = "ply" %}
+{% set version = "3.11" %}
+{% set sha256 = "928c5642612f4710b168d3c49c25f6ece2913a5e8d1c5e37fde5d6162fec3fd2" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://github.com/dabeaz/{{ name }}/archive/{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    - python
+
+test:
+  imports:
+    - ply.lex
+    - ply.yacc
+
+about:
+  home: http://www.dabeaz.com/ply/index.html
+  license: BSD 3-clause
+  license_family: BSD
+  license_file: README.md
+  summary: 'Python Lex-Yacc'
+  description: |
+    PLY is a pure-Python implementation of the popular compiler construction
+    tools lex and yacc.  The main goal of PLY is to stay fairly faithful to the way
+    in which traditional lex/yacc tools work.
+  doc_url: http://www.dabeaz.com/ply/index.html
+  dev_url: https://github.com/dabeaz/ply
+  doc_source_url: https://github.com/dabeaz/ply/blob/master/doc/internal.htmls
+
+extra:
+  recipe-maintainers:
+    - scopatz
+    - synapticarbors

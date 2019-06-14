@@ -1,0 +1,21 @@
+{
+  "build": "h33f27b4_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "libsodium >=1.0.16,<1.0.17.0a0",
+    "vc >=14.1,<15.0a0"
+  ],
+  "features": "",
+  "fn": "zeromq-4.3.1-h33f27b4_3.tar.bz2",
+  "license": "LGPL 3",
+  "md5": "74ee385a0ce9d7e352da6a3e4b1c4083",
+  "name": "zeromq",
+  "size": 54995640,
+  "subdir": "win-64",
+  "timestamp": 1549026318046,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/zeromq-4.3.1-h33f27b4_3.tar.bz2",
+  "version": "4.3.1"
+}

@@ -1,0 +1,35 @@
+From 23ae9ff620f23eddf8bdf536ab5e635f22b478d0 Mon Sep 17 00:00:00 2001
+From: Jonathan Helmus <jjhelmus@gmail.com>
+Date: Fri, 26 Jan 2018 13:04:10 -0500
+Subject: [PATCH 3/7] supress overflow warning in special test_basic
+
+---
+ scipy/special/tests/test_basic.py | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+diff --git a/scipy/special/tests/test_basic.py b/scipy/special/tests/test_basic.py
+index 8ad4654..b41cd6e 100644
+--- a/scipy/special/tests/test_basic.py
++++ b/scipy/special/tests/test_basic.py
+@@ -2575,10 +2575,16 @@ class TestBessel(object):
+                                      rtol=rtol, atol=atol)
+ 
+     def test_jv_cephes_vs_amos(self):
+-        self.check_cephes_vs_amos(special.jv, special.jn, rtol=1e-10, atol=1e-305)
++        # on ppc64le this causes an overflow
++        with suppress_warnings() as sup:
++            sup.filter(RuntimeWarning, "overflow encountered in absolute")
++            self.check_cephes_vs_amos(special.jv, special.jn, rtol=1e-10, atol=1e-305)
+ 
+     def test_yv_cephes_vs_amos(self):
+-        self.check_cephes_vs_amos(special.yv, special.yn, rtol=1e-11, atol=1e-305)
++        # on ppc64le this causes an overflow
++        with suppress_warnings() as sup:
++            sup.filter(RuntimeWarning, "overflow encountered in absolute")
++            self.check_cephes_vs_amos(special.yv, special.yn, rtol=1e-11, atol=1e-305)
+ 
+     def test_yv_cephes_vs_amos_only_small_orders(self):
+         skipper = lambda v, z: (abs(v) > 50)
+-- 
+1.8.3.1
+

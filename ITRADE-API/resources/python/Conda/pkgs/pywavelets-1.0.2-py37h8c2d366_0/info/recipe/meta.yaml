@@ -1,0 +1,78 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00000pdpalb\tmp\build\80754af9\rsync-recipes\pywavelets-1.0.2-c_compiler_vs2017-python_3.7-on-winbuilder, last modified Mon Mar 11 14:17:25 2019
+# ------------------------------------------------
+
+package:
+    name: pywavelets
+    version: 1.0.2
+source:
+    fn: PyWavelets-1.0.2.tar.gz
+    sha256: 095b1539992230e6ee8a3799ab51793f2d86923bd0fc05c4fd717ae4afc95b71
+    url: https://github.com/PyWavelets/pywt/archive/v1.0.2.tar.gz
+build:
+    number: '0'
+    script: C:\ci\pywavelets_1552335599471\_h_env\python.exe -m pip install . --no-deps
+        --ignore-installed -vvv
+    string: py37h8c2d366_0
+requirements:
+    build:
+        - vs2017_win-64 19.15.26726 h3c6f0ee_0
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2019.1.23 0
+        - certifi 2019.3.9 py37_0
+        - cython 0.29.6 py37ha925a31_0
+        - icc_rt 2019.0.0 h0cc432a_1
+        - intel-openmp 2019.1 144
+        - mkl 2019.1 144
+        - numpy 1.11.3 py37h35d8231_12
+        - numpy-base 1.11.3 py37hc3f5095_12
+        - openssl 1.1.1b he774522_1
+        - pip 19.0.3 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.33.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - numpy >=1.11.3,<2.0a0
+        - python >=3.7,<3.8.0a0
+        - vc >=14.1,<15.0a0
+test:
+    import:
+        - pywt
+    requires:
+        - nose
+about:
+    description: 'PyWavelets is a free Open Source library for wavelet transforms
+        in Python.
+
+        Wavelets are mathematical basis functions that are localized in both time
+        and frequency.
+
+        Wavelet transforms are time-frequency transforms employing wavelets. They
+        are similar to
+
+        Fourier transforms, the difference being that Fourier transforms are localized
+        only in
+
+        frequency instead of in time and frequency.
+
+        '
+    dev_url: https://github.com/PyWavelets/pywt
+    doc_source_url: https://github.com/PyWavelets/pywt/tree/master/doc
+    doc_url: http://pywavelets.readthedocs.io/en/latest/
+    home: https://github.com/PyWavelets/pywt
+    license: MIT
+    license_file: LICENSE
+    summary: Discrete Wavelet Transforms in Python.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - grlee77
+        - jakirkham
+        - ocefpaf

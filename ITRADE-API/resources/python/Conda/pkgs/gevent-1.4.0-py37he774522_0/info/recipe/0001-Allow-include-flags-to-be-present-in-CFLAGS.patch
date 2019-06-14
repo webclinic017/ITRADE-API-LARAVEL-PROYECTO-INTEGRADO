@@ -1,0 +1,30 @@
+From 54911c9f148271aa9b46e5581e5bdc3931dd8a22 Mon Sep 17 00:00:00 2001
+From: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date: Sat, 20 Jan 2018 02:14:53 -0500
+Subject: [PATCH] Allow include flags to be present in CFLAGS
+
+With the restriction, compilation fails with:
+
+configure: CFLAGS error: CFLAGS may only be used to specify C compiler flags,
+not include directories. Use CPPFLAGS for: -I/opt/conda/conda-bld/gevent_.../.../include
+---
+ deps/c-ares/configure | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/deps/c-ares/configure b/deps/c-ares/configure
+index 6aa90cf..c198a98 100755
+--- a/deps/c-ares/configure
++++ b/deps/c-ares/configure
+@@ -3948,9 +3948,6 @@ $as_echo "$as_me: $xc_bad_var_msg libraries. Use LIBS for: $xc_word" >&6;}
+       -U*)
+         xc_bad_var_cflags=yes
+         ;;
+-      -I*)
+-        xc_bad_var_cflags=yes
+-        ;;
+       -rpath*)
+         xc_bad_var_cflags=yes
+         ;;
+-- 
+1.8.3.1
+

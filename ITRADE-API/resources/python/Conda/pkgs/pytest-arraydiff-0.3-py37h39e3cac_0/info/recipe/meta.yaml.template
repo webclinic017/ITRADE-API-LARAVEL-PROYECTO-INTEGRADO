@@ -1,0 +1,50 @@
+{% set name = "pytest-arraydiff" %}
+{% set version = "0.3" %}
+{% set git_url = "https://github.com/astrofrog/pytest-arraydiff" %}
+{% set sha256 = "de2d62f53ecc107ed754d70d562adfa7573677a263216a7f19aa332f20dc6c15" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .
+
+requirements:
+  host:
+    - python
+    - pip
+    - pytest
+    - numpy
+    - six
+  run:
+    - python
+    - pytest
+    - numpy
+    - six
+
+test:
+  imports:
+    - pytest_arraydiff
+
+about:
+  home: {{ git_url }}
+  license: BSD
+  summary: 'pytest plugin to help with comparing array output from tests'
+  description: |
+    This is a py.test plugin to facilitate the generation and comparison of
+    data arrays produced during tests.
+  doc_url: {{ git_url }}
+  dev_url: {{ git_url }}
+
+extra:
+  recipe-maintainers:
+    - astrofrog-conda-forge
+    - drdavella
+    - mwcraig

@@ -1,0 +1,1212 @@
+commit 049da0912ba4b807ab20421a4acb4a0d75f88b5c
+Merge: 93bbb75 bf30001
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Mar 12 17:16:51 2019 -0300
+
+    Merge pull request #76 from regro-cf-autotick-bot/4.3.1
+    
+    pytest v4.3.1
+
+commit bf300015caf6c73da59dea36afdf1733dbea5044
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 12 16:27:06 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.11
+
+commit c2846a47331616a5b42ae36febe5c658940b5ef5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 12 16:26:52 2019 +0000
+
+    updated v4.3.1
+
+commit 93bbb757ce76a8223655e6a5b5c02935b9be674e
+Merge: 060d00a 830a602
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Sun Feb 24 09:25:03 2019 -0600
+
+    Merge pull request #75 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition_arch
+    
+    Arch Migrator
+
+commit 830a6028f2a56468fc91f2acfbc7dba327c8b6e4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Feb 21 13:24:27 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.13, and conda-forge-pinning 2019.02.15
+
+commit 36b34b058a313a7022c53b3345bf9c5a410f043a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Feb 21 13:24:14 2019 +0000
+
+    bump build number
+
+commit 060d00ad9411a7bcc1114d00c5232ca4e008ff02
+Merge: d79a687 3d5ada1
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Feb 19 10:55:20 2019 -0300
+
+    Merge pull request #74 from regro-cf-autotick-bot/4.3.0
+    
+    pytest v4.3.0
+
+commit 3d5ada138ac7ab522180581751471689f8882753
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Feb 19 08:56:44 2019 -0300
+
+    Update more-itertools dependency
+
+commit df8e38d9ec8c6978a6bfe69af24b08920b975462
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Feb 19 05:23:36 2019 +0000
+
+    updated v4.3.0
+
+commit d79a6870f52354048d18b293a0992d0da552a9ed
+Merge: 1958db7 3bebd22
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Feb 13 12:08:09 2019 -0200
+
+    Merge pull request #73 from regro-cf-autotick-bot/4.2.1
+    
+    pytest v4.2.1
+
+commit 3bebd22d04651acfedf36b8847805b0e742c2f87
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Feb 13 11:14:18 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.13, and conda-forge-pinning 2019.02.11
+
+commit e4f9569ce19a8f77afa3ff41ca6cfcbf39919ef5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Feb 13 11:14:07 2019 +0000
+
+    updated v4.2.1
+
+commit 1958db766e8fa6f5edb1bd7f2fa53348b651f2a2
+Merge: bb602bd a032845
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Jan 31 13:32:41 2019 -0200
+
+    Merge pull request #72 from regro-cf-autotick-bot/4.2.0
+    
+    pytest v4.2.0
+
+commit a0328454abacfbd6ca3327e4d1011b7c09910af6
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Jan 31 12:56:26 2019 -0200
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit b58a2c686fed3c354ba4d21b9f124f3420ba2521
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jan 30 22:14:16 2019 +0000
+
+    updated v4.2.0
+
+commit bb602bddf0198d06a495f85fa6cb7f337aa6aa55
+Merge: 02f3cf0 17f0a9d
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sat Jan 12 16:02:16 2019 -0200
+
+    Merge pull request #71 from regro-cf-autotick-bot/4.1.1
+    
+    pytest v4.1.1
+
+commit 17f0a9d8e72d49176696376dd27a7acb3a1bcadb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jan 12 15:18:47 2019 +0000
+
+    updated v4.1.1
+
+commit 02f3cf0e38f86f9e3a9090b67c16bf0a450e5eca
+Merge: 6244d21 6983f9c
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sun Jan 6 13:40:46 2019 -0200
+
+    Merge pull request #70 from regro-cf-autotick-bot/4.1.0
+    
+    pytest v4.1.0
+
+commit 6983f9c3fbe09fa00bed0d3480744574aa6db24c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jan 6 15:19:44 2019 +0000
+
+    updated v4.1.0
+
+commit 6244d2135d91073cfa8be873349788b4a1dbdbc9
+Merge: adba64b 738d790
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Dec 14 09:31:32 2018 -0200
+
+    Merge pull request #69 from regro-cf-autotick-bot/4.0.2
+    
+    pytest v4.0.2
+
+commit 738d79024d07c6b8b8093989c523bda91d56064e
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Dec 14 09:20:03 2018 -0200
+
+    Revert to use setup.py install
+    
+    xref: https://github.com/conda-forge/pytest-xdist-feedstock/pull/30
+
+commit 10d865d70bd842e5ee5f7c4dd98fc6421f1c0885
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 14 11:14:05 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.12
+
+commit 87baa48fa453ddd41f83875f928cdebf3735bed1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 14 11:13:59 2018 +0000
+
+    updated v4.0.2
+
+commit adba64bce91c04aa93f928aba49833c04019315a
+Merge: 135d8ce 64e84d3
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sun Nov 25 10:44:00 2018 -0200
+
+    Merge pull request #68 from regro-cf-autotick-bot/4.0.1
+    
+    pytest v4.0.1
+
+commit 64e84d394e24838993ec0e92187e385b1a4df821
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 24 02:13:25 2018 +0000
+
+    updated v4.0.1
+
+commit 135d8ce99884e32229da0e24a68fadb36348e611
+Merge: 7869e0f fa6a2f1
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Nov 15 16:13:29 2018 -0200
+
+    Merge pull request #67 from regro-cf-autotick-bot/4.0.0
+    
+    pytest v4.0.0
+
+commit fa6a2f18ee55c514160aa900c04963a054c4f09f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Nov 14 18:17:48 2018 +0000
+
+    updated v4.0.0
+
+commit 7869e0ff0125211565880ee3a6e7ca2f24aa5e8c
+Merge: c42669b 86b714d
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sun Nov 11 21:37:14 2018 -0200
+
+    Merge pull request #66 from regro-cf-autotick-bot/3.10.1
+    
+    pytest v3.10.1
+
+commit 86b714d902e7f842fbdfac084b43e447f85e063a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 11 18:28:59 2018 +0000
+
+    updated v3.10.1
+
+commit c42669ba05840d2eb9d2912821b1ce9f7f91e683
+Merge: 69fabd4 f17f8a4
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sun Nov 4 20:22:13 2018 -0300
+
+    Merge pull request #65 from regro-cf-autotick-bot/3.10.0
+    
+    pytest v3.10.0
+
+commit f17f8a40762ff67939220ff9efd1c7db9258656a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 4 16:13:45 2018 +0000
+
+    updated v3.10.0
+
+commit 69fabd465b47509979252f9a0966bb8c768938a1
+Merge: a0a5158 c4968d1
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sat Oct 27 15:48:01 2018 -0300
+
+    Merge pull request #64 from regro-cf-autotick-bot/3.9.3
+    
+    pytest v3.9.3
+
+commit c4968d19f0f359c45e07ce931d66e9dae98ea6f6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Oct 27 17:14:15 2018 +0000
+
+    updated v3.9.3
+
+commit a0a51584823e3d07e0b04ac6b0318e17f71fca61
+Merge: 413c56e 72a6676
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Oct 23 06:02:38 2018 -0300
+
+    Merge pull request #62 from nicoddemus/3.9.2
+    
+    Update to 3.9.2
+
+commit 72a667641ec36ae33b5154df9df34debc2e9c637
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Oct 22 22:17:01 2018 -0300
+
+    Update to 3.9.2
+
+commit 413c56e3cc07a8e128d65760b0ee2eb853717ed1
+Merge: 24866ad ce5f07b
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Oct 17 10:23:15 2018 -0300
+
+    Merge pull request #61 from regro-cf-autotick-bot/3.9.1
+    
+    pytest v3.9.1
+
+commit ce5f07b0e66e18900804a6ae2788763e09cccb0f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 16 21:29:05 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit 85a6c1d6f864cca4e6c692a1f5e2c07a9e8e0c31
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 16 21:28:52 2018 +0000
+
+    updated v3.9.1
+
+commit 24866aded58ccdde0cc67b8fcdd8f10e10d4fda7
+Merge: 9853f24 c45662d
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Oct 4 07:40:51 2018 -0300
+
+    Merge pull request #60 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit c45662d73dd9c299410f799caa717c21d8f1268b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 18:18:08 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit ae1bffd21e4b1a79ac366b1cde93bd7dee4c6678
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 18:17:46 2018 +0000
+
+    bump build number
+
+commit 9853f24489b121e790623cf37977cd4fa31910ed
+Merge: d780d41 9b1b83d
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Oct 3 08:05:03 2018 -0300
+
+    Merge pull request #59 from regro-cf-autotick-bot/3.8.2
+    
+    pytest v3.8.2
+
+commit 9b1b83def0bbf1d0ff8ac393ce0b4df81ee74a4d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 2 21:12:35 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit 80a7309affe7d5d80856ce21b1e19bbdf2fa3f47
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 2 21:12:28 2018 +0000
+
+    updated v3.8.2
+
+commit d780d41784e207f63d32f7034cd6a23763c0847b
+Merge: fa8e3a1 88f5bae
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sat Sep 22 20:14:14 2018 -0300
+
+    Merge pull request #58 from regro-cf-autotick-bot/3.8.1
+    
+    pytest v3.8.1
+
+commit 88f5bae430a930cb74ecd9b8d24d0f90c8475005
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Sep 22 20:09:15 2018 +0000
+
+    updated v3.8.1
+
+commit fa8e3a1869d557a0e7dc4e377fa35b0d9cc5ca55
+Merge: b1cebab 7cc79a0
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Sep 6 13:00:15 2018 -0300
+
+    Merge pull request #57 from regro-cf-autotick-bot/3.8.0
+    
+    pytest v3.8.0
+
+commit 7cc79a002f63cbca50b33da7168c7bffc0daab65
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 6 13:17:43 2018 +0000
+
+    updated v3.8.0
+
+commit b1cebab69d364b59ff6a07b039121f5347882e16
+Merge: 7983156 ee0a51e
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Aug 29 21:24:04 2018 -0300
+
+    Merge pull request #55 from leouieda/3.7.4
+    
+    Update to 3.7.4
+
+commit ee0a51ed8dc9145648ca40cdb7686b613161dba1
+Author: Leonardo Uieda <leouieda@gmail.com>
+Date:   Wed Aug 29 10:06:47 2018 -1000
+
+    Update to 3.7.4
+
+commit 7983156d828aa32052c136e2ffb4532704d444bc
+Merge: 99f722e 85e091a
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sun Aug 26 20:01:57 2018 -0300
+
+    Merge pull request #54 from regro-cf-autotick-bot/3.7.3
+    
+    pytest v3.7.3
+
+commit 85e091a091a82832a0f1d49936ca07502b3146ec
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Aug 26 20:10:41 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.21
+
+commit 298f5a37fe35a6841a01b00de24f94ba29201b35
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Aug 26 20:10:35 2018 +0000
+
+    updated v3.7.3
+
+commit 99f722e8506c4afeed7e16f27797e6a12941a853
+Merge: e6d5da6 c1da0c9
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sat Aug 18 16:05:54 2018 -0300
+
+    Merge pull request #53 from regro-cf-autotick-bot/3.7.2
+    
+    pytest v3.7.2
+
+commit c1da0c903bddf430ccc0210104e0b7fdd28f932d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Aug 18 15:25:14 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.11 and pinning 2018.08.14
+
+commit 8d5c8d58551b797370010a60d3e23eaf94ce38de
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Aug 18 15:24:48 2018 +0000
+
+    updated v3.7.2
+
+commit e6d5da623d0181c68fbeb3357b375ede87c9c1f1
+Merge: fc15f37 91c94ac
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Aug 5 14:56:36 2018 -0300
+
+    Merge pull request #51 from ocefpaf/add_py37
+    
+    Add py37
+
+commit 91c94acd925b130dbc236016e0a0823710d97575
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Aug 5 13:10:37 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.07.24
+
+commit a571ec7e96506f8643ffe367aa8defcca6029058
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Aug 5 13:10:36 2018 -0300
+
+    update-cb3
+
+commit fc15f37234cb67bc1dba38e4d260a96b62fcdda9
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:20:05 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 4ac0ade57c8c58a64a1c9bc6ee5f8d21390a2d2e
+Merge: b9d0c3e 10532b0
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Aug 3 07:24:29 2018 -0300
+
+    Merge pull request #50 from regro-cf-autotick-bot/3.7.1
+    
+    pytest v3.7.1
+
+commit 10532b0eac475cf75a478fffe7dee6cf1f1b691b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 2 19:14:54 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.07.24
+
+commit 012c56f33fed580fc620a48a69f74739ef85b5c1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 2 19:14:33 2018 +0000
+
+    updated v3.7.1
+
+commit b9d0c3e02560087a7574a071ac34c15c92d7d867
+Merge: 9920d3e cc78048
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Jul 30 23:59:14 2018 -0300
+
+    Merge pull request #49 from regro-cf-autotick-bot/3.7.0
+    
+    pytest v3.7.0
+
+commit cc78048b53bd2e29fa59f093c0418d0398797893
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Jul 30 21:54:07 2018 -0300
+
+    Fix pluggy dependency
+
+commit 1bb929baa2a1a8bfc00f3d3f2fac0011b18ddd14
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Jul 30 21:50:39 2018 -0300
+
+    Add dependency to pathlib2
+
+commit eb1a9c1267a29930ed3f2baaec6bd4af5c4afb30
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jul 31 00:12:22 2018 +0000
+
+    updated v3.7.0
+
+commit 9920d3e37894261ca52f1a86e204357196fd1477
+Merge: c0e24d2 a50d133
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sun Jul 29 13:37:03 2018 -0300
+
+    Merge pull request #48 from regro-cf-autotick-bot/3.6.4
+    
+    pytest v3.6.4
+
+commit a50d1332a31f2723e5ae42fe45e546b5227d6212
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 28 16:08:51 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.8 and pinning 2018.07.24
+
+commit 1e65a0561d10d05e01b487dbc52294c247416b5a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 28 16:08:32 2018 +0000
+
+    updated v3.6.4
+
+commit c0e24d20455049c221835c892d9ede1a36076bba
+Merge: 12d9c9c bd158b6
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sun Jul 15 23:34:02 2018 -0500
+
+    Merge pull request #47 from regro-cf-autotick-bot/3.6.3
+    
+    pytest v3.6.3
+
+commit bd158b675aeddf1f2287baeab336a79238c6d597
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 6 23:06:46 2018 +0000
+
+    updated v3.6.3
+
+commit 12d9c9c49a4e5f4862aa37914a89cf243094ae20
+Merge: b6af9f2 fab930c
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Jun 25 14:30:06 2018 -0300
+
+    Merge pull request #46 from jjhelmus/ar_sync
+    
+    Add cross-compilation support.
+
+commit fab930ce6414651762e4a2c232b278d15d7981f9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Apr 9 13:04:31 2017 +0100
+
+    Add cross-compilation support.
+
+commit b6af9f26931fd0306683f4d146291b4751ecd1d5
+Merge: 9088647 959b952
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Jun 22 09:09:53 2018 -0300
+
+    Merge pull request #45 from regro-cf-autotick-bot/3.6.2
+    
+    pytest v3.6.2
+
+commit 959b9524b2383c44c73624fe0169c2d3b788deda
+Author: Travis CI User <travis@example.org>
+Date:   Thu Jun 21 22:56:28 2018 +0000
+
+    updated v3.6.2
+
+commit 9088647fc6920200db6c2952f75faf5fa09ee6a9
+Merge: 06bf742 a135837
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Jun 5 17:36:26 2018 -0300
+
+    Merge pull request #44 from regro-cf-autotick-bot/3.6.1
+    
+    pytest v3.6.1
+
+commit a1358377c4e7bec9e15b2c4ce56b8529e62a1611
+Author: Travis CI User <travis@example.org>
+Date:   Tue Jun 5 17:43:27 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.5 and pinning 2018.05.22
+
+commit ef63218d96a5cc6ac7eac5bdf7e3147d78c3a17a
+Author: Travis CI User <travis@example.org>
+Date:   Tue Jun 5 17:43:17 2018 +0000
+
+    updated v3.6.1
+
+commit 06bf742c9dbbb4f475ea80786a3c6b8f489c1cfc
+Merge: ca8d5d6 8cc563d
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed May 23 23:03:59 2018 -0300
+
+    Merge pull request #43 from nicoddemus/3.6.0
+    
+    Add back python as a build dependency
+
+commit 8cc563de54f48a94cb4ff8932d0d2006eee72189
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed May 23 22:24:14 2018 -0300
+
+    Add back python as a build dependency
+    
+    Fix #42
+
+commit ca8d5d6380c40e8c4fc8b6feeb118f46c0a548b8
+Merge: cc7dcf3 9b2f5cd
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed May 23 09:41:53 2018 -0300
+
+    Merge pull request #41 from regro-cf-autotick-bot/3.6.0
+    
+    pytest v3.6.0
+
+commit 9b2f5cd9e96a0c89c72e1fd9d0d91e1e3404a251
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed May 23 08:15:28 2018 -0300
+
+    Use pip, add atomicwrites
+
+commit 66a12258641cfb0ae78574703333103aa1eaacb6
+Author: Travis CI User <travis@example.org>
+Date:   Wed May 23 11:10:14 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.4 and pinning 2018.05.07
+
+commit ac28bf6fa394692e45a330a135fd31c1996396bb
+Author: Travis CI User <travis@example.org>
+Date:   Wed May 23 11:10:00 2018 +0000
+
+    updated v3.6.0
+
+commit cc7dcf3bdd21ce123aabcce85bccca9ad12aadf3
+Merge: 7087d41 e12d1a4
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Apr 24 22:15:49 2018 -0300
+
+    Merge pull request #40 from regro-cf-autotick-bot/3.5.1
+    
+    pytest v3.5.1
+
+commit e12d1a4e5be2defaf6875e0fcde535060bcc7878
+Author: Travis CI User <travis@example.org>
+Date:   Tue Apr 24 22:56:38 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.19
+
+commit 348c0ccbcf181c5ad2785d54f5821ac68889b8cc
+Author: Travis CI User <travis@example.org>
+Date:   Tue Apr 24 22:56:08 2018 +0000
+
+    updated v3.5.1
+
+commit 7087d413e4283673385a44275b9cc6a247d60a4f
+Merge: c007b43 a53b398
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Mar 23 10:16:51 2018 -0300
+
+    Merge pull request #38 from nicoddemus/release-3.5.0
+    
+    Update to 3.5.0
+
+commit a53b3981132d7892676bd77ec4083d10404f03c9
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Mar 22 21:03:39 2018 -0300
+
+    Update to 3.5.0
+
+commit c007b431ce936325bbe09534684499aafa58ec0f
+Merge: 5e190a0 fc19844
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Mar 6 07:05:11 2018 -0300
+
+    Merge pull request #37 from nicoddemus/3.4.2
+    
+    Update to 3.4.2
+
+commit fc198445544a28e63e95f521e6efc4689783ed76
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Mar 5 20:14:00 2018 -0300
+
+    Update to 3.4.2
+
+commit 5e190a080ce1adf74eda8574d8370edf9b26132f
+Merge: 44db345 3351cbf
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Feb 21 20:06:26 2018 -0300
+
+    Merge pull request #36 from nicoddemus/release-3.4.1
+    
+    Update to 3.4.1
+
+commit 3351cbfab135436a5ebf63703543d46bad028590
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Feb 20 18:24:09 2018 -0300
+
+    Update to 3.4.1
+
+commit 44db345bc2a2e39b9a93716fea45b7e4186d65b9
+Merge: 554ea34 42e5af1
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Jan 31 07:17:59 2018 -0200
+
+    Merge pull request #35 from nicoddemus/release-3.4.0
+    
+    Update to 3.4.0
+
+commit 42e5af16c2af128a8c4c6c9ca396273d5d3b22ff
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Jan 30 20:38:58 2018 -0200
+
+    Update to 3.4.0
+
+commit 554ea346adc1412cb3d729bf35d9fe0368a46951
+Merge: 1801e9c 1877902
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Jan 5 10:34:34 2018 -0200
+
+    Merge pull request #32 from nicoddemus/release-3.3.2
+    
+    Update to 3.3.2
+
+commit 187790234838c241ffe89bf4201af490b389798f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Jan 5 11:54:59 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 7c2241b0d54d43f31cb7a1404be8ab8796d01720
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Jan 5 09:44:16 2018 -0200
+
+    Update to 3.3.2
+
+commit 1801e9c2e63f22c3f5b542a4ce77d83c4b8afe90
+Merge: 0716407 547ae28
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Dec 6 07:31:51 2017 -0200
+
+    Merge pull request #31 from nicoddemus/release-3.3.1
+    
+    Update to 3.3.1
+
+commit 547ae289b7d5d673379fdd1e599711977056d823
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Dec 5 22:37:26 2017 -0200
+
+    Update to 3.3.1
+
+commit 07164077b3775587a57bd0f2c8998bd4a551d8b1
+Merge: d2e5f13 6046faf
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Nov 28 07:35:49 2017 -0200
+
+    Merge pull request #30 from nicoddemus/release-3.3.0
+    
+    Update to 3.3.0
+
+commit 6046faf4a57bda3bfcb2b354922ca1c844c9ecb0
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Nov 27 19:54:18 2017 -0200
+
+    Fix linting in recipe
+
+commit 140d15613fa90a92367f07bd3acc7ff491f5298c
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Nov 27 19:50:06 2017 -0200
+
+    Add funcsigs for py27
+
+commit 9faa2fba0d7de6a9532d52bddd139690a77eae4e
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Nov 27 19:48:01 2017 -0200
+
+    Update to 3.3.0
+
+commit d2e5f130126cb85ad3207cde265113d511a04073
+Merge: 6391adf e1bb444
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Nov 15 14:12:24 2017 -0200
+
+    Merge pull request #29 from nicoddemus/release-3.2.5
+    
+    Update to 3.2.5
+
+commit e1bb444435be024a1dd035642639aeb51590b5df
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Nov 15 09:45:06 2017 -0200
+
+    Update to 3.2.5
+
+commit 6391adf48741f6ea340d9f2d15dd98cfbb106884
+Merge: 5590cdc 0af2084
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Nov 15 09:32:43 2017 -0200
+
+    Merge pull request #28 from nicoddemus/release-3.2.4
+    
+    Update to 3.2.4
+
+commit 0af2084d3e3371010746bc4d799a226b81f79ff9
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Nov 14 18:46:38 2017 -0200
+
+    Update to 3.2.4
+
+commit 5590cdce566f315692c7fccaacf260065a5690d8
+Merge: 1fe9220 cfad919
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Oct 5 07:31:40 2017 -0300
+
+    Merge pull request #27 from nicoddemus/release-3.2.3
+    
+    Update to 3.2.3
+
+commit cfad9191d908aad38d297e7a8fbdf06cd8f4b43d
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Oct 4 17:35:23 2017 -0300
+
+    Update to 3.2.3
+
+commit 1fe92203e44694c0c27ffe2e1704d9a1162c1ea6
+Merge: 62fce3c 47f33df
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Sep 21 05:03:46 2017 -0300
+
+    Merge pull request #26 from nicoddemus/fix-noarch
+    
+    Fix current 3.2.2 version (noarch)
+
+commit 47f33df47b3c2bd050c6d4b8ddb72dd01842384b
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Sep 19 18:42:01 2017 -0300
+
+    MNT: Re-rendered with conda-smithy 2.4.0
+
+commit 9416e2cd1d1dd1e36a0b347757a077e447b9d762
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Sep 19 18:38:44 2017 -0300
+
+    Remove unnecessary build-time dependencies
+
+commit 1e93f41ffc330fb3cc8d40980ce0354a244adf6b
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Sep 19 18:36:35 2017 -0300
+
+    Remove noarch support from pytest package
+    
+    Unfortunately noarch packages don't support platform specific
+    dependencies yet, like argparse and colorama
+
+commit 62fce3c5b07462505349491dd22045650871f212
+Merge: 33df2fb e124edd
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Sep 7 14:09:15 2017 -0300
+
+    Merge pull request #23 from nicoddemus/release-3.2.2
+    
+    Release 3.2.2
+
+commit e124edd0cfa7d79b01bd935305a5d7c5019d2a63
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Sep 7 14:05:53 2017 -0300
+
+    Update to 3.2.2
+
+commit 36eb2ef43661e9e0f4b2c6242a35ef093d60a258
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Sep 7 14:05:32 2017 -0300
+
+    MNT: Re-rendered with conda-smithy 2.4.0
+
+commit 6d8ca9f1613413df4ae0fa771e8b2f365832900c
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Sep 7 14:02:13 2017 -0300
+
+    Make build noarch
+
+commit 33df2fb8e168f8abcd8fb993450625961aba6630
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Aug 18 06:17:35 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit b14aab73af8e131de564deb605faf53db0b4f767
+Merge: da0fc9f ff67843
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Aug 10 17:32:39 2017 -0300
+
+    Merge pull request #22 from jjhelmus/v3.2.1
+    
+    Update feedstock to version 3.2.1
+
+commit ff678431d1d811c9652479e5c9b5cd43da2423e7
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Aug 10 08:37:49 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.3.3
+
+commit c8e27bef7269adf0deccf1126c4b0ff3be9e6a14
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Aug 10 08:27:14 2017 -0500
+
+    Update to version 3.2.1
+
+commit da0fc9f88ebf3ad40b60986b3aa0c8b90c7c98c4
+Merge: 2b6dbe7 bc42f70
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Aug 2 07:33:08 2017 -0300
+
+    Merge pull request #21 from nicoddemus/release-3.2.0
+    
+    Update to release 3.2.0
+
+commit bc42f70c6d9ada7158f02e5f24d62ad773ca7321
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Aug 1 19:01:46 2017 -0300
+
+    Update to release 3.2.0
+
+commit 2b6dbe78f33325fcf310b59e1ea77f24e9962d78
+Merge: 0ce98ca 7497cb4
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Jul 4 15:27:45 2017 -0300
+
+    Merge pull request #18 from nicoddemus/release-3.1.3
+    
+    Update to release-3.1.3
+
+commit 7497cb45684e2ab10e72e010ee41a37d2b6cdc6a
+Author: Bruno Oliveira <bruno@esss.com.br>
+Date:   Tue Jul 4 12:37:15 2017 -0300
+
+    Update to release-3.1.3
+
+commit 0ce98ca6c6efac55664f6412a49e41fcdcbae2f1
+Merge: be6ccee 24a273c
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sat Jun 10 01:49:53 2017 -0300
+
+    Merge pull request #17 from nicoddemus/release-3.1.2
+    
+    Update to release-3.1.2 and update links
+
+commit 24a273cd1baf0f95236a1db5e3c0bb8244b6d8c0
+Author: Bruno Oliveira <bruno@esss.com.br>
+Date:   Fri Jun 9 14:29:53 2017 -0300
+
+    Update py dep to >= 1.4.33
+
+commit ed35d04c56f1016015b5b41734242a3cb922d865
+Author: Bruno Oliveira <bruno@esss.com.br>
+Date:   Fri Jun 9 08:29:43 2017 -0300
+
+    Update to release-3.1.2 and update links
+
+commit be6ccee30448ae06604f7e7027bfe146684cda31
+Merge: 850e755 86ca1ef
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Jun 1 12:42:55 2017 -0300
+
+    Merge pull request #16 from nicoddemus/release-3.1.1
+    
+    Update to 3.1.1
+
+commit 86ca1ef9d545334ffb8116e37bc1d711f46cbdb5
+Author: Bruno Oliveira <bruno@esss.com.br>
+Date:   Thu Jun 1 11:05:38 2017 -0300
+
+    Update to 3.1.1
+
+commit 850e755452f96b761ea5e363b5b405fd51d59d48
+Merge: 006778f f898bf0
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon May 22 20:34:36 2017 -0300
+
+    Merge pull request #15 from nicoddemus/release-3.1.0
+    
+    Release 3.1.0
+
+commit f898bf0fdb181d05b7c7d10efa86465e64197b8d
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon May 22 19:21:56 2017 -0300
+
+    Update to pytest 3.1.0
+
+commit 6a3bb72101ff8f21183595a07aac95df5c4cbf11
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon May 22 19:20:01 2017 -0300
+
+    MNT: Re-rendered with conda-smithy 2.3.1
+
+commit 006778fca09091727af9d194ff64dbca09aaaf16
+Merge: 8443758 1a0b7c7
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Mar 15 10:11:59 2017 -0300
+
+    Merge pull request #14 from nicoddemus/release-3.0.7
+    
+    Update to pytest-3.0.7
+
+commit 1a0b7c7e6a347807a448a144125101449da97862
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Mar 14 18:14:04 2017 -0300
+
+    Update to pytest-3.0.7
+
+commit 8443758e852da005c59d794a917e31b2f394a2e8
+Merge: 287baf6 91fe920
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Feb 25 17:50:39 2017 -0500
+
+    Merge pull request #13 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 91fe9202a425e48eb65f247897ff5ea6bbe3ff9d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Feb 25 19:28:27 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.0.
+
+commit 287baf6d3748ac6746f3a87b0f930ae0ed562a94
+Merge: bccef81 e927cb1
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Jan 24 08:42:32 2017 -0200
+
+    Merge pull request #12 from nicoddemus/release-3.0.6
+    
+    Update to pytest-3.0.6
+
+commit e927cb1e4b4412fa981c4df8fd4a9a8f4d751016
+Author: Bruno Oliveira <bruno@esss.com.br>
+Date:   Mon Jan 23 13:34:13 2017 -0200
+
+    Update to pytest-3.0.6
+
+commit bccef81926bc0b73871dc3ad017af1599cbfeffe
+Merge: 47e82db 2fa4933
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Jan 20 09:30:17 2017 -0200
+
+    Merge pull request #11 from goanpeca/regenerate
+    
+    MNT: Re-rendered with conda-smithy 2.0.0
+
+commit 2fa4933dca90bba5a691e95eb85bf0176e7036f6
+Author: Gonzalo Pena-Castellanos <goanpeca@gmail.com>
+Date:   Wed Jan 18 18:18:24 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.0.0
+
+commit 47e82dbac63aa5c5cb7d3b0e2fb3e43e6b3d84e7
+Merge: b849129 c388c0a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Dec 26 09:26:41 2016 -0300
+
+    Merge pull request #10 from ocefpaf/py36
+    
+    rerender with auto
+
+commit c388c0a6613bbeba90f2ea026eae71d8e2a153b2
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Dec 26 09:13:37 2016 -0300
+
+    rerender with auto
+
+commit b849129ee64fb2fb095f0836164e4f6c8f19abcf
+Merge: 713d7c4 20e30a0
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Dec 8 22:01:09 2016 -0200
+
+    Merge pull request #9 from nicoddemus/rerender-1.6.1
+    
+    MNT: Re-rendered with conda-smithy 1.6.1
+
+commit 20e30a092489dc3c80a5b3ca7b0917c0442d3af4
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Dec 5 20:39:13 2016 +0000
+
+    MNT: Re-rendered with conda-smithy 1.6.1
+
+commit 713d7c4b8f87c3fb784099db97fbbbbede8e9e16
+Merge: 0d261b7 9fa5ad0
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Dec 5 16:50:35 2016 -0200
+
+    Merge pull request #8 from nicoddemus/release-3.0.5
+    
+    Update to pytest-3.0.5
+
+commit 9fa5ad05fc9e80f2b496cd674a7e712aff9497d9
+Author: Bruno Oliveira <bruno@esss.com.br>
+Date:   Mon Dec 5 13:03:14 2016 -0200
+
+    Update to pytest-3.0.5
+
+commit 0d261b716f89c561c64ab1152f5f4be816289b98
+Merge: e0d2224 732ac1b
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sat Nov 12 12:04:24 2016 -0200
+
+    Merge pull request #7 from nicoddemus/release-3.0.4
+    
+    Release 3.0.4
+
+commit 732ac1b045dae07bd082ee32ac98df5d1cfc74e8
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sat Nov 12 13:13:05 2016 +0000
+
+    Update to pytest-3.0.4
+
+commit faf65f071e6e79677ac940e2fd0e1f6e837b4245
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sat Nov 12 13:12:07 2016 +0000
+
+    MNT: Re-rendered with conda-smithy 1.5.1
+
+commit e0d2224098887d45b8f0e20967ab38e5496c46d0
+Merge: 18c74ce 0cec286
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Oct 6 12:03:07 2016 -0300
+
+    Merge pull request #6 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 0cec286c958ac33ed0ba67e890729dec46427470
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Oct 6 08:27:19 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.2.
+
+commit 18c74cee31c6ea7255906044ce3cfcb4c83c815b
+Merge: 38d1d76 e15a735
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Sep 29 20:24:49 2016 -0300
+
+    Merge pull request #5 from nicoddemus/master
+    
+    Update pytest to 3.0.3 and modernize recipe
+
+commit e15a73548cc66185dbd1928a479734b493786b57
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Sep 29 19:13:48 2016 -0300
+
+    Update pytest to 3.0.3 and modernize recipe
+    
+    * Using more jinja vars to make it easy to update the recipe
+    * Using the official source package from PyPI instead of github tarball
+
+commit 38d1d76b01057fe3f9618299d6846c98137d536d
+Merge: b132b34 9c82b9c
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Sep 2 20:55:56 2016 -0300
+
+    Merge pull request #4 from ocefpaf/bump
+    
+    update to 3.0.2
+
+commit 9c82b9c76ba58272da908d1d7ba640fbc367ab13
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Fri Sep 2 16:58:38 2016 -0300
+
+    Add setuptools are run-time dep
+
+commit 9681c73d3703248b348e85b083ecf6c9bde08a1b
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Fri Sep 2 16:49:08 2016 -0300
+
+    Update to 3.0.2
+
+commit b75feab5a4b8ef48c8a4103e2ee47e1740931ede
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Fri Sep 2 16:48:16 2016 -0300
+
+    rerender
+
+commit b132b340ec007993e63cdc92d7adffb87e2c3dba
+Merge: 79cf077 1ac5fca
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Aug 29 10:10:13 2016 -0300
+
+    Merge pull request #3 from nicoddemus/version-3.0.1
+    
+    Update to 3.0.1
+
+commit 1ac5fca8339830ef85fee81dfa9781f179638ecb
+Author: Bruno Oliveira <bruno@esss.com.br>
+Date:   Mon Aug 29 10:01:02 2016 -0300
+
+    Update to 3.0.1
+
+commit 79cf07700c08639b4a185095610158c5d80d3bfd
+Merge: ab68a50 9509c14
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Sat Jul 16 16:51:29 2016 -0500
+
+    Merge pull request #2 from jakirkham/add_flub
+    
+    Add @flub
+
+commit 9509c1415a2e1f60cf427ff837f57e7f2dd9b355
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Jul 16 17:46:40 2016 -0400
+
+    recipe: Add @flub as a maintainer.
+
+commit ab68a50f682eb194a6df914b2dff4b50265cb83b
+Merge: 5d63a8f 7229c63
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Jul 3 11:02:22 2016 -0300
+
+    Merge pull request #1 from ocefpaf/maintainer
+    
+    Add maintainers
+
+commit 7229c63a4aecc014a04103a445b0265216a6092b
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sun Jul 3 10:57:10 2016 -0300
+
+    Add maintainers
+
+commit 5d63a8fe215db38912bed20f73dc8827dfd2f340
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Jul 3 02:02:50 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit cb1a89a7dd4cafc2834dce3eeefb33f289317a31
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Jul 3 02:02:01 2016 +0000
+
+    Initial commit of the pytest feedstock.

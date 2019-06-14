@@ -1,0 +1,31 @@
+From 920d2de8179ec6b82df336318bb732755f79bdbb Mon Sep 17 00:00:00 2001
+From: Ray Donnelly <mingw.android@gmail.com>
+Date: Wed, 30 Jan 2019 18:28:49 +0000
+Subject: [PATCH 2/3] Install ZeroMQConfig.cmake on Windows to same place as
+ other OSes
+
+---
+ CMakeLists.txt | 7 +------
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 3e19fafc..ac5b46d1 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1322,12 +1322,7 @@ endif()
+ 
+ include(CMakePackageConfigHelpers)
+ 
+-if(WIN32)
+-  set(ZEROMQ_CMAKECONFIG_INSTALL_DIR "CMake" CACHE STRING "install path for ZeroMQConfig.cmake")
+-else()
+-  # GNUInstallDirs "DATADIR" wrong here; CMake search path wants "share".
+-  set(ZEROMQ_CMAKECONFIG_INSTALL_DIR "share/cmake/${PROJECT_NAME}" CACHE STRING "install path for ZeroMQConfig.cmake")
+-endif()
++set(ZEROMQ_CMAKECONFIG_INSTALL_DIR "share/cmake/${PROJECT_NAME}" CACHE STRING "install path for ZeroMQConfig.cmake")
+ 
+ if((NOT CMAKE_VERSION VERSION_LESS 3.0) AND (BUILD_SHARED OR BUILD_STATIC))
+   export(EXPORT ${PROJECT_NAME}-targets
+-- 
+2.17.2 (Apple Git-113)
+

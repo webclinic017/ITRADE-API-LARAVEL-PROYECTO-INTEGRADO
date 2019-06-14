@@ -1,0 +1,53 @@
+# This file created by conda-build 3.17.7
+# meta.yaml template originally from:
+# C:\ci\containers\000037f87jt\tmp\build\80754af9\rsync-recipes\sortedcollections-1.1.2-python_3.7-on-winbuilder, last modified Sat Jan 19 08:45:21 2019
+# ------------------------------------------------
+
+package:
+    name: sortedcollections
+    version: 1.1.2
+source:
+    fn: sortedcollections-1.1.2.tar.gz
+    sha256: b93e0decbd7f8f19e40c320709e70e4845b6c8b3a0e96c3c4f707b4b93e1d38a
+    url: https://pypi.io/packages/source/s/sortedcollections/sortedcollections-1.1.2.tar.gz
+build:
+    noarch: false
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - pip 18.1 py37_0
+        - python 3.7.2 h8c8aaf0_0
+        - setuptools 40.6.3 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.32.3 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+        - sortedcontainers >=2.0
+test:
+    imports:
+        - sortedcollections
+about:
+    description: Extends the sortedcontainers library with recipes for other collections.
+    dev_url: https://github.com/grantjenks/sortedcollections
+    doc_source_url: https://github.com/grantjenks/sortedcollections/blob/master/docs/index.rst
+    doc_url: http://www.grantjenks.com/docs/sortedcollections/
+    home: http://www.grantjenks.com/docs/sortedcollections/
+    license: Apache-2.0
+    license_family: Apache
+    license_file: LICENSE
+    summary: Python Sorted Collections
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - grantjenks
+        - mrocklin
+        - nehaljwani

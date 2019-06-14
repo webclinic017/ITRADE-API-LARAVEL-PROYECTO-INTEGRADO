@@ -1,0 +1,113 @@
+commit 77c7a817a1922f051cf600e1bc290ec3ebc6a85b
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Oct 23 12:42:11 2018 -0500
+
+    bump build number
+
+commit 83bbe81aae88027aa4695b37dcd471338d746d73
+Merge: 0be7c52 9e27677
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Tue Oct 23 10:09:36 2018 -0500
+
+    Merge pull request #1 from yehted/fix/greenlet_dependency
+    
+    gevent 1.3.6 requires greenlet 0.4.14 or above
+
+commit 9e27677aea97ded51b164a20807e359511973ffe
+Author: Ted Yeh <yeh.ted@gmail.com>
+Date:   Sat Oct 20 14:37:41 2018 -0500
+
+    gevent 1.3.6 requires greenlet 0.4.14 or above
+
+commit 0be7c52c2c83cb4b716de3f0b5b5f4d953989966
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Oct 15 16:48:16 2018 -0500
+
+    1.3.7
+
+commit 598f235bfb82ef0d255d43865929554f42623ad8
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Aug 22 11:42:48 2018 -0500
+
+    update to version 1.3.6
+
+commit 6d6bea2ab752ca04b1b0f640e31cd65af5542556
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Jul 25 09:32:48 2018 -0500
+
+    update to version 1.3.5
+
+commit e6b984acbac690e6063bb8dada36a0569e712d5e
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Jun 25 11:00:17 2018 -0500
+
+    update to version 1.3.4
+
+commit 0e0d24e84b5d836ecb9511f63b6b543969d14c10
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Jun 18 16:44:37 2018 -0500
+
+    update to version 1.3.3
+
+commit 87958da79f6c391efc6e16986a9584a6af2b8657
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Jun 1 08:23:51 2018 -0500
+
+    update greenlet requirement to >=0.4.13
+
+commit 6451f473340bde9f355f2bc84dbd825a45772826
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Jun 1 08:23:37 2018 -0500
+
+    update to version 1.3.2.post0
+
+commit a500fc72163b8f2342d26ab3820c487ae779a272
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue May 15 14:36:35 2018 -0400
+
+    set cffi requirements to >=1.11.5 on all platforms
+
+commit 230292a1072ec341d4298a74cb3d06ba54091182
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue May 15 14:36:16 2018 -0400
+
+    set build number to 0
+
+commit ba4c06c762dfa7b53a8bb74d38ac0c37ac87d49b
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue May 15 14:36:00 2018 -0400
+
+    update to version 1.3.0
+
+commit 72638f5d8b81f32b69cb9b573180d2e4464d222e
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Feb 11 04:36:29 2018 -0500
+
+    Bump build number to be ahead of older free channel pkg
+
+commit 9fbf983012cc13ccd2c91628b518b7733bd64d4d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Jan 20 07:44:41 2018 -0500
+
+    Add patch to remove restriction on CFLAGS
+    
+    Technically include headers should be provided in CPPFLAGS, but right now we do
+    that in CFLAGS. Until that change happens, we need to bypass this strict check.
+
+commit 693f8bd5ab78fc47bf68601470dead9dde2296ca
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Jul 20 04:26:45 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit 82efcba69b6a5ba7dbeb11d47dea0597f8ced920
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Jul 20 04:14:54 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 0512a108ac11975ce6a06d767a7e628555e1ff4a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Jul 20 04:13:19 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.3.2.

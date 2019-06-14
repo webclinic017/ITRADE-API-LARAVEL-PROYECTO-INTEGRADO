@@ -1,0 +1,24 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "astroid >=2.2.0",
+    "colorama",
+    "isort >=4.2.5",
+    "mccabe",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "pylint-2.3.1-py37_0.tar.bz2",
+  "license": "GPL",
+  "md5": "d924f8cd8b074e537a133365eee2c468",
+  "name": "pylint",
+  "size": 880534,
+  "subdir": "win-64",
+  "timestamp": 1552333000493,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pylint-2.3.1-py37_0.tar.bz2",
+  "version": "2.3.1"
+}

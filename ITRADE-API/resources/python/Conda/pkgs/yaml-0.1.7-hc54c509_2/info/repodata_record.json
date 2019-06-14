@@ -1,0 +1,20 @@
+{
+  "build": "hc54c509_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc 14.*"
+  ],
+  "features": "",
+  "fn": "yaml-0.1.7-hc54c509_2.tar.bz2",
+  "license": "MIT",
+  "md5": "eaeee418b8ac33d392ea03bb9b6f389d",
+  "name": "yaml",
+  "size": 105323,
+  "subdir": "win-64",
+  "timestamp": 1510609877038,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/yaml-0.1.7-hc54c509_2.tar.bz2",
+  "version": "0.1.7"
+}

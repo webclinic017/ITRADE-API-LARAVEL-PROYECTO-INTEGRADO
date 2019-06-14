@@ -1,0 +1,109 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00003isk52a\tmp\build\80754af9\rsync-recipes\numba-0.43.1-c_compiler_vs2017-cxx_compiler_vs2017-python_3.7-on-winbuilder, last modified Tue Mar 26 13:47:20 2019
+# ------------------------------------------------
+
+package:
+    name: numba
+    version: 0.43.1
+source:
+    git_rev: 0.43.1
+    git_url: https://github.com/numba/numba
+build:
+    entry_points:
+        - numba = numba.numba_entry:main
+        - pycc = numba.pycc:main
+    number: '0'
+    script_env:
+        - PY_VCRUNTIME_REDIST
+    string: py37hf9181ef_0
+requirements:
+    build:
+        - vs2017_win-64 19.15.26726 h3c6f0ee_0
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2019.1.23 0
+        - certifi 2019.3.9 py37_0
+        - icc_rt 2019.0.0 h0cc432a_1
+        - intel-openmp 2019.3 203
+        - llvmlite 0.28.0 py37ha925a31_0
+        - mkl 2019.3 203
+        - numpy 1.11.3 py37h35d8231_12
+        - numpy-base 1.11.3 py37hc3f5095_12
+        - openssl 1.1.1b he774522_1
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.27.2 he774522_0
+        - tbb 2019.4 h74a9793_0
+        - tbb-devel 2019.4 h74a9793_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wincertstore 0.2 py37_0
+    run:
+        - llvmlite >=0.28.0,<0.29.0a0
+        - numpy >=1.11.3,<2.0a0
+        - python >=3.7,<3.8.0a0
+        - tbb >=2019.4
+        - vc >=14.1,<15.0a0
+    run_constrained:
+        - tbb >=2018.0.5
+test:
+    files:
+        - mandel.py
+    imports:
+        - numba
+        - numba.annotations
+        - numba.cuda
+        - numba.cuda.cudadrv
+        - numba.cuda.kernels
+        - numba.cuda.simulator
+        - numba.cuda.simulator.cudadrv
+        - numba.cuda.tests
+        - numba.cuda.tests.cudadrv
+        - numba.cuda.tests.cudadrv.data
+        - numba.cuda.tests.cudapy
+        - numba.cuda.tests.cudasim
+        - numba.cuda.tests.nocuda
+        - numba.datamodel
+        - numba.jitclass
+        - numba.npyufunc
+        - numba.pycc
+        - numba.rewrites
+        - numba.runtime
+        - numba.scripts
+        - numba.servicelib
+        - numba.targets
+        - numba.testing
+        - numba.tests
+        - numba.tests.npyufunc
+        - numba.typeconv
+        - numba.types
+        - numba.typing
+        - numba.unsafe
+    requires:
+        - cffi
+        - ipython
+        - jinja2
+        - scipy
+        - setuptools
+        - tbb >=2018.0.5
+about:
+    description: 'Numba is an Open Source NumPy-aware optimizing compiler for Python
+
+        sponsored by Anaconda, Inc. It uses the remarkable LLVM compiler
+
+        infrastructure to compile Python syntax to machine code."
+
+        '
+    dev_url: https://github.com/numba/numba
+    doc_url: http://numba.pydata.org/
+    home: http://numba.github.com
+    license: BSD 2-clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: NumPy aware dynamic Python compiler using LLVM
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - souravsingh

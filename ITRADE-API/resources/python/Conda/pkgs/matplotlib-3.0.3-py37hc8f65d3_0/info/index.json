@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py37hc8f65d3_0",
+  "build_number": 0,
+  "depends": [
+    "cycler >=0.10",
+    "freetype >=2.9.1,<3.0a0",
+    "kiwisolver",
+    "libpng >=1.6.36,<1.7.0a0",
+    "numpy",
+    "pyparsing",
+    "pyqt 5.9.*",
+    "python >=3.7,<3.8.0a0",
+    "python-dateutil",
+    "pytz",
+    "setuptools",
+    "tornado",
+    "vc >=14.1,<15.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "license": "PSF-based",
+  "license_family": "PSF",
+  "name": "matplotlib",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1552572308927,
+  "version": "3.0.3"
+}

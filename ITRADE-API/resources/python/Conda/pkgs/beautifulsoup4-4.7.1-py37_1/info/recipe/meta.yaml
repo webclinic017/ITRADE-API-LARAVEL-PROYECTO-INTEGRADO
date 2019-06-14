@@ -1,0 +1,55 @@
+# This file created by conda-build 3.17.7
+# meta.yaml template originally from:
+# C:\ci\containers\000031ijgvj\tmp\build\80754af9\rsync-recipes\beautifulsoup4-4.7.1-python_3.7-on-winbuilder, last modified Sat Jan 19 08:39:30 2019
+# ------------------------------------------------
+
+package:
+    name: beautifulsoup4
+    version: 4.7.1
+source:
+    sha256: 945065979fb8529dd2f37dbb58f00b661bdbcbebf954f93b32fdf5263ef35348
+    url: https://pypi.io/packages/source/b/beautifulsoup4/beautifulsoup4-4.7.1.tar.gz
+build:
+    number: '1'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_1
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - pip 18.1 py37_0
+        - python 3.7.2 h8c8aaf0_0
+        - setuptools 40.6.3 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.32.3 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+        - soupsieve
+test:
+    imports:
+        - bs4
+about:
+    description: 'Beautiful Soup is a library for pulling data out of HTML and XML
+        files.
+
+        It provides ways of navigating, searching, and modifying parse trees.
+
+        '
+    dev_url: https://code.launchpad.net/beautifulsoup
+    doc_source_url: https://github.com/newvem/beautifulsoup4/blob/master/doc/source/index.rst
+    doc_url: http://beautiful-soup-4.readthedocs.io/en/latest/
+    home: http://www.crummy.com/software/BeautifulSoup/
+    license: MIT
+    license_family: MIT
+    license_file: COPYING.txt
+    summary: Python library designed for screen-scraping
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jschueller
+        - nehaljwani

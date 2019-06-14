@@ -1,0 +1,58 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00001s41om8\tmp\build\80754af9\rsync-recipes\rope-0.12.0-python_3.7-on-winbuilder, last modified Mon Feb 25 15:14:36 2019
+# ------------------------------------------------
+
+package:
+    name: rope
+    version: 0.12.0
+source:
+    sha256: 031eb54b3eeec89f4304ede816995ed2b93a21e6fba16bd02aff10a0d6c257b7
+    url: https://pypi.io/packages/source/r/rope/rope-0.12.0.tar.gz
+build:
+    number: '0'
+    script: C:\ci\rope_1551196447868\_h_env\python.exe -m pip install . --no-deps
+        --ignore-installed --no-cache-dir -vvv
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2019.1.23 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - pip 19.0.1 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.32.3 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - rope
+        - rope.base
+        - rope.base.oi
+        - rope.base.oi.type_hinting
+        - rope.base.oi.type_hinting.providers
+        - rope.base.oi.type_hinting.resolvers
+        - rope.base.utils
+        - rope.contrib
+        - rope.refactor
+        - rope.refactor.importutils
+about:
+    dev_url: https://github.com/python-rope/rope
+    doc_source_url: https://github.com/python-rope/rope/tree/master/docs
+    doc_url: https://pypi.python.org/pypi/rope
+    home: https://github.com/python-rope/rope
+    license: GPL 2.0
+    license_family: GPL2
+    license_file: COPYING
+    summary: A python refactoring library...
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jjhelmus
+        - pmlandwehr

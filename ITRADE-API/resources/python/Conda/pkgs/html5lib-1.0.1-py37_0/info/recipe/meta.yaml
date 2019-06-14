@@ -1,0 +1,61 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\html5lib-feedstock\recipe, last modified Tue Jul  3 15:48:32 2018
+# ------------------------------------------------
+
+package:
+    name: html5lib
+    version: 1.0.1
+source:
+    fn: html5lib-1.0.1.tar.gz
+    sha256: 66cb0dcfdbbc4f9c3ba1a63fdb511ffdbd4f513b2b6d81b80cd26ce6b3fb3736
+    url: https://pypi.io/packages/source/h/html5lib/html5lib-1.0.1.tar.gz
+build:
+    number: '0'
+    script: pip install --no-deps .
+    string: py37_0
+requirements:
+    host:
+        - certifi 2018.4.16 py37_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hea74fb7_0
+        - setuptools 39.2.0 py37_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+        - wheel 0.31.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+        - six >=1.9
+        - webencodings
+test:
+    imports:
+        - html5lib
+        - html5lib._trie
+        - html5lib.filters
+        - html5lib.treeadapters
+        - html5lib.treebuilders
+        - html5lib.treewalkers
+about:
+    description: 'html5lib is a pure-python library for parsing HTML. It is designed
+        to
+
+        conform to the WHATWG HTML specification, as is implemented by all major
+
+        web browsers.
+
+        '
+    dev_url: https://github.com/html5lib/html5lib-python
+    doc_source_url: https://github.com/html5lib/html5lib-python/blob/master/doc/index.rst
+    doc_url: http://html5lib.readthedocs.org/
+    home: https://github.com/html5lib/html5lib-python
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: HTML parser based on the WHATWG HTML specification
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - minrk

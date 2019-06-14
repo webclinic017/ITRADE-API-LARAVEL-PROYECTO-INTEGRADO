@@ -1,0 +1,82 @@
+# This file created by conda-build 3.16.3
+# meta.yaml template originally from:
+# C:\ci\containers\00001ehk9h3\tmp\build\80754af9\rsync-recipes\pywinpty-0.5.5-python_3.7-on-winbuilder, last modified Mon Dec 17 14:36:47 2018
+# ------------------------------------------------
+
+package:
+    name: pywinpty
+    version: 0.5.5
+source:
+    sha256: cec9894ecb34de3d7b1ca121dd98433035b9f8949b5095e84b103b349231509c
+    url: https://pypi.io/packages/source/p/pywinpty/pywinpty-0.5.5.tar.gz
+build:
+    number: '1000'
+    string: py37_1000
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - cython 0.29 py37ha925a31_0
+        - libpython 2.1 py37_0
+        - m2w64-binutils 2.25.1 5
+        - m2w64-bzip2 1.0.6 6
+        - m2w64-crt-git 5.0.0.4636.2595836 2
+        - m2w64-gcc 5.3.0 6
+        - m2w64-gcc-ada 5.3.0 6
+        - m2w64-gcc-fortran 5.3.0 6
+        - m2w64-gcc-libgfortran 5.3.0 6
+        - m2w64-gcc-libs 5.3.0 7
+        - m2w64-gcc-libs-core 5.3.0 7
+        - m2w64-gcc-objc 5.3.0 6
+        - m2w64-gmp 6.1.0 2
+        - m2w64-headers-git 5.0.0.4636.c0ad18a 2
+        - m2w64-isl 0.16.1 2
+        - m2w64-libiconv 1.14 6
+        - m2w64-libmangle-git 5.0.0.4509.2e5a9a2 2
+        - m2w64-libwinpthread-git 5.0.0.4634.697f757 2
+        - m2w64-make 4.1.2351.a80a8b8 2
+        - m2w64-mpc 1.0.3 3
+        - m2w64-mpfr 3.1.4 4
+        - m2w64-pkg-config 0.29.1 2
+        - m2w64-toolchain 5.3.0 7
+        - m2w64-tools-git 5.0.0.4592.90b8472 2
+        - m2w64-windows-default-manifest 6.4 3
+        - m2w64-winpthreads-git 5.0.0.4634.697f757 2
+        - m2w64-zlib 1.2.8 10
+        - msys2-conda-epoch 20160418 1
+        - openssl 1.1.1a he774522_0
+        - pip 18.1 py37_0
+        - python 3.7.1 h8c8aaf0_6
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.32.3 py37_0
+        - wincertstore 0.2 py37_0
+        - winpty 0.4.3 4
+    run:
+        - m2w64-gcc-libs
+        - python >=3.7,<3.8.0a0
+        - winpty
+test:
+    imports:
+        - winpty
+about:
+    description: "Python bindings for the winpty pseudo terminal library.\nIt allows\
+        \ to create and communicate with Windows processes that print outputs\n and\
+        \ recieve inputs via console input and output pipes.\n"
+    dev_url: https://github.com/spyder-ide/pywinpty
+    doc_url: https://github.com/spyder-ide/pywinpty
+    home: https://github.com/spyder-ide/pywinpty
+    license: MIT
+    summary: Python bindings for the winpty library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - andfoy
+        - blink1073
+        - ccordoba12
+        - goanpeca
+        - jjhelmus
+        - ocefpaf

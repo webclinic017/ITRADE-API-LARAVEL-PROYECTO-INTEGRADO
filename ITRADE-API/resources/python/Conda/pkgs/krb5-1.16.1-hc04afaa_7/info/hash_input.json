@@ -1,0 +1,7 @@
+{
+  "c_compiler": "vs2017",
+  "tk": "8.6",
+  "openssl": "1.1.1",
+  "cxx_compiler": "vs2017",
+  "vc": "14"
+}

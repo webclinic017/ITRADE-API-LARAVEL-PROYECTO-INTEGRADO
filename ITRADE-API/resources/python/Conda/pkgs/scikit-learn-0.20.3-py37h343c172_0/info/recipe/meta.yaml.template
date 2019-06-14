@@ -1,0 +1,85 @@
+{% set version = "0.20.3" %}
+{% set name = "scikit-learn" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://github.com/scikit-learn/scikit-learn/archive/{{ version }}.tar.gz
+  sha256: cadeefa9a824671bdcad790a075efbaa0d5a00458c43c9b4ce7110b129df7b10
+  patches:
+    - atol_in_gaussian_tests.patch  # [win]
+    - 0001-disable-test_predict_proba_binary.patch  # [win and vc==9]
+    # fails for mkl/py37/win32 - can apply selector if you want, but this should not be harmful.
+    - 0001-reduce-precision-of-almost_equal-in-test_graph_lasso.patch
+    # https://github.com/scikit-learn/scikit-learn/issues/12676
+    - 0002-xfail-test_omp_cv-due-to-mkl-issues.patch
+
+build:
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .  --verbose
+  skip: True  # [blas_impl == 'openblas' and win]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - pip
+    - python
+    - cython
+    - numpy-devel  {{ numpy }}
+    - mkl-devel  {{ mkl }}  # [blas_impl == 'mkl']
+    - openblas-devel {{ openblas }}  # [blas_impl == 'openblas']
+  run:
+    - python
+    - scipy
+
+# TODO :: Fix this properly.
+# Running into the same suspected i686 MKL bug that afflicts numpy and scipy
+# (it is a shame to disable all tests for a few bad eggs, and, atol=0, really?):
+# test_common.py.test_non_meta_estimators:check_supervised_y_2d(GaussianProcessRegressor)
+# site-packages/numpy/testing/utils.py", line 778, in assert_array_compare
+#     raise AssertionError(msg)
+# AssertionError:
+# Not equal to tolerance rtol=1e-07, atol=0
+#
+# (mismatch 30.0%)
+#  x: array([ -4.066801e-08,   1.000000e+00,   2.000000e+00,   4.349049e-08,
+#          1.000000e+00,   2.000000e+00,   1.880388e-08,   1.000000e+00,
+#          2.000000e+00,   3.421711e-09])
+#  y: array([ -4.066806e-08,   1.000000e+00,   2.000000e+00,   4.349050e-08,
+#          1.000000e+00,   2.000000e+00,   1.880386e-08,   1.000000e+00,
+#          2.000000e+00,   3.421711e-09])
+#
+# ----------------------------------------------------------------------
+# Ran 7994 tests in 367.589s
+#
+# FAILED (SKIP=77, failures=2)
+
+test:
+  requires:
+    - pytest
+  imports:
+    - sklearn
+  commands:
+    - pytest --showlocals --durations=20 --pyargs sklearn    # [not linux32 and not ppc64le]
+    - OMP_NUM_THREADS=1 pytest --showlocals --durations=20 --pyargs sklearn   # [ppc64le]
+
+about:
+  home: http://scikit-learn.org/
+  license: BSD 3-Clause
+  license_file: COPYING
+  summary: A set of python modules for machine learning and data mining
+
+extra:
+  recipe-maintainers:
+    - amueller
+    - astaric
+    - jakirkham
+    - ogrisel
+    - ocefpaf
+    - lesteve
+    - msarahan

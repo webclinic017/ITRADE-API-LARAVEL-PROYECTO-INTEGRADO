@@ -1,0 +1,64 @@
+# This file created by conda-build 3.16.3
+# meta.yaml template originally from:
+# C:\ci\containers\00001ehk9gj\tmp\build\80754af9\rsync-recipes\pygments-2.3.1-python_3.7-on-winbuilder, last modified Mon Dec 17 13:07:08 2018
+# ------------------------------------------------
+
+package:
+    name: pygments
+    version: 2.3.1
+source:
+    fn: Pygments-2.3.1.tar.gz
+    sha256: 5ffada19f6203563680669ee7f53b64dabbeb100eb51b61996085e99c03b284a
+    url: https://pypi.io/packages/source/P/Pygments/Pygments-2.3.1.tar.gz
+build:
+    entry_points:
+        - pygmentize = pygments.cmdline:main
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - python 3.7.1 h8c8aaf0_6
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+        - setuptools
+test:
+    commands:
+        - pygmentize -h
+    imports:
+        - pygments
+        - pygments.filters
+        - pygments.formatters
+        - pygments.lexers
+        - pygments.plugin
+        - pygments.styles
+about:
+    description: 'Pygments is suitable for use in code hosting, forums, wikis or other
+        a
+
+        pplications that need to prettify source code.
+
+        '
+    dev_url: https://bitbucket.org/birkenfeld/pygments-main
+    doc_source_url: https://bitbucket.org/birkenfeld/pygments-main/src/defaults/doc/docs/
+    doc_url: http://pygments.org/docs/
+    home: http://pygments.org/
+    license: BSD 2-clause
+    license_file: LICENSE
+    summary: Generic syntax highlighting package
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - ocefpaf
+        - pelson
+        - scopatz

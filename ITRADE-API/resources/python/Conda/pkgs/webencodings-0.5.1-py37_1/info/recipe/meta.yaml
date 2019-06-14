@@ -1,0 +1,42 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\webencodings-feedstock\recipe, last modified Tue Jul  3 15:56:27 2018
+# ------------------------------------------------
+
+package:
+    name: webencodings
+    version: 0.5.1
+source:
+    fn: webencodings-0.5.1.tar.gz
+    sha256: 082367f568a7812aa5f6922ffe3d9d027cd83829dc32bcaac4c874eeed618000
+    url: https://github.com/gsnedders/python-webencodings/archive/v0.5.1.tar.gz
+build:
+    number: '1'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_1
+requirements:
+    host:
+        - certifi 2018.4.16 py37_0
+        - python 3.7.0 hea74fb7_0
+        - setuptools 39.2.0 py37_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - webencodings
+about:
+    dev_url: https://github.com/gsnedders/python-webencodings
+    doc_url: https://pythonhosted.org/webencodings
+    home: https://github.com/gsnedders/python-webencodings
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: Character encoding aliases for legacy web content
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jschueller

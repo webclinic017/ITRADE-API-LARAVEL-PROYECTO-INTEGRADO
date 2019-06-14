@@ -1,0 +1,265 @@
+commit fbff4df6dff5caaa22039b2206f48a443ba59a23
+Author: Maggie-M <maggie.mari@continuum.io>
+Date:   Wed Aug 30 17:34:09 2017 -0500
+
+    Update meta.yaml
+
+commit 8ad6b4a77d6bc29a91fcce7d956d3e7e5ac38ebc
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Apr 6 16:18:26 2017 +0100
+
+    Add cross-compilation support.
+
+commit b553350a0dab0a058ca28c61e181ae8b20df754e
+Merge: f5e4bf8 6567f51
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Feb 21 23:21:16 2019 -0300
+
+    Merge pull request #14 from regro-cf-autotick-bot/1.8.0
+    
+    py v1.8.0
+
+commit 6567f51a511747812a8bd62822258e10118ff7bd
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Feb 22 02:15:22 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.13, and conda-forge-pinning 2019.02.21
+
+commit b4fbcb0474b7bf699c0600a9fd35677f7873e6ce
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Feb 22 02:15:12 2019 +0000
+
+    updated v1.8.0
+
+commit f5e4bf8eda71080dc61d0e464fa734b2d02a2243
+Merge: 8b7f2b2 5072997
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sat Oct 13 18:26:10 2018 -0300
+
+    Merge pull request #13 from regro-cf-autotick-bot/1.7.0
+    
+    py v1.7.0
+
+commit 50729977c56a3a2b17d7f8ff78b1559df8981460
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Oct 13 18:28:09 2018 +0000
+
+    updated v1.7.0
+
+commit 8b7f2b2bf5a53c767c8dcc4672488997f9e7f9f4
+Merge: 1d030a6 bafa207
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Mon Aug 27 18:46:05 2018 -0300
+
+    Merge pull request #12 from regro-cf-autotick-bot/1.6.0
+    
+    py v1.6.0
+
+commit bafa2073d2e2d16fa37d2b3a7ff2027d0b6d7243
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Aug 27 21:19:46 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.21
+
+commit 4e8f42b24b1da108a81214da0be328b3e157cd5c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Aug 27 21:19:40 2018 +0000
+
+    updated v1.6.0
+
+commit 1d030a664c9414dd6c607a2dff664cba3aefde33
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 18:13:37 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 3210459337c648d6975e4af01a71d608fc1ce668
+Merge: 5a09978 e30cf1f
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Jun 28 21:43:57 2018 -0300
+
+    Merge pull request #11 from regro-cf-autotick-bot/1.5.4
+    
+    py v1.5.4
+
+commit e30cf1f82919f05a6efb5d5d560000549ac47a36
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Jun 28 21:32:33 2018 -0300
+
+    Add dependency to setuptools_scm
+
+commit 41836d386e4170802d4fc835c1d170b03c960ff7
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Jun 28 21:26:53 2018 -0300
+
+    Use pip to install the package
+
+commit e8b0376140f87c754aca61e044e0747a338893d5
+Author: Travis CI User <travis@example.org>
+Date:   Thu Jun 28 23:19:07 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.28
+
+commit 638ae402f47375f94b059200b1b495a7f3c56b93
+Author: Travis CI User <travis@example.org>
+Date:   Thu Jun 28 23:18:59 2018 +0000
+
+    updated v1.5.4
+
+commit 5a09978caa936bfe79f3c9584fa8d212147dbefb
+Merge: 6587b3b 8d4d972
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Mar 22 10:17:05 2018 -0300
+
+    Merge pull request #10 from regro-cf-autotick-bot/1.5.3
+    
+    py v1.5.3
+
+commit 8d4d972fb376530a2702718da570ab6338429a01
+Author: Travis CI User <travis@example.org>
+Date:   Thu Mar 22 12:31:52 2018 +0000
+
+    updated v1.5.3
+
+commit 6587b3b66af6d1d2437dcb8bc13f0d6dbf4848da
+Merge: f015e90 7080654
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Nov 15 21:59:28 2017 -0200
+
+    Merge pull request #9 from nicoddemus/release-1.5.2
+    
+    Update to 1.5.2
+
+commit 7080654f604e29f52e7e7026cdd0ced07ff9b6e8
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Nov 15 21:51:57 2017 -0200
+
+    Update to 1.5.2
+
+commit f015e900b2a029781db02c8acf2c39c36ab46ef2
+Merge: c76f297 46241a7
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Nov 15 12:54:12 2017 -0200
+
+    Merge pull request #8 from nicoddemus/release-1.5.1
+    
+    Update to 1.5.1
+
+commit 46241a7865353769dc75b138734296a775dcdd85
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Nov 15 12:48:11 2017 -0200
+
+    Update to 1.5.1
+
+commit c76f297aaf873ba79234f6e0246c10a9f37670be
+Merge: 03fd667 be76311
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Nov 14 20:12:21 2017 -0200
+
+    Merge pull request #7 from nicoddemus/release-1.5.0
+    
+    Update to 1.5.0
+
+commit be763112b4cdef1545163b76facde368c09a95b9
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Nov 14 22:09:46 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.3
+
+commit 1b570018ccd3f2941d7212e9dc41257d07c611ec
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Nov 14 22:09:17 2017 +0000
+
+    Add noarch:python option
+
+commit e9cd52589291eaa1e2c8687a6ee225d960f85925
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Nov 14 20:08:22 2017 -0200
+
+    Update to 1.5.0
+
+commit 03fd667ce0b5c85565522ab4b5ff0166e63db4f9
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 22:16:21 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit c5fe243cd48ae44209132c2c0b630360d9518acb
+Merge: 5bd33eb 7fb5f8b
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sat Jun 10 01:49:55 2017 -0300
+
+    Merge pull request #6 from nicoddemus/release-1.4.34
+    
+    Release 1.4.34
+
+commit 7fb5f8b5d3668c81ecdf23c408d6314b7fdbbb54
+Author: Bruno Oliveira <bruno@esss.com.br>
+Date:   Fri Jun 9 14:40:44 2017 -0300
+
+    Update to 1.4.34
+
+commit 22116960be0e7cb40696addebe6da7e3f34ec948
+Author: Bruno Oliveira <bruno@esss.com.br>
+Date:   Fri Jun 9 14:39:56 2017 -0300
+
+    MNT: Re-rendered with conda-smithy 2.3.1
+
+commit 5bd33eb73a91e4c1f6af03c3fcc6e184042827af
+Merge: 5c7f8e3 e5d0223
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Mar 17 07:13:02 2017 -0300
+
+    Merge pull request #5 from nicoddemus/release-1.4.33
+    
+    Update to py-1.4.33
+
+commit e5d0223f1417d74636223d82e72ad0eb77fa57ce
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Mar 16 23:50:19 2017 -0300
+
+    Update to py-1.4.33
+
+commit 5c7f8e3073866b62fad40980db654a5e721b7f3b
+Merge: aa5a2b2 14bbd1a
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Mar 10 07:45:13 2017 -0300
+
+    Merge pull request #4 from nicoddemus/release-1.4.32
+    
+    Update to py-1.4.32
+
+commit 14bbd1a76914e0fee4dd25567dee6047f78c6fef
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Mar 8 23:16:36 2017 -0300
+
+    Update to py-1.4.32
+    
+    Fix #3
+
+commit aa5a2b21755e92c4c245e38e6f841b07290a8083
+Merge: 672f898 4272a4f
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Mar 1 14:46:57 2017 -0300
+
+    Merge pull request #2 from lexual/rerender_py36
+    
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit 4272a4fa8e56d160ac6934cc804fa58b5fd06370
+Author: lexual <a.hider@bom.gov.au>
+Date:   Wed Mar 1 19:51:56 2017 +1100
+
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit 672f898cb3b9192eb8dc9234513aa21077277f70
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Nov 15 08:29:09 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 0be79a0ce5673fea869956828f5fdefb0f8f58c8
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Nov 15 08:26:57 2016 +0000
+
+    Initial commit of the py feedstock.

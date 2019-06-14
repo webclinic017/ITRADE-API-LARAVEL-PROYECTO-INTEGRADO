@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/greenlet-0.4.15.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "Lib/site-packages/greenlet-0.4.15.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "4007966b62b5f20421083b75143c5a26db39629259ec1f1ecf7c018a87949834",
+      "size_in_bytes": 3304
+    },
+    {
+      "_path": "Lib/site-packages/greenlet-0.4.15.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "9ab24baed7bdc88c2739dbee57c06363d435fd4b74065db7da8ec5251b3e3380",
+      "size_in_bytes": 577
+    },
+    {
+      "_path": "Lib/site-packages/greenlet-0.4.15.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "8e61584b0476a22e4380c1a09a7b81f84271a8b3245288c619d989d30cf7e5a2",
+      "size_in_bytes": 106
+    },
+    {
+      "_path": "Lib/site-packages/greenlet-0.4.15.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "6129d1b024683bad491a53f9ee8f2228beab74b5835ae8b2283f1e929594b037",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "Lib/site-packages/greenlet.cp37-win_amd64.pyd",
+      "path_type": "hardlink",
+      "sha256": "b5b26d5ced58db74bd01dc6a589346ece1756be92c6c2fd3de297947f98b826e",
+      "size_in_bytes": 28672
+    },
+    {
+      "_path": "include/greenlet/greenlet.h",
+      "path_type": "hardlink",
+      "sha256": "4a5712daeb46a83263d4a9cc0caef8e728ad70928d5086c051a140f2b37ee2c6",
+      "size_in_bytes": 3972
+    }
+  ],
+  "paths_version": 1
+}

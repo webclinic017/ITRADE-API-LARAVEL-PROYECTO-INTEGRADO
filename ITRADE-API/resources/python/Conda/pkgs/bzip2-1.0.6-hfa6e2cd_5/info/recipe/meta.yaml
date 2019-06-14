@@ -1,0 +1,55 @@
+# This file created by conda-build 3.10.4
+# meta.yaml template originally from:
+# C:\ci\containers\00001l2dck2\tmp\build\80754af9\rsync-recipes\bzip2-1.0.6-c_compiler_vs2015-on-winbuilder, last modified Tue May 22 13:23:46 2018
+# ------------------------------------------------
+
+package:
+    name: bzip2
+    version: 1.0.6
+source:
+    fn: bzip2-1.0.6.tar.gz
+    md5: 00b516f4704d4a7cb50a1d97e6e8e15b
+    patches:
+        - 0001-cross.patch
+        - bzip2recover-CVE-2016-3189.patch
+    url: http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz
+build:
+    number: 5
+    run_exports:
+        - bzip2 >=1.0.6,<2.0a0
+    string: hfa6e2cd_5
+requirements:
+    build:
+        - jom 1.1.2 h3bd88b9_0
+        - vs2015_win-64 14.0.25123 h17c34da_3
+    host:
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+    run:
+        - vc 14.*
+about:
+    description: 'Bzip2 is a freely available high-quality data compressor. It typically
+
+        compresses files to within 10% to 15% of the best available techniques,
+
+        whilst being around twice as fast at compression and six times faster
+
+        at decompression.
+
+        '
+    doc_url: http://www.bzip.org/docs.html
+    home: http://www.bzip.org/
+    license: bzip2
+    license_family: BSD
+    license_file: LICENSE
+    summary: high-quality data compressor
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - jlanga
+        - mingwandroid
+        - msarahan
+        - pelson

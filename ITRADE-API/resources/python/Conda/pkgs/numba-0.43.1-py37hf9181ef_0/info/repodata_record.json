@@ -1,0 +1,27 @@
+{
+  "build": "py37hf9181ef_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "tbb >=2018.0.5"
+  ],
+  "depends": [
+    "llvmlite >=0.28.0,<0.29.0a0",
+    "numpy >=1.11.3,<2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "tbb >=2019.4",
+    "vc >=14.1,<15.0a0"
+  ],
+  "features": "",
+  "fn": "numba-0.43.1-py37hf9181ef_0.tar.bz2",
+  "license": "BSD 2-clause",
+  "license_family": "BSD",
+  "md5": "31cd47226f598e360b770161c870cbef",
+  "name": "numba",
+  "size": 2894734,
+  "subdir": "win-64",
+  "timestamp": 1553670631524,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/numba-0.43.1-py37hf9181ef_0.tar.bz2",
+  "version": "0.43.1"
+}

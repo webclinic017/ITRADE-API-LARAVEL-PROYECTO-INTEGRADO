@@ -1,0 +1,178 @@
+commit 44b7863ff37fb073a80e2383d665fe85aea74f08
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Sep 28 10:28:21 2018 -0500
+
+    3.1.1
+
+commit fddb3ec1a6bee89c40e57017ca50ef32ea432961
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Aug 4 20:40:33 2018 -0500
+
+    Don't use PIP, we do not get entry points on Windows?!
+
+commit 184f8e50adb31b1ab56fecaf27486100976a89b1
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Jul 24 21:44:39 2018 -0500
+
+    try a different PYTHON script line
+
+commit 0d2c6d6ad60535164271b23c8bf000a424f3ba6b
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Jul 24 21:10:15 2018 -0500
+
+    add build number
+
+commit 9aef46d6f3ca5e30b1eb409f2daa78dad4a588b4
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Jul 24 21:05:14 2018 -0500
+
+    go back to tarball release
+
+commit 949c2be0a037dca19bb199df7181e07d5b91df30
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Jul 24 20:59:05 2018 -0500
+
+    fix build/host; change tests to pass on win
+
+commit f4c5098f04903c2b8ac847708c3a2a2e08429dc1
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Jul 24 19:01:04 2018 -0500
+
+    3.1.0; conda-build >=3.12.0 in run_constrained
+
+commit 2ea5d8574dc4f1e0a20564ecd221ba004f23824a
+Author: Kale Franz <kfranz@continuum.io>
+Date:   Mon Jul 23 12:51:48 2018 -0500
+
+    conda-verify 3.0.2
+    
+    Signed-off-by: Kale Franz <kfranz@continuum.io>
+
+commit 45caf843b270a81879867efc0b0de35e9daebed3
+Author: Kale Franz <kfranz@continuum.io>
+Date:   Mon Jul 23 12:23:55 2018 -0500
+
+    conda-verify 3.0.2
+    
+    Signed-off-by: Kale Franz <kfranz@continuum.io>
+
+commit da8f5db132abda9d617e4521e56728ac3fc63bab
+Author: Kale Franz <kfranz@continuum.io>
+Date:   Mon Jul 23 12:22:16 2018 -0500
+
+    conda-verify 3.0.2
+    
+    Signed-off-by: Kale Franz <kfranz@continuum.io>
+
+commit 3c103dce5b751956e0a5dea6f4d75b630dbc9828
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Oct 13 12:27:16 2017 -0500
+
+    update to 3.0.0, add mandeep as maintainer
+
+commit 21777365b597f69c33604347363a4a2af47c76eb
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Sep 12 14:04:50 2017 -0500
+
+    ${PYTHON} -> python
+
+commit ab971aa36607f2da1c58e3ebafb17c9d58aa6d41
+Author: Maggie-M <maggie.mari@continuum.io>
+Date:   Thu Aug 31 19:08:14 2017 -0500
+
+    Update meta.yaml
+
+commit 0c8ee79f5a1db39e22338a9ba8db4fa5f5c2d641
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Jul 23 19:45:34 2017 +0100
+
+    Add cross-compilation support
+
+commit f1a302f5f5a097e5f43d6209137b236e5d0ebb8c
+Merge: 0db3e54 4583627
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Mar 3 13:39:33 2018 -0300
+
+    Merge pull request #4 from ocefpaf/update_to_3.0.2
+    
+    update to 3.0.2
+
+commit 4583627db2eced3142e61a22d2fc16651c0b0f74
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Mar 2 16:23:03 2018 -0300
+
+    add future
+
+commit 144fc00d7a85bd173e254162150bf63edf60479b
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Mar 2 16:18:41 2018 -0300
+
+    update to 3.0.2
+
+commit 0db3e5454be56b2501b3d27e4cbc09448238e579
+Merge: f98029d bc586d0
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 1 19:15:39 2018 -0300
+
+    Merge pull request #3 from regro-cf-autotick-bot/3.0.1
+    
+    conda-verify v3.0.1
+
+commit bc586d0808cb402bb1d4c465e9b02f4467a9b23b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 1 10:34:38 2018 -0300
+
+    fix entry point
+
+commit f2a8064da573044ba205ab1b498c3a7a918c728f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 1 10:10:31 2018 -0300
+
+    port changes from https://github.com/conda-forge/conda-verify-feedstock/pull/2
+
+commit 60468801ff505a4a6f54c7b063b8c8bcbbba56b6
+Author: Travis CI User <travis@example.org>
+Date:   Thu Mar 1 04:23:40 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 4b0a00d035351770a795684d7473ad70872af254
+Author: Travis CI User <travis@example.org>
+Date:   Thu Mar 1 04:21:36 2018 +0000
+
+    updated v3.0.1
+
+commit f98029d727527fd1df8a2972e87a7535150bfb5e
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Aug 15 02:58:35 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 06943d0d87f693586816b3f664bd891c45eca2e8
+Merge: 0540c1d 2f2526c
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Mar 10 20:28:42 2017 -0500
+
+    Merge pull request #1 from jakirkham/add_core
+    
+    Add core
+
+commit 2f2526ce027b4031a35e9b25b1b9cabdb3989506
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 10 09:45:00 2017 -0500
+
+    Giving core permissions to this feedstock.
+    
+    [skip ci]
+
+commit 0540c1dc17c9cd8de82332ba3a78b60cacc38059
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 10 08:36:38 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 13bbac2f950ee7f8212e0371a1014a2a81966938
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 10 08:32:03 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.1.1.

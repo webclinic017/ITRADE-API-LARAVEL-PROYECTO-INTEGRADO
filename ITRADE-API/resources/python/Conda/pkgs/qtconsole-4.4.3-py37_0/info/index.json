@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "ipykernel >=4.1",
+    "jupyter_client >=4.1",
+    "jupyter_core",
+    "pygments",
+    "pyqt",
+    "python >=3.7,<3.8.0a0",
+    "traitlets"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "qtconsole",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1544550165419,
+  "version": "4.4.3"
+}

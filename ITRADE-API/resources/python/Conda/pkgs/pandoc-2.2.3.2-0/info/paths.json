@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "Scripts/pandoc-citeproc.exe",
+      "path_type": "hardlink",
+      "sha256": "3bbe7f644dd2b502c77302039c8af73f2287451c1b639dfcf4a067670974659f",
+      "size_in_bytes": 58355729
+    },
+    {
+      "_path": "Scripts/pandoc.exe",
+      "path_type": "hardlink",
+      "sha256": "061ecf8115bbf104b846185aae4f290ed242499d8ac954e0befddf8d81b21383",
+      "size_in_bytes": 69102097
+    }
+  ],
+  "paths_version": 1
+}

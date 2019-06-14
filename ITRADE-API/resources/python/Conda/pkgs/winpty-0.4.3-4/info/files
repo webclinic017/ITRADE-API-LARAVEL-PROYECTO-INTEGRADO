@@ -1,0 +1,5 @@
+Library/bin/winpty-agent.exe
+Library/bin/winpty.dll
+Library/include/winpty.h
+Library/include/winpty_constants.h
+Library/lib/winpty.lib

@@ -1,0 +1,25 @@
+{
+  "build": "py37h39e3cac_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "ipython >=5.0",
+    "jupyter_client",
+    "python >=3.7,<3.8.0a0",
+    "tornado >=4.0",
+    "traitlets >=4.1"
+  ],
+  "features": "",
+  "fn": "ipykernel-5.1.0-py37h39e3cac_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "aaba26513406abacf583830549fab611",
+  "name": "ipykernel",
+  "size": 160194,
+  "subdir": "win-64",
+  "timestamp": 1539879996385,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/ipykernel-5.1.0-py37h39e3cac_0.tar.bz2",
+  "version": "5.1.0"
+}

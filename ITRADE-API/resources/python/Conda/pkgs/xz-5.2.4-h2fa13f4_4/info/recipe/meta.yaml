@@ -1,0 +1,66 @@
+# This file created by conda-build 3.10.2
+# meta.yaml template originally from:
+# C:\ci\containers\0000137093e\tmp\build\80754af9\rsync-recipes\xz-5.2.4-vc_14-c_compiler_vs2015-on-winbuilder, last modified Wed May 16 13:02:10 2018
+# ------------------------------------------------
+
+package:
+    name: xz
+    version: 5.2.4
+source:
+    patches:
+        - 0001-Add-vs2008-support-via-cmake.patch
+        - 0002-Add-gettimeofday-for-VS2008.patch
+    sha256: 3313fd2a95f43d88e44264e6b015e7d03053e681860b0d5d3f9baca79c57b7bf
+    url: http://downloads.sourceforge.net/project/lzmautils/xz-5.2.4.tar.bz2
+build:
+    number: '4'
+    run_exports:
+        - xz >=5.2.4,<6.0a0
+    string: h2fa13f4_4
+requirements:
+    build:
+        - cmake 3.11.1 h0c2ffe5_1
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+        - vs2015_win-64 14.0.25123 h17c34da_3
+    host:
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+    run:
+        - vc 14.*
+test:
+    commands:
+        - xz --help
+        - unxz --help
+        - echo greetings > hello.txt
+        - xz -z hello.txt
+        - xz -d hello.txt.xz
+        - findstr greetings hello.txt && (exit /b 0) || (exit /b 1)
+        - if not exist %PREFIX%\\Library\\bin\\liblzma.dll exit 1
+        - if not exist %PREFIX%\\Library\\lib\\liblzma.lib exit 1
+        - if not exist %PREFIX%\\Library\\lib\\liblzma_static.lib exit 1
+        - if not exist %PREFIX%\\Library\\include\\lzma.h exit 1
+about:
+    description: 'XZ Utils is free general-purpose data compression software with
+        a high
+
+        compression ratio. XZ Utils were written for POSIX-like systems, but also
+
+        work on some not-so-POSIX systems.
+
+        '
+    dev_url: http://git.tukaani.org/
+    doc_source_url: https://github.com/xz-mirror/xz/blob/master/README
+    doc_url: http://tukaani.org/xz/
+    home: http://tukaani.org/xz/
+    license: LGPL-2.1 and GPL-2.0
+    license_file: COPYING
+    summary: Data compression software with high compression ratio
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - msarahan
+        - nehaljwani
+        - ocefpaf

@@ -1,0 +1,48 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\locket-feedstock\recipe, last modified Tue Jul  3 15:50:11 2018
+# ------------------------------------------------
+
+package:
+    name: locket
+    version: 0.2.0
+source:
+    fn: locket-0.2.0.tar.gz
+    md5: fe870949c513d8f7079ba352463833ca
+    url: https://pypi.io/packages/source/l/locket/locket-0.2.0.tar.gz
+build:
+    number: '1'
+    script: python setup.py install
+    string: py37_1
+requirements:
+    host:
+        - certifi 2018.4.16 py37_0
+        - python 3.7.0 hea74fb7_0
+        - setuptools 39.2.0 py37_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - locket
+about:
+    description: 'Locket implements a lock that can be used by multiple processes
+        provided
+
+        they use the same path.
+
+        '
+    dev_url: https://github.com/mwilliamson/locket.py
+    doc_source_url: https://github.com/mwilliamson/locket.py/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/locket
+    home: https://github.com/mwilliamson/locket.py
+    license: BSD 2-Clause
+    license_file: LICENSE
+    summary: File-based locks for Python for Linux and Windows
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jcrist

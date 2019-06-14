@@ -1,0 +1,20 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00002g6vn07\tmp\build\80754af9\rsync-recipes\powershell_shortcut-0.0.1-on-winbuilder, last modified Sat Mar 30 09:27:44 2019
+# ------------------------------------------------
+
+package:
+    name: powershell_shortcut
+    version: 0.0.1
+build:
+    number: '2'
+    string: '2'
+requirements:
+    run:
+        - python
+about:
+    license: BSD
+    summary: Powershell shortcut creator for Windows (using menuinst)
+extra:
+    copy_test_source_files: true
+    final: true

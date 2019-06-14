@@ -1,0 +1,70 @@
+# This file created by conda-build 3.13.0
+# meta.yaml template originally from:
+# C:\ci\containers\000016mo5a3\tmp\build\80754af9\rsync-recipes\tk-8.6.8-c_compiler_vs2015-on-winbuilder, last modified Tue Aug 28 15:13:47 2018
+# ------------------------------------------------
+
+package:
+    name: tk
+    version: 8.6.8
+source:
+    -   folder: tcl8.6.8
+        sha256: c43cb0c1518ce42b00e7c8f6eaddd5195c53a98f94adc717234a65cbcfd3f96a
+        url: https://downloads.sourceforge.net/tcl/tcl8.6.8-src.tar.gz
+    -   folder: tk8.6.8
+        patches: null
+        sha256: 49e7bca08dde95195a27f594f7c850b088be357a7c7096e44e1158c7a5fd7b33
+        url: https://downloads.sourceforge.net/tcl/tk8.6.8-src.tar.gz
+build:
+    detect_binary_files_with_prefix: true
+    number: '0'
+    run_exports:
+        - tk >=8.6.8,<8.7.0a0
+    string: hfa6e2cd_0
+requirements:
+    build:
+        - vs2015_win-64 14.0.25123 h17c34da_3
+    host:
+        - vc 14.1 h21ff451_3
+        - vs2015_runtime 15.5.2 3
+    run:
+        - vc 14.*
+test:
+    commands:
+        - if not exist %LIBRARY_PREFIX%\\bin\\wish.exe exit 1
+        - if not exist %LIBRARY_PREFIX%\\bin\\tclsh.exe exit 1
+        - if not exist %LIBRARY_PREFIX%\\bin\\wish86.exe exit 1
+        - if not exist %LIBRARY_PREFIX%\\bin\\tclsh86.exe exit 1
+        - if not exist %LIBRARY_PREFIX%\\include\\tcl.h exit 1
+        - if not exist %LIBRARY_PREFIX%\\include\\tclDecls.h exit 1
+        - if not exist %LIBRARY_PREFIX%\\include\\tclPlatDecls.h exit 1
+        - if not exist %LIBRARY_PREFIX%\\include\\tclPlatDecls.h exit 1
+        - if not exist %LIBRARY_PREFIX%\\include\\tclTomMathDecls.h exit 1
+        - if not exist %LIBRARY_PREFIX%\\include\\tclTomMath.h exit 1
+        - if not exist %LIBRARY_PREFIX%\\include\\tk.h exit 1
+        - if not exist %LIBRARY_PREFIX%\\include\\tkDecls.h exit 1
+        - if not exist %LIBRARY_PREFIX%\\include\\tkPlatDecls.h exit 1
+        - if not exist %LIBRARY_PREFIX%\\lib\\tcl86t.lib exit 1
+        - if not exist %LIBRARY_PREFIX%\\bin\\tcl86t.dll exit 1
+        - if not exist %LIBRARY_PREFIX%\\lib\\tclstub86.lib exit 1
+        - if not exist %LIBRARY_PREFIX%\\lib\\tk86t.lib exit 1
+        - if not exist %LIBRARY_PREFIX%\\bin\\tk86t.dll exit 1
+        - if not exist %LIBRARY_PREFIX%\\lib\\tkstub86.lib exit 1
+        - tclsh hello.tcl
+        - tclsh86 hello.tcl
+        - wish86t hello.tcl
+    files:
+        - hello.tcl
+about:
+    home: http://www.tcl.tk/
+    license: Tcl/Tk
+    license_family: BSD
+    summary: A dynamic programming language with GUI support.  Bundles Tcl and Tk.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - mingwandroid
+        - msarahan
+        - pelson

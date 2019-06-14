@@ -1,0 +1,14 @@
+prefix=C:/Users/MTXDevp/Desktop/PROYECTO-INTEGRADO/ITRADE-API-LARAVEL-PROYECTO-INTEGRADO/ITRADE-API/resources/python/Conda/Library
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: hdf5
+Description: HDF5 (Hierarchical Data Format 5) Software Library
+Version: 1.10.4
+
+Cflags: -I${includedir}
+Libs: -L${libdir}  -lhdf5
+Requires: 
+Libs.private:  -lC:/Users/MTXDevp/Desktop/PROYECTO-INTEGRADO/ITRADE-API-LARAVEL-PROYECTO-INTEGRADO/ITRADE-API/resources/python/Conda/Library/lib/z.lib  -lhdf5
+Requires.private: 

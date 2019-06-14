@@ -1,0 +1,152 @@
+commit a2d3a24328ccb78613d5cbdfe83d014a1115e5a6
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Apr 16 14:50:04 2018 -0500
+
+    remove noarch: python
+
+commit ba798c9cf274cbf05114ad882241e19804292daa
+Merge: 4de1ea9 712334d
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Tue Feb 12 20:42:26 2019 -0500
+
+    Merge pull request #8 from regro-cf-autotick-bot/0.3.4
+    
+    parso v0.3.4
+
+commit 712334dafbfea3ca80b9c3b330d98b5b0b8848e8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Feb 13 00:14:53 2019 +0000
+
+    updated v0.3.4
+
+commit 4de1ea9f2c3ae400551784b2fe1ca206c460600a
+Merge: 3cd5aae 48bbc37
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Wed Feb 6 06:35:52 2019 -0500
+
+    Merge pull request #7 from regro-cf-autotick-bot/0.3.3
+    
+    parso v0.3.3
+
+commit 48bbc37eaa8fd10a207cbfff819518447418f757
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Feb 6 09:13:47 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit 552dcfb081eba5b3f35ce99d2b705daa97ba6691
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Feb 6 09:13:36 2019 +0000
+
+    updated v0.3.3
+
+commit 3cd5aae5f1787a4703ad35cbe55be07abf0bf6da
+Merge: a648eef d343a59
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Fri Jan 25 18:42:22 2019 -0500
+
+    Merge pull request #6 from regro-cf-autotick-bot/0.3.2
+    
+    parso v0.3.2
+
+commit d343a594167b267cc4d3c9eee3a55c7eb48b30f2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 25 22:24:52 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.7, conda-smithy 3.2.9, and conda-forge-pinning 2019.01.21
+
+commit b25e4957e1702fed5c35847e11988163cd1c509e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 25 22:24:47 2019 +0000
+
+    updated v0.3.2
+
+commit a648eef044048d9b0446fa8bcad9932c3607509a
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 18:23:56 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 2fc8374be70d5ecb7d5f5b3961768bebadd2986a
+Merge: ff57545 bf85239
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Jul 24 11:32:46 2018 -0300
+
+    Merge pull request #5 from regro-cf-autotick-bot/0.3.1
+    
+    parso v0.3.1
+
+commit bf85239632c7c082079fadc6262cdadda489c3b0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jul 10 20:12:33 2018 +0000
+
+    updated v0.3.1
+
+commit ff57545e3bbc7aa8df6f398ecfeef8126713d8b5
+Merge: 87c2c3f b53d214
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Sun Jul 1 15:36:30 2018 -0400
+
+    Merge pull request #4 from regro-cf-autotick-bot/0.3.0
+    
+    parso v0.3.0
+
+commit b53d214d3665ac5c36018647a010f097d0823b69
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 1 11:37:49 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.29
+
+commit b1fa2e4bd13a114de7f74f0059877cabbab873a0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 1 11:37:44 2018 +0000
+
+    updated v0.3.0
+
+commit 87c2c3feaeaf178b8517bef1efed37a0b457f13b
+Merge: 0010c9b 6a82f06
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Mon May 21 21:51:18 2018 -0400
+
+    Merge pull request #3 from synapticarbors/v0.2.1
+    
+    Update to v0.2.1
+
+commit 6a82f0664a4a841a4798e89dd94e8c4c1fcbf7e1
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue May 22 01:19:53 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.4 and pinning 2018.05.07
+
+commit 6a582b34a9c960196b74e9915c30c002c93c34db
+Author: Joshua L. Adelman <joshua.adelman@gmail.com>
+Date:   Mon May 21 21:18:43 2018 -0400
+
+    Update to v0.2.1
+
+commit 0010c9b0d539981e8b898baf5b4c7af905f29a3c
+Merge: 06717dd 68c9e6b
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Sun Apr 15 13:31:32 2018 -0400
+
+    Merge pull request #1 from regro-cf-autotick-bot/0.2.0
+    
+    parso v0.2.0
+
+commit 68c9e6b782096b482eacc80cf4b86fa58964c175
+Author: Travis CI User <travis@example.org>
+Date:   Sun Apr 15 17:18:19 2018 +0000
+
+    updated v0.2.0
+
+commit 06717dd1cb268a524b838f52016e08805b45e7db
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Dec 19 22:19:16 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 7ee6f93556b3db68c43f1c32d0a7d5d3089491f9
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Dec 19 22:16:10 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.4.4.

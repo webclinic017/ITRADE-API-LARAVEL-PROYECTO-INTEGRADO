@@ -1,0 +1,20 @@
+{
+  "build": "h1df5818_7",
+  "build_number": 7,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc 14.*"
+  ],
+  "features": "",
+  "fn": "libiconv-1.15-h1df5818_7.tar.bz2",
+  "license": "GPL and LGPL",
+  "md5": "cf3a121e3e744f0520d8fee6acdd2869",
+  "name": "libiconv",
+  "size": 679659,
+  "subdir": "win-64",
+  "timestamp": 1510602931208,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libiconv-1.15-h1df5818_7.tar.bz2",
+  "version": "1.15"
+}

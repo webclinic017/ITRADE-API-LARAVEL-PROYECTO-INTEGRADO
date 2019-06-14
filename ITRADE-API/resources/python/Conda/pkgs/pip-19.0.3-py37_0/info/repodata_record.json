@@ -1,0 +1,23 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "setuptools",
+    "wheel"
+  ],
+  "features": "",
+  "fn": "pip-19.0.3-py37_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "1f21b49908e49809c4c599bcbf7675ed",
+  "name": "pip",
+  "size": 1887633,
+  "subdir": "win-64",
+  "timestamp": 1551192665766,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pip-19.0.3-py37_0.tar.bz2",
+  "version": "19.0.3"
+}

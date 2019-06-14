@@ -1,0 +1,32 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\backports-feedstock\recipe, last modified Tue Jul  3 15:31:33 2018
+# ------------------------------------------------
+
+package:
+    name: backports
+    version: '1.0'
+build:
+    number: '1'
+    string: py37_1
+requirements:
+    host:
+        - python 3.7.0 hea74fb7_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - backports
+about:
+    description: 'Namespace for backported Python features.
+
+        '
+    doc_source_url: https://bitbucket.org/brandon/backports/src/931d2c348a93313413e444c0724db7ac5030a496/setup.py?at=default&fileviewer=file-view-default
+    doc_url: https://pypi.python.org/pypi/backports/
+    home: https://bitbucket.org/brandon/backports
+    license: BSD
+extra:
+    copy_test_source_files: true
+    final: true

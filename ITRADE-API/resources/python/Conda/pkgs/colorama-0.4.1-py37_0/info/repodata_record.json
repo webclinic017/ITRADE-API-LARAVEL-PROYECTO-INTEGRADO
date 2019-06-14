@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "colorama-0.4.1-py37_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "md5": "d9a9a8c0fe48c9d911da4a155a1e297b",
+  "name": "colorama",
+  "size": 24962,
+  "subdir": "win-64",
+  "timestamp": 1545084390965,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/colorama-0.4.1-py37_0.tar.bz2",
+  "version": "0.4.1"
+}

@@ -1,0 +1,24 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "ipython_genutils",
+    "jsonschema >=2.4,!=2.5.0",
+    "jupyter_core",
+    "python >=3.7,<3.8.0a0",
+    "traitlets >=4.1"
+  ],
+  "features": "",
+  "fn": "nbformat-4.4.0-py37_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "md5": "fcb1fb9c57d91232d61c373ca0b08a62",
+  "name": "nbformat",
+  "size": 163703,
+  "subdir": "win-64",
+  "timestamp": 1531667484324,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/nbformat-4.4.0-py37_0.tar.bz2",
+  "version": "4.4.0"
+}

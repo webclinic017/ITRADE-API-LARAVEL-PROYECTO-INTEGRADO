@@ -1,0 +1,19 @@
+{
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "msys2-conda-epoch >=20160418"
+  ],
+  "features": "",
+  "fn": "m2w64-libwinpthread-git-5.0.0.4634.697f757-2.tar.bz2",
+  "license": "MIT, BSD",
+  "md5": "67e61e700eb27424979778fae9293f13",
+  "name": "m2w64-libwinpthread-git",
+  "size": 30543,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-libwinpthread-git-5.0.0.4634.697f757-2.tar.bz2",
+  "version": "5.0.0.4634.697f757"
+}

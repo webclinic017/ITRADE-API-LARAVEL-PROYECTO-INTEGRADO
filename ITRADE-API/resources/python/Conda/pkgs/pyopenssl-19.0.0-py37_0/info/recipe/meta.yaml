@@ -1,0 +1,69 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00003kthk5j\tmp\build\80754af9\rsync-recipes\pyopenssl-19.0.0-python_3.7-on-winbuilder, last modified Mon Feb  4 16:47:06 2019
+# ------------------------------------------------
+
+package:
+    name: pyopenssl
+    version: 19.0.0
+source:
+    sha256: aeca66338f6de19d1aa46ed634c3b9ae519a64b458f8468aec688e7e3c20f200
+    url: https://pypi.io/packages/source/p/pyOpenSSL/pyOpenSSL-19.0.0.tar.gz
+build:
+    number: '0'
+    script: C:\ci\pyopenssl_1549320699526\_h_env\python.exe -m pip install . --no-deps
+        --ignore-installed --no-cache-dir -vvv
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.12.5 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - pip 18.1 py37_0
+        - python 3.7.2 h8c8aaf0_0
+        - setuptools 40.6.3 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.32.3 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - cryptography >=2.2.1
+        - python >=3.7,<3.8.0a0
+        - six >=1.5.2
+test:
+    imports:
+        - OpenSSL
+        - OpenSSL.SSL
+        - OpenSSL.crypto
+        - OpenSSL.rand
+about:
+    description: 'pyOpenSSL is a high-level wrapper around a subset of the OpenSSL
+        library.
+
+        It includes:
+
+        -SSL.Connection objects, wrapping the methods of Python''s portable sockets
+
+        -Callbacks written in Python
+
+        -Extensive error-handling mechanism, mirroring OpenSSL''s error codes
+
+        and much more.
+
+        '
+    dev_url: https://github.com/pyca/pyopenssl
+    doc_source_url: https://github.com/pyca/pyopenssl/blob/master/doc/index.rst
+    doc_url: https://pyopenssl.readthedocs.org/en/stable/
+    home: https://github.com/pyca/pyopenssl
+    license: Apache 2.0
+    license_family: Apache
+    license_file: LICENSE
+    summary: Python wrapper module around the OpenSSL library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - goanpeca
+        - mingwandroid
+        - nehaljwani

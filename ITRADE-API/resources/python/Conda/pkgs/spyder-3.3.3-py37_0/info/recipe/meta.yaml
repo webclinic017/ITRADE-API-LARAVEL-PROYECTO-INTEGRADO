@@ -1,0 +1,134 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00000am8ged\tmp\build\80754af9\rsync-recipes\spyder-3.3.3-python_3.7-on-winbuilder, last modified Tue Feb 12 10:25:47 2019
+# ------------------------------------------------
+
+package:
+    name: spyder
+    version: 3.3.3
+source:
+    patches:
+        - osx-zmq.patch
+    sha256: ef31de03cf6f149077e64ed5736b8797dbd278e3c925e43f0bfc31bb55f6e5ba
+    url: https://pypi.io/packages/source/s/spyder/spyder-3.3.3.tar.gz
+build:
+    entry_points:
+        - spyder = spyder.app.start:main
+    number: '0'
+    osx_is_app: true
+    string: py37_0
+requirements:
+    host:
+        - alabaster 0.7.12 py37_0
+        - asn1crypto 0.24.0 py37_0
+        - babel 2.6.0 py37_0
+        - ca-certificates 2019.1.23 0
+        - certifi 2018.11.29 py37_0
+        - cffi 1.11.5 py37h74b6da3_1
+        - chardet 3.0.4 py37_1
+        - colorama 0.4.1 py37_0
+        - cryptography 2.5 py37h7a1dbc1_0
+        - docutils 0.14 py37_0
+        - idna 2.8 py37_0
+        - imagesize 1.1.0 py37_0
+        - jinja2 2.10 py37_0
+        - markupsafe 1.1.0 py37he774522_0
+        - openssl 1.1.1a he774522_0
+        - packaging 19.0 py37_0
+        - pip 19.0.1 py37_0
+        - pycparser 2.19 py37_0
+        - pygments 2.3.1 py37_0
+        - pyopenssl 19.0.0 py37_0
+        - pyparsing 2.3.1 py37_0
+        - pysocks 1.6.8 py37_0
+        - python 3.7.2 h8c8aaf0_2
+        - pytz 2018.9 py37_0
+        - requests 2.21.0 py37_0
+        - setuptools 40.7.3 py37_0
+        - six 1.12.0 py37_0
+        - snowballstemmer 1.2.1 py37_0
+        - sphinx 1.8.4 py37_0
+        - sphinxcontrib 1.0 py37_1
+        - sphinxcontrib-websupport 1.1.0 py37_1
+        - sqlite 3.26.0 he774522_0
+        - urllib3 1.24.1 py37_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.32.3 py37_0
+        - win_inet_pton 1.0.1 py37_1
+        - wincertstore 0.2 py37_0
+    run:
+        - chardet >=2.0
+        - cloudpickle
+        - jedi >=0.9
+        - keyring
+        - nbconvert
+        - numpydoc
+        - pickleshare
+        - psutil
+        - pycodestyle
+        - pyflakes
+        - pygments >=2.0
+        - pylint
+        - pyqt 5.*
+        - python >=3.7,<3.8.0a0
+        - pyzmq
+        - qtawesome >=0.4.1
+        - qtconsole >=4.2
+        - qtpy >=1.5.0
+        - rope >=0.10.5
+        - sphinx
+        - spyder-kernels >=0.4.2,<1
+test:
+    commands:
+        - spyder -h
+    imports:
+        - spyder
+app:
+    entry: spyder
+    icon: logo.png
+    summary: The Scientific Python Development Environment
+    type: desk
+about:
+    description: 'Spyder is a powerful scientific environment written in Python, for
+        Python,
+
+        and designed by and for scientists, engineers and data analysts.
+
+        It features a unique combination of the advanced editing, analysis,
+
+        debugging and profiling functionality of a comprehensive development tool
+
+        with the data exploration, interactive execution, deep inspection and
+
+        beautiful visualization capabilities of a scientific package.\n
+
+        Furthermore, Spyder offers built-in integration with many popular
+
+        scientific packages, including NumPy, SciPy, Pandas, IPython, QtConsole,
+
+        Matplotlib, SymPy, and more.\n
+
+        Beyond its many built-in features, Spyder can be extended even further via
+
+        third-party plugins.\n
+
+        Spyder can also be used as a PyQt5 extension library, allowing you to build
+
+        upon its functionality and embed its components, such as the interactive
+
+        console or advanced editor, in your own software.
+
+        '
+    dev_url: https://github.com/spyder-ide/spyder
+    doc_url: https://docs.spyder-ide.org/
+    home: https://www.spyder-ide.org/
+    license: MIT
+    license_file: LICENSE.txt
+    summary: The Scientific Python Development Environment
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - goanpeca

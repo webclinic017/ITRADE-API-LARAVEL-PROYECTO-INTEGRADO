@@ -1,0 +1,22 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "notebook >=4.4.1",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "widgetsnbextension-3.4.2-py37_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "md5": "bf740e10a3667d34ed832dab9babc3a5",
+  "name": "widgetsnbextension",
+  "size": 1795607,
+  "subdir": "win-64",
+  "timestamp": 1538156418452,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/widgetsnbextension-3.4.2-py37_0.tar.bz2",
+  "version": "3.4.2"
+}

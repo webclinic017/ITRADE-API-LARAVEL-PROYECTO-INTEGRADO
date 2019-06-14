@@ -1,0 +1,60 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00002g6vmtc\tmp\build\80754af9\rsync-recipes\partd-0.3.10-python_3.7-on-winbuilder, last modified Fri Mar 22 15:42:36 2019
+# ------------------------------------------------
+
+package:
+    name: partd
+    version: 0.3.10
+source:
+    fn: partd-0.3.10.tar.gz
+    sha256: 33722a228ebcd1fa6f44b1631bdd4cff056376f89eb826d7d880b35b637bcfba
+    url: https://pypi.io/packages/source/p/partd/partd-0.3.10.tar.gz
+build:
+    noarch: false
+    number: '1'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_1
+requirements:
+    host:
+        - ca-certificates 2019.1.23 0
+        - certifi 2019.3.9 py37_0
+        - locket 0.2.0 py37_1
+        - openssl 1.1.1b he774522_1
+        - pip 19.0.3 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.27.2 he774522_0
+        - toolz 0.9.0 py37_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.33.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - locket
+        - python >=3.7,<3.8.0a0
+        - toolz
+test:
+    imports:
+        - partd
+about:
+    description: 'Partd stores key-value pairs. Values are raw bytes. It excels at
+        shuffling
+
+        operations.
+
+        '
+    dev_url: https://github.com/dask/partd
+    doc_source_url: https://github.com/dask/partd/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/partd/
+    home: https://github.com/dask/partd
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: Data structure for on-disk shuffle operations
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jcrist
+        - koverholt
+        - mrocklin

@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "py-1.8.0-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "f9af1860237198385801bef9a537fba8",
+  "name": "py",
+  "size": 143882,
+  "subdir": "win-64",
+  "timestamp": 1551146455510,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/py-1.8.0-py37_0.tar.bz2",
+  "version": "1.8.0"
+}

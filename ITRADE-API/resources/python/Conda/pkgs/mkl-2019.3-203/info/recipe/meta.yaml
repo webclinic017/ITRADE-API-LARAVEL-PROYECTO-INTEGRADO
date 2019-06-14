@@ -1,0 +1,54 @@
+# This file created by conda-build 3.17.8
+# ------------------------------------------------
+
+package:
+    name: mkl
+    version: '2019.3'
+source:
+    -   folder: mkl
+        url: https://anaconda.org/intel/mkl/2019.3/download/win-64/mkl-2019.3-intel_203.tar.bz2
+    -   folder: mkl-devel
+        url: https://anaconda.org/intel/mkl-devel/2019.3/download/win-64/mkl-devel-2019.3-intel_203.tar.bz2
+    -   folder: mkl-include
+        url: https://anaconda.org/intel/mkl-include/2019.3/download/win-64/mkl-include-2019.3-intel_203.tar.bz2
+    -   folder: intel-openmp
+        url: https://anaconda.org/intel/intel-openmp/2019.3/download/win-64/intel-openmp-2019.3-intel_203.tar.bz2
+build:
+    binary_relocation: false
+    detect_binary_files_with_prefix: false
+    missing_dso_whitelist:
+        - /lib/ld-linux.so.2
+        - /lib/libc.so.6
+        - /lib/libdl.so.2
+        - /lib/libgcc_s.so.1
+        - /lib/libm.so.6
+        - /lib/libpthread.so.0
+        - /lib64/ld-linux-x86-64.so.2
+        - libcoi_device.so.0
+        - libiomp5.so
+    noarch: false
+    number: '203'
+    script: repack.bat
+    string: '203'
+requirements:
+    host:
+        - intel-openmp
+    run:
+        - intel-openmp
+about:
+    description: 'Intel Math Kernel Library is a BLAS implementation tuned for high
+        performance on Intel CPUs.
+
+        This package is a repackaged set of binaries obtained directly from Intel\''s
+        anaconda.org channel.
+
+        '
+    doc_url: https://software.intel.com/en-us/mkl/documentation
+    home: https://software.intel.com/en-us/mkl
+    license: proprietary - Intel
+    license_family: Proprietary
+    license_file: LICENSE.txt
+    summary: Math library for Intel and compatible processors
+extra:
+    copy_test_source_files: true
+    final: true

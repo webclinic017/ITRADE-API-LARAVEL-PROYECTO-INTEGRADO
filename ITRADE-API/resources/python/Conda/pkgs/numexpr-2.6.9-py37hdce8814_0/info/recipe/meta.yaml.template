@@ -1,0 +1,59 @@
+{% set version = "2.6.9" %}
+
+package:
+  name: numexpr
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/n/numexpr/numexpr-{{ version }}.tar.gz
+  sha256: fc218b777cdbb14fa8cff8f28175ee631bacabbdd41ca34e061325b6c44a6fa6
+
+build:
+  number: 0
+  skip: True  # [blas_impl == 'openblas' and win]
+  script:
+    - cp $PREFIX/site.cfg site.cfg  # [unix]
+    - copy %PREFIX%\\site.cfg site.cfg  # [win]
+    - dos2unix numexpr/*.py  # [win]
+    - dos2unix numexpr/tests/*.py  # [win]
+    - {{PYTHON}} setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - mkl-devel  {{ mkl }}  # [blas_impl == 'mkl']
+    - openblas-devel {{ openblas }}  # [blas_impl == 'openblas']
+    - numpy-devel
+    - python
+    - setuptools
+  run:
+    - python
+
+test:
+  requires:
+    - setuptools
+    - nomkl  # [x86 and blas_impl == 'openblas']
+  imports:
+    - numexpr
+    - numexpr.interpreter
+
+about:
+  home: https://github.com/pydata/numexpr
+  license: MIT
+  license_file: LICENSE.txt
+  summary: 'Fast numerical expression evaluator for NumPy.'
+  description: |
+    Numexpr is a fast numerical expression evaluator for NumPy. With it,
+    expressions that operate on arrays (like "3*a+4*b") are accelerated and use
+    less memory than doing the same calculation in Python.
+  doc_url: https://github.com/pydata/numexpr/wiki/Numexpr-Users-Guide
+  dev_url: https://github.com/pydata/numexpr
+
+extra:
+  recipe-maintainers:
+    - msarahan
+    - ocefpaf
+    - scopatz
+    - djkirkham

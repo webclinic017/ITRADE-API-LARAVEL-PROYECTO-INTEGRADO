@@ -1,0 +1,44 @@
+{% set version = "0.5.7" %}
+
+package:
+  name: qtawesome
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/q/qtawesome/QtAwesome-{{ version }}.tar.gz
+  sha256: 510972e327a6013f962b41cc14d27cff2689fbd8d38bb0816bc4b890d699e0b0
+
+build:
+  number: 0
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+
+requirements:
+  host:
+    - python
+    - pip
+  build:
+      - {{ cdt('mesa-libgl') }}  # [linux]
+  run:
+    - six
+    - python
+    - qtpy
+
+test:
+  requires:
+    - pyqt
+    - {{ cdt('mesa-libgl-devel') }}  # [linux]
+  imports:
+    - qtawesome
+
+about:
+  home: https://github.com/spyder-ide/qtawesome
+  license: MIT
+  license_file: LICENSE
+  summary: Iconic fonts in PyQt and PySide applications
+
+extra:
+  recipe-maintainers:
+    - SylvainCorlay
+    - goanpeca
+    - ccordoba12

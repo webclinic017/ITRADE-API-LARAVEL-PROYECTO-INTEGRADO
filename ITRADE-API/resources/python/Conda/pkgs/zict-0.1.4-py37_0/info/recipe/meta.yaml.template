@@ -1,0 +1,46 @@
+{% set version = "0.1.4" %}
+{% set name = "zict" %}
+
+package:
+  name: {{ name }}
+  version: "{{ version }}"
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: a7838b2f21bc06b7e3db5c64ffa6642255a5f7c01841660b3388a9840e101f99
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - heapdict
+
+test:
+  imports:
+    - zict
+
+about:
+  home: http://github.com/mrocklin/zict
+  license: BSD 3-Clause
+  license_file: LICENSE.txt
+  summary: 'Composable Dictionary Classes'
+  
+  description: |
+    Mutable Mapping interfaces.
+  doc_url: http://zict.readthedocs.io/en/latest/
+  dev_url: https://github.com/dask/zict
+  doc_source_url: https://github.com/dask/zict/tree/master/doc
+
+
+extra:
+  recipe-maintainers:
+    - mrocklin
+    - pitrou

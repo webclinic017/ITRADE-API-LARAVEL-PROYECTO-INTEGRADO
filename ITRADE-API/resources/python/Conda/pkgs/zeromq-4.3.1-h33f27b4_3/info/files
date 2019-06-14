@@ -1,0 +1,16 @@
+Library/bin/libzmq-mt-4_3_1.dll
+Library/bin/libzmq.dll
+Library/include/zmq.h
+Library/include/zmq_utils.h
+Library/lib/libzmq-mt-4_3_1.lib
+Library/lib/libzmq-mt-s-4_3_1.lib
+Library/lib/libzmq.lib
+Library/lib/pkgconfig/libzmq.pc
+Library/share/cmake/ZeroMQ/ZeroMQConfig.cmake
+Library/share/cmake/ZeroMQ/ZeroMQConfigVersion.cmake
+Library/share/cmake/ZeroMQ/ZeroMQTargets-release.cmake
+Library/share/cmake/ZeroMQ/ZeroMQTargets.cmake
+Library/share/zmq/AUTHORS.txt
+Library/share/zmq/COPYING.LESSER.txt
+Library/share/zmq/COPYING.txt
+Library/share/zmq/NEWS.txt

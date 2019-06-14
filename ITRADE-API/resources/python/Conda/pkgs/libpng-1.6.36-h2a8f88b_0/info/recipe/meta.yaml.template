@@ -1,0 +1,58 @@
+{% set version = "1.6.36" %}
+
+package:
+  name: libpng
+  version: {{ version }}
+
+source:
+  fn: libpng-{{ version }}.tar.gz
+  url: http://download.sourceforge.net/libpng/libpng-{{ version }}.tar.xz
+  sha256: eceb924c1fa6b79172fdfd008d335f0e59172a86a66481e09d4089df872aa319
+
+build:
+  number: 0
+  run_exports:
+    # SO name changes at minor rev bumps.
+    - {{ pin_subpackage('libpng', max_pin='x.x') }}
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - cmake  # [win]
+    - libtool  # [not win]
+    - automake  # [not win]
+    - make      # [not win]
+  host:
+    - zlib
+  #run:
+    # relying on run_exports to bring in zlib and vc
+    # - zlib 1.2.8
+    # - vc 9  # [win and py27]
+    # - vc 10  # [win and py34]
+    # - vc 14  # [win and (py35 or py36)]
+
+test:
+  commands:
+    - test -f ${PREFIX}/lib/libpng.a  # [not win]
+    - test -f ${PREFIX}/lib/libpng.so  # [linux]
+    - test -f ${PREFIX}/lib/libpng.dylib  # [osx]
+    - libpng-config --version  # [not win]
+    - conda inspect linkages -p $PREFIX libpng  # [not win]
+    - conda inspect objects -p $PREFIX libpng  # [osx]
+
+about:
+  home: http://www.libpng.org/pub/png/libpng.html
+  license: zlib/libpng
+  license_file: LICENSE
+  license_url: http://www.libpng.org/pub/png/src/libpng-LICENSE.txt
+  summary: 'PNG reference library.'
+  description: |
+    libpng is the official PNG reference library. It supports almost all PNG
+    features, is extensible, and has been extensively tested for over 20 years.
+  doc_url: http://www.libpng.org/pub/png/libpng.html
+  dev_url: https://sourceforge.net/p/libpng/code/ci/libpng16/tree/
+
+extra:
+  recipe-maintainers:
+    - ocefpaf
+    - msarahan

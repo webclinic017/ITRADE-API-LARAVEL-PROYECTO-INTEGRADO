@@ -1,0 +1,17 @@
+==> git log -n1 <==
+commit b276f0572744c73c184a8b43a897cfa7fc1dc523
+Merge: 3bf75d4 1ac4faf
+Author: Gonzalo Pena-Castellanos <goanpeca@gmail.com>
+Date:   Wed Aug 29 14:07:56 2018 -0500
+
+    Merge branch 'master' of https://github.com/Anaconda-Platform/anaconda-client
+==> git describe --tags --dirty <==
+1.7.2
+==> git status <==
+HEAD detached at 1.7.2
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	bld.bat
+
+nothing added to commit but untracked files present (use "git add" to track)

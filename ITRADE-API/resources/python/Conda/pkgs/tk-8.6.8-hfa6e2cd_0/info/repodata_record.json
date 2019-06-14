@@ -1,0 +1,21 @@
+{
+  "build": "hfa6e2cd_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc 14.*"
+  ],
+  "features": "",
+  "fn": "tk-8.6.8-hfa6e2cd_0.tar.bz2",
+  "license": "Tcl/Tk",
+  "license_family": "BSD",
+  "md5": "13cd026af1b90010901b7339bf19c35a",
+  "name": "tk",
+  "size": 3974859,
+  "subdir": "win-64",
+  "timestamp": 1535487641843,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/tk-8.6.8-hfa6e2cd_0.tar.bz2",
+  "version": "8.6.8"
+}

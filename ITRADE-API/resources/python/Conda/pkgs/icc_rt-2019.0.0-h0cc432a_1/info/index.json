@@ -1,0 +1,12 @@
+{
+  "arch": "x86_64",
+  "build": "h0cc432a_1",
+  "build_number": 1,
+  "depends": [],
+  "license": "Intel proprietary",
+  "name": "icc_rt",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1545006766605,
+  "version": "2019.0.0"
+}

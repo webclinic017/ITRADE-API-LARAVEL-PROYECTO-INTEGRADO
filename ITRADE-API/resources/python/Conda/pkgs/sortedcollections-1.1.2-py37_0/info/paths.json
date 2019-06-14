@@ -1,0 +1,77 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/sortedcollections-1.1.2.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "Lib/site-packages/sortedcollections-1.1.2.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "eb8178fd2d080e56088eb0c7ab43079ceca7105ccbc2843220ee895f4ca4836b",
+      "size_in_bytes": 557
+    },
+    {
+      "_path": "Lib/site-packages/sortedcollections-1.1.2.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "484ee1dbcb1ea4cc5917192568820c34b4e948ca404219d2d17bcd11be7f049f",
+      "size_in_bytes": 4811
+    },
+    {
+      "_path": "Lib/site-packages/sortedcollections-1.1.2.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "e243092ebefa59801ffe28323a20f013c7be6cc357674da0083506e21bebfaea",
+      "size_in_bytes": 974
+    },
+    {
+      "_path": "Lib/site-packages/sortedcollections-1.1.2.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "0282b6795dfc413cf0cb1c170a5a861ab65f849bca8b54ea97a1e1342c9cec7e",
+      "size_in_bytes": 98
+    },
+    {
+      "_path": "Lib/site-packages/sortedcollections-1.1.2.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "edb9fc8d56a96ae486411243d44e52be105e7f25a7d9aa374d17271687f73c62",
+      "size_in_bytes": 18
+    },
+    {
+      "_path": "Lib/site-packages/sortedcollections/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "f276ad27579f73ae625f0d8c6a4bbecf26e18ea0ec18a478cfdfd2f33fdd9c37",
+      "size_in_bytes": 662
+    },
+    {
+      "_path": "Lib/site-packages/sortedcollections/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "263875bfa227439f0e8315cd974cd44dfd8763c5c5d89eaa9d8f4f02349ff031",
+      "size_in_bytes": 908
+    },
+    {
+      "_path": "Lib/site-packages/sortedcollections/__pycache__/ordereddict.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "753b45510efc68c85473f54f42a07b525a7c782a731b696b76b58b2992638f04",
+      "size_in_bytes": 7591
+    },
+    {
+      "_path": "Lib/site-packages/sortedcollections/__pycache__/recipes.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "54b8d5eb131150a07a873bdc84ba7b17ec6917400e3f0b9c0558c2677dff21a3",
+      "size_in_bytes": 12247
+    },
+    {
+      "_path": "Lib/site-packages/sortedcollections/ordereddict.py",
+      "path_type": "hardlink",
+      "sha256": "1dec52430df20e4bb98f097f3c2ee378a556f360b4a9d5a2539b8b01b67c05c9",
+      "size_in_bytes": 6574
+    },
+    {
+      "_path": "Lib/site-packages/sortedcollections/recipes.py",
+      "path_type": "hardlink",
+      "sha256": "671e8712458b32a7171454f447886ddb462435e234a302bc2e8c2affe2856b9e",
+      "size_in_bytes": 10397
+    }
+  ],
+  "paths_version": 1
+}

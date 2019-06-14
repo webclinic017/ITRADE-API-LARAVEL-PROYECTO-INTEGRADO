@@ -1,0 +1,327 @@
+commit 11bb2895c7df0a2e8b234f44cc61ee4a557584cc
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Oct 11 13:10:59 2017 -0500
+
+    Make recipe cross-compile capable
+
+commit ac27a90dbd5cf55c76f605de0c6f5eede8856431
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Dec 2 16:17:54 2017 -0500
+
+    Remove unneeded and cyclic requirements/run
+    
+    Requiring something as heavy as zope for something as low level
+    as attrs is not a good idea. It is *only* needed for running
+    doctests anyway.
+    
+    pympler is only needed to run the testsuite.
+    
+    hypothesis is a cyclic dependency.
+    
+    All of these issues prevent bootstrapping a Miniconda.
+
+commit 6096c1a2ec217b68901cdaf91457d9e4aabdb5d2
+Merge: d94241f b886f92
+Author: Paweł T. Jochym <jochym@users.noreply.github.com>
+Date:   Sun Mar 3 11:06:55 2019 +0100
+
+    Merge pull request #14 from regro-cf-autotick-bot/19.1.0
+    
+    attrs v19.1.0
+
+commit b886f92de370916cbd71f6267a294c347bc092cf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 3 09:22:49 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit 11d98e84a3df44ef14aacbf4b270f824926b9bae
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 3 09:22:39 2019 +0000
+
+    updated v19.1.0
+
+commit d94241f5735cab420bce9e2e0627d3f904a2ff14
+Merge: beea220 8524550
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sat Sep 1 07:40:59 2018 -0300
+
+    Merge pull request #13 from regro-cf-autotick-bot/18.2.0
+    
+    attrs v18.2.0
+
+commit 852455032f24bb0d0071ef6c7824b88d738e7263
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Sep 1 05:08:53 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.31
+
+commit 049157190481a6e1c437f6975b0bc74d583332a2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Sep 1 05:08:47 2018 +0000
+
+    updated v18.2.0
+
+commit beea22064239afdc5d76b65938240813568329ad
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 18:14:41 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 2f23b4be563493e6b757303ad364e6352c6bb77e
+Merge: d77aadb e7852bf
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Jun 6 11:40:09 2018 -0300
+
+    Merge pull request #12 from nicoddemus/use-pip
+    
+    Use pip to build the package
+
+commit e7852bf513c10092e8c7e1451a130cf0b15bc1ce
+Author: Bruno Oliveira <bruno@esss.com.br>
+Date:   Wed Jun 6 11:32:04 2018 -0300
+
+    Use pip to build the package
+    
+    Attempts to fix #11
+
+commit d77aadb5a4e42dfbd01145db6241df92c3c1f9b7
+Merge: c97eb0a f4c3cbc
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu May 3 14:44:25 2018 -0300
+
+    Merge pull request #10 from regro-cf-autotick-bot/18.1.0
+    
+    attrs v18.1.0
+
+commit f4c3cbc7c5698a6af11e041f6f4638de47ae02b8
+Author: Travis CI User <travis@example.org>
+Date:   Thu May 3 17:24:06 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.28
+
+commit a64535f4078dc103d700e13e75734a8021b2a34c
+Author: Travis CI User <travis@example.org>
+Date:   Thu May 3 17:23:29 2018 +0000
+
+    updated v18.1.0
+
+commit c97eb0a338de19199e0fea9f08636d453866bf79
+Merge: 9c46bb9 af6cb56
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sat Dec 30 16:54:18 2017 -0200
+
+    Merge pull request #9 from jochym/master
+    
+    Updated recipe/meta.yaml to version 17.4.0
+
+commit af6cb56cc74b745430553db5b9df0426554c4127
+Author: Pawel T. Jochym <pawel.jochym@ifj.edu.pl>
+Date:   Sat Dec 30 19:48:17 2017 +0100
+
+    Drop build nr to zero
+
+commit 1cd50c0b07021b8e2f6d7934c39f73b2533c28b0
+Merge: 96e4ac1 9c46bb9
+Author: Pawel T. Jochym <pawel.jochym@ifj.edu.pl>
+Date:   Sat Dec 30 19:47:19 2017 +0100
+
+    Merge github.com:conda-forge/attrs-feedstock
+
+commit 96e4ac1d09129ea8c7e5805a4dd085d002fb5d1f
+Author: Pawel T. Jochym <pawel.jochym@ifj.edu.pl>
+Date:   Sat Dec 30 19:10:27 2017 +0100
+
+    Updated recipe/meta.yaml to version 17.4.0
+
+commit 9c46bb9e3b97727dc81755c7bdd2e7f4e78c095c
+Merge: 9a91e85 4c9f543
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Dec 27 18:54:28 2017 -0200
+
+    Merge pull request #8 from microe/make_wheel_instead_of_egg
+    
+    Make wheel instead of egg
+
+commit 4c9f543e448957c8fcc0a6a0fb99977c5f05246b
+Author: Erik Hovland <ehovland@jpl.nasa.gov>
+Date:   Wed Dec 27 12:20:53 2017 -0800
+
+    Build wheel instead of egg.
+    
+    As a noarch: python package, the attrs module should be built as a wheel
+    and not an egg. This makes it truly arch and python version neutral.
+
+commit 4c26b64a46d9a6c4da9bf1d81e54e5b320ffabc0
+Author: Erik Hovland <ehovland@jpl.nasa.gov>
+Date:   Wed Dec 27 12:11:17 2017 -0800
+
+    Remove unneeded whitespace.
+
+commit 9a91e85bf07b1db1c39579f576b312ceeb3ec059
+Merge: b2020bb 9cb32b3
+Author: Paweł T. Jochym <jochym@users.noreply.github.com>
+Date:   Sat Nov 11 12:25:09 2017 +0100
+
+    Merge pull request #7 from jochym/master
+    
+    Updated recipe/meta.yaml to version 17.3.0
+
+commit 9cb32b33b0cf584b34903d06cb6a6d286c34d5b0
+Author: Pawel T. Jochym <pawel.jochym@ifj.edu.pl>
+Date:   Sat Nov 11 12:11:22 2017 +0100
+
+    Reset build nr to 0
+
+commit 320a62f68ee58b4f230308ce439015e0151aeed6
+Author: Pawel T. Jochym <pawel.jochym@ifj.edu.pl>
+Date:   Sat Nov 11 12:08:29 2017 +0100
+
+    Updated recipe/meta.yaml to version 17.3.0
+
+commit b2020bbe3119f3e357f96cd58747169dade3ba35
+Merge: a55ab40 e423905
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Nov 10 19:15:42 2017 -0200
+
+    Merge pull request #6 from jochym/master
+    
+    Move hypothesis dependence to testing
+
+commit e423905984284d8ecc8f67a6e3b882b19cb55006
+Author: Paweł T. Jochym <jochym@users.noreply.github.com>
+Date:   Fri Nov 10 21:14:09 2017 +0100
+
+    Bump build number
+
+commit b74b5d3c1b587b3893f9aeb0dab28bd5dfab6a27
+Author: Paweł T. Jochym <jochym@users.noreply.github.com>
+Date:   Fri Nov 10 21:13:24 2017 +0100
+
+    Move all run deps to test deps
+
+commit bf67130971dc436a50c7613cd1069b7e9fa4487e
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Nov 10 20:08:30 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.3
+
+commit cd7cf9c8dc9a775f050c3f3ed145ce2c3c6bc2d3
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Nov 10 20:08:07 2017 +0000
+
+    Add noarch:python option
+
+commit 9b7bebc21fee53637fd88a3249f19f5ec9ecfc88
+Author: Paweł T. Jochym <jochym@users.noreply.github.com>
+Date:   Fri Nov 10 19:17:30 2017 +0100
+
+    Add myself to maintainers
+
+commit 2d8ccbdbb841e9cd88694d6a6d2231ef544c11c6
+Author: Paweł T. Jochym <jochym@users.noreply.github.com>
+Date:   Fri Nov 10 15:48:24 2017 +0100
+
+    Move hypothesis dependence to testing
+    
+    This is an attempt to break circular dependency on hypothesis
+
+commit a55ab40d4b0c60815c441a4b4afacc55b89f6a59
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 22:22:42 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 6b6920fc77d4a375f97c2700a83c7a2be339bd7a
+Merge: 60b11f8 16a126d
+Author: Christopher J. Wright <cjwright4242gh@gmail.com>
+Date:   Wed May 31 16:39:37 2017 -0400
+
+    Merge pull request #5 from nicoddemus/release-17.2.0
+    
+    Release 17.2.0
+
+commit 16a126da0b66008ed204b22589aac631da682b1e
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed May 31 14:54:23 2017 -0300
+
+    Update recipe to 17.2.0
+
+commit 06da9a2e5d9dc2d3eb36d2b19771ff7f7d415e4e
+Author: Bruno Oliveira <bruno@esss.com.br>
+Date:   Wed May 31 14:53:08 2017 -0300
+
+    MNT: Re-rendered with conda-smithy 2.3.1
+
+commit 60b11f8a6fbade5cb379643e599bdb4ada89e51b
+Merge: b3dd1e5 522625d
+Author: Christopher J. Wright <cjwright4242gh@gmail.com>
+Date:   Fri Apr 14 18:29:00 2017 -0400
+
+    Merge pull request #3 from conda-forge/build_number
+    
+    update build number
+
+commit 522625df42fed3de0dbcd9a928b17d12ab0e03ab
+Author: Christopher J. Wright <cjwright4242gh@gmail.com>
+Date:   Fri Apr 14 15:14:19 2017 -0400
+
+    update build number
+
+commit b3dd1e51b2a0dc8356e4c886c024b1b6187c6e13
+Merge: 86a8883 477b482
+Author: Christopher J. Wright <cjwright4242gh@gmail.com>
+Date:   Fri Apr 14 14:50:58 2017 -0400
+
+    Merge pull request #1 from CJ-Wright/fix_test
+    
+    command -> commands
+
+commit 477b482e5bef02d1e2f0c3e2494bf4c221639bb9
+Author: christopher <cjwright4242@gmail.com>
+Date:   Fri Apr 14 12:58:04 2017 -0400
+
+    typo attrs->attr
+
+commit 98807b6fadd6f9c859da1cbe2cdc385e574eb775
+Merge: 7c5a45a 0793527
+Author: christopher <cjwright4242@gmail.com>
+Date:   Fri Apr 14 12:50:29 2017 -0400
+
+    Merge branch 'fix_test' of https://github.com/CJ-Wright/attrs-feedstock into fix_test
+
+commit 7c5a45ade50ab6a1d5be3ee20c76905d796ae556
+Author: christopher <cjwright4242@gmail.com>
+Date:   Fri Apr 14 12:49:16 2017 -0400
+
+    TST: fix tests
+
+commit 0793527d87dc4e5e2e584b8daf630a49e6c1ac92
+Author: Christopher J. Wright <cjwright4242gh@gmail.com>
+Date:   Sat Apr 1 18:31:50 2017 -0400
+
+    Add zope interface
+
+commit 3a596c6df2edd4259816ecb663d008c60454b5e4
+Author: christopher <cjwright4242@gmail.com>
+Date:   Tue Mar 7 21:38:29 2017 -0500
+
+    add @licode
+
+commit 858b862388c4642a99a7931011a185e353f062d9
+Author: christopher <cjwright4242@gmail.com>
+Date:   Sun Mar 5 23:16:07 2017 -0500
+
+    command -> commands
+
+commit 86a88836c65d7b521c8945857b8a35fd25209378
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 3 06:17:04 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit e131d655d0d6a572f4bcda0d81ab05cfbd4fa3b9
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 3 06:09:34 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.1.1.

@@ -1,0 +1,93 @@
+# This file created by conda-build 3.16.3
+# meta.yaml template originally from:
+# C:\ci\containers\00000sbvfd3\tmp\build\80754af9\rsync-recipes\hdf5-1.10.4-fortran_compiler_version_2019.0.0-cxx_compiler_vs2017-c_compiler_vs2017-on-winbuilder, last modified Wed Dec 19 12:25:13 2018
+# ------------------------------------------------
+
+package:
+    name: hdf5
+    version: 1.10.4
+source:
+    patches:
+        - test_Makefile.in.patch
+    sha256: 8f60dc4dd6ab5fcd23c750d1dc5bca3d0453bdce5c8cdaf0a4a61a9d1122adb2
+    url: https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.4/src/hdf5-1.10.4.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - hdf5 >=1.10.4,<1.10.5.0a0
+    string: h7ebc959_0
+requirements:
+    build:
+        - cmake 3.12.2 he025d50_0
+        - intel-fortran_win-64 2019.0.0 hf4e3f46_1
+        - jom 1.1.2 h3bd88b9_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - vs2017_win-64 19.15.26726 h3c6f0ee_0
+    host:
+        - icc_rt 2019.0.0 h0cc432a_1
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - zlib 1.2.11 h62dcd97_3
+    run:
+        - icc_rt >=2019.0.0
+        - vc >=14.1,<15.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - where gif2h5
+        - where h52gif
+        - where h5copy
+        - where h5debug
+        - where h5diff
+        - where h5dump
+        - where h5import
+        - where h5jam
+        - where h5ls
+        - where h5mkgrp
+        - where h5repack
+        - where h5repart
+        - where h5stat
+        - where h5unjam
+        - if not exist %PREFIX%\\Library\\lib\\hdf5.lib exit 1
+        - if not exist %PREFIX%\\Library\\bin\\hdf5.dll exit 1
+        - if not exist %PREFIX%\\Library\\lib\\hdf5_cpp.lib exit 1
+        - if not exist %PREFIX%\\Library\\bin\\hdf5_cpp.dll exit 1
+        - if not exist %PREFIX%\\Library\\lib\\hdf5_hl.lib exit 1
+        - if not exist %PREFIX%\\Library\\bin\\hdf5_hl.dll exit 1
+        - if not exist %PREFIX%\\Library\\lib\\hdf5_hl_cpp.lib exit 1
+        - if not exist %PREFIX%\\Library\\bin\\hdf5_hl_cpp.dll exit 1
+    files:
+        - compound_fortran2003.f90
+        - h5_cmprss.c
+        - h5_cmprss.f90
+        - h5tutr_cmprss.cpp
+    requires:
+        - intel-fortran_win-64 2019.0.0.*
+        - vs2017_win-64
+about:
+    description: 'HDF5 supports an unlimited variety of datatypes, and is designed
+        for
+
+        flexible and efficient I/O and for high volume and complex data.
+
+        '
+    dev_url: https://www.hdfgroup.org/HDF5/release/obtain5.html
+    doc_url: https://www.hdfgroup.org/HDF5/doc/
+    home: http://www.hdfgroup.org/HDF5/
+    license: HDF5
+    license_family: BSD
+    license_file: COPYING
+    summary: HDF5 is a data model, library, and file format for storing and managing
+        data
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - astrofrog
+        - gillins
+        - groutr
+        - jakirkham
+        - marqh
+        - msarahan
+        - ocefpaf

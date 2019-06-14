@@ -1,0 +1,5 @@
+bld.bat
+build-static-lib.patch
+build.sh
+skip-microbenchmarks.patch
+windows-static-lib-name.patch

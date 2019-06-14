@@ -1,0 +1,70 @@
+# This file created by conda-build 3.16.3
+# meta.yaml template originally from:
+# C:\ci\containers\00001ehk9gd\tmp\build\80754af9\rsync-recipes\jupyter_client-5.2.4-python_3.7-on-winbuilder, last modified Mon Dec 17 12:38:20 2018
+# ------------------------------------------------
+
+package:
+    name: jupyter_client
+    version: 5.2.4
+source:
+    fn: jupyter_client-5.2.4.tar.gz
+    sha256: b5f9cb06105c1d2d30719db5ffb3ea67da60919fb68deaefa583deccd8813551
+    url: https://pypi.io/packages/source/j/jupyter_client/jupyter_client-5.2.4.tar.gz
+build:
+    entry_points:
+        - jupyter-kernelspec = jupyter_client.kernelspecapp:KernelSpecApp.launch_instance
+        - jupyter-run = jupyter_client.runapp:main
+    noarch: false
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - pip 18.1 py37_0
+        - python 3.7.1 h8c8aaf0_6
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.32.3 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - jupyter_core
+        - python >=3.7,<3.8.0a0
+        - python-dateutil >=2.1
+        - pyzmq >=13
+        - tornado
+        - traitlets
+test:
+    commands:
+        - jupyter kernelspec list
+        - jupyter run -h
+    imports:
+        - jupyter_client
+about:
+    description: 'jupyter client contains the reference implementation of the Jupyter
+
+        protocol.It also provides Python API for starting, managing and
+
+        communicating with Jupyter kernels.
+
+        '
+    dev_url: https://github.com/jupyter/jupyter_client
+    doc_source_url: https://github.com/jupyter/jupyter_client/blob/master/docs/index.rst
+    doc_url: http://jupyter-client.readthedocs.org/
+    home: http://jupyter.org
+    license: BSD 3-clause
+    license_file: COPYING.md
+    summary: Jupyter protocol implementation and client libraries
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - carreau
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - pelson

@@ -1,0 +1,20 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "qtpy-1.7.0-py37_1.tar.bz2",
+  "license": "MIT",
+  "md5": "7bb34b3e224d0a6acbe5ee6ee1f045f6",
+  "name": "qtpy",
+  "size": 60679,
+  "subdir": "win-64",
+  "timestamp": 1553291630641,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/qtpy-1.7.0-py37_1.tar.bz2",
+  "version": "1.7.0"
+}

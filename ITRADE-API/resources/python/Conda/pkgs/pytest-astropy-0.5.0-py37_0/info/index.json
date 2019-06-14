@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "pytest >=3.1",
+    "pytest-arraydiff >=0.1",
+    "pytest-doctestplus >=0.2.0",
+    "pytest-openfiles >=0.3.1",
+    "pytest-remotedata >=0.3.1",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "license": "BSD",
+  "name": "pytest-astropy",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1545121780161,
+  "version": "0.5.0"
+}

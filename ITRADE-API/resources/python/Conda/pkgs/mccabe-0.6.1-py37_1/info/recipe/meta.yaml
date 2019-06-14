@@ -1,0 +1,53 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\mccabe-feedstock\recipe, last modified Tue Jul  3 15:50:27 2018
+# ------------------------------------------------
+
+package:
+    name: mccabe
+    version: 0.6.1
+source:
+    fn: mccabe-0.6.1.tar.gz
+    sha256: dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f
+    url: https://pypi.io/packages/source/m/mccabe/mccabe-0.6.1.tar.gz
+build:
+    number: '1'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_1
+requirements:
+    build:
+        - atomicwrites 1.1.5 py37_0
+        - attrs 18.1.0 py37_0
+        - certifi 2018.4.16 py37_0
+        - colorama 0.3.9 py37_0
+        - more-itertools 4.2.0 py37_0
+        - pluggy 0.6.0 py37_0
+        - py 1.5.3 py37_0
+        - pytest 3.6.4 py37_0
+        - pytest-runner 4.2 py37_0
+        - python 3.7.0 hea74fb7_0
+        - setuptools 39.2.0 py37_0
+        - six 1.11.0 py37_1
+        - vc 14.1 h0510ff6_3
+        - vs2015_runtime 15.5.2 3
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - mccabe
+about:
+    dev_url: https://github.com/PyCQA/mccabe
+    home: https://github.com/PyCQA/mccabe
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: McCabe complexity checker for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dopplershift
+        - jakirkham
+        - ocefpaf
+        - sigmavirus24

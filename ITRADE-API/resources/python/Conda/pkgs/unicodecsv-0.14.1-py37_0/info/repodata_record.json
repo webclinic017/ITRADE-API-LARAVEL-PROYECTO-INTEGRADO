@@ -1,0 +1,21 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "unicodecsv-0.14.1-py37_0.tar.bz2",
+  "license": "BSD",
+  "license_family": "BSD",
+  "md5": "e29db768d321af2ae1ab5e12b75fb3ad",
+  "name": "unicodecsv",
+  "size": 25984,
+  "subdir": "win-64",
+  "timestamp": 1533416942947,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/unicodecsv-0.14.1-py37_0.tar.bz2",
+  "version": "0.14.1"
+}

@@ -1,0 +1,20 @@
+{
+  "build": "ha66f8fd_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc 14.*"
+  ],
+  "features": "",
+  "fn": "icu-58.2-ha66f8fd_1.tar.bz2",
+  "license": "MIT",
+  "md5": "8b9a078b693623d58afd56f4f2a162c3",
+  "name": "icu",
+  "size": 22986443,
+  "subdir": "win-64",
+  "timestamp": 1510869544703,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/icu-58.2-ha66f8fd_1.tar.bz2",
+  "version": "58.2"
+}

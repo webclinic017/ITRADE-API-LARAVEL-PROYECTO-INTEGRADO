@@ -1,0 +1,21 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "filelock-3.0.10-py37_0.tar.bz2",
+  "license": "Public Domain",
+  "license_family": "Public-Domain",
+  "md5": "04acec28b606e2ae76425c171f1de467",
+  "name": "filelock",
+  "size": 13889,
+  "subdir": "win-64",
+  "timestamp": 1541136732622,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/filelock-3.0.10-py37_0.tar.bz2",
+  "version": "3.0.10"
+}

@@ -1,0 +1,51 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00000pdpajq\tmp\build\80754af9\rsync-recipes\openssl-1.1.1b-c_compiler_vs2017-on-winbuilder, last modified Thu Mar  7 09:37:32 2019
+# ------------------------------------------------
+
+package:
+    name: openssl
+    version: 1.1.1b
+source:
+    fn: openssl-1.1.1b.tar.gz
+    sha256: 5c557b023230413dfb0756f3137a13e6d726838ccd1430888ad15bfb2b43ea4b
+    url: http://www.openssl.org/source/openssl-1.1.1b.tar.gz
+build:
+    number: '1'
+    run_exports:
+        - openssl >=1.1.1b,<1.1.2a
+    string: he774522_1
+requirements:
+    build:
+        - nasm 2.13.03 h62dcd97_1
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - vs2017_win-64 19.15.26726 h3c6f0ee_0
+    host:
+        - perl 5.26.2.1 h0c8e037_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+    run:
+        - ca-certificates
+        - vc >=14.1,<15.0a0
+test:
+    commands:
+        - copy NUL checksum.txt
+        - openssl sha256 checksum.txt
+about:
+    dev_url: https://github.com/openssl/openssl
+    doc_url: https://www.openssl.org/docs/man1.1.1/
+    home: http://www.openssl.org/
+    license: OpenSSL
+    license_family: Apache
+    license_file: LICENSE
+    summary: OpenSSL is an open-source implementation of the SSL and TLS protocols
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - carlodri
+        - jakirkham
+        - jjhelmus
+        - msarahan
+        - ocefpaf
+        - pelson

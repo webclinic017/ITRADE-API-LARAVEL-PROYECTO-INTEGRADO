@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "numpy >=1.4.0",
+    "python >=3.7,<3.8.0a0",
+    "scipy",
+    "six"
+  ],
+  "license": "BSD-2-Clause, PSF2",
+  "license_family": "BSD",
+  "name": "patsy",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1540996603853,
+  "version": "0.5.1"
+}

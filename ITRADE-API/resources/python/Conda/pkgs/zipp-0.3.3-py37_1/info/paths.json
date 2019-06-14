@@ -1,0 +1,53 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/__pycache__/zipp.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "8e1fe562a7a23c4d2b511aee7d502092898d2fcef4cf1f95f79630f4b8a60724",
+      "size_in_bytes": 3675
+    },
+    {
+      "_path": "Lib/site-packages/zipp-0.3.3.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "Lib/site-packages/zipp-0.3.3.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "a55e2ffe9b44998e621d51d8c094bed09acc4b5236ee73d7df395a33ba3c18fd",
+      "size_in_bytes": 1050
+    },
+    {
+      "_path": "Lib/site-packages/zipp-0.3.3.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "fc02562a24a3a49981974e03ddb015796372c53fc8c931eca11556c1ae946f85",
+      "size_in_bytes": 1501
+    },
+    {
+      "_path": "Lib/site-packages/zipp-0.3.3.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "f61f663d87c3e6d153be1982dccba1f59e411eceba88c99389374740ff715178",
+      "size_in_bytes": 561
+    },
+    {
+      "_path": "Lib/site-packages/zipp-0.3.3.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "d39021ada935bb62bad43a4ba7d0833526d42262d321308ca26fdca93164ea91",
+      "size_in_bytes": 116
+    },
+    {
+      "_path": "Lib/site-packages/zipp-0.3.3.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "8806dda121df686a817d56f65ee47d26a4901c2a0eb0eb46eb2f42fcb4a9a85c",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "Lib/site-packages/zipp.py",
+      "path_type": "hardlink",
+      "sha256": "c6f0dfe0d4637cb90a4596b381aec6be333213e4a61994399ed9fa0f5f96a7ef",
+      "size_in_bytes": 2651
+    }
+  ],
+  "paths_version": 1
+}

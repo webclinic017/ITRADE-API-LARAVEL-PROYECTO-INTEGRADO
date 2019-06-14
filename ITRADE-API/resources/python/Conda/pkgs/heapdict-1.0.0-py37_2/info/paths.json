@@ -1,0 +1,23 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/__pycache__/heapdict.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3c74de09b2fb1fc36841f333e27c1e745dec8ca0c6ef326ed4dd10367a3a74eb",
+      "size_in_bytes": 3734
+    },
+    {
+      "_path": "Lib/site-packages/heapdict-1.0.0-py3.7.egg-info",
+      "path_type": "hardlink",
+      "sha256": "f5e34b0f7a154c553b64c20f1183c3a51a8b73d7ce322d57c3e812d61aa599bc",
+      "size_in_bytes": 2230
+    },
+    {
+      "_path": "Lib/site-packages/heapdict.py",
+      "path_type": "hardlink",
+      "sha256": "7dd1550aef6f50040b72b85be390392e4e2a1dee30871b4023fedcef846b6aa3",
+      "size_in_bytes": 2836
+    }
+  ],
+  "paths_version": 1
+}

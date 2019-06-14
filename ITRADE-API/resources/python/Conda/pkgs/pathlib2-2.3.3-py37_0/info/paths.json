@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/pathlib2-2.3.3-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "d05dbc5384d00200a118c1a2c5abaa0b9dd7c3d69625598ad3c4203b2ba95c6a",
+      "size_in_bytes": 3049
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2-2.3.3-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "4b1384e2af5b355cfb3996458aeec5ad9329a86dba845580ca6c00b59a30acbf",
+      "size_in_bytes": 295
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2-2.3.3-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2-2.3.3-py3.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "3483a4e4bb842019487b26b53de997a6ce50f4ed67742cba96a3b829c2672ec4",
+      "size_in_bytes": 37
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2-2.3.3-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "b4d3e48ac16218116c3d49c220783adaf485964c7fd4d3bce8877c95b2667c54",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "af64e71b8e91d9d4d28020e6627e1476786d167b0ffc5936221877b96a5543e0",
+      "size_in_bytes": 54694
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "87aab94a0e375807d460e47bbfa3ed8647167e6db36c056f2a7ca3a9b778a22c",
+      "size_in_bytes": 46447
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37h8c2d366_0",
+  "build_number": 0,
+  "depends": [
+    "numpy >=1.11.3,<2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.1,<15.0a0"
+  ],
+  "license": "MIT",
+  "name": "pywavelets",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1552336138611,
+  "version": "1.0.2"
+}

@@ -1,0 +1,46 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\et_xmlfile-feedstock\recipe, last modified Tue Jul  3 15:47:08 2018
+# ------------------------------------------------
+
+package:
+    name: et_xmlfile
+    version: 1.0.1
+source:
+    fn: et_xmlfile-1.0.1.tar.gz
+    sha256: 614d9722d572f6246302c4491846d2c393c199cfa4edc9af593437691683335b
+    url: https://pypi.io/packages/source/e/et_xmlfile/et_xmlfile-1.0.1.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py37_0
+requirements:
+    host:
+        - certifi 2018.4.16 py37_0
+        - python 3.7.0 hea74fb7_0
+        - setuptools 39.2.0 py37_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - et_xmlfile
+about:
+    description: 'et_xmlfile is a low memory library for creating large XML files.
+
+        '
+    dev_url: https://bitbucket.org/openpyxl/et_xmlfile
+    doc_source_url: https://bitbucket.org/openpyxl/et_xmlfile/src/default/doc/index.rst
+    doc_url: https://et-xmlfile.readthedocs.io
+    home: https://bitbucket.org/openpyxl/et_xmlfile
+    license: MIT
+    license_family: MIT
+    license_file: C:\Users\builder\conda\aggregate\et_xmlfile-feedstock\recipe/LICENCE.rst
+    summary: An implementation of lxml.xmlfile for the standard library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - curtisalexander

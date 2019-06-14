@@ -1,0 +1,1 @@
+{"requirements": {"build": ["cmake-binary 3.9.1 h5f8252f_0", "vs2015_win-64 14.0.25123 hf5d5b87_2"], "run": ["vc 14.*"]}, "build": {"run_exports": ["jpeg >=9b,<10a"]}, "source": {"url": "http://www.ijg.org/files/jpegsrc.v9b.tar.gz", "md5": "6a9996ce116ec5c52b4870dbcd6d3ddb", "patches": ["CMakeLists.txt.patch"]}, "extra": {"copy_test_source_files": true}}

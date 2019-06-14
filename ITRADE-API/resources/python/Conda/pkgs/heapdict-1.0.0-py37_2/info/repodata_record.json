@@ -1,0 +1,20 @@
+{
+  "build": "py37_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "heapdict-1.0.0-py37_2.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "32856affe168e78b1848f5380101dc9b",
+  "name": "heapdict",
+  "size": 7477,
+  "subdir": "win-64",
+  "timestamp": 1531681682342,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/heapdict-1.0.0-py37_2.tar.bz2",
+  "version": "1.0.0"
+}

@@ -1,0 +1,68 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00000v2k8da\tmp\build\80754af9\rsync-recipes\cffi-1.12.2-c_compiler_vs2017-python_3.7-on-winbuilder, last modified Mon Mar 11 08:56:19 2019
+# ------------------------------------------------
+
+package:
+    name: cffi
+    version: 1.12.2
+source:
+    patches:
+        - 0001-Link-to-dl-library.patch
+    sha256: e113878a446c6228669144ae8a56e268c91b7f1fafae927adc4879d9849e0ea7
+    url: https://pypi.io/packages/source/c/cffi/cffi-1.12.2.tar.gz
+build:
+    number: '1'
+    script: C:\ci\cffi_1552322059734\_h_env\python.exe -m pip install . --no-deps
+        -vv
+    string: py37h7a1dbc1_1
+requirements:
+    build:
+        - vs2017_win-64 19.15.26726 h3c6f0ee_0
+    host:
+        - ca-certificates 2019.1.23 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1b he774522_1
+        - pip 19.0.3 py37_0
+        - pycparser 2.19 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.33.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - pycparser
+        - python >=3.7,<3.8.0a0
+        - vc >=14.1,<15.0a0
+test:
+    imports:
+        - _cffi_backend
+        - cffi
+    requires:
+        - openssl
+about:
+    description: 'Cffi aims to allow users to call C code from Python without having
+        to
+
+        learn a 3rd language. It provides a convenient and reliable way to call
+
+        compiled C code from Python using interface declarations written in C.
+
+        '
+    dev_url: https://bitbucket.org/cffi/cffi/overview
+    doc_source_url: https://bitbucket.org/cffi/cffi/src/default/doc/?at=default
+    doc_url: http://cffi.readthedocs.org
+    home: https://bitbucket.org/cffi/cffi
+    license: MIT
+    license_file: LICENSE
+    summary: Foreign Function Interface for Python calling C code.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - goanpeca
+        - inducer
+        - mingwandroid
+        - ocefpaf

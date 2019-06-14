@@ -1,0 +1,52 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00001iiot9g\tmp\build\80754af9\rsync-recipes\pycodestyle-2.5.0-python_3.7-on-winbuilder, last modified Mon Feb  4 19:02:27 2019
+# ------------------------------------------------
+
+package:
+    name: pycodestyle
+    version: 2.5.0
+source:
+    fn: pycodestyle-2.5.0.tar.gz
+    sha256: e40a936c9a450ad81df37f549d676d127b1b66000a6c500caa2b085bc0ca976c
+    url: https://pypi.io/packages/source/p/pycodestyle/pycodestyle-2.5.0.tar.gz
+build:
+    entry_points:
+        - pycodestyle = pycodestyle:_main
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.12.5 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - python 3.7.2 h8c8aaf0_0
+        - setuptools 40.6.3 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - pycodestyle --help
+        - pycodestyle --version
+about:
+    dev_url: https://github.com/PyCQA/pycodestyle
+    doc_url: https://pycodestyle.readthedocs.io/
+    home: https://pycodestyle.readthedocs.io/
+    license: MIT
+    license_family: MIT
+    summary: Python style guide checker
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dopplershift
+        - jakirkham
+        - jjhelmus
+        - ocefpaf
+        - pmlandwehr
+        - sigmavirus24

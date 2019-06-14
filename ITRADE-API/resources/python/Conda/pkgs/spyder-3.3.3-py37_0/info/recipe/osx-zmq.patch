@@ -1,0 +1,27 @@
+diff --git a/spyder/app/start.py b/spyder/app/start.py
+index 7f3826719..38ac6498d 100644
+--- a/spyder/app/start.py
++++ b/spyder/app/start.py
+@@ -1,5 +1,10 @@
+ # -*- coding: utf-8 -*-
+ 
++try:
++    import zmq
++except:
++    pass
++
+ # Std imports
+ import ctypes
+ import os
+@@ -11,7 +16,10 @@ import time
+ 
+ # To prevent a race condition with ZMQ
+ # See issue 5324
+-import zmq
++try:
++    import zmq
++except:
++    pass
+ 
+ # Load GL library to prevent segmentation faults on some Linux systems
+ # See issues 3226 and 3332

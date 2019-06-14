@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "py37h5e291fa_0",
+  "build_number": 0,
+  "depends": [
+    "hdf5 >=1.10.4,<1.10.5.0a0",
+    "numpy >=1.11.3,<2.0a0",
+    "pyreadline",
+    "python >=3.7,<3.8.0a0",
+    "six",
+    "vc >=14.1,<15.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "h5py",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1545412102848,
+  "version": "2.9.0"
+}

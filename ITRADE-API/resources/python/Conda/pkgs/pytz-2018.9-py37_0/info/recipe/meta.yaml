@@ -1,0 +1,56 @@
+# This file created by conda-build 3.17.7
+# meta.yaml template originally from:
+# C:\ci\containers\000037f87ja\tmp\build\80754af9\rsync-recipes\pytz-2018.9-python_3.7-on-winbuilder, last modified Sat Jan 19 07:33:02 2019
+# ------------------------------------------------
+
+package:
+    name: pytz
+    version: '2018.9'
+source:
+    sha256: d5f05e487007e29e03409f9398d074e158d920d36eb82eaf66fb1136b0c5374c
+    url: https://pypi.io/packages/source/p/pytz/pytz-2018.9.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - pip 18.1 py37_0
+        - python 3.7.2 h8c8aaf0_0
+        - setuptools 40.6.3 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.32.3 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - pytz
+about:
+    description: 'pytz brings the Olson tz database into Python. This library allows
+
+        accurate and cross platform timezone calculations using Python 2.4 or
+
+        higher. It also solves the issue of ambiguous times at the end of daylight
+
+        saving time.
+
+        '
+    dev_url: https://github.com/newvem/pytz
+    doc_source_url: https://github.com/newvem/pytz/blob/master/README.txt
+    doc_url: http://pythonhosted.org/pytz/
+    home: http://pythonhosted.org/pytz/
+    license: MIT
+    license_file: LICENSE.txt
+    summary: World timezone definitions, modern and historical.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - ocefpaf

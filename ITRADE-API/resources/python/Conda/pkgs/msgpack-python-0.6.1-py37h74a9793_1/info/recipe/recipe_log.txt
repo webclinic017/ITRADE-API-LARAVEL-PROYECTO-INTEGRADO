@@ -1,0 +1,208 @@
+commit c552e71e6c2b5c1519e8276782832f4907e1f425
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Aug 3 15:01:50 2018 -0500
+
+    set build number to 1
+
+commit e8824866ad59b05930e4fcb1c6098aa97ec869e9
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Aug 14 03:24:28 2017 -0500
+
+    Update about section
+
+commit 6bc0be22345da4bda1463aac2422e00749633c0e
+Merge: 753e072 f59bed4
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed May 9 02:19:31 2018 -0400
+
+    Merge pull request #9 from jakirkham-feedstocks/use_cb3
+    
+    Better support for `conda-build` 3
+
+commit f59bed4ea6b48ff5d3f8304b109d01b9e518e0c7
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun May 6 16:14:08 2018 -0400
+
+    Bump build number to 2
+    
+    Rebuild now that `pip` is used and the new `compiler` syntax is used.
+
+commit a5923cefdcbe3d654be028f042aedba3a6579bf5
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun May 6 16:13:37 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.28
+    
+    Now that the recipe uses the new `compiler` syntax, re-render the
+    feedstock to update the different builds to use the correct compiler.
+
+commit 1a3fcd720879730a56ce126796648b8a496b8647
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun May 6 16:12:11 2018 -0400
+
+    Split out `build` and `host`
+    
+    Keep the `compiler` in `build` and move everything else to `host`.
+
+commit 5b9714f88228296ac24f2319d737bc4b5b5badca
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun May 6 15:37:05 2018 -0400
+
+    Use the new `compiler` syntax from `conda-build` 3
+    
+    Drop use of the `toolchain` and pick up the `compiler` syntax from
+    `conda-build` 3.
+
+commit d8a8e853e769ff70023763841e0064ab808de7f4
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun May 6 15:36:22 2018 -0400
+
+    Use pip to build and install
+    
+    As `pip` is now the recommended way to build and install Python
+    packages, switch over to using `pip` to build and install
+    `msgpack-python` as well.
+
+commit 753e072e9e706d96c1c23dbca73ebf50e88c6849
+Merge: 7c7c8c9 0598f2d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun May 6 15:30:04 2018 -0400
+
+    Merge pull request #7 from jakirkham-feedstocks/use_preferred_pypi_name
+    
+    Use preferred PyPI name
+
+commit 0598f2d79cb0466fc11b787f2ae0c148d965abb2
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Apr 27 14:00:08 2018 -0400
+
+    Bump build number to 1
+    
+    Rebuild needed as the sdist used has changed.
+
+commit ae8fb953d41cd67b379b715898612063c67d604f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Apr 27 14:00:07 2018 -0400
+
+    Add myself as a maintainer
+
+commit b6445b1ac9b2b327e01bb3100091524a583376b2
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Apr 27 14:00:06 2018 -0400
+
+    Use `msgpack` package from PyPI
+    
+    Was using the `msgpack-python` package from PyPI. However this seems to
+    be causing users grief (not to mention upstream is saying they won't
+    update it any more with that name). So switch over to using the
+    `msgpack` package from PyPI, which is preferred.
+
+commit 11df5aecd99db5aceb42288f5867b359b9b1a8d1
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Apr 27 14:00:05 2018 -0400
+
+    Strip unused Jinja `build` variable
+    
+    This was made unnecessary by the bot update PR. So go ahead and drop it.
+
+commit 7e2e9c1cec61bdc05fcc50a4e8853e3b1ec2ca4e
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Apr 27 14:00:04 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.26
+
+commit 7c7c8c9764d559e3e7c55bb1783912c39ba4a543
+Merge: e6e946f b1aa500
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Mar 28 14:51:01 2018 -0400
+
+    Merge pull request #6 from regro-cf-autotick-bot/0.5.6
+    
+    msgpack-python v0.5.6
+
+commit b1aa50029a3e3acc7283ead333f544afc088588b
+Author: Travis CI User <travis@example.org>
+Date:   Sat Mar 10 21:55:17 2018 +0000
+
+    updated v0.5.6
+
+commit e6e946f450a3780f96553b7e849606d5db0628e7
+Merge: 2516b5d 5f13227
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Sat Feb 24 23:49:15 2018 -0800
+
+    Merge pull request #3 from caryan/update-version-0.5.4
+    
+    roll to version 0.5.5
+
+commit 5f132273408521c6486817b1caa117ca8f1cf680
+Author: Colm Ryan <colm@rigetti.com>
+Date:   Fri Feb 23 10:26:23 2018 -0800
+
+    :arrow_up: roll to version 0.5.5
+
+commit 048b4de7b2a9e0b92ad69597e261e6437654cbed
+Author: Colm Ryan <colm@rigetti.com>
+Date:   Mon Feb 12 12:04:02 2018 -0800
+
+    :arrow_up: roll to version 0.5.4
+
+commit 2516b5de8ed79e04d4584bb4a9c7dad1719b7902
+Merge: 76f8d3a f922e7a
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Tue Jan 23 12:27:52 2018 -0800
+
+    Merge pull request #2 from pmlandwehr/master
+    
+    Ticked version, regenerated if needed. (Double-check reqs!)
+
+commit f922e7aa3f90a797ccdc3aaa9546cfaf02149e06
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Jan 15 08:25:35 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 5893861e19439319f0d93e38dfa732fff1e27e24
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Mon Jan 15 00:23:22 2018 -0800
+
+    Add cython to reqs
+
+commit 50c0d6d7730575dd84007b45875293450544007d
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Mon Jan 15 00:10:57 2018 -0800
+
+    Tick version to 0.5.1
+
+commit 76f8d3a8327fa4fb2759b9e500c17aef123c5020
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:39:28 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 40dc62e8093bd34bb387a7025bd14fcb6b4702f9
+Merge: 6aa079d 48e6eb9
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Sun Feb 5 23:59:41 2017 -0800
+
+    Merge pull request #1 from pmlandwehr/master
+    
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit 48e6eb99748c9f0154b4dc9f10abe4e75a656389
+Author: Peter Landwehr <pmlandwehr@gmail.com>
+Date:   Tue Jan 31 20:35:47 2017 -0800
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit 6aa079d772f7a21fde217ac749155057702383bf
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Nov 2 06:22:39 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit a8128b67416048b540aea30d3e749f4cdce76ecd
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Nov 2 06:19:10 2016 +0000
+
+    Initial commit of the msgpack-python feedstock.

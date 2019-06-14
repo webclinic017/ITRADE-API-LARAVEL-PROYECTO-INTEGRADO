@@ -1,0 +1,43 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/blosc.dll",
+      "path_type": "hardlink",
+      "sha256": "bc24dd8d2125d0858c6a67a3861aec8f7822b0f2baa06c07899b82b525157bb4",
+      "size_in_bytes": 359936
+    },
+    {
+      "_path": "Library/include/blosc-export.h",
+      "path_type": "hardlink",
+      "sha256": "35845da65bd13b4b610752116d8c0cae703cf22a86a007574133c35bc8395b20",
+      "size_in_bytes": 1639
+    },
+    {
+      "_path": "Library/include/blosc.h",
+      "path_type": "hardlink",
+      "sha256": "d5cecf90ca96f6502a540018768f0f4179d36c06d834e75670422ca10d2d7bd8",
+      "size_in_bytes": 18304
+    },
+    {
+      "_path": "Library/lib/blosc.lib",
+      "path_type": "hardlink",
+      "sha256": "269d67d9344f7946d0c9f3ea4eb8ff61b5e5a7921bf894dc49d9385656cbf3be",
+      "size_in_bytes": 6788
+    },
+    {
+      "_path": "Library/lib/libblosc.lib",
+      "path_type": "hardlink",
+      "sha256": "db4d1ae74358b150fbd1a212048084aa2e60ca0f1f85c7fc0f097b0002c32c87",
+      "size_in_bytes": 1245940
+    },
+    {
+      "_path": "Library/lib/pkgconfig/blosc.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "C:/ci/blosc_1547758361207/_h_env",
+      "sha256": "b5e02a8764ad510d0b90c55ed0119ce78469bf7b4fc3652a303515a31369a288",
+      "size_in_bytes": 361
+    }
+  ],
+  "paths_version": 1
+}

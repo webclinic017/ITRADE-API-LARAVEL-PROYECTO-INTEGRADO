@@ -1,0 +1,52 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\numpydoc-feedstock\recipe, last modified Tue Jul  3 15:51:25 2018
+# ------------------------------------------------
+
+package:
+    name: numpydoc
+    version: 0.8.0
+source:
+    fn: numpydoc-0.8.0.tar.gz
+    sha256: 61f4bf030937b60daa3262e421775838c945dcdd671f37b69e8e4854c7eb5ffd
+    url: https://pypi.io/packages/source/n/numpydoc/numpydoc-0.8.0.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_0
+requirements:
+    host:
+        - certifi 2018.4.16 py37_0
+        - python 3.7.0 hea74fb7_0
+        - setuptools 39.2.0 py37_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+        - sphinx
+test:
+    imports:
+        - numpydoc
+about:
+    description: 'Numpy''s documentation uses several custom extensions to Sphinx.
+        These are
+
+        shipped in this numpydoc package, in case you want to make use of them
+
+        in third-party projects.
+
+        '
+    dev_url: https://github.com/numpy/numpydoc
+    doc_source_url: https://github.com/numpy/numpydoc/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/numpydoc
+    home: https://github.com/numpy/numpydoc
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: Sphinx extension to support docstrings in Numpy format
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jschueller
+        - scopatz

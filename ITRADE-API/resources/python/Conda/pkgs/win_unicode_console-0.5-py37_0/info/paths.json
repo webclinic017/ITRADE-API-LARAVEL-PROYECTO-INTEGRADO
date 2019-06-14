@@ -1,0 +1,173 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/__pycache__/run.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "48cacbf7c3de7065d6f5c734f513bcdcce598b865eadc8fbb412d905c149855d",
+      "size_in_bytes": 324
+    },
+    {
+      "_path": "Lib/site-packages/run.py",
+      "path_type": "hardlink",
+      "sha256": "0fe576c9c15dd0d15a5b604edf7ce54b5fa953181ec98be75394c168059008c1",
+      "size_in_bytes": 147
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console-0.5-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "caa2c89b226806c58fc9b18024a0b0e0473f3f547fa324fe2e6c1dd678062aa1",
+      "size_in_bytes": 15475
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console-0.5-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "61c3735cc35382b873c1c2cfe0a1b0657b47e841c406340ff9353e845ff7954c",
+      "size_in_bytes": 568
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console-0.5-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console-0.5-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "e1faba1951f787a7d882c81a164100295dc83be915453d945086f0fa3b9a41c6",
+      "size_in_bytes": 24
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "88c933a12888a7b1245c1a9a14e3d865b7dc0983b827348176b24d355cb0c286",
+      "size_in_bytes": 1096
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "9e6c8acbf369d9d02ca5ad61ab780b4b9c26f01a5b614d21efb9de9ab4f4c2ce",
+      "size_in_bytes": 1036
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/__pycache__/buffer.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "37110721e7b40cab27ab63a75326d53c8703bf963615ba244365fbc5bb0cf6c7",
+      "size_in_bytes": 1517
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/__pycache__/console.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "06e0a3f38caa5cb0972b12c0e74fa4a4842cf8139c5fed28a0acdcdd80260652",
+      "size_in_bytes": 2588
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/__pycache__/file_object.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "a5439fc1f81a294698bdba05e0223927e6a39dad5498d5496722372023c8253e",
+      "size_in_bytes": 1633
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/__pycache__/info.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "5ac27e688fd84a89966d0eb572f64011b6475dd9b5eb42ee3ee81e2d9a1891d9",
+      "size_in_bytes": 629
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/__pycache__/raw_input.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "6bbef4eb9f79bb8cb5e7101f7323f3502db6a683bee18db7ce3fce2d8f04dc6a",
+      "size_in_bytes": 2906
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/__pycache__/readline_hook.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "12b55a8aa5cc8918a068638e9adda261ce7540af234dcd22afb0d4054ddb80c1",
+      "size_in_bytes": 4383
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/__pycache__/runner.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "543d7238924922e980051aa4312592fb07596bea423e06d82b4305bb223fe8d9",
+      "size_in_bytes": 5858
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/__pycache__/streams.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "627deecf00c2b6b93dc3c105b710c17d78b29e60e4d1e2aa48201750c33a02b3",
+      "size_in_bytes": 11472
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/__pycache__/tokenize_open.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "c773e120d556ae382bce2e8a06c7431317e4744058a27e07a8138b9b3bce893a",
+      "size_in_bytes": 4269
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/__pycache__/unicode_argv.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "b3aa6d8a77b989eb1d1faaef48caad60710652d71461bd5b8ea6f9cfb9aafaca",
+      "size_in_bytes": 1961
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/buffer.py",
+      "path_type": "hardlink",
+      "sha256": "7d3ca3699f2301f29da35b962ac4d7644bb593821a28b8922934c6adf20fee47",
+      "size_in_bytes": 1169
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/console.py",
+      "path_type": "hardlink",
+      "sha256": "3cd5afa16be56cfefd7d0155d49aafa4bba0d86a98f1f2f1814bc108c731abec",
+      "size_in_bytes": 2379
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/file_object.py",
+      "path_type": "hardlink",
+      "sha256": "b68a37fd1b21267601ca10bf0c9126164e092d7c15c58742ece127e05015d02f",
+      "size_in_bytes": 1311
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/info.py",
+      "path_type": "hardlink",
+      "sha256": "17dee215768e493b59f81d028449631ca47f4bc5192f3bb710091c632aeb7309",
+      "size_in_bytes": 372
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/raw_input.py",
+      "path_type": "hardlink",
+      "sha256": "b2f4abfc11348deac96c1213db1262e54e069ba9a254d71c8ab8645605f1eee3",
+      "size_in_bytes": 2971
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/readline_hook.py",
+      "path_type": "hardlink",
+      "sha256": "12d0b6b0880ad0f4bc4d17c307618d59f01521d02ba603399bcfeb9d62d34351",
+      "size_in_bytes": 3947
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/runner.py",
+      "path_type": "hardlink",
+      "sha256": "c91d14de1268eae3049e83b1c3b854765f72c4a63e6af14592f3019749294ec4",
+      "size_in_bytes": 5741
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/streams.py",
+      "path_type": "hardlink",
+      "sha256": "26132e50323f9cf6c02cde87f3b831c7d7489183c184f1d4056c7dc03a5409ff",
+      "size_in_bytes": 9381
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/tokenize_open.py",
+      "path_type": "hardlink",
+      "sha256": "193726d80fb081359d4779233998719c335b376c577699b6389e835767c18594",
+      "size_in_bytes": 4806
+    },
+    {
+      "_path": "Lib/site-packages/win_unicode_console/unicode_argv.py",
+      "path_type": "hardlink",
+      "sha256": "e876278967259c841ae036b0e033119ff7720101fff900fbdb6d68b2810be22d",
+      "size_in_bytes": 1787
+    }
+  ],
+  "paths_version": 1
+}

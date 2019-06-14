@@ -1,0 +1,23 @@
+{
+  "build": "py37hf63ae98_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "jupyterlab_server >=0.2.0,<0.3.0",
+    "notebook >=4.3.1",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "jupyterlab-0.35.4-py37hf63ae98_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "7cc30df7d95f2d22c456f37f704dba2b",
+  "name": "jupyterlab",
+  "size": 11102071,
+  "subdir": "win-64",
+  "timestamp": 1552939617830,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/jupyterlab-0.35.4-py37hf63ae98_0.tar.bz2",
+  "version": "0.35.4"
+}

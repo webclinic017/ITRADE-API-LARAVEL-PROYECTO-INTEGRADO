@@ -1,0 +1,89 @@
+{% set version = "3.3.3" %}
+
+package:
+  name: spyder
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/s/spyder/spyder-{{ version }}.tar.gz
+  sha256: ef31de03cf6f149077e64ed5736b8797dbd278e3c925e43f0bfc31bb55f6e5ba
+  patches:
+    # See spyder-ide/spyder#8316
+    - osx-zmq.patch
+
+build:
+  number: 0
+  entry_points:
+    - spyder = spyder.app.start:main
+  osx_is_app: True
+  skip: True  # [ppc64le]
+
+requirements:
+  host:
+    - python
+    - pip
+    - sphinx
+  run:
+    - python
+    - chardet >=2.0
+    - cloudpickle
+    - jedi >=0.9
+    - keyring  # [not (linux and py2k)]
+    - nbconvert
+    - numpydoc
+    - pickleshare
+    - psutil
+    - pycodestyle
+    - pyflakes
+    - pygments >=2.0
+    - pylint
+    - pyqt 5.*
+    - python.app  # [osx]
+    - pyzmq
+    - qtawesome >=0.4.1
+    - qtconsole >=4.2
+    - qtpy >=1.5.0
+    - rope >=0.10.5
+    - sphinx
+    - spyder-kernels >=0.4.2,<1
+
+test:
+  commands:
+    - USER=test spyder -h  # [unix]
+    - spyder -h  # [win]
+  imports:
+    - spyder
+
+app:
+  entry: spyder
+  icon: logo.png
+  summary: The Scientific Python Development Environment
+  type: desk
+
+about:
+  home: https://www.spyder-ide.org/
+  license: MIT
+  license_file: LICENSE.txt
+  summary: The Scientific Python Development Environment
+  description: |
+    Spyder is a powerful scientific environment written in Python, for Python,
+    and designed by and for scientists, engineers and data analysts.
+    It features a unique combination of the advanced editing, analysis,
+    debugging and profiling functionality of a comprehensive development tool
+    with the data exploration, interactive execution, deep inspection and
+    beautiful visualization capabilities of a scientific package.\n
+    Furthermore, Spyder offers built-in integration with many popular
+    scientific packages, including NumPy, SciPy, Pandas, IPython, QtConsole,
+    Matplotlib, SymPy, and more.\n
+    Beyond its many built-in features, Spyder can be extended even further via
+    third-party plugins.\n
+    Spyder can also be used as a PyQt5 extension library, allowing you to build
+    upon its functionality and embed its components, such as the interactive
+    console or advanced editor, in your own software.
+  doc_url: https://docs.spyder-ide.org/
+  dev_url: https://github.com/spyder-ide/spyder
+
+extra:
+  recipe-maintainers:
+    - ccordoba12
+    - goanpeca

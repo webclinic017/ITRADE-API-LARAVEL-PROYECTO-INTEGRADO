@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "comtypes-1.1.7-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "6b104a8088452328ba4d62c16ace0a3a",
+  "name": "comtypes",
+  "size": 238750,
+  "subdir": "win-64",
+  "timestamp": 1533755270483,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/comtypes-1.1.7-py37_0.tar.bz2",
+  "version": "1.1.7"
+}

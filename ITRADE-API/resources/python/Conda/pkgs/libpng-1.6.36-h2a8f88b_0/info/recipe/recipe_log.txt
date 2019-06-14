@@ -1,0 +1,248 @@
+commit 258acffe03fe2c7acff1da0ac28ead474a66e1cd
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Oct 16 17:25:35 2018 -0500
+
+    add make as build req
+
+commit 2d325a54061e5521523f364c7985a41169bc76f5
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 27 16:08:22 2018 -0500
+
+    update to 1.6.35
+
+commit 45b1e00b06ab2f96f08524cc7a9d98921ea26473
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Jan 24 11:55:47 2018 -0600
+
+    1.6.34
+
+commit 7c7b228d0da03c4cd34adc4614af3252ad5d7e94
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Tue Nov 21 13:16:26 2017 -0600
+
+    remove vc features
+
+commit dc7f110b6f61d39d7fd35e3f0acb6437a9fe7257
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Oct 11 18:52:12 2017 +0100
+
+    Use the default cmake generator (Visual Studio)
+    
+    Build files created by the nmake generator do not link to the UCRT.
+    This was the cause of https://github.com/ContinuumIO/anaconda-issues/issues/6535
+
+commit 09488fc114a0a5767a5d4d0ad718ec54025fbb98
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Sep 15 19:25:40 2017 -0500
+
+    remove python dep on win (feature activation); fix md5
+
+commit 344ac49f11420d8e75343a7bdf5040653ec847e7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Aug 27 17:27:50 2017 +0100
+
+    Generalize logging
+
+commit 68aa479caf7677289c4f99fbbca76b455b93aaac
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Aug 25 20:54:07 2017 +0100
+
+    Update to 1.6.32 and generalize pinning
+
+commit 0a35a00115ae44d3598e91399cceb95d2c2060f4
+Merge: 6132b1d d436c56
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Fri Aug 18 19:04:21 2017 -0500
+
+    Merge pull request #1 from msarahan/cb3
+    
+    simplify recipe for cb3
+
+commit d436c56ebd09a1f8431e747997f230a291a2b7b1
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Aug 18 16:27:55 2017 -0500
+
+    simplify recipe for cb3
+
+commit 6132b1d874abf97a7ce61b71b2b5f23b9f949379
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Aug 14 02:16:06 2017 -0500
+
+    Update about section
+
+commit 17fb6c3708871c504f936c7e8bed48df69c8c190
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Jul 22 06:36:36 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit eef3ee5eb9eb1daf5e3b9075e9f105cbc61d6e7c
+Merge: e5f56d4 e73ed9a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Jul 21 08:32:41 2017 -0300
+
+    Merge pull request #16 from nehaljwani/fix-selector
+    
+    Fix selector, re-render with conda smithy 2.3.2
+
+commit e73ed9a8ed86bc96d1aaaa206424a0e06194ba2d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Jul 21 08:00:29 2017 -0300
+
+    pin zlib too
+
+commit 47f72e3b23fe25bb5222d1a8fb5c9ff12c760ad6
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Jul 21 06:45:14 2017 +0000
+
+    MNT: Re-rendered with conda-smithy 2.3.2
+
+commit e9fed80f151f01108711ab5d1c7679afb1365bac
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Jul 21 06:45:43 2017 +0000
+
+    fix typo in selector
+
+commit e5f56d4db3774448b80f843049575abae85253d1
+Merge: b5fd578 258432e
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Feb 2 10:15:04 2017 -0300
+
+    Merge pull request #14 from ocefpaf/enable_conda-inspect
+    
+    Add conda-inspect
+
+commit 258432ea4d989e6b5c47c61abb8a587fa61c77f0
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Feb 1 15:47:09 2017 -0300
+
+    Add conda-inspect
+
+commit b5fd578b114c20b5a00fb9cff70f96d283c66b83
+Merge: dcf2ced c2ed899
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Jan 13 08:41:55 2017 -0300
+
+    Merge pull request #13 from lexual/issue012_v1.6.28
+    
+    Update to version 1.6.28
+
+commit c2ed899a792c0e2739a0572b3d8c285054833952
+Author: lexual <lex@jbadigital.com>
+Date:   Fri Jan 13 13:22:09 2017 +1100
+
+    Update to version 1.6.28
+    
+    ref conda-forge/libpng-feedstock#12
+    
+    * Security vulnerability for 1.6.26 exists.
+    * have moved download domain to sourceforge, as simplesystems doesn't
+    keep older versions around.
+    * changed to md5, as those are published by libpng author's.
+
+commit dcf2ced94ed426e8d22c767e54efe0152928f481
+Merge: 4d6292d 5cb1225
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Nov 4 06:22:19 2016 -0300
+
+    Merge pull request #11 from ocefpaf/update
+    
+    Update
+
+commit 5cb1225d34a6702d988a40a747cef57b1f00997b
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Nov 2 16:10:42 2016 -0300
+
+    Update to 1.6.26
+
+commit c1491ee82c7b9fb42eedb34cee1e852bf7c9a7d0
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Nov 2 16:09:52 2016 -0300
+
+    rerender
+
+commit 4d6292d2a2d469f90ff8fd24de28529feca1e681
+Merge: 6b6142e c81f87c
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Aug 17 08:55:48 2016 -0300
+
+    Merge pull request #9 from ocefpaf/bump
+    
+    Bump
+
+commit c81f87c06bcb19afdeaa2e8a9ddce45b0e5730b1
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Aug 16 14:36:11 2016 -0300
+
+    Updated to 1.6.24
+
+commit f13f42822ba2f120a524ba87cd8cabe900a9a6a1
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Aug 16 14:34:31 2016 -0300
+
+    rerender
+
+commit 6b6142e70f19a403ec13a5de4ed2f6dbd2b90289
+Merge: c5b5413 3cd399b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Jun 28 22:02:08 2016 -0300
+
+    Merge pull request #8 from ocefpaf/update
+    
+    Update to 1.6.23
+
+commit 3cd399b2508bf05dbe8248c4a27a73072ca5c0e7
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Jun 28 07:59:54 2016 -0300
+
+    Update to 1.6.23
+
+commit 029a0cacf84e063aa5eb4aa07eeb9c611c67d7e9
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Jun 28 07:59:43 2016 -0300
+
+    Rerender
+
+commit c5b54137e99ba50770e1de07a58f11c9539b4d18
+Merge: ad97810 071100b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue May 17 10:24:37 2016 -0300
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 071100b6932512421b967a396c0435f5c37140ca
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue May 17 13:01:51 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit ad97810da97c15097e97229d3f7bf7ed28fd69dc
+Merge: 14f632d 3438ee2
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Apr 29 10:11:38 2016 -0300
+
+    Merge pull request #1 from ocefpaf/add_zlib
+    
+    Add zlib
+
+commit 3438ee2d473efe2d3dc5bc1f6062588ef3dfb724
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Fri Apr 29 10:01:55 2016 -0300
+
+    Add zlib
+
+commit 14f632dfdb46b9c452703feaffddb99f6e176d70
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Apr 28 12:38:06 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit cb4520c36ba1288da1b04daae67c61591bfde782
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Apr 28 12:37:24 2016 +0000
+
+    Initial commit of the libpng feedstock.

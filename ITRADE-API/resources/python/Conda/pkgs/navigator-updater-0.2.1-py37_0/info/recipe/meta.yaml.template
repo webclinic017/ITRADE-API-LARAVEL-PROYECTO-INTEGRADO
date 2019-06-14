@@ -1,0 +1,34 @@
+package:
+  name: navigator-updater
+  version: 0.2.1
+
+source:
+  git_url: https://github.com/ContinuumIO/navigator-updater.git
+  git_tag: v0.2.1
+
+build:
+  entry_points:
+    - navigator-updater = navigator_updater.app.main:main
+  osx_is_app: True
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    - python
+    - pyqt >=5.6
+    - qtpy >=1.2
+    - python.app           [osx]
+
+test:
+  commands:
+    - navigator-updater --help
+  imports:
+    - navigator_updater
+
+about:
+  home: https://github.com/ContinuumIO/navigator-updater
+  license: proprietary - Continuum Analytics, Inc.
+  license_family: Proprietary
+  summary: Anaconda Navigator Updater

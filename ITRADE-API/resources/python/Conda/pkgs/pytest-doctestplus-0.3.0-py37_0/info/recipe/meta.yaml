@@ -1,0 +1,55 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00003270m3q\tmp\build\80754af9\rsync-recipes\pytest-doctestplus-0.3.0-python_3.7-on-winbuilder, last modified Mon Mar 11 21:32:25 2019
+# ------------------------------------------------
+
+package:
+    name: pytest-doctestplus
+    version: 0.3.0
+source:
+    fn: pytest-doctestplus-0.3.0.tar.gz
+    sha256: 4e641bc720661c08ec3afe44a7951660cdff5e187259c433aa66e9ec2d5ccea1
+    url: https://pypi.io/packages/source/p/pytest-doctestplus/pytest-doctestplus-0.3.0.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2019.1.23 0
+        - certifi 2019.3.9 py37_0
+        - openssl 1.1.1b he774522_1
+        - pip 19.0.3 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.27.2 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.33.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - numpy >=1.10
+        - pytest >=2.8
+        - python >=3.7,<3.8.0a0
+        - six
+test:
+    imports:
+        - pytest_doctestplus
+about:
+    description: 'This package contains a plugin for the pytest framework that provides
+
+        advanced doctest support and enables the testing of reStructuredText files.
+
+        '
+    dev_url: https://github.com/astropy/pytest-doctestplus
+    doc_url: https://github.com/astropy/pytest-doctestplus
+    home: https://github.com/astropy/pytest-doctestplus
+    license: BSD
+    summary: Pytest plugin with advanced doctest features
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - astrofrog-conda-forge
+        - drdavella
+        - mwcraig

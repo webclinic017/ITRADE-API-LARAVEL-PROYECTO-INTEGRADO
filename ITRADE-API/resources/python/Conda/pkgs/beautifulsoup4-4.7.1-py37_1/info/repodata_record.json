@@ -1,0 +1,22 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "soupsieve"
+  ],
+  "features": "",
+  "fn": "beautifulsoup4-4.7.1-py37_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "b8f8429b121e59ae347d82821661e707",
+  "name": "beautifulsoup4",
+  "size": 146058,
+  "subdir": "win-64",
+  "timestamp": 1547908966848,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/beautifulsoup4-4.7.1-py37_1.tar.bz2",
+  "version": "4.7.1"
+}

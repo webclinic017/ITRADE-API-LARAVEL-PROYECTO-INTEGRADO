@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "pytz-2018.9-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "3307cf0dd41c2e02039bfc1a8bd87447",
+  "name": "pytz",
+  "size": 270605,
+  "subdir": "win-64",
+  "timestamp": 1547905121444,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pytz-2018.9-py37_0.tar.bz2",
+  "version": "2018.9"
+}

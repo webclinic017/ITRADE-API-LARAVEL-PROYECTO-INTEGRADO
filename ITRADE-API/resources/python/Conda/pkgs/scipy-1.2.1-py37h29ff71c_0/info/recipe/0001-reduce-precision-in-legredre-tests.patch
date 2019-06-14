@@ -1,0 +1,28 @@
+From ecc5784078b4c7be281be9ce5607324e58318af0 Mon Sep 17 00:00:00 2001
+From: Jonathan Helmus <jjhelmus@gmail.com>
+Date: Fri, 26 Jan 2018 12:20:57 -0500
+Subject: [PATCH 1/7] reduce precision in legredre tests
+
+---
+ scipy/special/tests/test_data.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/scipy/special/tests/test_data.py b/scipy/special/tests/test_data.py
+index 151b6ab..16fc650 100644
+--- a/scipy/special/tests/test_data.py
++++ b/scipy/special/tests/test_data.py
+@@ -213,9 +213,9 @@ BOOST_TESTS = [
+         data(assoc_legendre_p_boost_, 'assoc_legendre_p_ipp-assoc_legendre_p', (0,1,2), 3, rtol=1e-11),
+ 
+         data(legendre_p_via_assoc_, 'legendre_p_ipp-legendre_p', (0,1), 2, rtol=1e-11),
+-        data(legendre_p_via_assoc_, 'legendre_p_large_ipp-legendre_p_large', (0,1), 2, rtol=7e-14),
++        data(legendre_p_via_assoc_, 'legendre_p_large_ipp-legendre_p_large', (0,1), 2, rtol=1e-13),
+         data(legendre_p_via_lpmn, 'legendre_p_ipp-legendre_p', (0,1), 2, rtol=5e-14, vectorized=False),
+-        data(legendre_p_via_lpmn, 'legendre_p_large_ipp-legendre_p_large', (0,1), 2, rtol=7e-14, vectorized=False),
++        data(legendre_p_via_lpmn, 'legendre_p_large_ipp-legendre_p_large', (0,1), 2, rtol=1e-13, vectorized=False),
+         data(lpn_, 'legendre_p_ipp-legendre_p', (0,1), 2, rtol=5e-14, vectorized=False),
+         data(lpn_, 'legendre_p_large_ipp-legendre_p_large', (0,1), 2, rtol=3e-13, vectorized=False),
+         data(eval_legendre_ld, 'legendre_p_ipp-legendre_p', (0,1), 2, rtol=6e-14),
+-- 
+1.8.3.1
+

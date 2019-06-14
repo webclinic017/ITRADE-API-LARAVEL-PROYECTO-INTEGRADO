@@ -1,0 +1,313 @@
+commit 196faa7e278e6f7383ea17153cf9fcb48e881d28
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 28 13:57:06 2017 -0500
+
+    Make recipe cross compile capable
+
+commit a4d835af85bcc1335d2902734f84c35df89f0386
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Mar 9 17:27:24 2019 +0000
+
+    updated v1.1.4
+
+commit e8deb65a00f94b6fea85bdc659d704b7b10b8f21
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Mar 1 22:28:19 2019 +0000
+
+    updated v1.1.3
+
+commit ad31a646e0a462eeb712d6c9bc43f665021059da
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 16:27:33 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit 26fecd18e32a069c4bb7cd8dac52007fb0c04ca7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 16:27:23 2019 +0000
+
+    updated v1.1.2
+
+commit 33b0ad19c1a6741b1460e2fcf49c9bbb7214fc33
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 31 19:15:06 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit ab9ee3d6a777cd3b6e11be6d1cbdaa4fb5a5ff15
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jan 31 19:14:54 2019 +0000
+
+    updated v1.1.1
+
+commit a43a67797cfd75c1345f4f81f534191783d3f5ef
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 18 23:16:17 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.5, conda-smithy 3.2.9, and conda-forge-pinning 2019.01.18
+
+commit f3c66d33ae9bc0ed2b6c9ad410f68d8235c5ea32
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jan 18 23:16:12 2019 +0000
+
+    updated v1.1.0
+
+commit 357e493241915c0e42b93cc83b0cb46550a65acb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Nov 28 16:14:25 2018 +0000
+
+    updated v1.0.0
+
+commit 21235ccd2a8c706ab6a87706131c277d5f829b46
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Nov 15 14:14:57 2018 +0000
+
+    updated v0.20.2
+
+commit b74edfbc36387223b01a6f38e46e566dba0d818e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Nov 9 19:14:34 2018 +0000
+
+    updated v0.20.1
+
+commit f1ce5c4c3f435ab9991a112fc5f91b142ed9cbd6
+Merge: 25c03af 279cf08
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Oct 27 01:16:19 2018 -0400
+
+    Merge pull request #27 from regro-cf-autotick-bot/0.20.0
+    
+    dask-core v0.20.0
+
+commit 279cf08659af6a0001abd498479856faa4a10267
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 26 20:15:38 2018 +0000
+
+    updated v0.20.0
+
+commit 25c03afaf5e0ef5f3cda3aeed6a9597711174b17
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 9 19:57:15 2018 +0000
+
+    updated v0.19.4
+
+commit 64d3cf2dcd85379b072c2fe3c7c51d023b7d32f5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Oct 5 19:15:40 2018 +0000
+
+    updated v0.19.3
+
+commit 6ce70d8158040dcaa1a9dca68f310d7f20d88472
+Merge: c075dcd 8b13282
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Sep 17 10:22:48 2018 -0400
+
+    Merge pull request #24 from regro-cf-autotick-bot/0.19.2
+    
+    dask-core v0.19.2
+
+commit 8b132825c2e7e51e8ccf45faa2bd6b849dce99f0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Sep 17 14:13:30 2018 +0000
+
+    updated v0.19.2
+
+commit c075dcd2d3dda888cba60e1c79a3ab772cf55459
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Sep 6 08:56:41 2018 -0400
+
+    bump version to 0.19.1
+
+commit 45ab94fed134297ca409d31306206d9b1c22fecf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 30 17:09:01 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.28
+
+commit d66b2079716f4385c2d39934a47f0061470d952b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 30 17:08:42 2018 +0000
+
+    updated v0.19.0
+
+commit ff4eb267c124cc00c9b9356e9d49e16a421496b3
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 18:48:45 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 9a303960cba5a59c23735ef93112cf488b3764fd
+Merge: ecd7cc6 2b137c8
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Jul 23 18:25:52 2018 -0400
+
+    Merge pull request #20 from jakirkham-feedstocks/release_0.18.2
+    
+    Release 0.18.2
+
+commit 2b137c890dadf576ed0d771ebbd17962beb3be65
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Jul 23 11:20:36 2018 -0400
+
+    Release 0.18.2
+
+commit ecd7cc699e451409e2ddda995bd70635b2b0cb2f
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Jun 22 08:36:52 2018 -0400
+
+    bump version to 0.18.1 (#18)
+
+commit 6b231fb29cbacc5e93d4fef298dcba9075ecbca1
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Jun 15 08:28:55 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.5 and pinning 2018.05.22
+
+commit 592d58513f601350c671ddb58bb39df58a75e903
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Jun 15 08:25:58 2018 -0400
+
+    bump version to 0.18.0
+
+commit f1c152d506458515e9af46746d16269d278676df
+Merge: fa62c2d 7ecd49a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed May 16 18:22:44 2018 -0700
+
+    Merge pull request #14 from TomAugspurger/RLS-0.17.5
+    
+    RLS: 0.17.5
+
+commit 7ecd49a23d55b51d31fa70e10f5b3af8fd1b7e01
+Author: Tom Augspurger <tom.w.augspurger@gmail.com>
+Date:   Wed May 16 18:08:15 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 3.1.4 and pinning 2018.05.07
+
+commit 895787262ad3f7b2eb0dc576500c3b6d7c733c16
+Author: Tom Augspurger <tom.w.augspurger@gmail.com>
+Date:   Wed May 16 18:07:09 2018 -0500
+
+    RLS: 0.17.5
+
+commit fa62c2d5f63ff151ec8cde993d68ca52d5504019
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu May 3 17:50:06 2018 -0400
+
+    bump version to 0.17.4
+
+commit a43b8686be4e25246aac0252fdf50c925b5e13c1
+Merge: 2431ca5 7989805
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed May 2 16:12:29 2018 -0400
+
+    Merge pull request #12 from conda-forge-linter/conda_forge_admin_11
+    
+    MNT: rerender
+
+commit 798980561a0cc3be2f06ee96be1447d899338f8a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed May 2 20:08:43 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.2 and pinning 2018.04.28
+
+commit 2431ca5cce23a15a4a9e1514c52757ee1926d680
+Merge: a483416 a7921c7
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed May 2 15:17:09 2018 -0400
+
+    Merge pull request #10 from mrocklin/v0.17.3
+    
+    bump version to 0.17.3
+
+commit a7921c7a9c087afab964f102cd727c5f11d63a52
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed May 2 14:48:34 2018 -0400
+
+    bump version to 0.17.3
+
+commit a4834161173af728409998db0ca6932eae97a590
+Merge: 2d4001f 1f57c0b
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Mar 21 10:47:06 2018 -0400
+
+    Merge pull request #9 from mrocklin/v0.17.2
+    
+    bump version to 0.17.2
+
+commit 1f57c0bd0222ad23da7df92b9642ec80fa712448
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Wed Mar 21 10:10:54 2018 -0400
+
+    bump version to 0.17.2
+
+commit 2d4001f38f70f1cda179947146e6415fc55ec434
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Feb 22 16:30:32 2018 -0500
+
+    Use pip
+    
+    See https://conda-forge.org/docs/meta.html#use-pip
+
+commit c390bb9ee794a776bc5c57771959e32f0008ed71
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Thu Feb 22 16:21:26 2018 -0500
+
+    bump version to 0.17.1
+
+commit c2cf9c9f4404ea415716038a8e91678bd9cf78bb
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Feb 9 15:10:17 2018 -0500
+
+    bump version to 0.17.0
+
+commit b83430248b4871dbe080e435846879afab6ae00b
+Merge: 42ddedc 64def1a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Jan 9 16:55:32 2018 -0500
+
+    Merge pull request #5 from mrocklin/v0.16.1
+    
+    bump version to 0.16.1
+
+commit 64def1a53b100f7ef47dc0d7c17b761de01d9007
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Tue Jan 9 15:43:54 2018 -0600
+
+    bump version to 0.16.1
+
+commit 42ddedc94d2b40f2e851ed291422eec64e0538a4
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Nov 17 16:09:55 2017 -0500
+
+    bump version to 0.16.0
+
+commit f1d6b163e200d02b19d419729d407e18e1662cbe
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Fri Oct 6 22:03:00 2017 -0400
+
+    bump version to 0.15.4
+
+commit 4326704e8bbf748252c897733a1be43fee314bd9
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sun Sep 24 12:20:08 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit d9a7b83e47f3a25a596f86cb9b1ee7554ba7b599
+Author: Matthew Rocklin <mrocklin@gmail.com>
+Date:   Sun Sep 24 12:19:10 2017 -0400
+
+    bump version to 0.15.3
+
+commit 7218dccc90038be910946d21e2f725c78c34b2e5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Aug 28 15:12:14 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 191c37f7575c9bb8cc3ec360de8d5ae0e8a8bd9a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Aug 28 15:10:07 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.3.3.

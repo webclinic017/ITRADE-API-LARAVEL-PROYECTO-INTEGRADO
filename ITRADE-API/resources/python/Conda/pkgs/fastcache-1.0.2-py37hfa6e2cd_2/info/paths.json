@@ -1,0 +1,107 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/fastcache-1.0.2-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "6c2966e19b2c2d83f7fc3b8fb29fa03ed73e78e4cfcd4800d803ac7c8ce8951f",
+      "size_in_bytes": 4333
+    },
+    {
+      "_path": "Lib/site-packages/fastcache-1.0.2-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "18e40c6c05cddd7736320687321fc318a71e1bed92248b6ab4c3e336ef11f48e",
+      "size_in_bytes": 338
+    },
+    {
+      "_path": "Lib/site-packages/fastcache-1.0.2-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/fastcache-1.0.2-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "f800d3bed6b7d8496d449687ba1a837e5e84dbe79dfcbe863a140bfbff6f2e72",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "Lib/site-packages/fastcache/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "3e495c1964432f9f3b66b060143539c4e4a10be63f32a1a10ed3f85d82a257d1",
+      "size_in_bytes": 2670
+    },
+    {
+      "_path": "Lib/site-packages/fastcache/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "7e799eb8f57c1c7a9baaf16c4e7f5730042e1a92895192c6c0291d158eb7cc02",
+      "size_in_bytes": 3033
+    },
+    {
+      "_path": "Lib/site-packages/fastcache/__pycache__/benchmark.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "b60f38ab1ac5d2c8f3f0b69a90114d3af6f35d5c03169c4999503cffa3db9f5d",
+      "size_in_bytes": 3595
+    },
+    {
+      "_path": "Lib/site-packages/fastcache/_lrucache.cp37-win_amd64.pyd",
+      "path_type": "hardlink",
+      "sha256": "de07ad20a4a9bbe1a2b8bcb3c02a88b15ea37d0f3517f34dd88a9fdc4240486a",
+      "size_in_bytes": 26112
+    },
+    {
+      "_path": "Lib/site-packages/fastcache/benchmark.py",
+      "path_type": "hardlink",
+      "sha256": "2db11963c81b5738c45135b8fc8ef64dde716cda6e84ec551a3e5658102fe858",
+      "size_in_bytes": 3746
+    },
+    {
+      "_path": "Lib/site-packages/fastcache/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/fastcache/tests/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "903dde4b3ec1cff66dd01fd56cc4b2aad68c7ef89681caa7755068fd205b72ce",
+      "size_in_bytes": 132
+    },
+    {
+      "_path": "Lib/site-packages/fastcache/tests/__pycache__/test_clrucache.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "ff9ca3ed4b758f0d791bbf06d8d0a9b9292c8a718bc691a8ac8a2e9670bf5813",
+      "size_in_bytes": 5953
+    },
+    {
+      "_path": "Lib/site-packages/fastcache/tests/__pycache__/test_functools.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "af4289324b98c3a595700fc58feff68753fc6e80eb244bc2b75407952af68041",
+      "size_in_bytes": 7596
+    },
+    {
+      "_path": "Lib/site-packages/fastcache/tests/__pycache__/test_thread.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "0e957dfb3d3a1de092980d189b08cccad1f11f6b9afa2dd0f81c3a94062c59a4",
+      "size_in_bytes": 4552
+    },
+    {
+      "_path": "Lib/site-packages/fastcache/tests/test_clrucache.py",
+      "path_type": "hardlink",
+      "sha256": "cdda50abe06a1e89798cba59a14e31afbcd4520ce4c9961d8a04dee4fc741d7a",
+      "size_in_bytes": 4436
+    },
+    {
+      "_path": "Lib/site-packages/fastcache/tests/test_functools.py",
+      "path_type": "hardlink",
+      "sha256": "7b3994f470e945258eb40a0019926a4ef4a9959a5f99793307f4db472ecca61c",
+      "size_in_bytes": 8022
+    },
+    {
+      "_path": "Lib/site-packages/fastcache/tests/test_thread.py",
+      "path_type": "hardlink",
+      "sha256": "9627dc9e626c9513818ee41da160e2ecfad814947d5f4af9b6aad6594716fd0c",
+      "size_in_bytes": 3465
+    }
+  ],
+  "paths_version": 1
+}

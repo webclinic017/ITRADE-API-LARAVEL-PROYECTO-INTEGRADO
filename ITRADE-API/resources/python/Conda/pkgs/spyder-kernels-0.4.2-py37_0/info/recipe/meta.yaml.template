@@ -1,0 +1,63 @@
+{% set name = "spyder-kernels" %}
+{% set version = "0.4.2" %}
+{% set hash_type = "sha256" %}
+{% set hash = "a13cefb569ef9f63814cb5fcf3d0db66e09d2d7e6cc68c703d5118b2d7ba062b" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  {{ hash_type }}: {{ hash }}
+
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
+
+requirements:
+  host:
+    - pip
+    - python
+    - setuptools
+
+  run:
+    - python
+    - ipykernel >4.9.0
+    - pyzmq >=17
+    - jupyter_client >=5.2.3
+    - cloudpickle
+    - wurlitzer  # [not win]
+
+test:
+  imports:
+    - spyder_kernels
+
+about:
+  home: https://www.spyder-ide.org/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: Jupyter kernels for Spyder's console
+
+  description: |
+    Provides Jupyter kernels for use with the consoles of Spyder, the
+    Scientific Python Development Environment. These can launched either
+    through Spyder itself or in an independent Python session, and allow for
+    interactive or file-based execution of Python code in different
+    environments, all inside the IDE.
+    For more on Spyder, visit https://www.spyder-ide.org/
+
+    To learn about creating, connecting and using Spyder's consoles, read:
+    https://docs.spyder-ide.org/ipythonconsole.html
+    
+    For advice on managing packages and environments with Spyder, see:
+    https://github.com/spyder-ide/spyder/wiki/Working-with-packages-and-environments-in-Spyder
+  doc_url: https://docs.spyder-ide.org/
+  dev_url: https://github.com/spyder-ide/spyder-kernels
+
+extra:
+  recipe-maintainers:
+    - ccordoba12
+    - dalthviz

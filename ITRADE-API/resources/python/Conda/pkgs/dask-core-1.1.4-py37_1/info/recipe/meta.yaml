@@ -1,0 +1,54 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00003isk514\tmp\build\80754af9\rsync-recipes\dask-core-1.1.4-python_3.7-on-winbuilder, last modified Fri Mar 22 13:28:50 2019
+# ------------------------------------------------
+
+package:
+    name: dask-core
+    version: 1.1.4
+source:
+    fn: dask-1.1.4.tar.gz
+    sha256: 7e9a3c053d8f503483d7357d5b8486c70250c4975b08b3d29f91ab7fc97736c3
+    url: https://pypi.io/packages/source/d/dask/dask-1.1.4.tar.gz
+build:
+    noarch: false
+    number: '1'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_1
+requirements:
+    host:
+        - ca-certificates 2019.1.23 0
+        - certifi 2019.3.9 py37_0
+        - openssl 1.1.1b he774522_1
+        - pip 19.0.3 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.27.2 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.33.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - dask
+about:
+    dev_url: https://github.com/dask/dask
+    doc_url: https://dask.pydata.org/
+    home: http://github.com/dask/dask/
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: Parallel Python with task scheduling
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jcrist
+        - martindurant
+        - mrocklin
+        - pitrou
+        - shoyer
+        - sinhrks
+        - tomaugspurger

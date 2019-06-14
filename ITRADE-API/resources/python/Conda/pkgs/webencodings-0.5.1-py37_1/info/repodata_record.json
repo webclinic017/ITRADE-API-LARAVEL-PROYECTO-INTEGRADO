@@ -1,0 +1,21 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "webencodings-0.5.1-py37_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "9183f6d094790f77027304d9e4bd080b",
+  "name": "webencodings",
+  "size": 19597,
+  "subdir": "win-64",
+  "timestamp": 1531667000797,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/webencodings-0.5.1-py37_1.tar.bz2",
+  "version": "0.5.1"
+}

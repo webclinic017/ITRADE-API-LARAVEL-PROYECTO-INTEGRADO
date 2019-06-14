@@ -1,0 +1,125 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/libarchive/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "7371a52034c99a2e3e30d1320b03258e97f366bcbe26f7ae5565661dcf1f73ba",
+      "size_in_bytes": 555
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "41534f5850db52ccf6c254ce440b7f7a737f2f471b3bf0640af4752e164b5113",
+      "size_in_bytes": 624
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/__pycache__/entry.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "40ace46d8c9d403e2a98e40ced8270ed5dc241885aa6b7d54052a2b82f0b0897",
+      "size_in_bytes": 6515
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/__pycache__/exception.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "2aaedd0ddda044d05c23babb580124041e258bc8e3485ac26f22eeb36b7688c1",
+      "size_in_bytes": 799
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/__pycache__/extract.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "008fb81942785d2d65afd6f983c9b38abb535fca42bc15877f6a791201a5d675",
+      "size_in_bytes": 2657
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/__pycache__/ffi.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "bf92838c837765db154d3937b1b13705bc08e1d974d6550db12e9904ef9577b9",
+      "size_in_bytes": 6252
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/__pycache__/flags.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "e9033867796226745b13fee8fb56a25401917c942946395f8167b1d63fabd898",
+      "size_in_bytes": 351
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/__pycache__/read.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "79a1f5dcc5fff752fd5d4287d7ecc196d8d822213b61b9881f8686e2a70cb32f",
+      "size_in_bytes": 3800
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/__pycache__/write.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "2079f8b1d3d605c7ab4662044e9fcf0d39fd3d14ce9f02ffbd377427931e1fba",
+      "size_in_bytes": 5724
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/entry.py",
+      "path_type": "hardlink",
+      "sha256": "a034f2590fac7a95fd14839ec0533151ff5c4f3811077f79577baf4d15a0a73a",
+      "size_in_bytes": 5163
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/exception.py",
+      "path_type": "hardlink",
+      "sha256": "5162aedd613b4cf1a32bb21b42e05202888a2f43e42d86d0ca3e2a7f4f6c6855",
+      "size_in_bytes": 437
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/extract.py",
+      "path_type": "hardlink",
+      "sha256": "26849651ab8cf4f8274f8c3a47e733e178cef3dfc5dd35efbf44e9197715d465",
+      "size_in_bytes": 2375
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/ffi.py",
+      "path_type": "hardlink",
+      "sha256": "f4812952e04a18cdd7cf4f4d8aa222aff683a69f7d4f62677d186680699719cc",
+      "size_in_bytes": 9013
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/flags.py",
+      "path_type": "hardlink",
+      "sha256": "57954fa9f5c86d87fd995337dd4ae25d3e01a03984ca8de810d3ce83843446b2",
+      "size_in_bytes": 211
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/read.py",
+      "path_type": "hardlink",
+      "sha256": "69569dabce56f8aa6c14c23023c0fd431be06a655bc45b8116d993cab6788a7e",
+      "size_in_bytes": 4094
+    },
+    {
+      "_path": "Lib/site-packages/libarchive/write.py",
+      "path_type": "hardlink",
+      "sha256": "57f6be9dc432372c86c15b9b7358c1e2286fb6b323b4f353db9a6889203ebd5d",
+      "size_in_bytes": 6709
+    },
+    {
+      "_path": "Lib/site-packages/libarchive_c-2.8-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "652bec23b172d6f1856011f72e7441cacea56aa578420e19a9411bef2197c1c5",
+      "size_in_bytes": 2429
+    },
+    {
+      "_path": "Lib/site-packages/libarchive_c-2.8-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "b6280f0ac8c95e9f5a0836c5606869179c4b745c7d15eb3e9a7a80577ef66c49",
+      "size_in_bytes": 1009
+    },
+    {
+      "_path": "Lib/site-packages/libarchive_c-2.8-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/libarchive_c-2.8-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "e932b801d70f378801d141e8eba1fb70618948539a1cea38c7463fe074a404fa",
+      "size_in_bytes": 11
+    }
+  ],
+  "paths_version": 1
+}

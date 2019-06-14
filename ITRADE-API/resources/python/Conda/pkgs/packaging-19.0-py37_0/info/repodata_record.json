@@ -1,0 +1,22 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "pyparsing",
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "features": "",
+  "fn": "packaging-19.0-py37_0.tar.bz2",
+  "license": "Apache 2.0 or BSD 2-Clause",
+  "md5": "a43d097385e8bbbcaff64053ea185f5f",
+  "name": "packaging",
+  "size": 38960,
+  "subdir": "win-64",
+  "timestamp": 1549321882625,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/packaging-19.0-py37_0.tar.bz2",
+  "version": "19.0"
+}

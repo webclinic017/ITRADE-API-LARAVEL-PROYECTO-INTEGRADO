@@ -1,0 +1,68 @@
+# This file created by conda-build 3.0.30
+# meta.yaml template originally from:
+# C:\ci\containers\00001dd1gcj\tmp\build\80754af9\rsync-recipes\snappy-1.1.7-c_compilervs2015cxx_compilervs2015-on-winbuilder, last modified Mon Nov 27 10:00:57 2017
+# ------------------------------------------------
+
+package:
+    name: snappy
+    version: 1.1.7
+source:
+    fn: snappy-1.1.7.tar.gz
+    patches:
+        - skip-microbenchmarks.patch
+        - windows-static-lib-name.patch
+    sha256: 3dfa02e873ff51a11ee02b9ca391807f0c8ea0529a4924afa645fbf97163f9d4
+    url: https://github.com/google/snappy/archive/1.1.7.tar.gz
+build:
+    number: '3'
+    run_exports:
+        - snappy >=1.1.7,<2.0a0
+    string: h777316e_3
+requirements:
+    build:
+        - cmake 3.9.4 h4b83b1b_0
+        - vc 14 h2379b0c_2
+        - vs2015_runtime 14.0.25123 hd4c4e62_2
+        - vs2015_win-64 14.0.25123 hf5d5b87_2
+    run:
+        - vc 14.*
+test:
+    commands:
+        - if not exist %LIBRARY_INC%\snappy.h exit 1
+        - if not exist %LIBRARY_INC%\snappy-stubs-public.h exit 1
+        - if not exist %LIBRARY_LIB%\snappy.lib exit 1
+        - if not exist %LIBRARY_BIN%\snappy.dll exit 1
+        - if not exist %LIBRARY_LIB%\snappy_static.lib exit 1
+about:
+    description: 'Snappy is a compression/decompression library. It does not aim for
+        maximum
+
+        compression, or compatibility with any other compression library; instead,
+        it
+
+        aims for very high speeds and reasonable compression. For instance, compared
+        to
+
+        the fastest mode of zlib, Snappy is an order of magnitude faster for most
+
+        inputs, but the resulting compressed files are anywhere from 20% to 100%
+
+        bigger.
+
+        '
+    dev_url: https://github.com/google/snappy
+    home: https://github.com/google/snappy
+    license: BSD 3-clause
+    license_family: BSD
+    license_file: COPYING
+    summary: A fast compressor/decompressor
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - MaxRis
+        - dougalsutherland
+        - groutr
+        - jakirkham
+        - wesm
+        - xhochy

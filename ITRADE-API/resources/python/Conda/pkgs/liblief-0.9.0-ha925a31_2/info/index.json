@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "ha925a31_2",
+  "build_number": 2,
+  "depends": [
+    "vc >=14.1,<15.0a0"
+  ],
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "name": "liblief",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1547593104595,
+  "version": "0.9.0"
+}

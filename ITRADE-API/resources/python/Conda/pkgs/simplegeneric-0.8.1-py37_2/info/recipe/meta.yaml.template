@@ -1,0 +1,45 @@
+{% set version = "0.8.1" %}
+
+package:
+  name: simplegeneric
+  version: {{ version }}
+
+source:
+  fn: simplegeneric-{{ version }}.zip
+  url: https://pypi.python.org/packages/source/s/simplegeneric/simplegeneric-{{ version }}.zip
+  md5: f9c1fab00fd981be588fc32759f474e3
+
+build:
+  number: 2
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  imports:
+    - simplegeneric
+
+about:
+  home: http://cheeseshop.python.org/pypi/simplegeneric
+  license: Zope Public
+  summary: "Simple generic functions (similar to Python's own len(), pickle.dump(), etc.)"
+  description: |
+    The simplegeneric module lets you define simple single-dispatch generic
+    functions, akin to Python's built-in generic functions like len(), iter()
+    and so on. However, instead of using specially-named methods, these
+    generic functions use simple lookup tables, akin to those used by e.g.
+    pickle.dump() and other generic functions found in the Python standard
+    library.
+  doc_url: https://pypi.python.org/pypi/simplegeneric
+
+extra:
+  recipe-maintainers:
+    - minrk
+    - msarahan
+    - pelson

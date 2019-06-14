@@ -1,0 +1,22 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "features": "",
+  "fn": "nltk-3.4-py37_1.tar.bz2",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "md5": "b946b4125d9c45aad29253d94f9bd407",
+  "name": "nltk",
+  "size": 2174613,
+  "subdir": "win-64",
+  "timestamp": 1545271569179,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/nltk-3.4-py37_1.tar.bz2",
+  "version": "3.4"
+}

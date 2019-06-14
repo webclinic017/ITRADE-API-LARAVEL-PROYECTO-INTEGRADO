@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h2fa13f4_0",
+  "build_number": 0,
+  "depends": [
+    "vc 14.*"
+  ],
+  "license": "BSD 2-clause",
+  "name": "lz4-c",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1524592949942,
+  "version": "1.8.1.2"
+}

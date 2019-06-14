@@ -1,0 +1,54 @@
+# This file created by conda-build 3.17.8
+# ------------------------------------------------
+
+package:
+    name: libcurl
+    version: 7.64.0
+source:
+    sha256: d573ba1c2d1cf9d8533fadcce480d778417964e8d04ccddcc76e591d544cf2eb
+    url: http://curl.haxx.se/download/curl-7.64.0.tar.bz2
+build:
+    number: 2
+    run_exports:
+        - libcurl >=7.64.0,<8.0a0
+    string: h2a8f88b_2
+requirements:
+    build:
+        - vs2017_win-64 19.15.26726 h3c6f0ee_0
+    host:
+        - ca-certificates 2019.1.23 0
+        - krb5 1.16.1 hc04afaa_7
+        - libssh2 1.8.0 h7a1dbc1_4
+        - openssl 1.1.1b he774522_1
+        - tk 8.6.8 hfa6e2cd_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - zlib 1.2.11 h62dcd97_3
+    run:
+        - krb5 >=1.16.1,<1.17.0a0
+        - libssh2 >=1.8.0,<2.0a0
+        - vc >=14.1,<15.0a0
+        - zlib >=1.2.11,<1.3.0a0
+about:
+    description: 'Curl is an open source command line tool and library for transferring
+        data
+
+        with URL syntax. It is used in command lines or scripts to transfer data.
+
+        '
+    dev_url: https://github.com/curl/curl
+    doc_source_url: https://github.com/curl/curl/tree/master/docs
+    doc_url: https://curl.haxx.se/docs/
+    home: http://curl.haxx.se/
+    license: MIT/X derivate (http://curl.haxx.se/docs/copyright.html)
+    license_family: MIT
+    license_file: COPYING
+    summary: tool and library for transferring data with URL syntax
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - msarahan
+        - ocefpaf

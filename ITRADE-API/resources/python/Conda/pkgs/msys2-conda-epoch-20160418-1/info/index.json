@@ -1,0 +1,10 @@
+{
+  "arch": "x86_64",
+  "build": "1",
+  "build_number": 1,
+  "depends": [],
+  "name": "msys2-conda-epoch",
+  "platform": "win",
+  "subdir": "win-64",
+  "version": "20160418"
+}

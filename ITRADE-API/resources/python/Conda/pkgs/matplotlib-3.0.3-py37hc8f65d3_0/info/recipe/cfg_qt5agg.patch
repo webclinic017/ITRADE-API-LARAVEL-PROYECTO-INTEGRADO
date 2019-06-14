@@ -1,0 +1,13 @@
+diff --git a/setup.cfg.template b/setup.cfg.template
+index 4fed27d..45e5cf0 100644
+--- a/setup.cfg.template
++++ b/setup.cfg.template
+@@ -77,7 +77,7 @@
+ # not choose MacOSX, or TkAgg if you have disabled the relevant extension
+ # modules.  The default is determined by fallback.
+ #
+-#backend = Agg
++backend = Qt5Agg
+ 
+ [package_data]
+ # Package additional files found in the lib/matplotlib directories.

@@ -1,0 +1,20 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "backports-1.0-py37_1.tar.bz2",
+  "license": "BSD",
+  "md5": "42aabb3d56010d537a1254352a4df670",
+  "name": "backports",
+  "size": 3481,
+  "subdir": "win-64",
+  "timestamp": 1531677600761,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/backports-1.0-py37_1.tar.bz2",
+  "version": "1.0"
+}

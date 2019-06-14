@@ -1,0 +1,107 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy-1.3.1-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "240b7bf13fef87f89182308b1e03ef69bb270cc423d77a507de6080cff2bb74c",
+      "size_in_bytes": 4434
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy-1.3.1-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "bf4dc790f0a942235edbd6fa9df3788f1040408ed2f0c1d5631c7e2cb54cd966",
+      "size_in_bytes": 1062
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy-1.3.1-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy-1.3.1-py3.7.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy-1.3.1-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "50d1fe15007e8fff1b62a3f3de00fdd241ef682e364d0a98d2d8474a76da6b49",
+      "size_in_bytes": 18
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "3ae53491983c48d0ff1938967858698815d864288d091fa68d0242c535901a1b",
+      "size_in_bytes": 332
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "7d10b4f697ece3541c9e8bcc624fe5e2ddab07a741973e29630fff946c15d4a5",
+      "size_in_bytes": 436
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy/__pycache__/compat.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "988c8282f13e1e1ceb4b8f2dcc1d8eff0ca07bf502d9c93065219b8d5a8489b3",
+      "size_in_bytes": 383
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy/__pycache__/simple.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "5f5025f3aa71924e7103e025d72be9a38a4f647e183530cd6c43fdb28cd4babe",
+      "size_in_bytes": 7686
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy/__pycache__/slots.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "0e366d3decd3728272968f2e0510ca3f9ceb7cd5528dbed1bc2cccecd4023eb3",
+      "size_in_bytes": 15157
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy/__pycache__/utils.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "8848795a380c4f0af4ac3f4abb84f8c3761bc951a7c647613e184621cf75cb3c",
+      "size_in_bytes": 726
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy/cext.c",
+      "path_type": "hardlink",
+      "sha256": "b2179266101ae1a5e72a2ae8cc0eda07728ff7ed845c00a0b8a8d3934e2668d8",
+      "size_in_bytes": 38745
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy/cext.cp37-win_amd64.pyd",
+      "path_type": "hardlink",
+      "sha256": "f4cd089a8c4e7e8e1fbe16665dba094a5025f1222fbc9e113465fc59a39bfc0f",
+      "size_in_bytes": 31744
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy/compat.py",
+      "path_type": "hardlink",
+      "sha256": "0d8dc76cac1badb78a63ab645d13512c9d60a3a1c96fc1d4c16ab2c374f983f8",
+      "size_in_bytes": 196
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy/simple.py",
+      "path_type": "hardlink",
+      "sha256": "04e64921ae307408bfe0e5143f5a78eb62cbcc475eccac5a239b39e9236cc919",
+      "size_in_bytes": 8204
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy/slots.py",
+      "path_type": "hardlink",
+      "sha256": "7116a26acf4f33ef3a913548e1dfe85633e0361645839eabbcc81d1a4c7a4b5b",
+      "size_in_bytes": 11339
+    },
+    {
+      "_path": "Lib/site-packages/lazy_object_proxy/utils.py",
+      "path_type": "hardlink",
+      "sha256": "c785d3aed969fe60d358efc43aafc82c83afd90a25f112cc9d19b933c97739f5",
+      "size_in_bytes": 291
+    }
+  ],
+  "paths_version": 1
+}

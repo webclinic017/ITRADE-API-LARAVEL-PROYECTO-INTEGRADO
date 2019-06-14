@@ -1,0 +1,22 @@
+{
+  "build": "py37he774522_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.1,<15.0a0"
+  ],
+  "features": "",
+  "fn": "mistune-0.8.4-py37he774522_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "c76b44e5f5b9e5b08d49c1725e10d753",
+  "name": "mistune",
+  "size": 54905,
+  "subdir": "win-64",
+  "timestamp": 1539631762955,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/mistune-0.8.4-py37he774522_0.tar.bz2",
+  "version": "0.8.4"
+}

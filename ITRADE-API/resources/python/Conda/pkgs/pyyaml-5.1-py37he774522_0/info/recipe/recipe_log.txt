@@ -1,0 +1,323 @@
+commit 81a3f8714139f72313ad4e7d4415e345e540f408
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Aug 14 03:58:41 2017 -0500
+
+    Update about section
+
+commit 485c1e458856180307a2c73248c86d8f568f82c0
+Merge: a41690c 273ec60
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Mar 13 20:03:23 2019 -0300
+
+    Merge pull request #16 from regro-cf-autotick-bot/5.1
+    
+    pyyaml v5.1
+
+commit 273ec600383456b0d93def06b3a3cdf8832f8794
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 13 17:26:21 2019 +0000
+
+    updated v5.1
+
+commit a41690c316541219626582c342537c024174b55c
+Merge: 8a4dec7 71e3c2e
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Sun Feb 24 07:21:43 2019 -0600
+
+    Merge pull request #15 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition_arch
+    
+    Arch Migrator
+
+commit 71e3c2e55aa481ad13a95621394a8d6753b5cf5b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 24 04:19:45 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.21
+
+commit bb727792a307a15723ff88cd35eac29349798337
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 24 04:19:34 2019 +0000
+
+    bump build number
+
+commit 8a4dec7f6ef89308f16ecfc56b27dca338a84e14
+Merge: a40586d e2cdc49
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Oct 3 08:54:18 2018 -0300
+
+    Merge pull request #14 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit e2cdc49ab58a93aacd108d0d5ba2019b4e4214cc
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 03:15:22 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit 39d8fccbc71887af65a14659d1f5bd6c9bc1247f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 03:15:14 2018 +0000
+
+    bump build number
+
+commit a40586d9af615fc92964fb951cc36c9828ddb66a
+Merge: 5fed51b 8d6ab04
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Fri Aug 31 10:31:03 2018 -0500
+
+    Merge pull request #13 from jakirkham-feedstocks/adj_cython_req
+    
+    Move Cython to host
+
+commit 8d6ab046fdd298e30b9f6e3fd36f52587a593025
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Aug 31 10:58:07 2018 -0400
+
+    Bump build number to 1
+    
+    Rebuild now that the Cython requirement has been moved to `host` instead
+    of `run`.
+
+commit a99ad00455ec3861805d8431f4ed73e870e2054f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Aug 31 10:56:40 2018 -0400
+
+    Move Cython to the host requirements
+    
+    Appears that Cython was added to the run requirements. As there doesn't
+    appear to be any indication from the source that PyYAML uses Cython at
+    run time (only build time), move Cython to the host requirements
+    instead. Should avoid pulling Cython into environments where it is not
+    needed.
+
+commit 5fed51b0d12abab8eb56dbc7868d602af8a0b379
+Merge: 2338347 82fe3b2
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Aug 26 09:50:19 2018 -0500
+
+    Merge pull request #12 from ocefpaf/add_jjhelmus
+    
+    [skip ci][skip appveyor]
+
+commit 82fe3b20a57cf11748a56b11d5abdb437d0e2bf0
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Aug 26 09:49:36 2018 -0500
+
+    [skip ci][skip appveyor]
+
+commit 2338347ebd7ce98a1616122470d7e0839901535e
+Merge: 9ed52a7 8134bf1
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Aug 26 09:46:06 2018 -0500
+
+    Merge pull request #11 from ocefpaf/py37
+    
+    Py37
+
+commit 8134bf107820fe81961ae2f732ac8c4893f68468
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Aug 25 19:42:51 2018 -0500
+
+    update to 3.13
+
+commit 76fec8f083447e2a660409746973da284c16535e
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Aug 25 19:33:42 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.21
+
+commit ce217b22518b4ad01e9f3fc3fa7566cc353c9e52
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Aug 25 19:33:17 2018 -0500
+
+    update recipe
+
+commit 9ed52a738e07c0fd8b08ecb254963a43c81dc7fc
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:15:32 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit fde85453c5ac6afd35618b95fa7de46a935a0c13
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:44:22 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 7b2aa48e4acc250f5b4a7028d013e9f3a0d33016
+Merge: e261490 aa3749e
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Mar 30 20:03:26 2017 -0400
+
+    Merge pull request #8 from pmlandwehr/master
+    
+    Ticked build number, rerendered with 2.2.1, update template
+
+commit aa3749e81e1b9df0c612223adde0d02ab439cfd2
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Tue Mar 28 16:55:40 2017 -0700
+
+    Tick build num, tweak template
+
+commit 7411c4ef9be84ba2909b5e0981d682a39c0e0774
+Author: Peter Landwehr <pmlandwehr@gmail.com>
+Date:   Thu Mar 23 14:43:04 2017 -0700
+
+    MNT: Re-rendered with conda-smithy 2.2.1
+
+commit d751c0afdeea76cd8bed58d3c8c617adbfb8e058
+Author: Peter Landwehr <pmlandwehr@gmail.com>
+Date:   Thu Mar 23 14:42:26 2017 -0700
+
+    Update template, license info
+
+commit 17737d5c61db2c1fdde4c21e35bc3d2691ab6a70
+Merge: e3e62f3 e261490
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Fri Mar 17 22:50:02 2017 -0700
+
+    Merge branch 'master' into master
+
+commit e3e62f36a78828fff611d1f75c69f8286fb57ea1
+Author: Peter Landwehr <pmlandwehr@gmail.com>
+Date:   Fri Mar 17 22:36:24 2017 -0700
+
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit e261490ef52ed6512517928d16f92ce0a4283ab7
+Merge: bae13f2 f85a888
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Feb 17 19:10:16 2017 -0500
+
+    Merge pull request #7 from adament/master
+    
+    Update to version 3.12
+
+commit f85a888e15e7f4ac867b8c8dcbbf0a0f69061f49
+Author: Adam Ehlers Nyholm Thomsen <aen@atp.dk>
+Date:   Tue Jan 17 17:50:41 2017 +0100
+
+    Update to version 3.12
+
+commit bae13f2bae172c98472f74a5c134dc790e269c1a
+Merge: 1fc35e6 eaa1f05
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Jan 9 01:45:37 2017 -0500
+
+    Merge pull request #6 from jakirkham/re-render__master__1.7.0
+    
+    Re-rendered with 1.7.0 and add Python 3.6
+
+commit eaa1f0587603840b4d8fcc4fcd09c8e1bb5f25c2
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jan 8 17:50:34 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 1.7.0
+    
+    Also add Python 3.6 support.
+
+commit 1fc35e62b9bfa9db1fc510c90b676acf6f467180
+Merge: 465db25 3cf02ab
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Oct 25 02:45:03 2016 -0400
+
+    Merge pull request #5 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 3cf02ab657fbcba5cac24f6467e5c4c488228d05
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Oct 24 01:42:15 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.3.
+
+commit 465db25593f2b1a5d32d388ddb31d57e46075f22
+Merge: cdca8e4 3f3409c
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jun 5 22:26:10 2016 -0400
+
+    Merge pull request #4 from jakirkham/fix_unmatched_quotes
+    
+    Fix unmatched quotes
+
+commit 3f3409c06c5bfa105bda3c509a32fad03136dda9
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jun 5 22:09:22 2016 -0400
+
+    Revert "Revert "MNT: Updated the feedstock for conda-smithy version 0.10.4.""
+    
+    This reverts commit 681a16fd30eccc66f404554e6148ced763d930ad.
+
+commit c6cc58300ef18f340e4cf8bb204f920376885481
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jun 5 21:53:35 2016 -0400
+
+    recipe: Fix unmatched quotes.
+
+commit cdca8e445d1046e07aac2e6fb3bc833b571f4e30
+Merge: 1fa5105 e5dfdd6
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jun 5 12:32:46 2016 -0400
+
+    Merge pull request #3 from jakirkham/add_maintainer_fix_win
+    
+    Add @pelson
+
+commit e5dfdd64a552f4b5ff48c691a7ebd607644e293f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jun 5 12:23:11 2016 -0400
+
+    recipe: Add @pelson as a maintainer.
+
+commit 681a16fd30eccc66f404554e6148ced763d930ad
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jun 5 12:22:52 2016 -0400
+
+    Revert "MNT: Updated the feedstock for conda-smithy version 0.10.4."
+    
+    This reverts commit 0474a4ed9f5ec99cf992c9b8eea847b8643c2370.
+
+commit 1fa5105d1873e0d135e231425bcce7260d2654fb
+Merge: 07860b9 0474a4e
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Sun Jun 5 16:06:59 2016 +0100
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 0474a4ed9f5ec99cf992c9b8eea847b8643c2370
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Jun 5 15:05:45 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.4.
+    
+    [ci skip]
+
+commit 07860b9a61f8c5e623d04200f45c4b75fcf0f532
+Merge: 2368f2e 9636572
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Jun 2 13:05:46 2016 -0400
+
+    Merge pull request #1 from jakirkham/workaround_win_py34_err
+    
+    Workaround AppVeyor Python 3.4 build failures
+
+commit 9636572bd76948a077012dd110b5a5435098447b
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Jun 2 12:52:20 2016 -0400
+
+    appveyor: Pin conda-build to 1.20.0 for Python 3.4 builds.
+
+commit 2368f2ec373f9c408ed45e3ba47f86c26f70c350
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Jun 2 16:46:25 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 9285153971a0ba7ab5b0ecec372c59a7d310bcf6
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Jun 2 16:45:27 2016 +0000
+
+    Initial commit of the pyyaml feedstock.

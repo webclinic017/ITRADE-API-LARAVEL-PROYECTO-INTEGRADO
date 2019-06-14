@@ -1,0 +1,53 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\ply-feedstock\recipe, last modified Tue Jul  3 15:52:20 2018
+# ------------------------------------------------
+
+package:
+    name: ply
+    version: '3.11'
+source:
+    fn: ply-3.11.tar.gz
+    sha256: 928c5642612f4710b168d3c49c25f6ece2913a5e8d1c5e37fde5d6162fec3fd2
+    url: https://github.com/dabeaz/ply/archive/3.11.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py37_0
+requirements:
+    host:
+        - certifi 2018.4.16 py37_0
+        - python 3.7.0 hea74fb7_0
+        - setuptools 39.2.0 py37_0
+        - vc 14.1 h0510ff6_3
+        - vs2015_runtime 15.5.2 3
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - ply.lex
+        - ply.yacc
+about:
+    description: 'PLY is a pure-Python implementation of the popular compiler construction
+
+        tools lex and yacc.  The main goal of PLY is to stay fairly faithful to the
+        way
+
+        in which traditional lex/yacc tools work.
+
+        '
+    dev_url: https://github.com/dabeaz/ply
+    doc_source_url: https://github.com/dabeaz/ply/blob/master/doc/internal.htmls
+    doc_url: http://www.dabeaz.com/ply/index.html
+    home: http://www.dabeaz.com/ply/index.html
+    license: BSD 3-clause
+    license_family: BSD
+    license_file: README.md
+    summary: Python Lex-Yacc
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - scopatz
+        - synapticarbors

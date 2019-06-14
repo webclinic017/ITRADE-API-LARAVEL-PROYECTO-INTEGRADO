@@ -1,0 +1,62 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\sip-feedstock\recipe, last modified Tue Jul  3 15:55:12 2018
+# ------------------------------------------------
+
+package:
+    name: sip
+    version: 4.19.8
+source:
+    patches:
+        - 0001-Do-not-override-CC-CXX-LINK-in-sipgen-Makefile.patch
+    sha256: 7eaf7a2ea7d4d38a56dd6d2506574464bddf7cf284c960801679942377c297bc
+    url: http://sourceforge.net/projects/pyqt/files/sip/sip-4.19.8/sip-4.19.8.tar.gz
+build:
+    number: '0'
+    string: py37h6538335_0
+requirements:
+    build:
+        - vs2015_win-64 14.0.25123 h17c34da_3
+    host:
+        - python 3.7.0 hea74fb7_0
+        - vc 14.1 h0510ff6_3
+        - vs2015_runtime 15.5.2 3
+    run:
+        - python >=3.7,<3.8.0a0
+        - vc 14.*
+test:
+    files:
+        - test
+    imports:
+        - sip
+    requires:
+        - vs2015_win-64
+about:
+    description: 'SIP is a tool that makes it very easy to create Python bindings
+        for C and
+
+        C++ libraries. SIP comprises a code generator and a Python module. The
+
+        code generator processes a set of specification files and generates C or
+
+        C++ code which is then compiled to create the bindings extension module.
+
+        The SIP Python module provides support functions to the automatically
+
+        generated code.
+
+        '
+    dev_url: https://github.com/ifwe/sip
+    doc_url: http://pyqt.sourceforge.net/Docs/sip4/
+    home: http://www.riverbankcomputing.com/software/sip/intro
+    license: GPL-3.0
+    license_file: LICENSE
+    summary: Create Python bindings for C and C++ libraries
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - mingwandroid
+        - msarahan
+        - ocefpaf

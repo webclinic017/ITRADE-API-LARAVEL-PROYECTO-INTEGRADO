@@ -1,0 +1,23 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/libiomp5md.dll",
+      "path_type": "hardlink",
+      "sha256": "a8f2bae90a2462521a109fbc6f4fe75310167ec0b1ce8aea188a6e950876a285",
+      "size_in_bytes": 1728232
+    },
+    {
+      "_path": "Library/bin/libiomp5md.pdb",
+      "path_type": "hardlink",
+      "sha256": "75d73422bef5963310d2069415494a6629dfd136118186d7315c749d4eda1b14",
+      "size_in_bytes": 4631552
+    },
+    {
+      "_path": "Library/bin/libiompstubs5md.dll",
+      "path_type": "hardlink",
+      "sha256": "5311909b610dad57ae3d2523f6ddb248dbe4bf83fa4160119cfac0b4c9f0306a",
+      "size_in_bytes": 111848
+    }
+  ],
+  "paths_version": 1
+}

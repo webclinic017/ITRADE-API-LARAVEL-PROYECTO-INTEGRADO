@@ -1,0 +1,20 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "dask-core-1.1.4-py37_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "b0d11d4399c4b2e13a50ee6193c8a21a",
+  "name": "dask-core",
+  "size": 1288760,
+  "subdir": "win-64",
+  "timestamp": 1553290474270,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/dask-core-1.1.4-py37_1.tar.bz2",
+  "version": "1.1.4"
+}

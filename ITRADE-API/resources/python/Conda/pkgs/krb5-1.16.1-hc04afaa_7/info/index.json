@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "hc04afaa_7",
+  "build_number": 7,
+  "depends": [
+    "openssl >=1.1.1,<1.1.2.0a0",
+    "tk >=8.6.8,<8.7.0a0",
+    "vc >=14.1,<15.0a0"
+  ],
+  "license": "MIT",
+  "name": "krb5",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1540590307753,
+  "version": "1.16.1"
+}

@@ -1,0 +1,177 @@
+commit c6291a6232f2d17027293d5259f30f4dccd59915
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Sep 20 14:06:32 2017 -0500
+
+    build->host for cross
+
+commit 62c4d4f14e471bfa12df96e3f1ce62d0319bcc97
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Aug 30 04:33:36 2017 -0700
+
+    Oops
+
+commit ecfd418bb3265b62f332fc31f53fc68f3ffecac9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Aug 30 02:16:55 2017 -0700
+
+    Do not install from a wheel
+    
+    Wheels are binary files (sometimes) so installing from a wheel
+    (even when there is no binary in there) goes against the grain
+    of a built-from-source distribution.
+    
+    It is like making a cake where the first ingredient is a cake.
+
+commit cc53efa5cbade3d40f786eb3f86e9711b21a2eed
+Merge: e2c3682 11aa42d
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jun 9 13:24:03 2017 +0200
+
+    Merge pull request #8 from ocefpaf/update_to_0.2.3
+    
+    Update to 0.2.3
+
+commit 11aa42da8b900661514147e0ee3fc9504e9f8518
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Thu Jun 8 12:35:02 2017 -0300
+
+    rerender with auto
+
+commit 01e2ef44d3858a0923ebcd6ebaa83bb1abe3d9e9
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Thu Jun 8 12:34:24 2017 -0300
+
+    Update to 0.2.3
+
+commit e2c3682669f5bd25927876b0bd761d273dd0e2c0
+Merge: af61a8b 5e2b381
+Author: Thomas Kluyver <takowl@gmail.com>
+Date:   Thu Jan 26 13:00:58 2017 +0000
+
+    Merge pull request #7 from takluyver/pip-install
+    
+    Install using pip on wheel package
+
+commit 5e2b38188e237c1bceeebf856057573c74664840
+Author: Thomas Kluyver <thomas@kluyver.me.uk>
+Date:   Thu Jan 26 11:58:31 2017 +0000
+
+    Bump build number
+
+commit a4c633098afd23dd6b12be6060289d19cc3711a8
+Author: Thomas Kluyver <thomas@kluyver.me.uk>
+Date:   Thu Jan 26 11:23:47 2017 +0000
+
+    Install using pip on wheel package
+    
+    Following minrk's example with testpath-feedstock, which seems like a
+    better way than just copying the file to site-packages. In particular,
+    this means that pip will know about the installed package.
+
+commit af61a8b098b6c0852eb44998e71f624bb478c7b8
+Merge: bc0df6a 19987db
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Jan 9 13:28:57 2017 +0100
+
+    Merge pull request #5 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit bc0df6a5c793b8620df23f68d5d4096536ce3049
+Merge: 6c99e62 81d2ffb
+Author: Thomas Kluyver <takowl@gmail.com>
+Date:   Fri Jan 6 12:13:44 2017 +0000
+
+    Merge pull request #6 from minrk/configparser
+    
+    use whitelist for configparser dependency
+
+commit 81d2ffb1bc6ec678d1170cda6e3512690aad4778
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jan 6 10:24:27 2017 +0100
+
+    use whitelist for configparser dependency
+    
+    rather than 'not py35', since py36 and later will also not need it
+
+commit 19987db9587a0de3c5c84c36ea632bbd9d79196e
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Jan 4 01:37:08 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.7.0.
+
+commit 6c99e62bb06940246db2756d03c8230e460281ec
+Merge: f1867f7 eb28e79
+Author: Thomas Kluyver <takowl@gmail.com>
+Date:   Sat Dec 3 10:57:52 2016 +0000
+
+    Merge pull request #4 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit eb28e79bbf07defe1e8fc7719a42c6f93c95d82f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Dec 3 01:39:55 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.6.1.
+
+commit f1867f7067e5968dc269c7bd27c8510a962df0c9
+Merge: 4a35007 c537a40
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Jul 1 13:33:19 2016 +0200
+
+    Merge pull request #3 from jakirkham/bump_0_2_2
+    
+    Bump to version 0.2.2
+
+commit c537a405009454d8baf99aed72facb3d83b80de2
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Jun 29 16:09:32 2016 -0400
+
+    recipe: Bump to version 0.2.2.
+
+commit 4a35007afd27c1b4cb1fecbe2854e3c245ab3992
+Merge: c815d84 c567c40
+Author: Thomas Kluyver <takowl@gmail.com>
+Date:   Mon May 16 10:46:31 2016 +0100
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit c567c4082b6a71e09876e44c198865682126a757
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon May 16 03:43:30 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit c815d843a6da434ccca4eceffc08c1917e12abc7
+Merge: 726f21b 3584f4c
+Author: Thomas Kluyver <takowl@gmail.com>
+Date:   Sat Apr 23 16:16:52 2016 +0100
+
+    Merge pull request #1 from conda-forge/takluyver-patch-1
+    
+    Update to version 0.2.1
+
+commit 3584f4c2855399fa9573e87e5d99d6d3688eb0d4
+Author: Thomas Kluyver <takowl@gmail.com>
+Date:   Sat Apr 23 12:17:08 2016 +0100
+
+    Update to version 0.2.1
+    
+    I fixed a bug with case sensitivity for entry point names
+
+commit 726f21b12dc78d3a9e68dde0f6c6dfbc69fa49e9
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Apr 9 20:56:47 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit fdd618569cfb51017dabe332ad097563ee140359
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Apr 9 20:55:43 2016 +0000
+
+    Initial commit of the entrypoints feedstock.

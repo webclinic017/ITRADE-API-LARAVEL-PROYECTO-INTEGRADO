@@ -1,0 +1,22 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "numpy",
+    "pillow",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "imageio-2.5.0-py37_0.tar.bz2",
+  "license": "BSD 2-Clause",
+  "md5": "39754992d4c62447ec5f76a4a62a3983",
+  "name": "imageio",
+  "size": 3490795,
+  "subdir": "win-64",
+  "timestamp": 1551192454922,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/imageio-2.5.0-py37_0.tar.bz2",
+  "version": "2.5.0"
+}

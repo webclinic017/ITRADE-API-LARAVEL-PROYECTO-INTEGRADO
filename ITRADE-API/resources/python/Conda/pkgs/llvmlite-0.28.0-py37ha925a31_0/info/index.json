@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37ha925a31_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime"
+  ],
+  "license": "New BSD License",
+  "name": "llvmlite",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1552586341853,
+  "version": "0.28.0"
+}

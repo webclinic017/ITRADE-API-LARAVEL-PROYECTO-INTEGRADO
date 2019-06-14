@@ -1,0 +1,28 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "clyent >=1.2.2",
+    "nbformat",
+    "python >=3.7,<3.8.0a0",
+    "python-dateutil",
+    "pytz",
+    "pyyaml",
+    "requests >=2.9.1",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "anaconda-client-1.7.2-py37_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "md5": "8fbd774bbe6993e1bc59d8938945ba7c",
+  "name": "anaconda-client",
+  "size": 204188,
+  "subdir": "win-64",
+  "timestamp": 1535570617469,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/anaconda-client-1.7.2-py37_0.tar.bz2",
+  "version": "1.7.2"
+}

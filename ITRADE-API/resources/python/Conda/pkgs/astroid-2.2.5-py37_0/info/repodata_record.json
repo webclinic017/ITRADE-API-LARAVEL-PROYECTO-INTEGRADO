@@ -1,0 +1,25 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "lazy-object-proxy",
+    "python >=3.7,<3.8.0a0",
+    "setuptools",
+    "six",
+    "wrapt"
+  ],
+  "features": "",
+  "fn": "astroid-2.2.5-py37_0.tar.bz2",
+  "license": "LGPL 2.1",
+  "license_family": "LGPL",
+  "md5": "91dcf282ac4396fb3172b19b512d899a",
+  "name": "astroid",
+  "size": 281852,
+  "subdir": "win-64",
+  "timestamp": 1552328117142,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/astroid-2.2.5-py37_0.tar.bz2",
+  "version": "2.2.5"
+}

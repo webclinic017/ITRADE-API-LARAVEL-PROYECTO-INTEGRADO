@@ -1,0 +1,23 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "entrypoints",
+    "python >=3.7,<3.8.0a0",
+    "pywin32"
+  ],
+  "features": "",
+  "fn": "keyring-18.0.0-py37_0.tar.bz2",
+  "license": "Python Software Foundation or MIT",
+  "license_family": "MIT",
+  "md5": "2f70dc005a4ec7156559267728a681b8",
+  "name": "keyring",
+  "size": 74959,
+  "subdir": "win-64",
+  "timestamp": 1550348922488,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/keyring-18.0.0-py37_0.tar.bz2",
+  "version": "18.0.0"
+}

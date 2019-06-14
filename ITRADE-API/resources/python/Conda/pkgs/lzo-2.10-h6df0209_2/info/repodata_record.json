@@ -1,0 +1,21 @@
+{
+  "build": "h6df0209_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc 14.*"
+  ],
+  "features": "",
+  "fn": "lzo-2.10-h6df0209_2.tar.bz2",
+  "license": "GPL v2+",
+  "license_family": "GPL2",
+  "md5": "df1d264574ac1767afe7aaff92aa5f15",
+  "name": "lzo",
+  "size": 157467,
+  "subdir": "win-64",
+  "timestamp": 1511294422945,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/lzo-2.10-h6df0209_2.tar.bz2",
+  "version": "2.10"
+}

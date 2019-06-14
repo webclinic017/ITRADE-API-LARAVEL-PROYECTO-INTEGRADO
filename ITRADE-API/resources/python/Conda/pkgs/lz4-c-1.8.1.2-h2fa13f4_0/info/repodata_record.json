@@ -1,0 +1,20 @@
+{
+  "build": "h2fa13f4_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc 14.*"
+  ],
+  "features": "",
+  "fn": "lz4-c-1.8.1.2-h2fa13f4_0.tar.bz2",
+  "license": "BSD 2-clause",
+  "md5": "51ac6ef55a7c1515e812d0d4693efa17",
+  "name": "lz4-c",
+  "size": 221792,
+  "subdir": "win-64",
+  "timestamp": 1524592949942,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/lz4-c-1.8.1.2-h2fa13f4_0.tar.bz2",
+  "version": "1.8.1.2"
+}

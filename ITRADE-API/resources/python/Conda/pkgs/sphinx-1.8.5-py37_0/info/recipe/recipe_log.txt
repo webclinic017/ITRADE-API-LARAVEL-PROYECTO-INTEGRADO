@@ -1,0 +1,739 @@
+commit 0cc5d4ef49eb38901f02dbc9a33459f0333c4dfb
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 16:46:59 2017 +0000
+
+    Update test section
+
+commit 9b57fc1235afaf6059a54d74feb66ed75f25e174
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Aug 12 17:37:07 2017 +0000
+
+    Update about section
+
+commit d7192a117c9c4b7cde4c88e342c099a64baf16c8
+Merge: 2d1be96 ebb6533
+Author: chris <mail@chohner.com>
+Date:   Sun Mar 10 12:19:18 2019 +0100
+
+    Merge pull request #52 from regro-cf-autotick-bot/1.8.5
+    
+    sphinx v1.8.5
+
+commit ebb65330bae5cabc560aaab28c9646ba56d91317
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 10 08:23:49 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.04
+
+commit b2dd10f522a03c862bfb9775fb463b2833c55b50
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 10 08:23:37 2019 +0000
+
+    updated v1.8.5
+
+commit 2d1be96bb744eab4d9c9cfa3f37274481f3d673c
+Merge: e3dd473 a54e5ec
+Author: chris <mail@chohner.com>
+Date:   Mon Feb 4 00:20:53 2019 +0100
+
+    Merge pull request #51 from regro-cf-autotick-bot/1.8.4
+    
+    sphinx v1.8.4
+
+commit a54e5ec42ec1e523df6ae728be90386835fc112a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 3 15:14:32 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit 85c2d14a474c958e86c7991055fa02621cb29bce
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 3 15:14:18 2019 +0000
+
+    updated v1.8.4
+
+commit e3dd473d4d95202680ade26de91d419b152b391e
+Merge: b263a5d f0ddc22
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Dec 25 18:12:19 2018 -0200
+
+    Merge pull request #50 from regro-cf-autotick-bot/1.8.3
+    
+    sphinx v1.8.3
+
+commit f0ddc2257e990f6d70ba391d15913c82f1f26ebf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Dec 25 16:12:42 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+commit 83f9fd6dde84dd3d4afb29f2dbaa5cf4f5f6cccb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Dec 25 16:12:36 2018 +0000
+
+    updated v1.8.3
+
+commit b263a5decb7967d0cc1c73ba929e35175524f7b4
+Merge: 918a480 26e8ca2
+Author: chris <mail@chohner.com>
+Date:   Sun Nov 11 15:11:26 2018 +0100
+
+    Merge pull request #49 from regro-cf-autotick-bot/1.8.2
+    
+    sphinx v1.8.2
+
+commit 26e8ca26f47bbf554ca4d3fac9f4b8fd0139834f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 11 06:12:37 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.9
+
+commit 56e9dc5add91a604140377ca30147827ce602a36
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 11 06:12:24 2018 +0000
+
+    updated v1.8.2
+
+commit 918a480ee5065d303b1970c7712c2812f8ba1fbc
+Merge: 9b64525 b0e7b06
+Author: chris <mail@chohner.com>
+Date:   Wed Oct 10 11:29:28 2018 +0200
+
+    Merge pull request #48 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit b0e7b06950336ed4c241bc32096a13ebef55f48b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 10 00:59:52 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.08
+
+commit 450f000a8cccb24521fb80bc49686f41fcc3ef8c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 10 00:59:48 2018 +0000
+
+    bump build number
+
+commit 9b6452507e939906130fc75390b1310448b98265
+Merge: 2f46e43 f981a7a
+Author: chris <mail@chohner.com>
+Date:   Sat Sep 22 17:39:18 2018 +0200
+
+    Merge pull request #47 from blink1073/add-blink1073
+    
+    Add blink1073 to maintainers
+
+commit f981a7a87c7d155e57baf54f373e5263f1c76ba3
+Author: Steven Silvester <steven.silvester@ieee.org>
+Date:   Sat Sep 22 07:28:33 2018 -0500
+
+    Add blink1073 to maintainers
+
+commit 2f46e43e38dcc7eb74acb9bff713abc550050ce3
+Merge: 1086c51 3698ae4
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Sep 22 09:19:15 2018 -0300
+
+    Merge pull request #46 from regro-cf-autotick-bot/1.8.1
+    
+    sphinx v1.8.1
+
+commit 3698ae414ddbc28e0ec2b9caf7993f692aeee50c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Sep 22 09:11:36 2018 +0000
+
+    updated v1.8.1
+
+commit 1086c51d0426630cb804eed4cb5fbcff50856701
+Merge: 374cc1c 68ff998
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Sep 12 15:57:55 2018 -0300
+
+    Merge pull request #45 from regro-cf-autotick-bot/1.8.0
+    
+    sphinx v1.8.0
+
+commit 68ff9983ce4922424e36701451c2270c353abdf6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 12 16:23:23 2018 +0000
+
+    updated v1.8.0
+
+commit 374cc1cc79e05253b8ad3f6bc0ad504fff7a9796
+Merge: 5df2186 0951565
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Sep 5 13:15:02 2018 -0300
+
+    Merge pull request #44 from regro-cf-autotick-bot/1.7.9
+    
+    sphinx v1.7.9
+
+commit 095156570ab92c11093e663eceeece16b49bdc3c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 5 14:10:09 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.31
+
+commit 08b0bc210a4d5c5370507a4f82fc5e401ba39585
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 5 14:09:48 2018 +0000
+
+    updated v1.7.9
+
+commit 5df2186c40cc97fbed970b35e7765fb3ca050038
+Merge: d92f460 42ad8d1
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Sep 2 17:38:28 2018 -0300
+
+    Merge pull request #43 from ocefpaf/py37
+    
+    Py37
+
+commit 42ad8d1ae2c3e6bbb275f7a47e2c1e1cfbb9aab5
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Sep 2 10:52:38 2018 -0300
+
+    Windows :-/
+
+commit dda57d253233da1fc6b9918fea2734f85057ef34
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Sep 1 21:55:50 2018 -0300
+
+    build win+py27
+
+commit 1d523f6b76df5585a65d78472a4f65965e94f30a
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Sep 1 21:52:04 2018 -0300
+
+    update-cb3
+
+commit 6f06d7e92acf11aa7e18cef4ee82feab72fdee3b
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Sep 1 21:47:18 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.12.post.dev2 and pinning 2018.08.31
+
+commit d92f46009383567d137d453fdd0494582b8bdcf6
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:26:52 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit e2a5fe5462594dad76c5e398e87bb7d8bf2e5c7e
+Merge: 6b76dac 2365ecd
+Author: chris <mail@chohner.com>
+Date:   Mon Jun 11 09:25:06 2018 +0200
+
+    Merge pull request #36 from jakirkham-feedstocks/release_1.7.5
+    
+    Release v1.7.5
+
+commit 2365ecdde73a4b085aa7cd4997b20a7d04b67e9d
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jun 10 23:51:13 2018 -0400
+
+    Update dependencies
+    
+    Add version constraints that were missing previously. Also add any
+    missing dependencies.
+
+commit 847aa914b8aef765cc9211d04b073d8297cbef35
+Author: Travis CI User <travis@example.org>
+Date:   Mon May 28 17:40:09 2018 +0000
+
+    updated v1.7.5
+
+commit 6b76dacd4321737f35c66a307dbf2c4f39ac470b
+Merge: a916c2a a27cbda
+Author: chris <mail@chohner.com>
+Date:   Thu Apr 26 17:00:11 2018 +0200
+
+    Merge pull request #34 from regro-cf-autotick-bot/1.7.4
+    
+    sphinx v1.7.4
+
+commit a27cbdaf617f84e5a60c0652b49cd5294e672ed7
+Author: Travis CI User <travis@example.org>
+Date:   Wed Apr 25 17:23:24 2018 +0000
+
+    updated v1.7.4
+
+commit a916c2a787c5fe4958fe40dd749d10aea57da2fd
+Merge: ef38bd8 7127dc1
+Author: chris <mail@chohner.com>
+Date:   Fri Mar 23 12:20:58 2018 +0100
+
+    Merge pull request #32 from regro-cf-autotick-bot/1.7.2
+    
+    sphinx v1.7.2
+
+commit 7127dc1c541372a545bc476e23d5a49c1be210a9
+Author: Travis CI User <travis@example.org>
+Date:   Thu Mar 22 12:39:28 2018 +0000
+
+    updated v1.7.2
+
+commit ef38bd8e323c7071693f7ab6e918ab18b5bf4dfe
+Merge: a9c673a 4d95760
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Mar 1 08:39:41 2018 -0300
+
+    Merge pull request #31 from ocefpaf/update_to_1.7.1
+    
+    Update to 1.7.1
+
+commit 4d9576048a83e2ed72d457aee974673de0a6b14a
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Feb 28 18:40:22 2018 -0300
+
+    add entry_points
+
+commit a1bdfbe1eada7a28ccfafa28faf714e28e0249ab
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Feb 28 17:08:36 2018 -0300
+
+    update_to_1.7.1
+
+commit 6cb2e967b8b5a85f0d111c2bf650d0d834fd905c
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Feb 28 17:08:31 2018 -0300
+
+    rerender
+
+commit a9c673a2558eb9cc07cf46bad0083853b816b397
+Merge: 04726bd 31ac9c0
+Author: chris <mail@chohner.com>
+Date:   Mon Feb 12 10:35:57 2018 +0100
+
+    Merge pull request #30 from conda-forge/Update-to-1.7.0
+    
+    Update to 1.7.0
+
+commit 31ac9c0b4407385eccdea5f020b7b2d8d903c51b
+Author: chris <mail@chohner.com>
+Date:   Mon Feb 12 15:08:07 2018 +0700
+
+    Add packaging package
+
+commit 8a40d6bfab7c3dd8af63b07c16fc7e44d3580b46
+Author: chris <mail@chohner.com>
+Date:   Mon Feb 12 14:42:27 2018 +0700
+
+    Update to 1.7.0
+
+commit 04726bdd4730d09c7f08abe151f93b7405a27e1b
+Merge: cc1608d 5fc8649
+Author: chris <mail@chohner.com>
+Date:   Sun Feb 4 18:18:54 2018 +0100
+
+    Merge pull request #29 from conda-forge/Update-to-1.6.7
+    
+    Update to 1.6.7
+
+commit 5fc86493b09fbfcc7f7f492413be049ff317ed00
+Author: chris <mail@chohner.com>
+Date:   Sun Feb 4 17:31:13 2018 +0100
+
+    Update to 1.6.7
+
+commit cc1608dd76d380d16105ad5be575de8ffd8e9a10
+Merge: b96b28a ebe48fd
+Author: chris <mail@chohner.com>
+Date:   Mon Jan 8 16:06:54 2018 +0100
+
+    Merge pull request #28 from conda-forge/update_1_6_6
+    
+    Update to 1.6.6
+
+commit ebe48fdf16e54e8536a7728c20f45963e29dc45f
+Author: chris <mail@chohner.com>
+Date:   Mon Jan 8 15:06:57 2018 +0100
+
+    Pin conda to 4.3 for now
+
+commit b10d0904ca5a8676d04999a7e7363415b29fa0f3
+Author: chris <mail@chohner.com>
+Date:   Mon Jan 8 14:18:25 2018 +0100
+
+    Update to 1.6.6
+
+commit b96b28a255b210a2718c85794bf116732edfa4db
+Merge: d7a797d f303870
+Author: chris <mail@chohner.com>
+Date:   Mon Oct 23 09:14:44 2017 +0200
+
+    Merge pull request #27 from conda-forge/update_to_1.6.5
+    
+    Update to 1.6.5
+
+commit f3038709f3454a69e9a7c00b4523faaec80779e6
+Author: chris <mail@chohner.com>
+Date:   Mon Oct 23 08:47:56 2017 +0200
+
+    Update to 1.6.5
+
+commit d7a797deb99b135d16e24c60c381b94caa9392a8
+Merge: 23277e0 b682fb7
+Author: chris <mail@chohner.com>
+Date:   Tue Sep 26 09:16:31 2017 +0200
+
+    Merge pull request #26 from chohner/update_1_6_5
+    
+    Update 1 6 5 and condo smithy 2.4.2
+
+commit b682fb7419bacfa4631311edffd1239b6e044599
+Merge: c80aea1 23277e0
+Author: chris <mail@chohner.com>
+Date:   Tue Sep 26 09:02:55 2017 +0200
+
+    Merge branch 'master' into update_1_6_5
+
+commit c80aea14b4055e90e18bffdf7eab0cc83dd13b0a
+Author: chohner <mail@chohner.com>
+Date:   Tue Sep 26 08:57:14 2017 +0200
+
+    update to 1.6.4
+
+commit 6c328fa0d533f9d4e569e6fd2e3c012951f72542
+Author: chohner <mail@chohner.com>
+Date:   Tue Sep 26 08:56:58 2017 +0200
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 23277e0fc504264fd2e73426db7ee21f8281e933
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 20:09:34 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 67722ff4fcf1bf43f6ad0c5147ccd0860d24a7d5
+Merge: f0017a2 01664ed
+Author: chris <mail@chohner.com>
+Date:   Sun Jul 2 15:39:01 2017 +0200
+
+    Merge pull request #25 from conda-forge/update_1_6_3
+    
+    Update to 1.6.3
+
+commit 01664eddf613906fbcfe072c0936c9cfb0801045
+Author: chris <mail@chohner.com>
+Date:   Sun Jul 2 14:13:03 2017 +0200
+
+    Update to 1.6.3
+
+commit f0017a20b9d9dbc1de4c7a9d887810742c45ed03
+Merge: ed2114b dded404
+Author: chris <mail@chohner.com>
+Date:   Sun May 28 18:14:17 2017 +0200
+
+    Merge pull request #24 from chohner/master
+    
+    update to 1.6.2
+
+commit dded4041d2265c135893a233655f773b321cbe68
+Author: chohner <mail@chohner.com>
+Date:   Sun May 28 17:43:54 2017 +0200
+
+    update to 1.6.2
+
+commit ed2114b43f20879136195094cf95619e310ac141
+Merge: 2b86a1f 8a96642
+Author: chris <mail@chohner.com>
+Date:   Thu May 18 01:37:15 2017 +0200
+
+    Merge pull request #23 from chohner/master
+    
+    update to 1.6.1
+
+commit 8a96642a8dcf2d486e7adce18f6fb8c3f2d0859d
+Author: chohner <mail@chohner.com>
+Date:   Wed May 17 22:49:43 2017 +0200
+
+    add new deps
+
+commit 928b892016746b25314b4833c7ca416969998d17
+Author: chohner <mail@chohner.com>
+Date:   Tue May 16 16:22:06 2017 +0200
+
+    update to 1.6.1
+
+commit 2b86a1fc6fec9328aecbb9def541d7efb708db84
+Merge: 3442102 152f431
+Author: chris <mail@chohner.com>
+Date:   Sun May 14 22:32:37 2017 +0200
+
+    Merge pull request #22 from chohner/master
+    
+    update to 1.5.6
+
+commit 152f431bacd20370c95fff7778bbeca28d8825cf
+Author: chohner <mail@chohner.com>
+Date:   Sun May 14 19:50:13 2017 +0200
+
+    update to 1.5.6
+
+commit 3442102ad7407a6a377fb136b004c861cb2eec18
+Merge: c584aa4 8c4ec5e
+Author: chris <mail@chohner.com>
+Date:   Wed Apr 12 09:54:32 2017 +0200
+
+    Merge pull request #21 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 8c4ec5e0889a84ac2862a82a842f7641aaf51d24
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Apr 12 01:47:46 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.2.2.
+
+commit c584aa4ca6e03967ae5771c60baa84d7794858f2
+Merge: 88a0e27 804f98f
+Author: chris <mail@chohner.com>
+Date:   Fri Apr 7 08:17:59 2017 +0200
+
+    Merge pull request #20 from minrk/patch-1
+    
+    1.5.5
+
+commit 804f98f1649e8b4faa24d72a1c6231df23656e86
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Apr 6 10:07:43 2017 +0200
+
+    1.5.5
+
+commit 88a0e276047db1941f1c9a29b3eda7f56aa14159
+Merge: 4141e87 5a90302
+Author: chris <mail@chohner.com>
+Date:   Sun Apr 2 12:35:25 2017 +0200
+
+    Merge pull request #19 from chohner/master
+    
+    update to 1.5.4
+
+commit 5a903021de11f065f3046afb586ef86ca966f744
+Author: chohner <mail@chohner.com>
+Date:   Sun Apr 2 12:11:50 2017 +0200
+
+    update to 1.5.4
+
+commit 4141e87a2fca560a1d5a3e431bad4ed55e475d7c
+Merge: b8196e0 493548c
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Mar 31 19:00:20 2017 -0400
+
+    Merge pull request #18 from chohner/cs222
+    
+    MNT: Re-rendered with conda-smithy 2.2.2
+
+commit 493548c22e24d5cb9cc45c9a69dbffa4ee3cdd5a
+Author: chohner <mail@chohner.com>
+Date:   Fri Mar 24 13:46:46 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.2.2
+
+commit 3e875092870739e155b2067e3de2a6edf446b198
+Author: chohner <mail@chohner.com>
+Date:   Tue Mar 21 14:26:56 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.2.0
+
+commit b8196e065aced9fd0f187f41473c8bffd54b5ea3
+Merge: 2c54002 59d62f6
+Author: chris <mail@chohner.com>
+Date:   Thu Mar 16 17:21:56 2017 +0100
+
+    Merge pull request #11 from chohner/conda-smithy
+    
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit 2c54002cd63d0138eec3806a6a99e9f01add8ce7
+Merge: 03d40c4 b146814
+Author: chris <mail@chohner.com>
+Date:   Thu Mar 16 17:21:41 2017 +0100
+
+    Merge pull request #10 from chohner/master
+    
+    Update to 1.5.3
+
+commit b146814829b6c9ec749b732b465ec71e0372b080
+Author: chris <mail@chohner.com>
+Date:   Fri Mar 3 21:37:28 2017 +0100
+
+    trigger rebuild
+
+commit 59d62f61d66fe23ddf8ecb656be98083aebe70a8
+Author: chohner <mail@chohner.com>
+Date:   Mon Feb 27 08:16:40 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit f4c70e0c3e4e566b1ea74143b09fba484c5e9b12
+Author: chohner <mail@chohner.com>
+Date:   Sun Feb 26 18:47:32 2017 +0100
+
+    Update to 1.5.3
+
+commit 03d40c48ea0479035ae9ca561ecf8ba9b6467d28
+Merge: 35e8358 661f5f5
+Author: chris <mail@chohner.com>
+Date:   Sat Jan 28 04:51:29 2017 +0100
+
+    Merge pull request #9 from chohner/master
+    
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit 661f5f5325404a7505ccd8a7b8ea041e1d867732
+Author: chohner <mail@chohner.com>
+Date:   Fri Jan 27 11:07:58 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit 35e83589915f49643154618d61c799cd15947cf8
+Merge: d67e5f4 ec13d8e
+Author: chris <mail@chohner.com>
+Date:   Sun Jan 22 16:36:43 2017 +0100
+
+    Merge pull request #8 from chohner/master
+    
+    update to 1.5.2
+
+commit ec13d8edce19d5a3ac5c0d3a776ee540003da75b
+Author: chohner <mail@chohner.com>
+Date:   Sun Jan 22 11:23:20 2017 +0100
+
+    update to 1.5.2
+
+commit d67e5f458d5834a45aab47ff15b88a2981c1fb2d
+Merge: 914dd2c 2ffe4f9
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jan 8 18:25:06 2017 -0500
+
+    Merge pull request #6 from chohner/master
+    
+    update to 1.5.1
+
+commit 2ffe4f9a65e670183d4d272428b41c9e6283fbb3
+Author: chohner <mail@chohner.com>
+Date:   Tue Dec 13 16:18:31 2016 +0100
+
+    update to 1.5.1
+
+commit 914dd2cda1de367c679da1a01c6998b3bdaa31c4
+Merge: aed7fe0 86f8565
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jan 8 05:17:17 2017 -0500
+
+    Merge pull request #7 from jakirkham/py36
+    
+    Python 3.6
+
+commit 86f8565e3e17a529ddcbc1f39a21a1bd2d7f7a15
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jan 8 04:46:13 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 1.7.0
+    
+    Re-render for Python 3.6 support.
+
+commit aed7fe0154741468dd705411e60f0eeb83fc1f59
+Merge: 5ac8146 4726531
+Author: chris <mail@chohner.com>
+Date:   Mon Dec 5 10:51:09 2016 +0100
+
+    Merge pull request #5 from chohner/master
+    
+    Update to 1.5
+
+commit 5ac8146f56223a70f74f517fd31cbcef87e53a1f
+Merge: 19a12e7 460d365
+Author: chris <mail@chohner.com>
+Date:   Mon Dec 5 10:36:27 2016 +0100
+
+    Merge pull request #4 from chohner/master
+    
+    MNT: Re-rendered with conda-smithy 1.6.0
+
+commit 47265315872c339e78c7cab165e9fccc8029c5ea
+Author: chohner <mail@chohner.com>
+Date:   Mon Dec 5 10:30:54 2016 +0100
+
+    Update to 1.5
+
+commit 460d365c4ef7d53eb1944b1085ef3bcae77c7045
+Author: chohner <mail@chohner.com>
+Date:   Mon Dec 5 10:26:57 2016 +0100
+
+    MNT: Re-rendered with conda-smithy 1.6.0
+
+commit 19a12e7a41fb8ccee58589e9e9cca568ab6cc646
+Merge: b08878f 1ec686b
+Author: chris <mail@chohner.com>
+Date:   Sun Oct 2 09:29:18 2016 +0200
+
+    Merge pull request #3 from chohner/master
+    
+    update to 1.4.8
+
+commit 1ec686b97505273ec3d40b08a063bece88dd937f
+Author: chohner <mail@chohner.com>
+Date:   Sat Oct 1 18:13:21 2016 +0200
+
+    update to 1.4.8
+    
+    + use templating for package name
+
+commit b08878fc5716c19d358f605b8c89866404fa1fb6
+Merge: c3ce2d8 685f916
+Author: chris <mail@chohner.com>
+Date:   Sat Aug 20 17:58:09 2016 +0200
+
+    Merge pull request #2 from chohner/master
+    
+    Update to 1.4.6 and pkg_name templating
+
+commit 685f916dd86ee30c79a0013ed177ff62dac414e8
+Author: chohner <mail@chohner.com>
+Date:   Sat Aug 20 14:03:55 2016 +0200
+
+    Update to 1.4.6 and pkg_name templating
+
+commit c3ce2d89756117b166baae39a1756445dc00f155
+Merge: 0a69728 5916893
+Author: chris <mail@chohner.com>
+Date:   Fri Aug 5 00:02:10 2016 +0200
+
+    Merge pull request #1 from jakirkham/add_jakirkham
+    
+    Add @jakirkham
+
+commit 5916893a2507e534787e4f3aebe33e6f794ed268
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Aug 4 14:10:15 2016 -0400
+
+    recipe: Add @jakirkham as a maintainer.
+
+commit 0a697288eb200a1fe955c94748fadda8dd041230
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Aug 4 12:24:54 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit b6700901b80c5e5b07b73b413a4531cf7c526796
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Aug 4 12:16:07 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 61df44ee882224ee46dbfeb96f1940fd4abee8ed
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Aug 4 12:13:44 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 7f2e43aa0835b1f583ada20cb8078d96b4cfd42a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Aug 4 12:12:25 2016 +0000
+
+    Initial commit of the sphinx feedstock.

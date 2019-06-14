@@ -1,0 +1,21 @@
+{
+  "build": "py37h6538335_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "vc 14.*"
+  ],
+  "features": "",
+  "fn": "sip-4.19.8-py37h6538335_0.tar.bz2",
+  "license": "GPL-3.0",
+  "md5": "bc320ab7c6c8c8562913a06c5646aaa5",
+  "name": "sip",
+  "size": 287877,
+  "subdir": "win-64",
+  "timestamp": 1533137980121,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/sip-4.19.8-py37h6538335_0.tar.bz2",
+  "version": "4.19.8"
+}

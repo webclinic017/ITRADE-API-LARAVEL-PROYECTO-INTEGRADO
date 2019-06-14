@@ -1,0 +1,24 @@
+{
+  "build": "py37ha925a31_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.14.6,<2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "python-dateutil >=2.5.*",
+    "pytz",
+    "vc >=14.1,<15.0a0"
+  ],
+  "features": "",
+  "fn": "pandas-0.24.2-py37ha925a31_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "md5": "4cb3552d1ff22a1fd76c2cf9bbc53f24",
+  "name": "pandas",
+  "size": 10090874,
+  "subdir": "win-64",
+  "timestamp": 1552578733951,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pandas-0.24.2-py37ha925a31_0.tar.bz2",
+  "version": "0.24.2"
+}

@@ -1,0 +1,6 @@
+bld.bat
+build.sh
+de.txt
+gb-18030-2000.ucm
+icu-config.patch
+icu4c-4_9_1-mingw-w64-mkdir-compatibility.patch

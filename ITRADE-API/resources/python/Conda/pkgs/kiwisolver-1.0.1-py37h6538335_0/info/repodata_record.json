@@ -1,0 +1,22 @@
+{
+  "build": "py37h6538335_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "vc 14.*"
+  ],
+  "features": "",
+  "fn": "kiwisolver-1.0.1-py37h6538335_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "7d1f622f9ff7c381f7d2ca845860cd2f",
+  "name": "kiwisolver",
+  "size": 62188,
+  "subdir": "win-64",
+  "timestamp": 1533137771115,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/kiwisolver-1.0.1-py37h6538335_0.tar.bz2",
+  "version": "1.0.1"
+}

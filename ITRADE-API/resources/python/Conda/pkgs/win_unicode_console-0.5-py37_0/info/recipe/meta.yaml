@@ -1,0 +1,42 @@
+# This file created by conda-build 3.14.4
+# meta.yaml template originally from:
+# C:\ci\containers\00001etd3b3\tmp\build\80754af9\rsync-recipes\win_unicode_console-0.5-python_3.7-on-winbuilder, last modified Sat Sep 15 12:37:24 2018
+# ------------------------------------------------
+
+package:
+    name: win_unicode_console
+    version: '0.5'
+source:
+    fn: win_unicode_console-0.5.zip
+    sha256: d4142d4d56d46f449d6f00536a73625a871cba040f0bc1a2e305a04578f07d1e
+    url: https://pypi.io/packages/source/w/win_unicode_console/win_unicode_console-0.5.zip
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py37_0
+requirements:
+    host:
+        - certifi 2018.8.24 py37_1
+        - python 3.7.0 hea74fb7_0
+        - setuptools 40.2.0 py37_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - win_unicode_console
+about:
+    doc_source_url: https://github.com/Drekin/win-unicode-console/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/win_unicode_console/0.5
+    home: https://github.com/Drekin/win-unicode-console
+    license: MIT
+    summary: A Python package to enable Unicode input and display when running Python
+        from Windows console.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - minrk
+        - ocefpaf

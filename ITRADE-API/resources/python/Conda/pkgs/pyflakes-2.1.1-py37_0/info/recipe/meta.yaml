@@ -1,0 +1,65 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00000v2k8e1\tmp\build\80754af9\rsync-recipes\pyflakes-2.1.1-python_3.7-on-winbuilder, last modified Mon Mar 11 12:16:26 2019
+# ------------------------------------------------
+
+package:
+    name: pyflakes
+    version: 2.1.1
+source:
+    fn: pyflakes-2.1.1.tar.gz
+    sha256: d976835886f8c5b31d47970ed689944a0262b5f3afa00a5a7b4dc81e5449f8a2
+    url: https://pypi.io/packages/source/p/pyflakes/pyflakes-2.1.1.tar.gz
+build:
+    entry_points:
+        - pyflakes = pyflakes.api:main
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2019.1.23 0
+        - certifi 2019.3.9 py37_0
+        - openssl 1.1.1b he774522_1
+        - pip 19.0.3 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.33.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - pyflakes --help
+    imports:
+        - pyflakes
+        - pyflakes.scripts
+        - pyflakes.test
+about:
+    description: 'Pyflakes analyzes programs and detects various errors. It works
+        by parsing
+
+        the source file, not importing it, so it is safe to use on modules with side
+
+        effects. It is also much faster.
+
+        '
+    dev_url: https://github.com/PyCQA/pyflakes
+    doc_source_url: https://github.com/PyCQA/pyflakes/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/pyflakes
+    home: https://github.com/PyCQA/pyflakes
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Pyflakes analyzes programs and detects various errors.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dopplershift
+        - jakirkham
+        - ocefpaf
+        - sigmavirus24

@@ -1,0 +1,163 @@
+commit 9410ddcc66a59fdc4aea73cd5e5784472e6c3032
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Jul 30 17:28:02 2018 -0500
+
+    add python are host requirement
+
+commit e613c7306275f695332e5dbd05ac05818375efcf
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Nov 28 22:48:58 2017 -0600
+
+    Make recipe cross-compile capable
+
+commit 8c025f396300404b155738d2ed288f42f60e09d9
+Merge: 0958417 cf3a7ab
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sun Feb 24 14:29:24 2019 -0300
+
+    Merge pull request #9 from regro-cf-autotick-bot/0.9.0
+    
+    pluggy v0.9.0
+
+commit cf3a7abca56e9ec35cfb8cf10553277165c4874f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 24 17:17:08 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.21
+
+commit c664bca0e60c97386a7df47cb171dd7073ad672a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Feb 24 17:16:58 2019 +0000
+
+    updated v0.9.0
+
+commit 0958417fbba70105cb402bc05a6e3424c0d5ce01
+Merge: a5262ae 1d82dfd
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed Jan 9 22:32:09 2019 -0200
+
+    Merge pull request #8 from regro-cf-autotick-bot/0.8.1
+    
+    pluggy v0.8.1
+
+commit 1d82dfd38df14fd0043215b3539ab7f0459622a3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jan 9 21:19:59 2019 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2019.01.09
+
+commit fb99d9f487fad97fcc7b038bac45f4f1d55ee393
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jan 9 21:19:54 2019 +0000
+
+    updated v0.8.1
+
+commit a5262ae429a612808087716af53d6127cd5b69e8
+Merge: a6bc90a 143b1c5
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Tue Oct 16 09:02:37 2018 -0300
+
+    Merge pull request #7 from regro-cf-autotick-bot/0.8.0
+    
+    pluggy v0.8.0
+
+commit 143b1c5e3a33dc4469d95200f7feece738486158
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 16 11:36:32 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.11
+
+commit d1e884fdc65bf7892429d8028e527bddc9acf3e6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 16 11:36:28 2018 +0000
+
+    updated v0.8.0
+
+commit a6bc90adb42dc9ae91e10576489f22ad8a00e86a
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 19:14:48 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 14ac7ebf5966c8ec9e4dc7daaa893c4eb8e6c0a5
+Merge: 39d07af 6a189d6
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sun Jul 29 13:03:34 2018 -0300
+
+    Merge pull request #6 from regro-cf-autotick-bot/0.7.1
+    
+    pluggy v0.7.1
+
+commit 6a189d6c1bd9f5fdda2929f3a7d17961957054d5
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Sun Jul 29 13:00:53 2018 -0300
+
+    Update meta.yaml
+
+commit f315ab957fe6a15e2389552a7293bc1ee071c872
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 29 03:11:12 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.8 and pinning 2018.07.24
+
+commit b0a7f7eb80b1db8a29c73eb23fcfa59ebfcd3bdd
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 29 03:11:06 2018 +0000
+
+    updated v0.7.1
+
+commit 39d07afd0eba0ab691dcafc1c11ae935667bd207
+Merge: 0a975fc b42651f
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Nov 24 15:17:09 2017 -0500
+
+    Merge pull request #5 from nicoddemus/release-0.6.0
+    
+    Update to 0.6.0
+
+commit b42651f0d71fb30a7f0887abb0c53c00b82a8cae
+Author: Bruno Oliveira <bruno@esss.com.br>
+Date:   Fri Nov 24 14:49:33 2017 -0200
+
+    Update to 0.6.0
+
+commit 0a975fc8ca08f56a89de2e8756bc878fb435d212
+Merge: 035b7a7 06d0a6b
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Sep 8 09:13:28 2017 -0400
+
+    Merge pull request #4 from nicoddemus/release-0.5.2
+    
+    Update to pluggy-0.5.2 and noarch
+
+commit 06d0a6b688888d2cc94bd8504fd0626115d57556
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Sep 8 02:59:53 2017 -0300
+
+    MNT: Re-rendered with conda-smithy 2.4.0
+
+commit 745a4ea4bc8380a8e80ad43407d63bf559d017e6
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Fri Sep 8 02:56:52 2017 -0300
+
+    Update to pluggy-0.5.2 and noarch
+    
+    Also add nicoddemus and tgoodlet as maintainers
+
+commit 035b7a7f3cb6df49208888b05e2b0f9c817a4063
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:50:09 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 371f7cfe36b8a4cde09fc4c6c629ec38aba9c509
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Apr 17 13:37:59 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 380a6bd21852476e2942c6b5e54a3d65011d055e
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Apr 17 13:12:41 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.3.0.

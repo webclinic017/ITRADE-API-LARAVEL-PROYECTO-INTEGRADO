@@ -1,0 +1,25 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "click",
+    "future",
+    "jinja2",
+    "python >=3.7,<3.8.0a0",
+    "pyyaml",
+    "six"
+  ],
+  "features": "",
+  "fn": "conda-verify-3.1.1-py37_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "f37e64074b61b8ffdbf6f17c98a50331",
+  "name": "conda-verify",
+  "size": 75066,
+  "subdir": "win-64",
+  "timestamp": 1538577502963,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/conda-verify-3.1.1-py37_0.tar.bz2",
+  "version": "3.1.1"
+}

@@ -1,0 +1,56 @@
+# This file created by conda-build 3.17.6
+# meta.yaml template originally from:
+# C:\ci\containers\00000rr0pdl\tmp\build\80754af9\rsync-recipes\pytest-openfiles-0.3.2-python_3.7-on-winbuilder, last modified Mon Jan 14 09:08:34 2019
+# ------------------------------------------------
+
+package:
+    name: pytest-openfiles
+    version: 0.3.2
+source:
+    fn: pytest-openfiles-0.3.2.tar.gz
+    sha256: e51c91889eb9e4c75f47735efc57a1435f3f1182463600ba7bce7f2556a46884
+    url: https://pypi.io/packages/source/p/pytest-openfiles/pytest-openfiles-0.3.2.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - pip 18.1 py37_0
+        - python 3.7.2 h8c8aaf0_0
+        - setuptools 40.6.3 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.32.3 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - psutil
+        - pytest >=2.8.0
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - pytest_openfiles
+about:
+    description: 'This package provides a plugin for the pytest framework that allows
+
+        developers to detect whether any file handles or other file-like objects
+
+        were inadvertently left open at the end of a unit test.
+
+        '
+    dev_url: https://github.com/astropy/pytest-openfiles
+    doc_url: https://github.com/astropy/pytest-openfiles
+    home: https://github.com/astropy/pytest-openfiles
+    license: BSD
+    summary: Pytest plugin for detecting inadvertent open file handles
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - astrofrog-conda-forge
+        - drdavella
+        - mwcraig

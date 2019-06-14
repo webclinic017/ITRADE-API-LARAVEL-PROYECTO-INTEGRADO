@@ -1,0 +1,31 @@
+{
+  "requirements": {
+    "build": [
+      "cmake 3.9.4 h4b83b1b_0",
+      "vc 14 h2379b0c_2",
+      "vs2015_runtime 14.0.25123 hd4c4e62_2",
+      "vs2015_win-64 14.0.25123 hf5d5b87_2"
+    ],
+    "run": [
+      "vc 14.*"
+    ]
+  },
+  "build": {
+    "run_exports": [
+      "libiconv >=1.15,<2.0a0"
+    ]
+  },
+  "source": {
+    "fn": "libiconv-1.15.tar.gz",
+    "url": "http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.15.tar.gz",
+    "sha256": "ccf536620a45458d26ba83887a983b96827001e92a13847b45e4925cc8913178",
+    "patches": [
+      "CMakeLists.txt.patch",
+      "config.h.patch",
+      "configure.cmake.patch"
+    ]
+  },
+  "extra": {
+    "copy_test_source_files": true
+  }
+}

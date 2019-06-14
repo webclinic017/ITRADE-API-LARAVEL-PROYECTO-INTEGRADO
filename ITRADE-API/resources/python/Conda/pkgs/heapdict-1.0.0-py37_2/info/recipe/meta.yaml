@@ -1,0 +1,46 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\heapdict-feedstock\recipe, last modified Tue Jul  3 15:48:28 2018
+# ------------------------------------------------
+
+package:
+    name: heapdict
+    version: 1.0.0
+source:
+    fn: heapdict-1.0.0.tar.gz
+    sha256: 4c8e581f1651ca78da35820fc80b0d50fc060032517f2c7efd9169e204db3793
+    url: https://github.com/DanielStutzbach/heapdict/archive/v1.0.0.tar.gz
+build:
+    number: '2'
+    script: python setup.py install
+    string: py37_2
+requirements:
+    host:
+        - python 3.7.0 hea74fb7_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - heapdict
+about:
+    description: 'heapdict implements the MutableMapping ABC, meaning it works pretty
+        much
+
+        like a regular Python dict. It''s designed to be used as a priority queue.
+
+        '
+    dev_url: https://github.com/DanielStutzbach/heapdict
+    doc_source_url: https://github.com/DanielStutzbach/heapdict/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/HeapDict
+    home: http://stutzbachenterprises.com/
+    license: BSD 3-Clause
+    license_file: LICENSE
+    summary: A heap with decrease-key and increase-key operations
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mrocklin
+        - ocefpaf

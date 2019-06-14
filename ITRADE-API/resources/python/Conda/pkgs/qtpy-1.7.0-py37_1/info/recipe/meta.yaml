@@ -1,0 +1,60 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00003cheg5t\tmp\build\80754af9\rsync-recipes\qtpy-1.7.0-python_3.7-on-winbuilder, last modified Fri Mar 22 15:49:10 2019
+# ------------------------------------------------
+
+package:
+    name: qtpy
+    version: 1.7.0
+source:
+    fn: qtpy-1.7.0.tar.gz
+    sha256: d4c540f1761e794ea26c8dabadabf0173d72e4d1d53c8679aeb31a9e953b4f3e
+    url: https://pypi.io/packages/source/q/qtpy/QtPy-1.7.0.tar.gz
+build:
+    noarch: false
+    number: '1'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_1
+requirements:
+    host:
+        - ca-certificates 2019.1.23 0
+        - certifi 2019.3.9 py37_0
+        - openssl 1.1.1b he774522_1
+        - pip 19.0.3 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.27.2 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.33.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    requires:
+        - pyqt
+    script:
+        - QT_API=pyqt5 qtpy
+        - QT_API=pyqt5 qtpy.QtGui
+about:
+    description: 'QtPy is a small abstraction layer that lets you write applications
+        using a
+
+        single api call to either PyQt or PySide.
+
+        '
+    dev_url: https://github.com/spyder-ide/qtpy
+    doc_source_url: https://github.com/spyder-ide/qtpy/blob/master/README.md
+    doc_url: https://pypi.python.org/pypi/QtPy
+    home: https://github.com/spyder-ide/qtpy
+    license: MIT
+    license_file: LICENSE.txt
+    summary: Abtraction layer for PyQt5/PyQt4/PySide
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - Nodd
+        - astrofrog-conda-forge
+        - ccordoba12
+        - goanpeca

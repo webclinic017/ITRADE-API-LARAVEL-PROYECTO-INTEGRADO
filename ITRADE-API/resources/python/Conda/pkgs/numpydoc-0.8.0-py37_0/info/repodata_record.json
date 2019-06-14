@@ -1,0 +1,21 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "sphinx"
+  ],
+  "features": "",
+  "fn": "numpydoc-0.8.0-py37_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "122cd189812992856af010465c5e8bb2",
+  "name": "numpydoc",
+  "size": 42977,
+  "subdir": "win-64",
+  "timestamp": 1531666413888,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/numpydoc-0.8.0-py37_0.tar.bz2",
+  "version": "0.8.0"
+}

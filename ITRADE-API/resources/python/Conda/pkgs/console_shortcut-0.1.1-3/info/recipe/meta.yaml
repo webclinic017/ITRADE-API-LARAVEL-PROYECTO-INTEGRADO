@@ -1,0 +1,20 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\console_shortcut-feedstock\recipe, last modified Tue Jul  3 15:31:33 2018
+# ------------------------------------------------
+
+package:
+    name: console_shortcut
+    version: 0.1.1
+build:
+    number: '3'
+    string: '3'
+requirements:
+    run:
+        - python
+about:
+    license: BSD
+    summary: Console shortcut creator for Windows (using menuinst)
+extra:
+    copy_test_source_files: true
+    final: true

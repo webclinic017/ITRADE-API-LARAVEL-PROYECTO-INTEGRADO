@@ -1,0 +1,28 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "atomicwrites >=1.0",
+    "attrs >=17.4.0",
+    "colorama",
+    "more-itertools >=4.0",
+    "pluggy >=0.7",
+    "py >=1.5.0",
+    "python >=3.7,<3.8.0a0",
+    "setuptools >=40.0",
+    "six >=1.10.0"
+  ],
+  "features": "",
+  "fn": "pytest-4.3.1-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "3a0884a0c08bb7c364cbb627c9c37857",
+  "name": "pytest",
+  "size": 382086,
+  "subdir": "win-64",
+  "timestamp": 1552927119969,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pytest-4.3.1-py37_0.tar.bz2",
+  "version": "4.3.1"
+}

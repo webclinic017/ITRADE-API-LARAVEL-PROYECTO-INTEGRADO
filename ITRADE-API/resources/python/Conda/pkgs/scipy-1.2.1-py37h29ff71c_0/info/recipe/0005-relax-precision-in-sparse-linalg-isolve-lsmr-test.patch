@@ -1,0 +1,26 @@
+From b1b6a5899bb54dce917f532a2c2d04e4fb999432 Mon Sep 17 00:00:00 2001
+From: Jonathan Helmus <jjhelmus@gmail.com>
+Date: Tue, 30 Jan 2018 20:59:19 -0500
+Subject: [PATCH 5/7] relax precision in sparse linalg isolve lsmr test
+
+test is failing on ppc64le without relaxed precision
+---
+ scipy/sparse/linalg/isolve/tests/test_lsmr.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/scipy/sparse/linalg/isolve/tests/test_lsmr.py b/scipy/sparse/linalg/isolve/tests/test_lsmr.py
+index 33c574e..62ea2a1 100644
+--- a/scipy/sparse/linalg/isolve/tests/test_lsmr.py
++++ b/scipy/sparse/linalg/isolve/tests/test_lsmr.py
+@@ -82,7 +82,7 @@ class TestLSMR:
+         # Test warm-start with single iteration
+         x0 = lsmr(G, b, maxiter=1)[0]
+         x = lsmr(G, b, x0=x0)[0]
+-        assert_array_almost_equal(x_ref, x)
++        assert_array_almost_equal(x_ref, x, decimal=5)
+ 
+ class TestLSMRReturns:
+     def setup_method(self):
+-- 
+1.8.3.1
+

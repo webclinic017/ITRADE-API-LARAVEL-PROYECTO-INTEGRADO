@@ -1,0 +1,66 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# C:\Users\builder\conda\aggregate\cytoolz-feedstock\recipe, last modified Tue Jul  3 15:46:38 2018
+# ------------------------------------------------
+
+package:
+    name: cytoolz
+    version: 0.9.0.1
+source:
+    patches:
+        - 0001-Just-released-0.9.0.-Bump-to-next-dev-version-0.9.1d-Py37-compat.patch
+    sha256: 84cc06fa40aa310f2df79dd440fc5f84c3e20f01f9f7783fc9c38d0a11ba00e5
+    url: https://pypi.io/packages/source/c/cytoolz/cytoolz-0.9.0.1.tar.gz
+build:
+    number: '1'
+    script: python setup.py install --no-cython --single-version-externally-managed
+        --record=record.txt
+    string: py37hfa6e2cd_1
+requirements:
+    build:
+        - vs2015_win-64 14.0.25123 h17c34da_3
+    host:
+        - certifi 2018.4.16 py37_0
+        - python 3.7.0 hea74fb7_0
+        - setuptools 39.2.0 py37_0
+        - toolz 0.9.0 py37_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+        - toolz >=0.8.0
+        - vc 14.*
+test:
+    commands:
+        - nosetests --with-doctest cytoolz
+    imports:
+        - cytoolz
+        - cytoolz.curried
+    requires:
+        - nose
+        - toolz >=0.8.2
+about:
+    description: 'CyToolz is the Cython implementation of the toolz package, which
+        provides
+
+        high performance utility functions for iterables, functions, and
+
+        dictionaries.
+
+        '
+    dev_url: https://github.com/pytoolz/cytoolz
+    doc_source_url: https://github.com/pytoolz/cytoolz/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/cytoolz
+    home: https://github.com/pytoolz/cytoolz
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: Cython implementation of Toolz. High performance functional utilities.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - eriknw
+        - jakirkham
+        - jcrist
+        - mrocklin

@@ -1,0 +1,18 @@
+{
+  "build": "h0cc432a_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "icc_rt-2019.0.0-h0cc432a_1.tar.bz2",
+  "license": "Intel proprietary",
+  "md5": "ce2949c239b5cd45848a0a7865d30520",
+  "name": "icc_rt",
+  "size": 9900198,
+  "subdir": "win-64",
+  "timestamp": 1545006766605,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/icc_rt-2019.0.0-h0cc432a_1.tar.bz2",
+  "version": "2019.0.0"
+}

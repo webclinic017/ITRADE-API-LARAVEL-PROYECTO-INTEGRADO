@@ -1,0 +1,64 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\000001qofab\tmp\build\80754af9\rsync-recipes\jedi-0.13.3-python_3.7-on-winbuilder, last modified Mon Feb 25 17:13:57 2019
+# ------------------------------------------------
+
+package:
+    name: jedi
+    version: 0.13.3
+source:
+    sha256: 2bb0603e3506f708e792c7f4ad8fc2a7a9d9c2d292a358fbbd58da531695595b
+    url: https://pypi.io/packages/source/j/jedi/jedi-0.13.3.tar.gz
+build:
+    number: '0'
+    script: C:\ci\jedi_1551140544551\_h_env\python.exe -m pip install . --no-deps
+        --ignore-installed --no-cache-dir -vvv
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2019.1.23 0
+        - certifi 2018.11.29 py37_0
+        - openssl 1.1.1a he774522_0
+        - pip 19.0.1 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.32.3 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - parso >=0.3.0
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - jedi
+        - jedi.api
+        - jedi.evaluate
+        - jedi.evaluate.compiled
+about:
+    description: 'Jedi is a static analysis tool for Python that can be used in IDEs/editors.
+
+        Its historic focus is autocompletion, but does static analysis for now as
+
+        well. Jedi is fast and is very well tested. It understands Python on a
+
+        deeper level than all other static analysis frameworks for Python.
+
+        '
+    dev_url: https://github.com/davidhalter/jedi/
+    doc_source_url: https://github.com/davidhalter/jedi/blob/master/docs/index.rst
+    doc_url: http://jedi.readthedocs.io/en/latest/
+    home: https://github.com/davidhalter/jedi/
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.txt
+    summary: An autocompletion tool for Python that can be used for text editors.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - asmeurer
+        - goanpeca
+        - nehaljwani
+        - ocefpaf

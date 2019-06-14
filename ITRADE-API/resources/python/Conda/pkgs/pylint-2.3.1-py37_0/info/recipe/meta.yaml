@@ -1,0 +1,83 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00000v2k8ds\tmp\build\80754af9\rsync-recipes\pylint-2.3.1-python_3.7-on-winbuilder, last modified Mon Mar 11 12:13:45 2019
+# ------------------------------------------------
+
+package:
+    name: pylint
+    version: 2.3.1
+source:
+    sha256: 723e3db49555abaf9bf79dc474c6b9e2935ad82230b10c1138a71ea41ac0fff1
+    url: https://pypi.io/packages/source/p/pylint/pylint-2.3.1.tar.gz
+build:
+    entry_points:
+        - epylint = pylint:run_epylint
+        - pylint = pylint:run_pylint
+        - pyreverse = pylint:run_pyreverse
+        - symilar = pylint:run_symilar
+    number: '0'
+    script: C:\ci\pylint_1552332473195\_h_env\python.exe -m pip install . --no-deps
+        --ignore-installed --no-cache-dir -vvv
+    string: py37_0
+requirements:
+    host:
+        - atomicwrites 1.3.0 py_0
+        - attrs 19.1.0 py_0
+        - ca-certificates 2019.1.23 0
+        - certifi 2019.3.9 py37_0
+        - colorama 0.4.1 py37_0
+        - more-itertools 5.0.0 py37_0
+        - openssl 1.1.1b he774522_1
+        - pip 19.0.3 py37_0
+        - pluggy 0.9.0 py37_0
+        - py 1.8.0 py37_0
+        - pytest 4.3.0 py37_0
+        - pytest-runner 4.2 py37_0
+        - python 3.7.2 h8c8aaf0_10
+        - setuptools 40.8.0 py37_0
+        - six 1.12.0 py37_0
+        - sqlite 3.26.0 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wheel 0.33.1 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - astroid >=2.2.0
+        - colorama
+        - isort >=4.2.5
+        - mccabe
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - pylint --help
+        - where epylint
+        - pyreverse --help
+        - symilar --help
+    imports:
+        - pylint
+        - pylint.checkers
+        - pylint.extensions
+        - pylint.pyreverse
+        - pylint.reporters
+        - pylint.reporters.ureports
+about:
+    description: 'Pylint is a tool that checks for errors in Python code, tries to
+        enforce a
+
+        coding standard and looks for code smells.
+
+        '
+    dev_url: https://github.com/PyCQA/pylint/
+    doc_source_url: https://github.com/PyCQA/pylint/blob/master/doc/index.rst
+    doc_url: https://pylint.readthedocs.io/en/latest/
+    home: http://www.pylint.org/
+    license: GPL
+    license_file: COPYING
+    summary: python code static checker
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - timleslie

@@ -1,0 +1,91 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# C:\ci\containers\0000271clcg\tmp\build\80754af9\rsync-recipes\ipykernel-5.1.0-python_3.7-on-winbuilder, last modified Thu Oct 18 11:15:50 2018
+# ------------------------------------------------
+
+package:
+    name: ipykernel
+    version: 5.1.0
+source:
+    sha256: 0fc0bf97920d454102168ec2008620066878848fcfca06c22b669696212e292f
+    url: https://pypi.io/packages/source/i/ipykernel/ipykernel-5.1.0.tar.gz
+build:
+    number: '0'
+    script:
+        - C:\ci\ipykernel_1539879679619\_h_env\python.exe -m pip install . --no-deps
+            --ignore-installed -vvv
+        - python -m ipykernel install --prefix C:\ci\ipykernel_1539879679619\_h_env
+    string: py37h39e3cac_0
+requirements:
+    host:
+        - backcall 0.1.0 py37_0
+        - certifi 2018.10.15 py37_0
+        - colorama 0.4.0 py37_0
+        - decorator 4.3.0 py37_0
+        - ipython 7.0.1 py37h39e3cac_0
+        - ipython_genutils 0.2.0 py37_0
+        - jedi 0.13.1 py37_0
+        - jupyter_client 5.2.3 py37_0
+        - jupyter_core 4.4.0 py37_0
+        - libsodium 1.0.16 h9d3ae62_0
+        - parso 0.3.1 py37_0
+        - pickleshare 0.7.5 py37_0
+        - pip 10.0.1 py37_0
+        - prompt_toolkit 2.0.6 py37_0
+        - pygments 2.2.0 py37_0
+        - python 3.7.0 hea74fb7_0
+        - python-dateutil 2.7.3 py37_0
+        - pyzmq 17.1.2 py37hfa6e2cd_0
+        - setuptools 40.4.3 py37_0
+        - simplegeneric 0.8.1 py37_2
+        - six 1.11.0 py37_1
+        - tornado 5.1.1 py37hfa6e2cd_0
+        - traitlets 4.3.2 py37_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_0
+        - wcwidth 0.1.7 py37_0
+        - wheel 0.32.1 py37_0
+        - wincertstore 0.2 py37_0
+        - zeromq 4.2.5 he025d50_1
+    run:
+        - ipython >=5.0
+        - jupyter_client
+        - python >=3.7,<3.8.0a0
+        - tornado >=4.0
+        - traitlets >=4.1
+test:
+    commands:
+        - jupyter kernelspec list
+    imports:
+        - ipykernel
+    requires:
+        - matplotlib
+        - nose
+        - numpy
+        - pytest
+about:
+    description: 'A powerful interactive Python shell and a Jupyter kernel to work
+        with
+
+        Python code in Jupyter notebooks and other interactive frontends.
+
+        '
+    dev_url: https://github.com/ipython/ipykernel
+    doc_source_url: https://github.com/ipython/ipykernel/blob/master/docs/index.rst
+    doc_url: https://ipython.readthedocs.io
+    home: https://ipython.org
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: COPYING.md
+    summary: IPython Kernel for Jupyter
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - Carreau
+        - blink1073
+        - bollwyvl
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - pelson

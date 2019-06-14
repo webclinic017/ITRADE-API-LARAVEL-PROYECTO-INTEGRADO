@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "toolz-0.9.0-py37_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "5832102c7a0f86855b146667d9794f23",
+  "name": "toolz",
+  "size": 93068,
+  "subdir": "win-64",
+  "timestamp": 1531681603479,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/toolz-0.9.0-py37_0.tar.bz2",
+  "version": "0.9.0"
+}

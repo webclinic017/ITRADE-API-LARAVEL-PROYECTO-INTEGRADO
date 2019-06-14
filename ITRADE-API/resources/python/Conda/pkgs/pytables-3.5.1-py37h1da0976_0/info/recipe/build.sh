@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export BZIP2_DIR=$PREFIX
+export HDF5_DIR=$PREFIX
+export LZO_DIR=$PREFIX
+export BLOSC_DIR=$PREFIX
+
+$PYTHON -m pip install --no-deps --no-cache-dir --ignore-installed .

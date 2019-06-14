@@ -1,0 +1,125 @@
+# This file created by conda-build 3.4.0
+# meta.yaml template originally from:
+# C:\ci\containers\00000925r29\tmp\build\80754af9\rsync-recipes\winpty-0.4.3-on-winbuilder, last modified Fri Feb  2 11:32:16 2018
+# ------------------------------------------------
+
+package:
+    name: winpty
+    version: 0.4.3
+source:
+    fn: winpty-0.4.3.tar.gz
+    patches:
+        - 0001-disable-msys-compiler-check.patch
+    sha256: 093037c39f9c899d79b74d5e15ff74fb59a98c492c5ed621e97e1090c3442865
+    url: https://github.com/rprichard/winpty/archive/0.4.3.tar.gz
+build:
+    number: '4'
+    string: '4'
+requirements:
+    host:
+        - m2-base 1.0.0 2
+        - m2-bash 4.3.042 5
+        - m2-bash-completion 2.3 2
+        - m2-catgets 1.1 3
+        - m2-coreutils 8.25 102
+        - m2-dash 0.5.8 2
+        - m2-diffutils 3.3 4
+        - m2-file 5.25 2
+        - m2-filesystem 2016.04 4
+        - m2-findutils 4.6.0 2
+        - m2-gawk 4.1.3 2
+        - m2-gcc-libs 5.3.0 4
+        - m2-gettext 0.19.7 4
+        - m2-gmp 6.1.0 3
+        - m2-grep 2.22 4
+        - m2-gzip 1.7 2
+        - m2-inetutils 1.9.2 2
+        - m2-info 6.0 2
+        - m2-less 481 2
+        - m2-libasprintf 0.19.7 4
+        - m2-libbz2 1.0.6 3
+        - m2-libcatgets 1.1 3
+        - m2-libcrypt 1.3 2
+        - m2-libgettextpo 0.19.7 4
+        - m2-libiconv 1.14 3
+        - m2-libintl 0.19.7 4
+        - m2-liblzma 5.2.2 2
+        - m2-libpcre 8.38 2
+        - m2-libreadline 6.3.008 8
+        - m2-libutil-linux 2.26.2 2
+        - m2-libxml2 2.9.2 3
+        - m2-make 4.1 5
+        - m2-mintty 1!2.2.3 2
+        - m2-mpfr 3.1.4 2
+        - m2-msys2-launcher-git 0.3.28.860c495 2
+        - m2-msys2-runtime 2.5.0.17080.65c939c 3
+        - m2-ncurses 6.0.20160220 2
+        - m2-sed 4.2.2 3
+        - m2-tar 1.28 4
+        - m2-tftp-hpa 5.2 2
+        - m2-time 1.7 2
+        - m2-ttyrec 1.0.8 2
+        - m2-tzcode 2015.e 2
+        - m2-unzip 6.0 3
+        - m2-util-linux 2.26.2 2
+        - m2-which 2.21 3
+        - m2-zip 3.0 2
+        - m2-zlib 1.2.8 4
+        - m2w64-binutils 2.25.1 5
+        - m2w64-bzip2 1.0.6 6
+        - m2w64-crt-git 5.0.0.4636.2595836 2
+        - m2w64-gcc 5.3.0 6
+        - m2w64-gcc-ada 5.3.0 6
+        - m2w64-gcc-fortran 5.3.0 6
+        - m2w64-gcc-libgfortran 5.3.0 6
+        - m2w64-gcc-libs 5.3.0 7
+        - m2w64-gcc-libs-core 5.3.0 7
+        - m2w64-gcc-objc 5.3.0 6
+        - m2w64-gmp 6.1.0 2
+        - m2w64-headers-git 5.0.0.4636.c0ad18a 2
+        - m2w64-isl 0.16.1 2
+        - m2w64-libiconv 1.14 6
+        - m2w64-libmangle-git 5.0.0.4509.2e5a9a2 2
+        - m2w64-libwinpthread-git 5.0.0.4634.697f757 2
+        - m2w64-make 4.1.2351.a80a8b8 2
+        - m2w64-mpc 1.0.3 3
+        - m2w64-mpfr 3.1.4 4
+        - m2w64-pkg-config 0.29.1 2
+        - m2w64-toolchain 5.3.0 7
+        - m2w64-tools-git 5.0.0.4592.90b8472 2
+        - m2w64-windows-default-manifest 6.4 3
+        - m2w64-winpthreads-git 5.0.0.4634.697f757 2
+        - m2w64-zlib 1.2.8 10
+        - msys2-conda-epoch 20160418 1
+        - posix 1.0.0 2
+test:
+    commands:
+        - winpty-agent --version
+about:
+    description: 'Winpty is a Windows software package providing an interface similar
+        to a Unix
+
+        pty-master for communicating with Windows console programs. The package
+
+        consists of a library (libwinpty) and a tool for Cygwin and MSYS for running
+
+        Windows console programs in a Cygwin/MSYS pty.
+
+        '
+    dev_url: https://github.com/rprichard/winpty
+    doc_url: https://github.com/rprichard/winpty
+    home: https://github.com/rprichard/winpty
+    license: MIT
+    summary: 'Winpty provides an interface similar to a Unix pty-master for communicating
+
+        with Windows console programs.
+
+        '
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - andfoy
+        - blink1073
+        - ccordoba12
+        - jjhelmus

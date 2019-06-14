@@ -1,0 +1,37 @@
+{
+  "build": "h62dcd97_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0"
+  ],
+  "features": "",
+  "files": [
+    "Library/bin/zlib.dll",
+    "Library/include/zconf.h",
+    "Library/include/zlib.h",
+    "Library/lib/z.lib",
+    "Library/lib/zdll.lib",
+    "Library/lib/zlib.lib",
+    "Library/lib/zlibstatic.lib",
+    "Library/share/man/man3/zlib.3",
+    "Library/share/pkgconfig/zlib.pc"
+  ],
+  "fn": "zlib-1.2.11-h62dcd97_3.tar.bz2",
+  "installed_by": "Anaconda3-2019.03-Windows-x86_64.exe",
+  "license": "zlib",
+  "license_family": "Other",
+  "link": {
+    "source": "C:\\Users\\MTXDevp\\Desktop\\PROYECTO-INTEGRADO\\ITRADE-API-LARAVEL-PROYECTO-INTEGRADO\\ITRADE-API\\resources\\python\\Conda\\pkgs\\zlib-1.2.11-h62dcd97_3",
+    "type": "hard-link"
+  },
+  "md5": "6f96fd91475cc78aabf76d2e1a9ed91f",
+  "name": "zlib",
+  "size": 131359,
+  "subdir": "win-64",
+  "timestamp": 1542815182812,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/zlib-1.2.11-h62dcd97_3.tar.bz2",
+  "version": "1.2.11"
+}
