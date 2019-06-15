@@ -2,7 +2,7 @@
 # -*- coding: latin-1 -*-
 
 import os
-from stocker import Stocker
+#from stocker import Stocker
 
 
 
