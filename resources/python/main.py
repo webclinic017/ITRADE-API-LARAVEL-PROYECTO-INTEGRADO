@@ -6,11 +6,13 @@ from stocker import Stocker
 
 
 
-empresa = Stocker('MSFT')
+print("TUS MUERTOS")
 
-empresa.plot_stock()
+#empresa = Stocker('MSFT')
 
-model, model_data = empresa.create_prophet_model(days=360)
+#empresa.plot_stock()
+
+#model, model_data = empresa.create_prophet_model(days=360)
 
 """"
 
