@@ -1,1 +1,0 @@
-["testpath", "pygments", "ipykernel", "nose>=0.10.1", "numpy", "requests", "matplotlib", "nbformat"]

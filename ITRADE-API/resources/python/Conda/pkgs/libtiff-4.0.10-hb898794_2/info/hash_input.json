@@ -1,7 +1,0 @@
-{
-  "zlib": "1.2",
-  "cxx_compiler": "vs2017",
-  "xz": "5",
-  "jpeg": "9",
-  "c_compiler": "vs2017"
-}

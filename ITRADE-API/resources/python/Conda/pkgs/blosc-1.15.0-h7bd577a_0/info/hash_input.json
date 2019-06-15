@@ -1,6 +1,0 @@
-{
-  "zlib": "1.2",
-  "cxx_compiler": "vs2017",
-  "c_compiler": "vs2017",
-  "vc": "14"
-}
