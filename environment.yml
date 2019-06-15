@@ -1,0 +1,14 @@
+name: example-environment
+
+dependencies:
+  - pip  
+  - python=3.7.3
+  - numpy
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - quandl
+- pip:
