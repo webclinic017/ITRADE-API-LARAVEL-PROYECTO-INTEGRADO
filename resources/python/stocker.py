@@ -270,7 +270,7 @@ class Stocker():
 
             model.fit(stock_history)
 
-            # Hacer y predecir para el proximo año con datos futuros.
+            # Hacer y predecir para el proximo ano con datos futuros.
             future = model.make_future_dataframe(periods=days, freq='D')
             future = model.predict(future)
 
