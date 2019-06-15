@@ -24,7 +24,7 @@ class Stocker():
         # self : referencia a la clase Stocker
         self.symbol = ticker
 
-        # Petición para extraer los datos de la API
+        # Peticion para extraer los datos de la API
         url_csv = 'https://www.worldtradingdata.com/api/v1/history?symbol=' + ticker + '&sort=newest&api_token' \
                                                                                        '=vGpNTjAR6hDVlerUKGFEfjUx52wPSiQuszj4bdIVEpRLNF1hDw9zpohcarfl&output=csv&date_from=2014-01-02'
         print("la url es " + str(url_csv))
