@@ -18,7 +18,7 @@ class Stocker():
 
     # Constructor de la clase Stocker (__init__)
     def __init__(self, ticker, exchange='WIKI'):
-        # Forzamos mayusculas en el nombre del activo que sera pasado por parámetro
+        # Forzamos mayusculas en el nombre del activo que sera pasado por parametro
         ticker = ticker.upper()
 
         # self : referencia a la clase Stocker
