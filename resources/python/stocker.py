@@ -120,7 +120,7 @@ class Stocker():
             print(end_date)
 
         except Exception as e:
-            print('Introduce las fechas en el formato correcto para su manipulación con Pandas')
+            print('Introduce las fechas en el formato correcto para su manipulacion con Pandas')
             print(e)
             return
 
@@ -145,8 +145,8 @@ class Stocker():
 
             else:
                 if end_date > self.max_date:
-                    print('La fecha de finalización excede el rango de datos')
-                    end_date = pd.to_datetime(input('Ingrese una nueva fecha de finalización: '))
+                    print('La fecha de finalizacion excede el rango de datos')
+                    end_date = pd.to_datetime(input('Ingrese una nueva fecha de finalizacion: '))
                     valid_end = False
 
             if start_date < self.min_date:
