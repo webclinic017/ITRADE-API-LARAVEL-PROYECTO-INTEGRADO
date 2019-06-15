@@ -303,6 +303,7 @@ class Stocker():
             plt.ylabel('Precio $')
             plt.grid(linewidth=0.6, alpha=0.6)
             plt.title(title)
+            plt.savefig("img/grafica2.svg")
             plt.show()
 
             return model, future
@@ -373,4 +374,5 @@ class Stocker():
                 plt.legend(prop={'size': 10})
                 plt.grid(color='k', alpha=0.4)
 
+        plt.savefig("img/grafica1.svg")
         plt.show()

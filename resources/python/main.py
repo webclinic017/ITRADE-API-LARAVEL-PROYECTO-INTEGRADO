@@ -1,18 +1,10 @@
-#ARTICULOS DE INTERES
+#!/usr/bin/python
+# -*- coding: latin-1 -*-
 
-#https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1639&context=etd_projects
-
-#https://towardsdatascience.com/stock-prediction-in-python-b66555171a2
-
-#SENTIMENTAL ANALISIS
-#https://www.aclweb.org/anthology/W18-3102
-
-
+import os
 from stocker import Stocker
-#from xdss import  Stocker
 
 
-variable = ['MSFT',]
 
 empresa = Stocker('MSFT')
 
