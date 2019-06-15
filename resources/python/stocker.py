@@ -203,7 +203,7 @@ class Stocker():
         # Resetear los parametros a default
         matplotlib.rcdefaults()
 
-        # Personalizacion grafica (parámetros)
+        # Personalizacion grafica (parametros)
         matplotlib.rcParams['figure.figsize'] = (8, 5)
         matplotlib.rcParams['axes.labelsize'] = 10
         matplotlib.rcParams['xtick.labelsize'] = 8
@@ -262,7 +262,7 @@ class Stocker():
 
             model = self.create_model()
 
-            # Encaja en el historial de stock de self.training_years numero de años
+            # Encaja en el historial de stock de self.training_years numero de anos
             stock_history = self.stock[self.stock['Date'] > (self.max_date - pd.DateOffset(years=self.training_years))]
 
             if resample:
@@ -283,7 +283,7 @@ class Stocker():
             else:
                 title = '%s PREDICCIÓN DE PRECIOS' % self.symbol
 
-            # Configurar la Gráfica
+            # Configurar la Grafica
             fig, ax = plt.subplots(1, 1)
 
             # Pintar los valores actuales
@@ -309,7 +309,7 @@ class Stocker():
             return model, future
 
 
-    # CREACIÓN DE LA GRAFICA con los datos pasados por parametro
+    # CREACION DE LA GRAFICA con los datos pasados por parametro
     def plot_stock(self, start_date=None, end_date=None, stats=None, plot_type='basic'):
 
         if stats is None:
