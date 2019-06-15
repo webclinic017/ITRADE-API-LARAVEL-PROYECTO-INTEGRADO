@@ -5,26 +5,14 @@ namespace App\Http\Services;
 use Symfony\Component\Process\Process; 
 use Symfony\Component\Process\Exception\ProcessFailedException;  
 
-//echo "ESTOY EN PYTHON SERVICE";
-
-//SIEMPRE EJECUTA EL DE PUBLIC CARPETA WTF // 2 > 1 NECESARIOI XDDDD
-
-//PONER PIP EN LA VARIABLE DE ENTORNO
-
-//INSTALAR LAS LIBRERIAS A NIVEL DE PROYECTO
-
-//INSTALAR PYTHON AKI EN LA API XD CON CONDA Y LAS LIBRERIAS TMB
-
-//O INSTALAR PYTHON EN HEROKU
-
 class PythonService{
 
 public function main(){
 
     
-    echo "tus muertos";
+    //echo "tus muertos";
     
-    //echo shell_exec("python ./../resources/python/main.py 2>&1");
+    echo shell_exec("python ./../resources/python/main.py 2>&1");
 
     
     }

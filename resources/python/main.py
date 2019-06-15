@@ -12,6 +12,8 @@ from stocker import Stocker
 #from xdss import  Stocker
 
 
+variable = ['MSFT',]
+
 empresa = Stocker('MSFT')
 
 empresa.plot_stock()
