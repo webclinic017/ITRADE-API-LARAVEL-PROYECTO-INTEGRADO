@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: latin-1 -*-
 
+import quandl
 import os
 #from stocker import Stocker
 
