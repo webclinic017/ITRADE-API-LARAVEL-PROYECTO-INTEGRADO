@@ -279,9 +279,9 @@ class Stocker():
                 print('Precio previsto en {} = ${:.2f}'.format(
                     future.loc[future.index[-1], 'ds'], future.loc[future.index[-1], 'yhat']))
 
-                title = '%s PREDICCIÓN DE PRECIOS' % self.symbol
+                title = '%s PREDICCION DE PRECIOS' % self.symbol
             else:
-                title = '%s PREDICCIÓN DE PRECIOS' % self.symbol
+                title = '%s PREDICCION DE PRECIOS' % self.symbol
 
             # Configurar la Grafica
             fig, ax = plt.subplots(1, 1)
