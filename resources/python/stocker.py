@@ -99,7 +99,7 @@ class Stocker():
                                                                                   self.min_date,
                                                                                   self.max_date))
 
-        # METODO ENCARGADO DE LA MANIPULACIÓN DE LAS FECHAS
+        # METODO ENCARGADO DE LA MANIPULACION DE LAS FECHAS
 
     def handle_dates(self, start_date, end_date):
 
