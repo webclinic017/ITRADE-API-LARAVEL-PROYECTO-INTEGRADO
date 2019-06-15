@@ -137,9 +137,9 @@ class Stocker():
             print(type(start_date))
 
             if end_date < start_date:
-                print('La fecha de finalización debe ser posterior a la fecha de inicio.')
+                print('La fecha de finalizacion debe ser posterior a la fecha de inicio.')
                 start_date = pd.to_datetime(input('Ingrese una nueva fecha de inicio: '))
-                end_date = pd.to_datetime(input('Ingrese una nueva fecha de finalización: '))
+                end_date = pd.to_datetime(input('Ingrese una nueva fecha de finalizacion: '))
                 valid_end = False
                 valid_start = False
 
