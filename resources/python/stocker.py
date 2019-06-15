@@ -31,7 +31,7 @@ class Stocker():
 
         response = requests.get(url_csv).content
 
-        # decodificamos el request convirtiendolo en un dataframe válido para ser trabajado con Pandas
+        # decodificamos el request convirtiendolo en un dataframe valido para ser trabajado con Pandas
         dfHistorialPrecios = pd.read_csv(io.StringIO(response.decode('utf-8')))
 
         #dfHistorialPrecios = pd.read_csv('tabla.csv')
@@ -66,7 +66,7 @@ class Stocker():
         print(type(self.min_date))
         print(type(self.max_date))
 
-        # Encuentra precios máximos y mínimos y fechas en las que ocurrieron.
+        # Encuentra precios maximos y minimos y fechas en las que ocurrieron.
         self.max_price = np.max(self.stock['y'])
         self.min_price = np.min(self.stock['y'])
 
@@ -84,7 +84,7 @@ class Stocker():
         # Redondeo de fechas
         self.round_dates = True
 
-        #  Numero de años de entrenamiento
+        #  Numero de anos de entrenamiento
         self.training_years = 3
 
         # Prophet parametros
@@ -103,7 +103,7 @@ class Stocker():
 
     def handle_dates(self, start_date, end_date):
 
-        # Las fechas de inicio y finalización predeterminadas son el comienzo y el final de los datos.
+        # Las fechas de inicio y finalizacion predeterminadas son el comienzo y el final de los datos.
         if start_date is None:
             start_date = self.min_date
         if end_date is None:
@@ -127,7 +127,7 @@ class Stocker():
         valid_start = False
         valid_end = False
 
-        # Mientras que las fechas no sea válidas se seguiran ingresando
+        # Mientras que las fechas no sea validas se seguiran ingresando
         while (not valid_start) & (not valid_end):
             valid_end = True
             valid_start = True
@@ -175,7 +175,7 @@ class Stocker():
         print(start_date)
         print(end_date)
 
-        # realizar un seguimiento de si las fechas de inicio y finalización están en los datos
+        # realizar un seguimiento de si las fechas de inicio y finalizacion estan en los datos
         start_in = True
         end_in = True
 
@@ -183,7 +183,7 @@ class Stocker():
         if self.round_dates:
             print("entro en round_dates")
 
-            # Si ambos están en el dataframe, no se redondea
+            # Si ambos estan en el dataframe, no se redondea
             print("entro en el else de not end in start in")
             print("entro en SI end in start in ")
 
@@ -211,13 +211,13 @@ class Stocker():
         matplotlib.rcParams['axes.titlesize'] = 14
         matplotlib.rcParams['text.color'] = 'k'
 
-    # Método para interpolar linealmente los precios en los fines de semana.
+    # Metodo para interpolar linealmente los precios en los fines de semana.
     @staticmethod
     def resample(dataframe):
-        # CCambiar el índice y remuestrear a nivel diario.
+        # CCambiar el indice y remuestrear a nivel diario.
         dataframe = dataframe.set_index('ds')
         dataframe = dataframe.resample('D')
-        # Restablecer el índice e interpolar valores nan
+        # Restablecer el indice e interpolar valores nan
         dataframe = dataframe.reset_index(level=0)
         dataframe = dataframe.interpolate()
         return dataframe
@@ -237,12 +237,12 @@ class Stocker():
         return dataframe
 
 
-    # ----------------------------------------CREACIÓN DEL MODELO------------------------------------------------------------
+    # ----------------------------------------CREACION DEL MODELO------------------------------------------------------------
     # Creacion del modelo sin entenamiento
 
     def create_model(self):
 
-        # Creación del modelo
+        # Creacion del modelo
         model = fbprophet.Prophet(daily_seasonality=self.daily_seasonality,
                                   weekly_seasonality=self.weekly_seasonality,
                                   yearly_seasonality=self.yearly_seasonality,
@@ -250,19 +250,19 @@ class Stocker():
                                   changepoints=self.changepoints)
 
         if self.monthly_seasonality:
-            # Añadir estacionalidad mensual
+            # Anadir estacionalidad mensual
             model.add_seasonality(name='monthly', period=30.5, fourier_order=5)
 
         return model
 
-        # Modelo Prophet básico para un número específico de días.
+        # Modelo Prophet basico para un numero especifico de dias.
     def create_prophet_model(self, days=0, resample=False):
 
             self.reset_plot()
 
             model = self.create_model()
 
-            # Encaja en el historial de stock de self.training_years número de años
+            # Encaja en el historial de stock de self.training_years numero de años
             stock_history = self.stock[self.stock['Date'] > (self.max_date - pd.DateOffset(years=self.training_years))]
 
             if resample:
@@ -270,7 +270,7 @@ class Stocker():
 
             model.fit(stock_history)
 
-            # Hacer y predecir para el próximo año con datos futuros.
+            # Hacer y predecir para el proximo año con datos futuros.
             future = model.make_future_dataframe(periods=days, freq='D')
             future = model.predict(future)
 
@@ -309,7 +309,7 @@ class Stocker():
             return model, future
 
 
-    # CREACIÓN DE LA GRÁFICA con los datos pasados por parametro
+    # CREACIÓN DE LA GRAFICA con los datos pasados por parametro
     def plot_stock(self, start_date=None, end_date=None, stats=None, plot_type='basic'):
 
         if stats is None:
