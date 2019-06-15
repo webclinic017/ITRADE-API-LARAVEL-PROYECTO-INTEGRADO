@@ -196,7 +196,7 @@ class Stocker():
             #print("EL FINALLLL", trim_df)
         return trim_df
 
-    #  RESET DE LA GRÁFICA
+    #  RESET DE LA GRAFICA
     @staticmethod
     def reset_plot():
 
