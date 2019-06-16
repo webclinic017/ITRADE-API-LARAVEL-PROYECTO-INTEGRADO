@@ -9,10 +9,7 @@ class PythonService{
 
 public function main(){
 
-    
     echo shell_exec("python ./../resources/python/main.py 2>&1");
-
-    
     }
 }
 

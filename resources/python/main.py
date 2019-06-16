@@ -5,14 +5,14 @@ from ITRADE import Itrade
 import matplotlib.pyplot as plt
 
 
-#empresas = ["MSFT", "GOOGL","AMZN", "AAPL",
-#"AMD","INTC","QCOM","DELL","FB","TSLA"] 
+empresas = ["MSFT", "GOOGL","AMZN", "AAPL",
+"AMD","INTC","QCOM","DELL","FB","TSLA"] 
 
 
-#num = [1,2,3,4]
+num = [1,2,3,4]
 
-empresas = ["MSFT"]
-num = [1]
+#empresas = ["MSFT"]
+#num = [1]
 
 
 for empresa in empresas:
