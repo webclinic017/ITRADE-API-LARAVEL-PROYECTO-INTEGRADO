@@ -4,9 +4,7 @@ import quandl
 import pandas as pd
 import numpy as np
 import fbprophet
-import pytrends
 import requests
-from pytrends.request import TrendReq
 import matplotlib.pyplot as plt
 import matplotlib
 import requests
@@ -14,6 +12,7 @@ import datetime
 
 class Stocker():
 
+    precioPrevisto = "none"
     ticker = "none"
     # TICKER : Nombre de la empresa
 
@@ -41,13 +40,12 @@ class Stocker():
 
         dfHistorialPrecios = dfHistorialPrecios.reset_index(level=0)
 
-        print(dfHistorialPrecios)
+        #print(dfHistorialPrecios)
 
         # Convertimos la columna de fecha a ds la cual es requerida en Prophet
         dfHistorialPrecios['ds'] = dfHistorialPrecios['Date']
 
         if 'Adj. Close' not in dfHistorialPrecios.columns:
-            print("ENTROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO")
             dfHistorialPrecios['Adj. Close'] = dfHistorialPrecios['Close']
             dfHistorialPrecios['Adj. Open'] = dfHistorialPrecios['Open']
 
@@ -63,9 +61,8 @@ class Stocker():
         self.min_date = pd.to_datetime(min(dfHistorialPrecios['Date']))
         self.max_date = pd.to_datetime(max(dfHistorialPrecios['Date']))
 
-        print("EL PRINCIPIO DEL FIN")
-        print(type(self.min_date))
-        print(type(self.max_date))
+        #print(type(self.min_date))
+        #9print(type(self.max_date))
 
         # Encuentra precios maximos y minimos y fechas en las que ocurrieron.
         self.max_price = np.max(self.stock['y'])
@@ -114,11 +111,11 @@ class Stocker():
             # Convertir a pandas datetime para indexar el dataframe
             start_date = pd.to_datetime(start_date)
             end_date = pd.to_datetime(end_date)
-            print("esoy en hadle fechas")
-            print(type(start_date))
-            print(start_date)
-            print(type(end_date))
-            print(end_date)
+
+            #print(type(start_date))
+            #print(start_date)
+            #print(type(end_date))
+            #print(end_date)
 
         except Exception as e:
             print('Introduce las fechas en el formato correcto para su manipulacion con Pandas')
@@ -133,9 +130,8 @@ class Stocker():
             valid_end = True
             valid_start = True
 
-            print("PUESTO PAL PROBLEMO")
-            print(type(end_date))
-            print(type(start_date))
+            #print(type(end_date))
+            #print(type(start_date))
 
             if end_date < start_date:
                 print('La fecha de finalizacion debe ser posterior a la fecha de inicio.')
@@ -163,18 +159,18 @@ class Stocker():
 
     def make_df(self, start_date, end_date, df=None):
 
-        global trim_df
-        print("entro al metodo make_df")
-        print(type(start_date))
-        print(type(end_date))
+        global trim_df 
+
+        #print(type(start_date))
+        #print(type(end_date))
 
         if not df:
             df = self.stock.copy()
-            print("entro en stock copy")
+
         start_date, end_date = self.handle_dates(start_date, end_date)
-        print("MAKE DIF MAKE THIS HARD")
-        print(start_date)
-        print(end_date)
+
+        #print(start_date)
+        #print(end_date)
 
         # realizar un seguimiento de si las fechas de inicio y finalizacion estan en los datos
         start_in = True
@@ -182,15 +178,11 @@ class Stocker():
 
         # Si el usuario quiere redondear fechas (comportamiento predeterminado)
         if self.round_dates:
-            print("entro en round_dates")
 
             # Si ambos estan en el dataframe, no se redondea
-            print("entro en el else de not end in start in")
-            print("entro en SI end in start in ")
-
             trim_df = df[(df['Date'] >= start_date) &
                                  (df['Date'] <= end_date)]
-            print(trim_df['Adj. Open'])
+            #print(trim_df['Adj. Open'])
 
             #trim_df = df[(df['Date'] >= start_date) &
              #            (df['Date'] <= end_date.date)]
@@ -277,6 +269,8 @@ class Stocker():
 
             if days > 0:
                 # Pintar prediccion de precio
+                precioPrevisto = 'Precio previsto en {} = ${:.2f}'.format(
+                    future.loc[future.index[-1], 'ds'], future.loc[future.index[-1], 'yhat'])
                 print('Precio previsto en {} = ${:.2f}'.format(
                     future.loc[future.index[-1], 'ds'], future.loc[future.index[-1], 'yhat']))
 
@@ -304,11 +298,18 @@ class Stocker():
             plt.ylabel('Precio $')
             plt.grid(linewidth=0.6, alpha=0.6)
             plt.title(title)
-            plt.savefig("img/grafica2.svg")
-            plt.show()
+            #plt.savefig("images/"+str(ticker)+ str(x) + str(".png"))
+            #plt.savefig("img/grafica2.svg")
+            #plt.show()
 
             return model, future
 
+    def getPlt(self):
+        return  plt
+
+    def getPrediccionPrecio(self):
+
+       return precioPrevisto
 
     # CREACION DE LA GRAFICA con los datos pasados por parametro
     def plot_stock(self, start_date=None, end_date=None, stats=None, plot_type='basic'):
@@ -327,7 +328,7 @@ class Stocker():
 
         stock_plot = self.make_df(start_date, end_date)
 
-        print("he pasado el llamamiento de make_df " , stock_plot)
+        #print("he pasado el llamamiento de make_df " , stock_plot)
 
         colors = ['r', 'b', 'g', 'y', 'c', 'm']
 
@@ -376,4 +377,4 @@ class Stocker():
                 plt.grid(color='k', alpha=0.4)
 
         #plt.savefig("images/"+str(ticker)+str(".svg"))
-        plt.show()
+        #plt.show()
