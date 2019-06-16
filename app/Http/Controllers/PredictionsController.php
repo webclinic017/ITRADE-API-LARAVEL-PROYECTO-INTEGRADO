@@ -5,8 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Predictions;
 use App\Http\Services\PythonService;
-
-
+use File;
+use Response;
 
 class PredictionsController extends Controller
 {
@@ -72,7 +72,22 @@ class PredictionsController extends Controller
      */
     public function show($id)
     {
-        //
+
+        $filename = resource_path() . '/python/images/' . $id . ".png";
+
+
+        if(!File::exists($filename)) {
+            return response()->json(['message' => 'Image not found.'], 404);
+        }else{
+
+            $handle = fopen($filename, "rb");
+            $contents = fread($handle, filesize($filename));
+            fclose($handle);
+ 
+            header("content-type: image/jpeg");
+ 
+            echo $contents;
+        }
     }
 
     /**
