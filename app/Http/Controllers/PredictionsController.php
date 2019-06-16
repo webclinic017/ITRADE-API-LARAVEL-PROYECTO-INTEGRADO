@@ -82,7 +82,7 @@ class PredictionsController extends Controller
                 fclose($handle);
      
                 header("content-type: image/png");
-     
+                header('Access-Control-Allow-Origin: *');
                 echo $contents;
             }
         
@@ -96,13 +96,33 @@ class PredictionsController extends Controller
                 
             }else{
     
-                $handle = fopen($filename, "rb");
-                $contents = fread($handle, filesize($filename));
-                fclose($handle);
+                $content = File::get($filename);
      
-                header("content-type: txt");
-     
-                echo $contents;
+                header("content-type: text/plain");
+                header('Access-Control-Allow-Origin: *');
+
+                $this->utf8_encode_deep($content);
+                return response()->json([
+                    'message' => $content
+                ]);
+            }
+        }
+    }
+
+    public function utf8_encode_deep(&$input) {
+        if (is_string($input)) {
+            $input = utf8_encode($input);
+        } else if (is_array($input)) {
+            foreach ($input as &$value) {
+                self::utf8_encode_deep($value);
+            }
+    
+            unset($value);
+        } else if (is_object($input)) {
+            $vars = array_keys(get_object_vars($input));
+    
+            foreach ($vars as $var) {
+                self::utf8_encode_deep($input->$var);
             }
         }
     }
