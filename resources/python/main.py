@@ -1,7 +1,7 @@
 
 
 import os
-from stocker import Stocker
+from ITRADE import Itrade
 import matplotlib.pyplot as plt
 
 
@@ -16,7 +16,7 @@ num = [1]
 
 
 for empresa in empresas:
-     empresaScience = Stocker(empresa)
+     empresaScience = Itrade(empresa)
      empresaScience.plot_stock()
      for x in num:
         if(x ==0):

@@ -12,7 +12,7 @@ import datetime
 
 
 
-class Stocker():
+class Itrade():
 
     precioPrevisto = "none"
     ticker = "none"

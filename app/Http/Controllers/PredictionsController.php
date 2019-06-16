@@ -38,11 +38,6 @@ class PredictionsController extends Controller
         //
     }
 
-    public function getFotos(Request $request){
-
-
-
-    }
 
     /**
      * Store a newly created resource in storage.
@@ -74,7 +69,6 @@ class PredictionsController extends Controller
     {
 
         $filename = resource_path() . '/python/images/' . $id . ".png";
-
 
         if(!File::exists($filename)) {
             return response()->json(['message' => 'Image not found.'], 404);
