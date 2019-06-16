@@ -1,5 +1,3 @@
-#!/usr/bin/python
-# -*- coding: latin-1 -*-
 
 
 import os
@@ -9,8 +7,6 @@ import matplotlib.pyplot as plt
 
 empresas = ["MSFT", "GOOGL","AMZN", "AAPL",
 "AMD","INTC","QCOM","DELL","FB","TSLA"] 
-
-
 
 
 
