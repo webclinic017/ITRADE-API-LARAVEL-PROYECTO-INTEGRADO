@@ -38,6 +38,12 @@ class PredictionsController extends Controller
         //
     }
 
+    public function getFotos(Request $request){
+
+
+
+    }
+
     /**
      * Store a newly created resource in storage.
      *
@@ -46,8 +52,6 @@ class PredictionsController extends Controller
      */
     public function store(Request $request)
     {
-   
-
         $request->validate([
             'id' => 'required',
             'referencia' => 'required'

@@ -1,27 +1,28 @@
 #!/usr/bin/python
 # -*- coding: latin-1 -*-
 
-import quandl
+
 import os
-#from stocker import Stocker
+from stocker import Stocker
+import matplotlib.pyplot as plt
+
+
+empresas = ["MSFT", "GOOGL","AMZN", "AAPL",
+"AMD","INTC","QCOM","DELL","FB","TSLA"] 
 
 
 
-print("TUS MUERTOS")
 
-#empresa = Stocker('MSFT')
 
-#empresa.plot_stock()
+for empresa in empresas:
+     temp = Stocker(empresa)
+     temp.plot_stock()
+     for x in 4:
+        if(x ==0):
+            temp = 30*(x+1)
+        else:
+            temp = 30*(x*3)
 
-#model, model_data = empresa.create_prophet_model(days=360)
-
-""""
-
-amazon = Stocker('MSFT')
-
-amazon.plot_stock()
-
-# predict days into the future
-model, model_data = amazon.create_prophet_model(days=360)
-
-"""
+        model, model_data = temp.create_prophet_model(days=temp)
+        temp = 30 * x
+        plt.savefig("./images/"+str(empresa)+ str(x) + str(".svg"))

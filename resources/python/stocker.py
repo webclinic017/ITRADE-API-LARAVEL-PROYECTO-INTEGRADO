@@ -14,6 +14,7 @@ import datetime
 
 class Stocker():
 
+    ticker = "none"
     # TICKER : Nombre de la empresa
 
     # Constructor de la clase Stocker (__init__)
@@ -364,7 +365,7 @@ class Stocker():
                 plt.legend(prop={'size': 10})
                 plt.grid(color='k', alpha=0.4)
 
-                # Stat y-axis
+            # Stat y-axis
             elif plot_type == 'basic':
                 plt.style.use('fivethirtyeight')
                 plt.plot(stock_plot['Date'], stock_plot[stat], color=colors[i], linewidth=3, label="Precio de Cierre", alpha=0.8)
@@ -374,5 +375,5 @@ class Stocker():
                 plt.legend(prop={'size': 10})
                 plt.grid(color='k', alpha=0.4)
 
-        plt.savefig("img/grafica1.svg")
+        #plt.savefig("images/"+str(ticker)+str(".svg"))
         plt.show()
