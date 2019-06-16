@@ -10,6 +10,8 @@ import matplotlib
 import requests
 import datetime
 
+
+
 class Stocker():
 
     precioPrevisto = "none"
@@ -18,9 +20,10 @@ class Stocker():
 
     # Constructor de la clase Stocker (__init__)
     def __init__(self, ticker, exchange='WIKI'):
+        
         # Forzamos mayusculas en el nombre del activo que sera pasado por parametro
         ticker = ticker.upper()
-
+        #self.precioPrevisto2 = precioPrevisto
         # self : referencia a la clase Stocker
         self.symbol = ticker
 
@@ -251,6 +254,9 @@ class Stocker():
         # Modelo Prophet basico para un numero especifico de dias.
     def create_prophet_model(self, days=0, resample=False):
 
+
+            
+
             self.reset_plot()
 
             model = self.create_model()
@@ -267,10 +273,11 @@ class Stocker():
             future = model.make_future_dataframe(periods=days, freq='D')
             future = model.predict(future)
 
-            if days > 0:
+            if days > 0:                
                 # Pintar prediccion de precio
-                precioPrevisto = 'Precio previsto en {} = ${:.2f}'.format(
+                self.precioPrevisto = 'Se estima que para la fecha {} = ${:.2f}'.format(
                     future.loc[future.index[-1], 'ds'], future.loc[future.index[-1], 'yhat'])
+
                 print('Precio previsto en {} = ${:.2f}'.format(
                     future.loc[future.index[-1], 'ds'], future.loc[future.index[-1], 'yhat']))
 
@@ -307,9 +314,11 @@ class Stocker():
     def getPlt(self):
         return  plt
 
+    
     def getPrediccionPrecio(self):
 
-       return precioPrevisto
+        return self.precioPrevisto
+
 
     # CREACION DE LA GRAFICA con los datos pasados por parametro
     def plot_stock(self, start_date=None, end_date=None, stats=None, plot_type='basic'):
@@ -378,3 +387,5 @@ class Stocker():
 
         #plt.savefig("images/"+str(ticker)+str(".svg"))
         #plt.show()
+
+

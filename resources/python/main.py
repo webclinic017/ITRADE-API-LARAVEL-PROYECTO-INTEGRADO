@@ -26,7 +26,12 @@ for empresa in empresas:
 
         model, model_data = empresaScience.create_prophet_model(days=temp)
         plot = empresaScience.getPlt()
-        precioPrevisto = empresaScience.getPrediccionPrecio
+        precioPrevisto = empresaScience.getPrediccionPrecio()
+
+        file = open("../resources/python/images/"+ empresa + str(x) + ".txt","w") 
+        file.write(precioPrevisto)
+        file.close()
+
         #plot.show()
 
-        plot.savefig(empresa+ str(x) + ".png")
+        plot.savefig("../resources/python/images/"+ empresa + str(x) + ".png")
