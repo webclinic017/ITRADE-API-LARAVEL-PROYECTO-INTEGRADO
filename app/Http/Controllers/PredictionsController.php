@@ -15,7 +15,7 @@ class PredictionsController extends Controller
     
     public function __construct() { 
         
-        $this->pythonService = new PythonService(); 
+        $this->pythonService = new PythonService();
     }
 
     /**
