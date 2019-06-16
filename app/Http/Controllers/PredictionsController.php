@@ -68,20 +68,42 @@ class PredictionsController extends Controller
     public function show($id)
     {
 
-        $filename = resource_path() . '/python/images/' . $id . ".png";
-
-        if(!File::exists($filename)) {
-            return response()->json(['message' => 'Image not found.'], 404);
+        if (strpos($id, '.png') == true) {
             
-        }else{
+            $filename = resource_path() . '/python/images/' . $id;
 
-            $handle = fopen($filename, "rb");
-            $contents = fread($handle, filesize($filename));
-            fclose($handle);
- 
-            header("content-type: image/png");
- 
-            echo $contents;
+            if(!File::exists($filename)) {
+                return response()->json(['message' => 'Image not found.'], 404);
+                
+            }else{
+    
+                $handle = fopen($filename, "rb");
+                $contents = fread($handle, filesize($filename));
+                fclose($handle);
+     
+                header("content-type: image/png");
+     
+                echo $contents;
+            }
+        
+        }else if(strpos($id, '.txt') == true){
+
+            $filename = resource_path() . '/python/images/' . $id;
+    
+            if(!File::exists($filename)) {
+    
+                return response()->json(['message' => 'txt not found.'], 404);
+                
+            }else{
+    
+                $handle = fopen($filename, "rb");
+                $contents = fread($handle, filesize($filename));
+                fclose($handle);
+     
+                header("content-type: txt");
+     
+                echo $contents;
+            }
         }
     }
 
@@ -105,23 +127,7 @@ class PredictionsController extends Controller
      */
     public function update(Request $request, $id)
     {
-            //FAKE UPDATE
-            $filename = resource_path() . '/python/images/' . $id . ".txt";
-    
-            if(!File::exists($filename)) {
-    
-                return response()->json(['message' => 'txt not found.'], 404);
-                
-            }else{
-    
-                $handle = fopen($filename, "rb");
-                $contents = fread($handle, filesize($filename));
-                fclose($handle);
-     
-                header("content-type: txt");
-     
-                echo $contents;
-            }
+         
     }
 
     /**
