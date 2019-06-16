@@ -72,13 +72,14 @@ class PredictionsController extends Controller
 
         if(!File::exists($filename)) {
             return response()->json(['message' => 'Image not found.'], 404);
+            
         }else{
 
             $handle = fopen($filename, "rb");
             $contents = fread($handle, filesize($filename));
             fclose($handle);
  
-            header("content-type: image/jpeg");
+            header("content-type: image/png");
  
             echo $contents;
         }
@@ -102,26 +103,25 @@ class PredictionsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update($id)
+    public function update(Request $request, $id)
     {
-        //FAKE UPDATE
-        $filename = resource_path() . '/python/images/' . $id . ".txt";
-        
-
-        if(!File::exists($filename)) {
-
-            return response()->json(['message' => 'txt not found.'], 404);
-
-        }else{
-
-            $handle = fopen($filename, "rb");
-            $contents = fread($handle, filesize($filename));
-            fclose($handle);
- 
-            header("content-type: txt");
- 
-            echo $contents;
-        }
+            //FAKE UPDATE
+            $filename = resource_path() . '/python/images/' . $id . ".txt";
+    
+            if(!File::exists($filename)) {
+    
+                return response()->json(['message' => 'txt not found.'], 404);
+                
+            }else{
+    
+                $handle = fopen($filename, "rb");
+                $contents = fread($handle, filesize($filename));
+                fclose($handle);
+     
+                header("content-type: txt");
+     
+                echo $contents;
+            }
     }
 
     /**
@@ -132,6 +132,6 @@ class PredictionsController extends Controller
      */
     public function destroy($id)
     {
-        //
+    
     }
 }
