@@ -1,39 +1,14 @@
 #!/usr/bin/env python
 import sys
 import os
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 #import pip
-#from ITRADE import Itrade
+from ITRADE import Itrade
 import re
 
-
-#empresas = ["MSFT", "GOOGL","AMZN", "AAPL",
-#"AMD","INTC","QCOM","DELL","FB","TSLA"] 
-
-
-#num = [1,2,3,4]
-
-#empresas = ["MSFT"]
-#num = [1]
-
-#print(sys.argv[1])
-
-def switch(argument):
-    switcher = {
-        1: 30,
-        3: 90,
-        6: 120,
-        9: 270,
-        12: 360
-    }
-
-
-
 empresa = sys.argv[1]
-#Itrade(empresa)
-#print(empresa)
 
-days = 0;
+meses = 0
 
 x = empresa.split("-")
 
@@ -42,15 +17,32 @@ print("Meses" , x[1])
 
 z = x[0].split(".")
 
-Itrade(z[1])
 empresaScience = Itrade(z[1])
 empresaScience.plot_stock()
 
+if (x[1] == 1):
+    meses = 30
+elif(x[1] == 3):
+    meses = 90
+elif(x[1] == 6):
+    meses = 120
+elif(x[1] == 9):
+    meses = 270
+elif(x[1] == 12):
+    meses = 360
+else:
+    print('fecha invalida, valor establecido a un mes')
+    meses = 30
 
+model, model_data = empresaScience.create_prophet_model(days=meses)
+plot = empresaScience.getPlt()
+precioPrevisto = empresaScience.getPrediccionPrecio()
 
+file = open("../resources/python/images/"+ z[1] + x[1] + ".txt","w") 
+file.write(precioPrevisto)
+file.close()
 
-
-model, model_data = z[1].create_prophet_model(days=30)
+plot.savefig("../resources/python/images/"+ z[1] + x[1] + ".png")
 
 """
 empresaScience = Itrade(empresa)
