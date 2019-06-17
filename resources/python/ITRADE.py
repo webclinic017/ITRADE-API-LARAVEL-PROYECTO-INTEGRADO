@@ -1,10 +1,10 @@
 import io
 
 import quandl
-import pandas as pd
 import numpy as np
 import fbprophet
 import requests
+import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib
 import requests
@@ -253,9 +253,6 @@ class Itrade():
 
         # Modelo Prophet basico para un numero especifico de dias.
     def create_prophet_model(self, days=0, resample=False):
-
-
-            
 
             self.reset_plot()
 

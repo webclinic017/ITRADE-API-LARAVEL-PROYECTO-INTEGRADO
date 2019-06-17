@@ -7,9 +7,10 @@ use Symfony\Component\Process\Exception\ProcessFailedException;
 
 class PythonService{
 
-public function main(){
+public function main($id){
 
-    echo shell_exec("python ./../resources/python/main.py 2>&1");
+
+    echo shell_exec("python ./../resources/python/main.py .$id 2>&1");
     }
 }
 

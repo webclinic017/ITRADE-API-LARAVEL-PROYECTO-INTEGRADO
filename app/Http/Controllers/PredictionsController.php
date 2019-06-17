@@ -8,6 +8,7 @@ use App\Http\Services\PythonService;
 use File;
 use Response;
 
+
 class PredictionsController extends Controller
 {
 
@@ -25,8 +26,9 @@ class PredictionsController extends Controller
      */
     public function index()
     {
-        return $this->pythonService->main();
-    }
+
+        
+    }   
 
     /**
      * Show the form for creating a new resource.
@@ -48,10 +50,10 @@ class PredictionsController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'id' => 'required',
-            'referencia' => 'required'
+            'sigla' => 'required',
+            'nombre' => 'required'
         ]);
-        $pr = predictions::create($request->all());
+        $pr = Predictions::create($request->all());
         return response()->json([
             'message' => 'Registro insertado con éxito',
             'pr' => $pr
@@ -67,6 +69,13 @@ class PredictionsController extends Controller
      */
     public function show($id)
     {
+        if(!strpos($id, '.png') || !strpos($id, '.txt')){
+
+            $this->pythonService->main($id);
+
+        
+        }
+       
 
         if (strpos($id, '.png') == true) {
             

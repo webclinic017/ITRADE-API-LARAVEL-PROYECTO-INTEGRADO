@@ -1,8 +1,12 @@
-
-
+#!/usr/bin/env python
+import sys
 import os
-from ITRADE import Itrade
 import matplotlib.pyplot as plt
+import pip
+
+
+
+#from ITRADE import Itrade
 
 
 #empresas = ["MSFT", "GOOGL","AMZN", "AAPL",
@@ -11,10 +15,30 @@ import matplotlib.pyplot as plt
 
 #num = [1,2,3,4]
 
-empresas = ["MSFT"]
-num = [1]
+#empresas = ["MSFT"]
+#num = [1]
 
+#print(sys.argv[1])
 
+#empresa = sys.argv[1]
+#Itrade(empresa)
+
+"""
+empresaScience = Itrade(empresa)
+empresaScience.plot_stock()
+model, model_data = empresaScience.create_prophet_model(days=30)
+plot = empresaScience.getPlt()
+precioPrevisto = empresaScience.getPrediccionPrecio()
+
+file = open("../resources/python/images/"+ empresa + ".txt","w") 
+file.write(precioPrevisto)
+file.close()
+
+plot.savefig("../resources/python/images/"+ empresa + ".png")
+
+"""
+
+"""
 for empresa in empresas:
      empresaScience = Itrade(empresa)
      empresaScience.plot_stock()
@@ -35,3 +59,4 @@ for empresa in empresas:
         #plot.show()
 
         plot.savefig("../resources/python/images/"+ empresa + str(x) + ".png")
+"""

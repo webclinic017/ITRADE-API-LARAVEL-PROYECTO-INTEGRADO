@@ -14,8 +14,8 @@ class CreateTablePredictions extends Migration
     public function up()
     {
         Schema::create('predictions', function (Blueprint $table) {
-            $table->string('id');
-            $table->string('referencia');
+            $table->string('sigla');
+            $table->string('nombre');
             $table->timestamps();
         });
     }
