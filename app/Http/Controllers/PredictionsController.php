@@ -69,11 +69,18 @@ class PredictionsController extends Controller
      */
     public function show($id)
     {
+
+        if($id=="list"){
+
+            $empresas = Predictions::all();
+            header('Access-Control-Allow-Origin: *');
+            return $empresas;
+
+        }
+
         if(!strpos($id, '.png') || !strpos($id, '.txt')){
-
+            header('Access-Control-Allow-Origin: *');
             $this->pythonService->main($id);
-
-
         }
        
 
@@ -107,7 +114,7 @@ class PredictionsController extends Controller
     
                 $content = File::get($filename);
      
-                header("content-type: text/plain");
+                header("content-type: aplication/json");
                 header('Access-Control-Allow-Origin: *');
 
                 $this->utf8_encode_deep($content);

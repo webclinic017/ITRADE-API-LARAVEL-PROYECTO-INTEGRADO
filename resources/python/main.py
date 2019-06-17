@@ -38,11 +38,11 @@ model, model_data = empresaScience.create_prophet_model(days=meses)
 plot = empresaScience.getPlt()
 precioPrevisto = empresaScience.getPrediccionPrecio()
 
-file = open("../resources/python/images/"+ z[1] + x[1] + ".txt","w") 
+file = open("../resources/python/images/"+ z[1] +'-'+ x[1]+ ".txt","w") 
 file.write(precioPrevisto)
 file.close()
 
-plot.savefig("../resources/python/images/"+ z[1] + x[1] + ".png")
+plot.savefig("../resources/python/images/"+ z[1] +'-'+ x[1])
 
 """
 empresaScience = Itrade(empresa)
