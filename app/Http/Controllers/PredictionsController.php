@@ -73,7 +73,7 @@ class PredictionsController extends Controller
 
             $this->pythonService->main($id);
 
-        
+
         }
        
 
@@ -117,6 +117,7 @@ class PredictionsController extends Controller
             }
         }
     }
+
 
     public function utf8_encode_deep(&$input) {
         if (is_string($input)) {

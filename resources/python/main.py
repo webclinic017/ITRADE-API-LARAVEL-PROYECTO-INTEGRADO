@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 import sys
 import os
-import matplotlib.pyplot as plt
-import pip
-
-
-
+#import matplotlib.pyplot as plt
+#import pip
 #from ITRADE import Itrade
+import re
 
 
 #empresas = ["MSFT", "GOOGL","AMZN", "AAPL",
@@ -20,8 +18,39 @@ import pip
 
 #print(sys.argv[1])
 
-#empresa = sys.argv[1]
+def switch(argument):
+    switcher = {
+        1: 30,
+        3: 90,
+        6: 120,
+        9: 270,
+        12: 360
+    }
+
+
+
+empresa = sys.argv[1]
 #Itrade(empresa)
+#print(empresa)
+
+days = 0;
+
+x = empresa.split("-")
+
+print("letras ", x[0])
+print("Meses" , x[1])
+
+z = x[0].split(".")
+
+Itrade(z[1])
+empresaScience = Itrade(z[1])
+empresaScience.plot_stock()
+
+
+
+
+
+model, model_data = z[1].create_prophet_model(days=30)
 
 """
 empresaScience = Itrade(empresa)
