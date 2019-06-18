@@ -10,7 +10,7 @@ class PythonService{
 public function main($id){
 
 
-    echo shell_exec("python ./../resources/python/main.py .$id 2>&1");
+    echo shell_exec("python ./../resources/python/main.py $id 2>&1");
     }
 }
 

@@ -77,15 +77,30 @@ class PredictionsController extends Controller
             return $empresas;
 
         }
+        else if(strpos($id, '.txt') == true){
 
-        if(!strpos($id, '.png') || !strpos($id, '.txt')){
-            header('Access-Control-Allow-Origin: *');
-            $this->pythonService->main($id);
+            $filename = resource_path() . '/python/images/' . $id;
+    
+            if(!File::exists($filename)) {
+    
+                return response()->json(['message' => 'txt not found.'], 404);
+                
+            }else{
+    
+                $content = File::get($filename);
+
+                
+                header("Content-Type: plain/text");
+                header('Access-Control-Allow-Origin: *');
+                
+                $this->utf8_encode_deep($content);
+                return response()->json([
+                    'message' => $content
+                ]);
+            }
         }
-       
+        else if(strpos($id, '.png') == true){
 
-        if (strpos($id, '.png') == true) {
-            
             $filename = resource_path() . '/python/images/' . $id;
 
             if(!File::exists($filename)) {
@@ -101,28 +116,17 @@ class PredictionsController extends Controller
                 header('Access-Control-Allow-Origin: *');
                 echo $contents;
             }
-        
-        }else if(strpos($id, '.txt') == true){
-
-            $filename = resource_path() . '/python/images/' . $id;
-    
-            if(!File::exists($filename)) {
-    
-                return response()->json(['message' => 'txt not found.'], 404);
-                
-            }else{
-    
-                $content = File::get($filename);
-     
-                header("content-type: aplication/json");
-                header('Access-Control-Allow-Origin: *');
-
-                $this->utf8_encode_deep($content);
-                return response()->json([
-                    'message' => $content
-                ]);
-            }
         }
+        else if(!strpos($id, '.png') || !strpos($id, '.txt')){
+            header('Access-Control-Allow-Origin: *');
+            $this->pythonService->main($id);
+        }
+/*
+        if(!strpos($id, '.png') || !strpos($id, '.txt')){
+            header('Access-Control-Allow-Origin: *');
+            $this->pythonService->main($id);
+        }
+       */
     }
 
 
